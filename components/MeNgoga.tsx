@@ -604,7 +604,7 @@ function Home({onNavigate}){
     <div className="home-root">
       <div className="home-main">
         <div className="hero"><div className="hero-bg"/><div className="hero-glow"/>
-          <div className="hero">
+      
   <div
     className="hero-bg"
     style={{
