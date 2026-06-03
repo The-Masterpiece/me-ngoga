@@ -604,7 +604,20 @@ function Home({onNavigate}){
     <div className="home-root">
       <div className="home-main">
         <div className="hero"><div className="hero-bg"/><div className="hero-glow"/>
-          <svg className="hero-kcc" viewBox="0 0 660 380" preserveAspectRatio="xMaxYMax meet"><ellipse cx="440" cy="360" rx="210" ry="14" fill="#8B6014" opacity="0.5"/>{[{ry:13,rx:200,y:355},{ry:11,rx:180,y:326},{ry:10,rx:158,y:298},{ry:9,rx:134,y:272},{ry:8,rx:110,y:248},{ry:7,rx:86,y:226},{ry:7,rx:64,y:206},{ry:6,rx:44,y:188},{ry:5,rx:27,y:173}].map((r,i)=><ellipse key={i} cx="440" cy={r.y} rx={r.rx} ry={r.ry} fill="none" stroke="#C9A84C" strokeWidth={1.2-i*0.08} opacity={0.55-i*0.04}/>)}<rect x="432" y="95" width="16" height="80" fill="#C9A84C" opacity="0.12"/><polygon points="440,78 430,106 450,106" fill="#C9A84C" opacity="0.35"/><path d="M270 355 Q310 280 440 175 Q570 280 610 355 Z" fill="#C9A84C" opacity="0.04"/></svg>
+          <div className="hero">
+  <div
+    className="hero-bg"
+    style={{
+      backgroundImage: "url('/hero-banner.png')",
+      backgroundSize: "cover",
+      backgroundPosition: "center",
+      backgroundRepeat: "no-repeat",
+    }}
+  ></div>
+
+  <div className="hero-glow"/>
+
+  <div className="hero-content">
           <div className="hero-content">
             <h1 className="serif hero-h1">{greeting}, David.</h1>
             <h2 className="serif hero-h2">How can I help you today?</h2>
