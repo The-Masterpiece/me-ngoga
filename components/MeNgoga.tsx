@@ -603,8 +603,7 @@ function Home({onNavigate}){
   return(
     <div className="home-root">
       <div className="home-main">
-        <div className="hero"><div className="hero-bg"/><div className="hero-glow"/>
-      
+        <div className="hero">
   <div
     className="hero-bg"
     style={{
@@ -616,9 +615,13 @@ function Home({onNavigate}){
   ></div>
 
   <div className="hero-glow"/>
+      
+  
+
+  
 
   <div className="hero-content">
-          <div className="hero-content">
+         
             <h1 className="serif hero-h1">{greeting}, David.</h1>
             <h2 className="serif hero-h2">How can I help you today?</h2>
             <p className="hero-tag">Your trusted legal counsel. Always by your side.</p>
