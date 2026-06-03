@@ -603,9 +603,9 @@ function Home({onNavigate}){
   return(
     <div className="home-root">
       <div className="home-main">
-        <div className="hero">
+<div className="hero">
   <div
-    className="hero-bg"
+  className="hero-bg"
     style={{
       backgroundImage: "url('/hero-banner.png')",
       backgroundSize: "cover",
@@ -615,6 +615,8 @@ function Home({onNavigate}){
   ></div>
 
   <div className="hero-glow"/>
+   
+ 
       
   
 
