@@ -233,8 +233,7 @@ function Home({ onNavigate }: any) {
         <div style={{ position: "relative", height: 320, overflow: "hidden", background: "#0a0a0a" }}>
           <div style={{
             position: "absolute", inset: 0,
-            backgroundImage: "url('/hero-banner.png')",
-            backgroundSize: "cover", backgroundPosition: "center",
+            
           }} />
           <div style={{ position: "absolute", inset: 0, background: "linear-gradient(to bottom, rgba(12,12,12,0.3) 0%, rgba(12,12,12,0.85) 100%)" }} />
           <div style={{ position: "absolute", inset: 0, display: "flex", flexDirection: "column", justifyContent: "flex-end", padding: "0 32px 32px" }}>
