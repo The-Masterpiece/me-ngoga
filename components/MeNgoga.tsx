@@ -1,33 +1,18 @@
 // @ts-nocheck
 "use client";
 import { useState, useRef, useEffect } from "react";
+import { generateSystemPrompt } from "@/lib/laws";
 
 // ═══ THEME ═══════════════════════════════════════════════════════════════════
 const T = {
-  bg: "#0c0c0c",
-  sidebar: "#111111",
-  panel: "#141414",
-  card: "#1a1a1a",
-  gold: "#C9A84C",
-  goldBright: "#D4AF37",
-  goldDim: "rgba(201,168,76,0.5)",
-  border: "rgba(201,168,76,0.28)",
-  borderSub: "rgba(255,255,255,0.06)",
-  tp: "#F0EBE0",
-  ts: "#9A9080",
-  td: "#5A554C",
-  high: "#D4433A",
-  medium: "#B8820A",
-  low: "#3D8A55",
+  bg: "#0c0c0c", sidebar: "#111111", panel: "#141414", card: "#1a1a1a",
+  gold: "#C9A84C", goldBright: "#D4AF37", goldDim: "rgba(201,168,76,0.5)",
+  border: "rgba(201,168,76,0.28)", borderSub: "rgba(255,255,255,0.06)",
+  tp: "#F0EBE0", ts: "#9A9080", td: "#5A554C",
+  high: "#D4433A", medium: "#B8820A", low: "#3D8A55",
 };
 
-// ═══ SYSTEM PROMPT ════════════════════════════════════════════════════════════
-import { generateSystemPrompt } from "@/lib/laws";
 const SYSTEM_PROMPT = generateSystemPrompt();
-
-
-
-
 
 // ═══ ICONS ════════════════════════════════════════════════════════════════════
 function Icon({ id, size = 20, color = T.tp, sw = 1.8 }: any) {
@@ -42,7 +27,7 @@ function Icon({ id, size = 20, color = T.tp, sw = 1.8 }: any) {
     matters: <svg {...p}><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/></svg>,
     documents: <svg {...p}><path d="M13 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9z"/><polyline points="13 2 13 9 20 9"/></svg>,
     boardroom: <svg {...p}><rect x="2" y="7" width="20" height="14" rx="2"/><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/></svg>,
-    send: <svg {...p}><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>,
+    library: <svg {...p}><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg>,
     arrowup: <svg {...p}><line x1="12" y1="19" x2="12" y2="5"/><polyline points="5 12 12 5 19 12"/></svg>,
     shield: <svg {...p}><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>,
     alert: <svg {...p}><path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"/><line x1="12" y1="9" x2="12" y2="13"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>,
@@ -59,6 +44,7 @@ function Icon({ id, size = 20, color = T.tp, sw = 1.8 }: any) {
     regulator: <svg {...p}><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/></svg>,
     databreach: <svg {...p}><rect x="3" y="11" width="18" height="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>,
     contract: <svg {...p}><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/></svg>,
+    check: <svg {...p}><polyline points="20 6 9 17 4 12"/></svg>,
   };
   return icons[id] || <svg {...p}><circle cx="12" cy="12" r="10"/></svg>;
 }
@@ -103,7 +89,8 @@ function Chat({ moduleTitle, initialQuery = "", systemPromptExtra = "" }: any) {
     if (!text.trim() || loading) return;
     const userMsg: Msg = { role: "user", content: text };
     const next = [...msgs, userMsg];
-    setMsgs(next); setLoading(true);
+    setMsgs([...next, { role: "assistant", content: "" }]);
+    setLoading(true);
     try {
       const res = await fetch("/api/chat", {
         method: "POST",
@@ -113,16 +100,26 @@ function Chat({ moduleTitle, initialQuery = "", systemPromptExtra = "" }: any) {
           messages: next.map(m => ({ role: m.role, content: m.content })),
         }),
       });
-      const data = await res.json();
-      const reply = data.content?.[0]?.text || "Unable to get a response. Please try again.";
-      setMsgs([...next, { role: "assistant", content: reply }]);
+      if (!res.ok) throw new Error("API error");
+      const reader = res.body!.getReader();
+      const decoder = new TextDecoder();
+      let full = "";
+      while (true) {
+        const { done, value } = await reader.read();
+        if (done) break;
+        const chunk = decoder.decode(value, { stream: true });
+        full += chunk;
+        setMsgs([...next, { role: "assistant", content: full }]);
+      }
     } catch {
       setMsgs([...next, { role: "assistant", content: "Connection error. Please check your network and try again." }]);
     }
     setLoading(false);
   }
 
-  function handleKey(e: any) { if (e.key === "Enter" && !e.shiftKey) { e.preventDefault(); sendMessage(input); setInput(""); } }
+  function handleKey(e: any) {
+    if (e.key === "Enter" && !e.shiftKey) { e.preventDefault(); sendMessage(input); setInput(""); }
+  }
 
   return (
     <div style={{ display: "flex", flexDirection: "column", height: "100%", background: T.panel }}>
@@ -142,30 +139,37 @@ function Chat({ moduleTitle, initialQuery = "", systemPromptExtra = "" }: any) {
         {msgs.map((m, i) => (
           <div key={i} style={{ display: "flex", justifyContent: m.role === "user" ? "flex-end" : "flex-start" }}>
             <div style={{
-              maxWidth: "80%", padding: "12px 16px", borderRadius: m.role === "user" ? "12px 12px 2px 12px" : "12px 12px 12px 2px",
+              maxWidth: "80%", padding: "12px 16px",
+              borderRadius: m.role === "user" ? "12px 12px 2px 12px" : "12px 12px 12px 2px",
               background: m.role === "user" ? `rgba(201,168,76,0.12)` : T.card,
               border: `0.5px solid ${m.role === "user" ? T.border : T.borderSub}`,
               fontSize: 13.5, lineHeight: 1.65, color: T.tp, whiteSpace: "pre-wrap",
-            }}>{m.content}</div>
+            }}>
+              {m.content}
+              {m.role === "assistant" && m.content === "" && loading && (
+                <div style={{ display: "flex", gap: 5 }}>
+                  {[0, 1, 2].map(i => <div key={i} style={{ width: 6, height: 6, borderRadius: "50%", background: T.gold, opacity: 0.7, animation: `pulse 1.2s ease-in-out ${i * 0.2}s infinite` }} />)}
+                </div>
+              )}
+            </div>
           </div>
         ))}
-        {loading && (
-          <div style={{ display: "flex", gap: 5, padding: "12px 16px", background: T.card, borderRadius: "12px 12px 12px 2px", border: `0.5px solid ${T.borderSub}`, width: "fit-content" }}>
-            {[0, 1, 2].map(i => <div key={i} style={{ width: 6, height: 6, borderRadius: "50%", background: T.gold, opacity: 0.7, animation: `pulse 1.2s ease-in-out ${i * 0.2}s infinite` }} />)}
-          </div>
-        )}
         <div ref={bottomRef} />
       </div>
       {/* Input */}
       <div style={{ padding: "14px 20px", borderTop: `0.5px solid ${T.border}` }}>
         <div style={{ display: "flex", gap: 10, alignItems: "flex-end", background: T.card, border: `0.5px solid ${T.border}`, borderRadius: 10, padding: "10px 14px" }}>
           <textarea
-            value={input} onChange={e => setInput(e.target.value)} onKeyDown={handleKey}
-            placeholder="Type your legal question…" rows={1}
-            style={{ flex: 1, background: "none", border: "none", outline: "none", resize: "none", fontSize: 13.5, color: T.tp, lineHeight: 1.5, fontFamily: "Manrope, sans-serif" }}
+            value={input}
+            onChange={e => setInput(e.target.value)}
+            onKeyDown={handleKey}
+            placeholder="Type your legal question… (Shift+Enter for new line)"
+            rows={3}
+            style={{ flex: 1, background: "none", border: "none", outline: "none", resize: "none", fontSize: 13.5, color: T.tp, lineHeight: 1.6, fontFamily: "Manrope, sans-serif", maxHeight: 140, overflowY: "auto" }}
           />
-          <button onClick={() => { sendMessage(input); setInput(""); }}
-            style={{ background: T.gold, border: "none", borderRadius: 7, width: 32, height: 32, display: "flex", alignItems: "center", justifyContent: "center", cursor: "pointer", flexShrink: 0 }}>
+          <button
+            onClick={() => { sendMessage(input); setInput(""); }}
+            style={{ background: T.gold, border: "none", borderRadius: 7, width: 34, height: 34, display: "flex", alignItems: "center", justifyContent: "center", cursor: "pointer", flexShrink: 0 }}>
             <Icon id="arrowup" size={15} color="#000" sw={2.5} />
           </button>
         </div>
@@ -220,15 +224,11 @@ function Home({ onNavigate }: any) {
 
   return (
     <div style={{ display: "flex", height: "100%", overflow: "hidden" }}>
-      {/* Main scroll area */}
       <div style={{ flex: 1, overflowY: "auto", padding: "0 0 40px" }}>
         {/* Hero */}
-        <div style={{ position: "relative", height: 320, overflow: "hidden", background: "#0a0a0a" }}>
-          <div style={{
-            position: "absolute", inset: 0,
-            
-          }} />
-          <div style={{ position: "absolute", inset: 0, background: "linear-gradient(to bottom, rgba(12,12,12,0.3) 0%, rgba(12,12,12,0.85) 100%)" }} />
+        <div style={{ position: "relative", height: 300, overflow: "hidden", background: "#0a0a0a" }}>
+          <div style={{ position: "absolute", inset: 0, background: "linear-gradient(135deg, #0a0a0a 0%, #111108 50%, #0a0a0a 100%)" }} />
+          <div style={{ position: "absolute", inset: 0, background: "linear-gradient(to bottom, rgba(12,12,12,0.2) 0%, rgba(12,12,12,0.9) 100%)" }} />
           <div style={{ position: "absolute", inset: 0, display: "flex", flexDirection: "column", justifyContent: "flex-end", padding: "0 32px 32px" }}>
             <h1 style={{ fontFamily: "'Playfair Display', serif", fontSize: 32, fontWeight: 700, color: T.tp, marginBottom: 6 }}>
               {greeting}, Counsel.
@@ -236,8 +236,7 @@ function Home({ onNavigate }: any) {
             <h2 style={{ fontFamily: "'Playfair Display', serif", fontSize: 18, fontWeight: 400, color: T.ts, marginBottom: 20 }}>
               How can I help you today?
             </h2>
-            {/* Command input */}
-            <div style={{ display: "flex", gap: 8, maxWidth: 560, background: "rgba(20,20,20,0.92)", border: `0.5px solid ${T.border}`, borderRadius: 10, padding: "10px 14px", backdropFilter: "blur(8px)" }}>
+            <div style={{ display: "flex", gap: 8, maxWidth: 560, background: "rgba(20,20,20,0.95)", border: `0.5px solid ${T.border}`, borderRadius: 10, padding: "10px 14px" }}>
               <input
                 value={query}
                 onChange={e => setQuery(e.target.value)}
@@ -273,9 +272,8 @@ function Home({ onNavigate }: any) {
           </div>
         </div>
 
-        {/* Rail cards — visible on mobile/mid */}
+        {/* Rail cards */}
         <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(280px, 1fr))", gap: 12, padding: "24px 32px 0" }}>
-          {/* Risk Overview */}
           <RailCard>
             <div style={{ display: "flex", justifyContent: "space-between", marginBottom: 14 }}>
               <span style={{ fontSize: 13, fontWeight: 500, color: T.tp }}>Legal Risk Overview</span>
@@ -297,7 +295,6 @@ function Home({ onNavigate }: any) {
             </div>
           </RailCard>
 
-          {/* Active Matters */}
           <RailCard>
             <div style={{ display: "flex", justifyContent: "space-between", marginBottom: 12 }}>
               <span style={{ fontSize: 13, fontWeight: 500, color: T.tp }}>Active Matters</span>
@@ -315,7 +312,6 @@ function Home({ onNavigate }: any) {
             ))}
           </RailCard>
 
-          {/* Deadlines */}
           <RailCard>
             <div style={{ display: "flex", justifyContent: "space-between", marginBottom: 12 }}>
               <span style={{ fontSize: 13, fontWeight: 500, color: T.tp }}>Upcoming Deadlines</span>
@@ -332,7 +328,6 @@ function Home({ onNavigate }: any) {
             ))}
           </RailCard>
 
-          {/* Quick Actions */}
           <RailCard>
             <p style={{ fontSize: 13, fontWeight: 500, color: T.tp, marginBottom: 12 }}>Quick Actions</p>
             <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 8, marginBottom: 8 }}>
@@ -361,20 +356,142 @@ function Home({ onNavigate }: any) {
   );
 }
 
+// ═══ LAW LIBRARY ══════════════════════════════════════════════════════════════
+import { LAWS, LAW_CATEGORIES } from "@/lib/laws";
+
+function LawLibrary() {
+  const [category, setCategory] = useState("All");
+  const [selected, setSelected] = useState<string | null>(null);
+  const filtered = category === "All" ? LAWS : LAWS.filter(l => l.category === category);
+  const active = LAWS.find(l => l.id === selected);
+
+  return (
+    <div style={{ display: "flex", height: "100%" }}>
+      {/* Left panel */}
+      <div style={{ width: 300, borderRight: `0.5px solid ${T.border}`, display: "flex", flexDirection: "column", flexShrink: 0 }}>
+        <div style={{ padding: "18px 18px 14px", borderBottom: `0.5px solid ${T.borderSub}` }}>
+          <h2 style={{ fontSize: 16, fontWeight: 600, color: T.tp, fontFamily: "'Playfair Display', serif", marginBottom: 4 }}>Law Library</h2>
+          <p style={{ fontSize: 11, color: T.td }}>{LAWS.length} laws · {LAWS.filter(l => l.status === "verified").length} gazette-verified</p>
+        </div>
+        {/* Category filter */}
+        <div style={{ padding: "12px 14px", borderBottom: `0.5px solid ${T.borderSub}`, display: "flex", flexWrap: "wrap", gap: 6 }}>
+          {["All", ...LAW_CATEGORIES].map(c => (
+            <button key={c} onClick={() => setCategory(c)}
+              style={{ padding: "4px 10px", borderRadius: 5, fontSize: 10.5, cursor: "pointer", border: `0.5px solid ${category === c ? T.gold : T.borderSub}`, background: category === c ? "rgba(201,168,76,0.1)" : "none", color: category === c ? T.gold : T.ts, whiteSpace: "nowrap" }}>
+              {c}
+            </button>
+          ))}
+        </div>
+        {/* Law list */}
+        <div style={{ flex: 1, overflowY: "auto" }}>
+          {filtered.map(law => (
+            <div key={law.id} onClick={() => setSelected(law.id)}
+              style={{ padding: "13px 18px", borderBottom: `0.5px solid ${T.borderSub}`, cursor: "pointer", background: selected === law.id ? "rgba(201,168,76,0.05)" : "none" }}>
+              <div style={{ display: "flex", alignItems: "flex-start", justifyContent: "space-between", gap: 8 }}>
+                <div style={{ minWidth: 0 }}>
+                  <p style={{ fontSize: 12.5, color: T.tp, marginBottom: 3 }}>{law.shortName}</p>
+                  <p style={{ fontSize: 10.5, color: T.td, marginBottom: 4 }}>{law.number}</p>
+                  <p style={{ fontSize: 10, color: T.ts }}>{law.regulator}</p>
+                </div>
+                <div style={{ display: "flex", flexDirection: "column", alignItems: "flex-end", gap: 4, flexShrink: 0 }}>
+                  <span style={{ fontSize: 9.5, padding: "2px 7px", borderRadius: 3, background: law.status === "verified" ? "rgba(61,138,85,0.15)" : "rgba(184,130,10,0.12)", color: law.status === "verified" ? T.low : T.medium, fontWeight: 600 }}>
+                    {law.status === "verified" ? "✓ VERIFIED" : "⚠ TRAINING"}
+                  </span>
+                </div>
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
+
+      {/* Right panel */}
+      {active ? (
+        <div style={{ flex: 1, overflowY: "auto", padding: "24px 28px" }}>
+          <div style={{ display: "flex", justifyContent: "space-between", alignItems: "flex-start", marginBottom: 6, flexWrap: "wrap", gap: 12 }}>
+            <div>
+              <h3 style={{ fontSize: 20, color: T.tp, fontFamily: "'Playfair Display', serif", marginBottom: 4 }}>{law.name}</h3>
+              <p style={{ fontSize: 12, color: T.td, marginBottom: 4 }}>{active.number} · {active.year}</p>
+              <p style={{ fontSize: 12, color: T.ts, marginBottom: 16 }}>{active.description}</p>
+            </div>
+            <span style={{ fontSize: 10, padding: "4px 10px", borderRadius: 5, background: active.status === "verified" ? "rgba(61,138,85,0.15)" : "rgba(184,130,10,0.12)", color: active.status === "verified" ? T.low : T.medium, fontWeight: 600, flexShrink: 0 }}>
+              {active.status === "verified" ? "✓ GAZETTE VERIFIED" : "⚠ TRAINING KNOWLEDGE"}
+            </span>
+          </div>
+
+          <div style={{ display: "flex", gap: 10, marginBottom: 20, flexWrap: "wrap" }}>
+            <span style={{ fontSize: 11, padding: "3px 10px", borderRadius: 4, background: "rgba(201,168,76,0.08)", border: `0.5px solid ${T.border}`, color: T.gold }}>{active.category}</span>
+            <span style={{ fontSize: 11, padding: "3px 10px", borderRadius: 4, background: T.card, border: `0.5px solid ${T.borderSub}`, color: T.ts }}>{active.regulator}</span>
+          </div>
+
+          {/* Articles */}
+          <p style={{ fontSize: 11, color: T.ts, textTransform: "uppercase", letterSpacing: "0.07em", marginBottom: 10 }}>Articles</p>
+          <div style={{ display: "flex", flexDirection: "column", gap: 6, marginBottom: 24 }}>
+            {active.articles.map((a, i) => (
+              <div key={i} style={{ display: "flex", gap: 12, padding: "10px 14px", background: T.card, border: `0.5px solid ${T.borderSub}`, borderRadius: 7 }}>
+                <span style={{ fontSize: 12, color: T.gold, fontWeight: 600, flexShrink: 0, minWidth: 80 }}>{a.number}</span>
+                <span style={{ fontSize: 12.5, color: T.tp, lineHeight: 1.55 }}>{a.summary}</span>
+              </div>
+            ))}
+          </div>
+
+          {/* Key Obligations */}
+          <p style={{ fontSize: 11, color: T.ts, textTransform: "uppercase", letterSpacing: "0.07em", marginBottom: 10 }}>Key Obligations</p>
+          <div style={{ display: "flex", flexDirection: "column", gap: 6, marginBottom: 24 }}>
+            {active.keyObligations.map((o, i) => (
+              <div key={i} style={{ display: "flex", gap: 10, alignItems: "flex-start" }}>
+                <Icon id="check" size={13} color={T.low} sw={2.5} />
+                <span style={{ fontSize: 12.5, color: T.tp, lineHeight: 1.55 }}>{o}</span>
+              </div>
+            ))}
+          </div>
+
+          {/* Penalties */}
+          <p style={{ fontSize: 11, color: T.ts, textTransform: "uppercase", letterSpacing: "0.07em", marginBottom: 10 }}>Penalties</p>
+          <div style={{ display: "flex", flexDirection: "column", gap: 6, marginBottom: 24 }}>
+            {active.penalties.map((p, i) => (
+              <div key={i} style={{ display: "flex", gap: 10, alignItems: "flex-start", padding: "8px 12px", background: "rgba(212,67,58,0.05)", border: `0.5px solid rgba(212,67,58,0.15)`, borderRadius: 6 }}>
+                <Icon id="alert" size={13} color={T.high} sw={2} />
+                <span style={{ fontSize: 12.5, color: T.tp, lineHeight: 1.55 }}>{p}</span>
+              </div>
+            ))}
+          </div>
+
+          {/* Deadlines */}
+          {active.keyDeadlines.length > 0 && (
+            <>
+              <p style={{ fontSize: 11, color: T.ts, textTransform: "uppercase", letterSpacing: "0.07em", marginBottom: 10 }}>Key Deadlines</p>
+              <div style={{ display: "flex", flexDirection: "column", gap: 6 }}>
+                {active.keyDeadlines.map((d, i) => (
+                  <div key={i} style={{ display: "flex", gap: 10, alignItems: "flex-start" }}>
+                    <Icon id="clock" size={13} color={T.gold} sw={2} />
+                    <span style={{ fontSize: 12.5, color: T.tp, lineHeight: 1.55 }}>{d}</span>
+                  </div>
+                ))}
+              </div>
+            </>
+          )}
+        </div>
+      ) : (
+        <div style={{ flex: 1, display: "flex", alignItems: "center", justifyContent: "center", flexDirection: "column", gap: 12 }}>
+          <Icon id="library" size={28} color={T.td} />
+          <p style={{ fontSize: 13, color: T.td }}>Select a law to view its articles and obligations</p>
+        </div>
+      )}
+    </div>
+  );
+}
+
 // ═══ COMPLIANCE TRACKER ════════════════════════════════════════════════════════
 const COMPLIANCE_ITEMS = [
-  // Company Law
-  { id: 1, title: "Annual Return Filing", law: "Company Law No. 019/2023", article: "Art. 29", category: "Company Law", deadline: "31 Jan", daysLeft: 30, status: "pending", risk: "High" },
-  { id: 2, title: "Board Meeting – Minimum Frequency", law: "Company Law No. 019/2023", article: "Art. 121", category: "Company Law", deadline: "Quarterly", daysLeft: 45, status: "done", risk: "Medium" },
-  { id: 3, title: "Financial Statements Approval", law: "Company Law No. 019/2023", article: "Art. 158", category: "Company Law", deadline: "30 Apr", daysLeft: 60, status: "pending", risk: "High" },
-  // Labour Law
-  { id: 4, title: "Employment Contract Review", law: "Labour Law No. 66/2018", article: "Art. 11", category: "Labour", deadline: "Ongoing", daysLeft: 0, status: "done", risk: "Medium" },
-  { id: 5, title: "Leave Policy Update", law: "Labour Law No. 66/2018", article: "Art. 57", category: "Labour", deadline: "30 Jun", daysLeft: 90, status: "pending", risk: "Low" },
-  { id: 6, title: "Social Security Registration", law: "Labour Law No. 66/2018", article: "Art. 96", category: "Labour", deadline: "Ongoing", daysLeft: 0, status: "done", risk: "Medium" },
-  // Data Protection
-  { id: 7, title: "Privacy Policy Publication", law: "Data Protection Law No. 058/2021", article: "Art. 25", category: "Data Protection", deadline: "Ongoing", daysLeft: 0, status: "done", risk: "High" },
-  { id: 8, title: "Data Processing Register", law: "Data Protection Law No. 058/2021", article: "Art. 30", category: "Data Protection", deadline: "Ongoing", daysLeft: 14, status: "pending", risk: "High" },
-  { id: 9, title: "DPO Designation", law: "Data Protection Law No. 058/2021", article: "Art. 42", category: "Data Protection", deadline: "Ongoing", daysLeft: 7, status: "pending", risk: "High" },
+  { id: 1, title: "Annual Return Filing", law: "Company Law No. 019/2023", article: "Art. 143", category: "Company Law", deadline: "Yearly", daysLeft: 30, status: "pending", risk: "High" },
+  { id: 2, title: "Beneficial Ownership Register Update", law: "Company Law No. 019/2023", article: "Art. 116", category: "Company Law", deadline: "Within 14 days of change", daysLeft: 0, status: "done", risk: "High" },
+  { id: 3, title: "Records Retention (10 years)", law: "Company Law No. 019/2023", article: "Art. 111", category: "Company Law", deadline: "Ongoing", daysLeft: 0, status: "done", risk: "Medium" },
+  { id: 4, title: "Employment Contracts Compliant", law: "Labour Law No. 66/2018", article: "Art. 11", category: "Labour", deadline: "Ongoing", daysLeft: 0, status: "done", risk: "Medium" },
+  { id: 5, title: "PAYE Remittance to RRA", law: "Labour Law No. 66/2018", article: "PAYE", category: "Labour", deadline: "15th of each month", daysLeft: 6, status: "pending", risk: "High" },
+  { id: 6, title: "RSSB Social Security Contributions", law: "Labour Law No. 66/2018", article: "RSSB", category: "Labour", deadline: "Monthly", daysLeft: 0, status: "done", risk: "Medium" },
+  { id: 7, title: "NCSA Data Controller Registration", law: "Data Protection Law No. 058/2021", article: "Art. 29", category: "Data Protection", deadline: "Ongoing", daysLeft: 7, status: "pending", risk: "High" },
+  { id: 8, title: "DPO Designation", law: "Data Protection Law No. 058/2021", article: "Art. 40", category: "Data Protection", deadline: "Ongoing", daysLeft: 7, status: "pending", risk: "High" },
+  { id: 9, title: "Data Stored in Rwanda", law: "Data Protection Law No. 058/2021", article: "Art. 50", category: "Data Protection", deadline: "Ongoing", daysLeft: 0, status: "done", risk: "High" },
 ];
 
 function ComplianceTracker({ onNavigate }: any) {
@@ -393,7 +510,7 @@ function ComplianceTracker({ onNavigate }: any) {
       <div style={{ display: "flex", justifyContent: "space-between", alignItems: "flex-start", marginBottom: 24, flexWrap: "wrap", gap: 12 }}>
         <div>
           <h2 style={{ fontSize: 20, fontWeight: 600, color: T.tp, fontFamily: "'Playfair Display', serif", marginBottom: 4 }}>Compliance Tracker</h2>
-          <p style={{ fontSize: 12.5, color: T.ts }}>Statutory obligations across active Rwandan laws</p>
+          <p style={{ fontSize: 12.5, color: T.ts }}>Statutory obligations across gazette-verified Rwandan laws</p>
         </div>
         {overdue > 0 && (
           <div style={{ display: "flex", alignItems: "center", gap: 7, padding: "8px 14px", background: "rgba(212,67,58,0.08)", border: `0.5px solid rgba(212,67,58,0.3)`, borderRadius: 8 }}>
@@ -402,8 +519,6 @@ function ComplianceTracker({ onNavigate }: any) {
           </div>
         )}
       </div>
-
-      {/* Filters */}
       <div style={{ display: "flex", gap: 8, marginBottom: 20, flexWrap: "wrap" }}>
         {cats.map(c => (
           <button key={c} onClick={() => setFilter(c)}
@@ -412,8 +527,6 @@ function ComplianceTracker({ onNavigate }: any) {
           </button>
         ))}
       </div>
-
-      {/* Items */}
       <div style={{ display: "flex", flexDirection: "column", gap: 8 }}>
         {filtered.map(item => (
           <div key={item.id} style={{ display: "flex", alignItems: "center", gap: 14, padding: "14px 18px", background: T.card, border: `0.5px solid ${item.daysLeft > 0 && item.daysLeft <= 7 && item.status === "pending" ? "rgba(212,67,58,0.3)" : T.borderSub}`, borderRadius: 9 }}>
@@ -426,7 +539,7 @@ function ComplianceTracker({ onNavigate }: any) {
               <p style={{ fontSize: 11, color: T.td }}>{item.law} · {item.article}</p>
             </div>
             <div style={{ textAlign: "right", flexShrink: 0 }}>
-              <p style={{ fontSize: 11, color: item.daysLeft <= 7 && item.status === "pending" ? T.high : T.ts, marginBottom: 2 }}>{item.deadline}</p>
+              <p style={{ fontSize: 11, color: item.daysLeft > 0 && item.daysLeft <= 7 && item.status === "pending" ? T.high : T.ts, marginBottom: 2 }}>{item.deadline}</p>
               <span style={{ fontSize: 10, fontWeight: 600, color: item.risk === "High" ? T.high : item.risk === "Medium" ? T.medium : T.low }}>{item.risk}</span>
             </div>
           </div>
@@ -468,7 +581,6 @@ function Matters({ onNavigate }: any) {
 
   return (
     <div style={{ display: "flex", height: "100%" }}>
-      {/* List */}
       <div style={{ width: 300, borderRight: `0.5px solid ${T.border}`, overflowY: "auto", flexShrink: 0 }}>
         <div style={{ padding: "20px 20px 16px", borderBottom: `0.5px solid ${T.borderSub}` }}>
           <h2 style={{ fontSize: 16, fontWeight: 600, color: T.tp, fontFamily: "'Playfair Display', serif" }}>Matters</h2>
@@ -486,8 +598,6 @@ function Matters({ onNavigate }: any) {
           </div>
         ))}
       </div>
-
-      {/* Detail */}
       {active ? (
         <div style={{ flex: 1, overflowY: "auto", padding: "24px 28px" }}>
           <div style={{ display: "flex", justifyContent: "space-between", alignItems: "flex-start", marginBottom: 20, flexWrap: "wrap", gap: 12 }}>
@@ -506,9 +616,7 @@ function Matters({ onNavigate }: any) {
               </button>
             </div>
           </div>
-
-          {/* Status bar */}
-          <div style={{ display: "flex", gap: 0, marginBottom: 24, background: T.card, borderRadius: 8, overflow: "hidden", border: `0.5px solid ${T.borderSub}` }}>
+          <div style={{ display: "flex", marginBottom: 24, background: T.card, borderRadius: 8, overflow: "hidden", border: `0.5px solid ${T.borderSub}` }}>
             {STATUS_FLOW.map((s, i) => {
               const idx = STATUS_FLOW.indexOf(active.status);
               return (
@@ -518,8 +626,6 @@ function Matters({ onNavigate }: any) {
               );
             })}
           </div>
-
-          {/* Notes */}
           <p style={{ fontSize: 12, color: T.ts, textTransform: "uppercase", letterSpacing: "0.07em", marginBottom: 12 }}>Timeline</p>
           <div style={{ display: "flex", flexDirection: "column", gap: 10, marginBottom: 20 }}>
             {active.notes.map((n, i) => (
@@ -564,7 +670,6 @@ function Documents({ onNavigate }: any) {
 
   return (
     <div style={{ display: "flex", height: "100%" }}>
-      {/* List */}
       <div style={{ width: 300, borderRight: `0.5px solid ${T.border}`, overflowY: "auto", flexShrink: 0 }}>
         <div style={{ padding: "18px 18px 14px", borderBottom: `0.5px solid ${T.borderSub}` }}>
           <h2 style={{ fontSize: 16, fontWeight: 600, color: T.tp, fontFamily: "'Playfair Display', serif", marginBottom: 12 }}>Documents</h2>
@@ -587,15 +692,13 @@ function Documents({ onNavigate }: any) {
           </div>
         ))}
         <div style={{ padding: 16 }}>
-          <button onClick={() => onNavigate("documents", "Draft new legal document")}
+          <button onClick={() => onNavigate("counsel", "Draft a new legal document")}
             style={{ width: "100%", display: "flex", alignItems: "center", justifyContent: "center", gap: 8, padding: "10px", background: "rgba(201,168,76,0.08)", border: `0.5px solid ${T.border}`, borderRadius: 8, cursor: "pointer" }}>
             <Icon id="plus" size={14} color={T.gold} />
             <span style={{ fontSize: 12, color: T.gold }}>New Document</span>
           </button>
         </div>
       </div>
-
-      {/* Detail / Draft */}
       {active ? (
         <div style={{ flex: 1, overflowY: "auto", padding: "24px 28px" }}>
           <h3 style={{ fontSize: 18, color: T.tp, fontFamily: "'Playfair Display', serif", marginBottom: 6 }}>{active.title}</h3>
@@ -625,18 +728,7 @@ function Documents({ onNavigate }: any) {
   );
 }
 
-// ═══ GENERIC MODULE (Chat-based) ═══════════════════════════════════════════════
-function ChatModule({ title, description, icon, systemExtra = "", initialQuery = "" }: any) {
-  return (
-    <div style={{ display: "flex", flexDirection: "column", height: "100%" }}>
-      {msgs => (
-        <Chat moduleTitle={`${title} — Me Ngoga`} initialQuery={initialQuery} systemPromptExtra={systemExtra} />
-      )}
-    </div>
-  );
-}
-
-// ═══ SIDEBAR ══════════════════════════════════════════════════════════════════
+// ═══ SIDEBAR NAV ══════════════════════════════════════════════════════════════
 const NAV = [
   { id: "home", label: "Home", icon: "home" },
   { id: "counsel", label: "Counsel", icon: "counsel" },
@@ -646,6 +738,7 @@ const NAV = [
   { id: "compliance", label: "Compliance", icon: "compliance" },
   { id: "matters", label: "Matters", icon: "matters" },
   { id: "documents", label: "Documents", icon: "documents" },
+  { id: "library", label: "Law Library", icon: "library" },
   { id: "boardroom", label: "Boardroom", icon: "boardroom" },
 ];
 
@@ -672,6 +765,7 @@ export default function MeNgoga() {
       case "compliance": return <ComplianceTracker onNavigate={onNavigate} />;
       case "matters": return <Matters onNavigate={onNavigate} />;
       case "documents": return <Documents onNavigate={onNavigate} />;
+      case "library": return <LawLibrary />;
       case "boardroom": return <Chat key={`boardroom-${chatKey}`} moduleTitle="Boardroom Intelligence" initialQuery={chatQuery} systemPromptExtra="You are advising at board level. Focus on governance, fiduciary duties, strategic legal risk, and executive accountability under Rwandan company and securities law." />;
       default: return <Home onNavigate={onNavigate} />;
     }
@@ -688,7 +782,7 @@ export default function MeNgoga() {
         ::-webkit-scrollbar-track { background: transparent; }
         ::-webkit-scrollbar-thumb { background: ${T.border}; border-radius: 2px; }
         @keyframes pulse { 0%,100% { opacity: 0.3; transform: scale(0.8); } 50% { opacity: 1; transform: scale(1); } }
-        textarea { font-family: 'Manrope', sans-serif; }
+        textarea, input { font-family: 'Manrope', sans-serif; }
         input::placeholder, textarea::placeholder { color: ${T.td}; }
         button { font-family: 'Manrope', sans-serif; }
         @media (max-width: 768px) {
@@ -700,12 +794,10 @@ export default function MeNgoga() {
       `}</style>
 
       <div style={{ display: "flex", height: "100vh", overflow: "hidden" }}>
-        {/* Mobile overlay */}
         {mobileNav && <div onClick={() => setMobileNav(false)} style={{ position: "fixed", inset: 0, background: "rgba(0,0,0,0.6)", zIndex: 99 }} />}
 
         {/* Sidebar */}
         <div className={`sidebar${mobileNav ? " open" : ""}`} style={{ width: 220, background: T.sidebar, borderRight: `0.5px solid ${T.border}`, display: "flex", flexDirection: "column", flexShrink: 0, height: "100vh" }}>
-          {/* Logo */}
           <div style={{ padding: "22px 20px 18px", borderBottom: `0.5px solid ${T.border}` }}>
             <div style={{ display: "flex", alignItems: "center", gap: 9 }}>
               <Icon id="shield" size={18} color={T.gold} sw={1.5} />
@@ -715,8 +807,6 @@ export default function MeNgoga() {
               </div>
             </div>
           </div>
-
-          {/* Nav */}
           <nav style={{ flex: 1, overflowY: "auto", padding: "10px 0" }}>
             {NAV.map(item => {
               const active = section === item.id;
@@ -731,8 +821,6 @@ export default function MeNgoga() {
               );
             })}
           </nav>
-
-          {/* Footer */}
           <div style={{ padding: "14px 20px", borderTop: `0.5px solid ${T.border}` }}>
             <p style={{ fontSize: 10, color: T.td, lineHeight: 1.5 }}>Rwanda · Kigali</p>
             <p style={{ fontSize: 10, color: T.td }}>© 2025 Me Ngoga</p>
@@ -741,7 +829,6 @@ export default function MeNgoga() {
 
         {/* Main */}
         <div className="main-area" style={{ flex: 1, display: "flex", flexDirection: "column", overflow: "hidden", background: T.panel }}>
-          {/* Mobile header */}
           <div className="mobile-header" style={{ display: "none", alignItems: "center", gap: 12, padding: "14px 18px", borderBottom: `0.5px solid ${T.border}`, background: T.sidebar }}>
             <button onClick={() => setMobileNav(v => !v)} style={{ background: "none", border: "none", cursor: "pointer", padding: 4 }}>
               <Icon id={mobileNav ? "close" : "menu"} size={20} color={T.tp} />
@@ -749,16 +836,12 @@ export default function MeNgoga() {
             <Icon id="shield" size={16} color={T.gold} />
             <span style={{ fontFamily: "'Playfair Display', serif", fontSize: 15, color: T.tp, fontWeight: 700 }}>Me Ngoga</span>
           </div>
-
-          {/* Section header — for non-home sections */}
           {section !== "home" && activeNav && (
             <div style={{ padding: "16px 24px", borderBottom: `0.5px solid ${T.border}`, display: "flex", alignItems: "center", gap: 10, background: T.panel }}>
               <Icon id={activeNav.icon} size={16} color={T.gold} />
               <span style={{ fontSize: 14, fontWeight: 500, color: T.tp }}>{activeNav.label}</span>
             </div>
           )}
-
-          {/* Content */}
           <div style={{ flex: 1, overflow: "hidden" }}>
             {renderSection()}
           </div>
