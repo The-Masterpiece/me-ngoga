@@ -3444,6 +3444,2556 @@ export const LAWS: Law[] = [
     "Commencement: 28 March 2011 (date of Official Gazette publication)."
   ]
 }
+  {
+  id: "land_law_27_2021",
+  shortName: "Land Law",
+  fullName: "Law N° 27/2021 of 10/06/2021 Governing Land",
+  gazettedDate: "2021-06-10",
+  effectiveDate: "2021-06-10",
+  repealedLaws: ["Law N° 43/2013", "Law N° 24/2012"],
+  articles: [
+    {
+      number: "1",
+      title: "Purpose",
+      summary: "Determines modalities of acquisition, registration, allocation, possession, transfer, management and use of land."
+    },
+    {
+      number: "2",
+      title: "Definitions",
+      summary: "Defines key terms including: special economic zone, land use consolidation, servitude, certificate of land registration, swamp, national roads, donation, escheat land, freehold (inkondabutaka), vacant land, land concession, land title, decentralised entities, strategic investment, fraudulent land acquisition, expropriation, Ministry, Minister, land register, agriculture and livestock, emphyteutic lease, land right, State land, land, competent authority, prescription, sub-lease, registrar of land titles, person, and foreigner."
+    },
+    {
+      number: "3",
+      title: "Land as a Common Heritage",
+      summary: "Land is the common heritage of all Rwandans past, present and future. The State holds absolute management power over all land within national boundaries; only the State may grant rights of tenure and use."
+    },
+    {
+      number: "4",
+      title: "Rural and Urban Lands",
+      summary: "Rural lands lie outside urban boundaries and are characterised by agricultural/livestock economies; urban lands lie within urban boundaries. A Ministerial Order determines their respective boundaries."
+    },
+    {
+      number: "5",
+      title: "Equal Right to Land",
+      summary: "All discrimination in access to land or enjoyment of land rights is prohibited. Spousal land rights depend on the matrimonial property regime chosen."
+    },
+    {
+      number: "6",
+      title: "Right to Freehold",
+      summary: "Rwandan nationals are entitled to freehold tenure. A Presidential Order may exceptionally grant freehold to a foreigner for strategic national interest. Private individual freehold cannot exceed 2 hectares per person unless a Ministerial Order provides otherwise. A Ministerial Order sets categories, modalities and compliance requirements for freehold."
+    },
+    {
+      number: "7",
+      title: "Land Allocated by Rwanda to Another Country",
+      summary: "Land allocated by Rwanda to another country remains governed by this Law."
+    },
+    {
+      number: "8",
+      title: "Land Allocated to Rwanda by Another Country",
+      summary: "Land allocated to Rwanda by another country is governed by that country's laws."
+    },
+    {
+      number: "9",
+      title: "Modalities of Land Tenure",
+      summary: "Land acquired through inheritance, succession, purchase, donation, exchange, land sharing or legal grant is held under one of two tenure modalities: (1) emphyteutic lease or (2) freehold."
+    },
+    {
+      number: "10",
+      title: "Land Allocation, Emphyteutic Lease and Concession Period",
+      summary: "The State also allocates land by emphyteutic lease and concession. Both cannot exceed 99 years and are renewable. A Rwandan's emphyteutic lease renews automatically on expiry without application. A Prime Minister's Order sets exact durations and renewal procedures."
+    },
+    {
+      number: "11",
+      title: "Concession on State Land",
+      summary: "State land may be conceded for (1) social welfare improvement or (2) strategic investment — covering agriculture, livestock, forestry, tourism, social welfare, sports/leisure, mining, quarrying and scientific research. Concession period cannot exceed 49 years, renewable by agreement. The investor may not sell, transfer or mortgage the land itself, but may deal in concession rights over property on the land. Change of investment activities requires prior approval of the investment authority."
+    },
+    {
+      number: "12",
+      title: "State Lands Lease",
+      summary: "State land lease is a private-domain lease between the State and a strategic investor for construction of commercial infrastructure (trade centres, hotels, real estate, restaurants, parks, tourism sites, schools, hospitals, transport stations, industries). Period cannot exceed 99 years, renewable. The investor may not sell or transfer the land but may mortgage it and developed assets. Change of purpose requires competent authority approval."
+    },
+    {
+      number: "13",
+      title: "Competition for State Land Concession or Lease",
+      summary: "Concession or lease of State private-domain land for investment must go through a competitive process, unless Cabinet approves an exception. Awards are based on an approved business plan assessed for importance and investment value."
+    },
+    {
+      number: "14",
+      title: "Compliance Requirements for State Land Concession or Lease",
+      summary: "The investor must use the land strictly in conformity with the contract, approved business plan and relevant laws. Non-compliance entitles the Government to repossess the land per contract terms."
+    },
+    {
+      number: "15",
+      title: "Certification of Emphyteutic Lease, Freehold or Concession",
+      summary: "Certification of tenure type is a certificate of land registration issued by the registrar of land titles. A Prime Minister's Order sets the duties, powers and functioning of the registrar."
+    },
+    {
+      number: "16",
+      title: "Foreigner's Rights on Land",
+      summary: "Without prejudice to Articles 6, 10, 11 and 12, a foreigner may obtain emphyteutic lease or land concession, but only for investment purposes. A Presidential Order may determine other modalities for foreign land possession."
+    },
+    {
+      number: "17",
+      title: "Land Registration and Cancellation",
+      summary: "Every person — and the State — has an obligation to register their land. A Ministerial Order sets registration modalities, formalities and cancellation procedures."
+    },
+    {
+      number: "18",
+      title: "Certificate of Land Registration — Probative Value",
+      summary: "The certificate is an original copy of the land register bearing the registrar's signature; it may be electronic or paper. It constitutes conclusive evidence of land rights where acquisition was lawful."
+    },
+    {
+      number: "19",
+      title: "Authenticity of Land-Related Deeds",
+      summary: "The certificate, land register content and all deeds approved by the registrar are authentic and may only be used for lawful purposes. They lose validity if proven to be based on false information."
+    },
+    {
+      number: "20",
+      title: "Format and Content of the Land Register",
+      summary: "The land register is the original data bank of all land records. All insertions, modifications and deletions are made exclusively by the registrar; all copies derive from it. A Ministerial Order sets the format."
+    },
+    {
+      number: "21",
+      title: "Right to Transfer Land Rights",
+      summary: "Land rights may be transferred between persons by: (1) succession, (2) donation, (3) inheritance, (4) lease, (5) sale, (6) sub-lease, (7) exchange, (8) mortgage, (9) concession, or (10) any other lawful method."
+    },
+    {
+      number: "22",
+      title: "Consent to Transfer Land Rights",
+      summary: "Transfer requires consent of all persons registered on the land title. Jointly held spousal land requires both spouses' consent even if one is not on the title. Persons lacking legal capacity or minors are represented per relevant laws."
+    },
+    {
+      number: "23",
+      title: "Formation of the Land Transfer Contract",
+      summary: "Transfer contracts must be in writing, signed by both parties, and approved and witnessed by a land notary or notary recognised by the chief registrar. Electronic contracts using digital signatures granted by the competent organ are also valid."
+    },
+    {
+      number: "24",
+      title: "Validity of Land Rights Transfer",
+      summary: "A transfer of land rights is only valid upon its registration in the land register."
+    },
+    {
+      number: "25",
+      title: "Land Services by Individuals",
+      summary: "Private individuals may provide: (1) land surveying, (2) notary services, and (3) land valuation services. A Ministerial Order may add other services and modalities."
+    },
+    {
+      number: "26",
+      title: "Sub-Lease or Sub-Freehold Contracts",
+      summary: "A holder of emphyteutic lease or freehold rights may sub-lease or sub-freehold with a written contract. A Ministerial Order sets modalities for sub-lease of agricultural, livestock and forest land."
+    },
+    {
+      number: "27",
+      title: "Sub-Lease on Behalf of Incapacitated Person",
+      summary: "Sub-lease executed by a representative of a minor or legally incapacitated person must be in writing and cannot exceed 5 years (renewable). On reaching majority, a minor may continue or terminate. On restoration of capacity, the person may accept or terminate."
+    },
+    {
+      number: "28",
+      title: "Registration of Sub-Lease Rights",
+      summary: "Sub-lease rights over agricultural, livestock or forestry land for 5 years or more must be registered in the land register. Registration is optional for sub-leases under 5 years."
+    },
+    {
+      number: "29",
+      title: "Classification of State Lands",
+      summary: "State lands are classified as: (1) lands in public domain and (2) lands in private domain."
+    },
+    {
+      number: "30",
+      title: "Transfer of State Lands",
+      summary: "Public-domain State land is inalienable; private-domain State land is alienable. Transfer from public to private domain is governed by this Law. A Ministerial Order may transfer private-domain land to a State-owned company or specialised State organ."
+    },
+    {
+      number: "31",
+      title: "State Lands in Public Domain",
+      summary: "Public-domain lands include: lake and river beds, lake/river banks (up to distances set by the Minister for water resources), springs and wells, natural forests, national parks, protected swamps, State public gardens, tourist sites, islands, national roads and their boundaries, lands for public State activities and infrastructure, public cemeteries, and Genocide memorial sites. Except genocide memorial sites, all others may be transferred to private domain by a Prime Minister's Order."
+    },
+    {
+      number: "32",
+      title: "State Lands in Private Domain",
+      summary: "Private-domain State lands include: (1) lands not reserved for public activities/infrastructure; (2) State-owned company lands (excluding public-use portions); (3) specialised organ-registered lands (excluding public-use portions); (4) lands not belonging to individuals. Categories include: vacant lands, escheat lands, repossessed lands, former public-domain lands now privatised, lands acquired by purchase/exchange/donation/expropriation, unprotected swamps, State forest lands, non-renewed foreign emphyteutic lease lands, and special cemetery lands."
+    },
+    {
+      number: "33",
+      title: "Swamp Lands Tenure",
+      summary: "All swamp lands belong to the State and cannot be permanently allocated to private individuals; no person may claim prescriptive rights over swamps. Swamps may however be conceded to a person by agreement between the Ministry and concessionaire. A Prime Minister's Order lists swamp lands, their boundaries and management modalities."
+    },
+    {
+      number: "34",
+      title: "Protection of State Lands",
+      summary: "Any person is prohibited from overriding or self-allocating any State land right."
+    },
+    {
+      number: "35",
+      title: "Identification of State Lands",
+      summary: "The Ministry takes accurate geographic records of all State lands and maintains all related information. This information is public except for lands related to national security and sovereignty."
+    },
+    {
+      number: "36",
+      title: "Registration of State Lands",
+      summary: "State lands are registered in the name of the State of Rwanda represented by the Ministry. State commercial lands may be registered under a State-owned company or specialised organ. Public institutions and decentralised entities must register land acquired by expropriation, donation, purchase or other means within 60 days of acquisition. State lands are registered under freehold; those used for commercial activities receive emphyteutic lease."
+    },
+    {
+      number: "37",
+      title: "Organ in Charge of State Land Management",
+      summary: "State lands are managed by the Government represented by the Ministry. State commercial lands registered under State-owned companies or specialised organs are managed by those entities per relevant laws."
+    },
+    {
+      number: "38",
+      title: "Special Rights of Land Transfer",
+      summary: "A State-owned company or specialised State organ under which private-domain State commercial land is registered may transfer that land in accordance with relevant laws."
+    },
+    {
+      number: "39",
+      title: "Rights to Use State Lands",
+      summary: "Public institutions and decentralised entities have the right to use State lands needed for their mission. The land institution conducts annual inspections and submits inspection reports to the Ministry by 30 September each year. A Prime Minister's Order sets modalities and report format."
+    },
+    {
+      number: "40",
+      title: "Transfer of Rights to Use State Lands",
+      summary: "Rights to use State land may be transferred between public institutions or between public institutions and decentralised entities. A Prime Minister's Order sets transfer modalities."
+    },
+    {
+      number: "41",
+      title: "Absolute Enjoyment of Land Rights",
+      summary: "A land rights holder enjoys full rights to exploit land per legal provisions. The State grants free ownership and protects holders from dispossession except in cases of expropriation in the public interest per relevant laws."
+    },
+    {
+      number: "42",
+      title: "Presumption of Ownership of Property on Land",
+      summary: "Buildings, crops and other property on land are presumed to belong to the land owner. A third party may own structures on another's land if permitted by law, other laws or contract. Unauthorised construction on another's land entitles the owner to demand removal and claim damages."
+    },
+    {
+      number: "43",
+      title: "Rights on Natural Resources",
+      summary: "Notwithstanding personal land rights, all rights of ownership and control of natural resources on, under or above any land in Rwanda are vested exclusively in the State."
+    },
+    {
+      number: "44",
+      title: "Obligations for Protection, Conservation and Exploitation",
+      summary: "Land rights holders have obligations to protect, conserve and exploit their land in accordance with its intended use. A Prime Minister's Order sets implementation modalities."
+    },
+    {
+      number: "45",
+      title: "Servitude",
+      summary: "Land rights holders have an obligation of servitude (providing pathway access through their land where location necessitates it). A Ministerial Order sets servitude types and modalities."
+    },
+    {
+      number: "46",
+      title: "Productive Land Exploitation",
+      summary: "Land rights holders must exploit land productively and in a value-increasing manner consistent with its nature and intended use. Lawful users of another's land must also maintain and use it productively. A Prime Minister's Order sets standards, guidelines, monitoring tools and criteria for assessing efficient exploitation."
+    },
+    {
+      number: "47",
+      title: "Non-Obstruction to Underground or Space Activities",
+      summary: "Land holders must not obstruct public-interest activities conducted underground or in airspace above their land where done lawfully. Fair compensation is due if such activities cause loss to the land holder."
+    },
+    {
+      number: "48",
+      title: "Payment of Land Tax and Fees",
+      summary: "Land rights holders have an obligation to pay all applicable land taxes and fees per relevant laws."
+    },
+    {
+      number: "49",
+      title: "Termination of Land Ownership Contract",
+      summary: "The State may terminate a land ownership contract after issuing a written 90-day notice where the holder has not complied with contractual obligations. Termination is not permitted if the holder presents reasonable grounds for non-compliance. A Ministerial Order sets termination modalities."
+    },
+    {
+      number: "50",
+      title: "Land Rights by Prescription",
+      summary: "A person who possesses land continuously, uninterruptedly, publicly and unequivocally for 30 years from acquisition may acquire rights by prescription. Sub-lease beneficiaries cannot invoke prescription. A Presidential Order may determine other prescriptive circumstances."
+    },
+    {
+      number: "51",
+      title: "Approval of Prescription",
+      summary: "The local registrar of land titles approves prescription after reviewing the report of the land committee."
+    },
+    {
+      number: "52",
+      title: "Fraudulently Acquired Land",
+      summary: "A person who fraudulently acquired vacant, escheat or another's land cannot invoke prescription regardless of duration of possession. Exception: persons given land during post-conflict land sharing (resettlement) and persons dispossessed due to political reasons and bad leadership (1959–1994) are not treated as fraudulent actors."
+    },
+    {
+      number: "53",
+      title: "Non-Prescription Among Family Members",
+      summary: "Prescription cannot run between members of the same family. Family membership is determined by succession order per relevant laws."
+    },
+    {
+      number: "54",
+      title: "Planning of Land Use and Development",
+      summary: "Land use planning is governed by this Law. All land use must be guided by the master plan applicable to the location of the land."
+    },
+    {
+      number: "55",
+      title: "Fundamental Principles of Land Use",
+      summary: "Land use and development must: (1) contribute to sustainable development for present and future generations; (2) account for gender considerations; (3) minimise excessive land, energy and natural resource consumption; (4) prioritise higher population density and multi-family settlements; (5) prevent urban sprawl and maximise mixed/integrated zoning; (6) consider all categories of land use."
+    },
+    {
+      number: "56",
+      title: "Initiation of Draft Land Use Master Plan",
+      summary: "The national land use master plan is initiated by the Minister of Land after consulting the Minister of Economic Planning. Other public entities or decentralised entities may request a specific sectorial master plan in writing. The Minister of Economic Planning must respond within 30 days of receiving the application."
+    },
+    {
+      number: "57",
+      title: "Development of Land Use Master Plan",
+      summary: "The institution in charge of land management develops the land use master plan. The Ministry of Economic Planning coordinates all development activities."
+    },
+    {
+      number: "58",
+      title: "Adoption of Land Use Master Plan",
+      summary: "The land use master plan is adopted by Cabinet. The City of Kigali or District Council adopts detailed plot and site development plans for implementation at their level."
+    },
+    {
+      number: "59",
+      title: "Establishment of Land Use Master Plan",
+      summary: "The national master plan is established by Presidential Order. City of Kigali and District plans are established by Order of the Minister of Economic Planning. Sector-specific plans initiated by other public entities are also established by Order of the Minister of Economic Planning."
+    },
+    {
+      number: "60",
+      title: "Standards of the Land Use Master Plan",
+      summary: "The master plan must: (1) conform to the fundamental principles of this Law; (2) specify land use per area according to its conditions; (3) give effect to integrated national policies and strategies; (4) comply with the master plan of a higher administrative level."
+    },
+    {
+      number: "61",
+      title: "Compliance with the Land Use Master Plan",
+      summary: "All persons and organs using land must comply with the master plan. Land use permits must be granted in accordance with the master plan and standards set by a Prime Minister's Order. Any permit contrary to the master plan is null and void regardless of any prescription."
+    },
+    {
+      number: "62",
+      title: "Monitoring Compliance with Land Use Master Plan",
+      summary: "The land management institution monitors compliance with the master plan. The Ministry of Economic Planning ensures that sector priorities and investments comply with the master plan."
+    },
+    {
+      number: "63",
+      title: "Change of Land Use",
+      summary: "Changes of land use must be consistent with the master plan and approved by the land management institution. A Ministerial Order sets modalities."
+    },
+    {
+      number: "64",
+      title: "Lands for Special Economic Zones and Industrial Parks",
+      summary: "A specific law governs lands designated for special economic zones and industrial parks."
+    },
+    {
+      number: "65",
+      title: "Use of Agricultural and Livestock Land",
+      summary: "Agricultural and livestock land must be protected and conserved. All persons using such land must observe land use consolidation requirements. A Prime Minister's Order sets implementation modalities."
+    },
+    {
+      number: "66",
+      title: "National Land Management Institution",
+      summary: "Land management and use at national level falls under the institution in charge of land management and use (currently Rwanda Land Management and Use Authority — RLMUA)."
+    },
+    {
+      number: "67",
+      title: "Decentralised Land Management",
+      summary: "Land use management and monitoring at local level falls under the City of Kigali or the relevant District. All local land acts must comply with technical instructions from the national land institution; non-compliant acts are null and void."
+    },
+    {
+      number: "68",
+      title: "Land Committees",
+      summary: "Land Committees are established to monitor land management and use. A Ministerial Order sets their organisation, functioning, responsibilities, composition and operational levels."
+    },
+    {
+      number: "69",
+      title: "Monitoring and Inspection of Land Use",
+      summary: "Districts and City of Kigali must submit a cumulative annual land use inspection and monitoring report to the Minister by 30 September each year. The Minister reviews reports and takes appropriate measures to ensure productive land use."
+    },
+    {
+      number: "70",
+      title: "Temporary Requisition of Land",
+      summary: "The Minister may order temporary requisition of agricultural, livestock or forestry land not being productively used without sound reason. A Ministerial Order sets criteria, modalities and management of requisitioned land."
+    },
+    {
+      number: "71",
+      title: "Repossession of Temporarily Requisitioned Land",
+      summary: "The holder of rights over temporarily requisitioned land may apply in writing to the Minister for repossession. A Ministerial Order sets requirements and conditions for repossession."
+    },
+    {
+      number: "72",
+      title: "Allocation of Poorly Exploited State Private-Domain Land",
+      summary: "The Minister may temporarily allocate poorly exploited State private-domain land to an interested and capable person for up to 5 years (renewable) by written agreement based on an agreed investment plan. The Minister may repossess early on payment of agreed compensation based on level of development made."
+    },
+    {
+      number: "73",
+      title: "Resolution of Land Boundary and Systematic Registration Disputes",
+      summary: "Disputes on systematic land registration or boundary decisions are submitted to the District or City of Kigali, which must decide within 30 days. If unsatisfied or no decision within 30 days, the party may appeal to the national land institution within 30 days. The institution must issue a written decision within 45 days of receiving the appeal. The institution's decision is final administratively and bears an enforcement order if not challenged in court within 30 days of notification."
+    },
+    {
+      number: "74",
+      title: "Lodging and Cancellation of Caveat in Land Transfer",
+      summary: "A person may apply in writing to the registrar to lodge a caveat if the land is subject to a claim or a court has ordered a caveat. The registrar cancels a caveat on a court order for removal or on application of the person who lodged it. For non-court caveats, the registrar may cancel after hearing both parties if the caveat is found baseless."
+    },
+    {
+      number: "75",
+      title: "Administrative Fault — Land Title Processing and Registry Maintenance",
+      summary: "A registrar or land registration official who deliberately infringes regulations on processing/issuance of land titles or maintenance of the land registry commits a fault. Administrative fine: FRW 500,000 – FRW 1,000,000."
+    },
+    {
+      number: "76",
+      title: "Administrative Fault — Non-Compliance with Land Use Master Plan",
+      summary: "An individual who does not comply with the land use master plan commits a fault. Administrative fine: FRW 1,000,000 – FRW 3,000,000. The person must also remove or pay the cost of removing any non-compliant activities/structures."
+    },
+    {
+      number: "77",
+      title: "Powers to Impose Administrative Fines",
+      summary: "The national land institution, City of Kigali and Districts have power to impose administrative fines on those who violate this Law within their respective territorial jurisdiction. Fines are paid into the public treasury."
+    },
+    {
+      number: "78",
+      title: "Administrative Faults by Legal Entities",
+      summary: "Where an Article 76 fault is committed by a State-owned company, non-public company, cooperative, national NGO, international NGO or faith-based organisation with legal personality, the administrative fine is multiplied by 10."
+    },
+    {
+      number: "79",
+      title: "Criminal Offence — Unlawful Use of Land Title",
+      summary: "Using a land title for unlawful purposes is a criminal offence. Penalty upon conviction: 5–7 years imprisonment and/or a fine of 2–4 times the value of the concerned land."
+    },
+    {
+      number: "80",
+      title: "Criminal Offence — False Information in Land Matters",
+      summary: "Providing false information to acquire land rights for oneself or others is a criminal offence. Penalty upon conviction: 1–3 months imprisonment and/or FRW 200,000 – FRW 500,000 fine."
+    },
+    {
+      number: "81",
+      title: "Criminal Offence — Obstruction of Underground or Space Activities",
+      summary: "Obstructing lawful public-interest activities conducted underground or in airspace above one's land (where such activities do not interfere with land rights) is a criminal offence. Penalty: 1–3 months imprisonment and/or FRW 100,000 – FRW 300,000 fine."
+    },
+    {
+      number: "82",
+      title: "Criminal Offence — Self-Allocation of State Land",
+      summary: "Self-allocating any State land right is a criminal offence. Penalty: 3–6 months imprisonment and/or a fine of 3–5 times the value of the land appropriated."
+    },
+    {
+      number: "83",
+      title: "Criminal Offences by Legal Entities",
+      summary: "Where offences under Articles 79–82 are committed by a State-owned company, non-public company, cooperative, national NGO, international NGO or faith-based organisation with legal personality, the fine is multiplied by 10."
+    },
+    {
+      number: "84",
+      title: "Land Valuation",
+      summary: "Land valuation is conducted in accordance with relevant laws."
+    },
+    {
+      number: "85",
+      title: "Land Surveying",
+      summary: "Land surveying is conducted in accordance with relevant laws."
+    },
+    {
+      number: "86",
+      title: "Recognition of Free Land Transfers",
+      summary: "Previously granted State land rights as restricted occupation/exploitation rights are recognised. For registration purposes, such rights are converted into emphyteutic lease after assessment."
+    },
+    {
+      number: "87",
+      title: "Orders in Force",
+      summary: "All subsidiary legislation issued under the repealed Laws (No. 43/2013 and No. 24/2012) remains in force to the extent not inconsistent with this Law, for a transitional period of 9 months from its publication date."
+    },
+    {
+      number: "88",
+      title: "Drafting, Consideration and Adoption",
+      summary: "This Law was drafted in English, considered and adopted in Kinyarwanda."
+    },
+    {
+      number: "89",
+      title: "Repealing Provision",
+      summary: "Repeals Law N° 43/2013 of 16/06/2013, Law N° 24/2012 of 15/06/2012, and all prior inconsistent provisions."
+    },
+    {
+      number: "90",
+      title: "Commencement",
+      summary: "This Law entered into force on 10 June 2021, the date of its publication in the Official Gazette."
+    }
+  ],
+  penalties: [
+    {
+      provision: "Art. 75 — Deliberate infringement of land title processing/registry regulations (registrar/official)",
+      type: "Administrative",
+      amount: "FRW 500,000 – FRW 1,000,000"
+    },
+    {
+      provision: "Art. 76 — Non-compliance with land use master plan (individual)",
+      type: "Administrative",
+      amount: "FRW 1,000,000 – FRW 3,000,000 + removal of non-compliant structures at own cost"
+    },
+    {
+      provision: "Art. 78 — Non-compliance with land use master plan (legal entity)",
+      type: "Administrative",
+      amount: "Art. 76 fine × 10"
+    },
+    {
+      provision: "Art. 79 — Unlawful use of a land title (individual)",
+      type: "Criminal",
+      amount: "5–7 years imprisonment and/or fine of 2–4× the value of the land"
+    },
+    {
+      provision: "Art. 80 — Providing false information in land matters (individual)",
+      type: "Criminal",
+      amount: "1–3 months imprisonment and/or FRW 200,000 – FRW 500,000"
+    },
+    {
+      provision: "Art. 81 — Obstruction of underground/space public-interest activities (individual)",
+      type: "Criminal",
+      amount: "1–3 months imprisonment and/or FRW 100,000 – FRW 300,000"
+    },
+    {
+      provision: "Art. 82 — Self-allocation of State land (individual)",
+      type: "Criminal",
+      amount: "3–6 months imprisonment and/or fine of 3–5× the value of the land"
+    },
+    {
+      provision: "Art. 83 — Offences under Arts. 79–82 committed by legal entity",
+      type: "Criminal",
+      amount: "Applicable fine × 10"
+    }
+  ],
+  regulator: "Ministry of Environment (land portfolio) / Rwanda Land Management and Use Authority (RLMUA) at national level; City of Kigali and Districts at decentralised level; Registrar of Land Titles for registration matters",
+  keyDeadlines: [
+    "Art. 36 — Public institutions/decentralised entities must register newly acquired land within 60 days of acquisition",
+    "Art. 39 — Land use inspection report must be submitted to the Ministry by 30 September each year",
+    "Art. 56 — Minister of Economic Planning must respond to master plan initiation requests within 30 days of receipt",
+    "Art. 69 — Districts and City of Kigali must submit annual land use inspection reports to the Minister by 30 September",
+    "Art. 73 — District/City of Kigali must decide on land boundary dispute claims within 30 days; appeal to national land institution within 30 days of decision/expiry; institution must issue decision within 45 days; court challenge must be filed within 30 days of notification or decision bears enforcement order",
+    "Art. 87 — Transitional orders under repealed laws remain valid for 9 months from 10 June 2021 (expired 10 March 2022)",
+    "Art. 49 — State must give 90-day written notice before terminating a land ownership contract for non-compliance"
+  ]
+}
+  {
+  id: "mining-law-072-2024",
+  title: "Law N° 072/2024 of 26/06/2024 on Mining and Quarry Operations",
+  shortTitle: "Mining and Quarry Operations Law",
+  category: "Natural Resources / Mining",
+  gazettedDate: "24/07/2024",
+  effectiveDate: "24/07/2024", // Art. 78: enters into force on date of publication
+  repeals: "Law N° 58/2018 of 13/08/2018 on mining and quarry operations",
+  articles: [
+    // CHAPTER ONE: GENERAL PROVISIONS
+    {
+      number: "1",
+      title: "Purpose",
+      summary: "This Law governs mining and quarry operations in Rwanda."
+    },
+    {
+      number: "2",
+      title: "Interpretation",
+      summary: "Defines key terms: 'minerals' (metallic/non-metallic substances extractable from soil, excluding hydrocarbons and water); 'radioactive minerals' (minerals containing ≥0.05% uranium or thorium by weight); 'mining operations' (exploration, extraction, processing or trading of minerals); 'quarry operations' (extraction, processing or trading of geological materials); 'exploration operations' (activities to identify potential mining areas, quantity, quality and economic value); 'small-scale', 'medium-scale' and 'large-scale mining' (categorised per competent organ regulations); 'controlling interest' (direct or indirect holding of >50% management control); 'competent organ' (State organ responsible for mines and quarries — i.e., RMB); 'licence' (document authorising exploration, mining or quarry activities)."
+    },
+    {
+      number: "3",
+      title: "General Principles",
+      summary: "Establishes foundational principles: (a) ALL rights of ownership and control over minerals in, under or upon any land in Rwanda are vested in the State, notwithstanding private land ownership; (b) mining operations require a licence; (c) quarry operations require a licence; (d) competent organ may designate strategic minerals for exclusive Government rights; (e) competent organ may designate certain quarries for exclusive Government exploitation in the public interest; (f) mining and quarry operations must comply with social welfare and environmental protection principles; (g) operations must promote gender equality."
+    },
+    {
+      number: "4",
+      title: "Rights of Land Owner in a Licensed Area",
+      summary: "Land owners/lawful occupiers retain full rights under relevant legislation. Before commencing mining, the licence holder must provide the land owner with fair compensation. Upon fair compensation, the acquired land is registered in the State's name. For exploration or quarry licences, the holder concludes a written lease contract with the land owner, and the land is returned upon completion of operations."
+    },
+    {
+      number: "5",
+      title: "Demarcation of Potential Mining Areas",
+      summary: "The competent organ (RMB) demarcates economically viable potential mining areas. RMB regulations determine names, geographic coordinates, and conditions for exploration and exploitation."
+    },
+    {
+      number: "6",
+      title: "Establishment of the Licence Assessment Committee",
+      summary: "A Committee is established to assess applications for mining and quarry licences. Structure, membership, and functioning are determined by an Order of the Prime Minister."
+    },
+    // CHAPTER II: LICENCE FOR MINING OPERATIONS
+    {
+      number: "7",
+      title: "Types of Mining Licences",
+      summary: "Four types of mining licences: (a) exploration operations licence; (b) mining licence — for small-scale, medium-scale, or large-scale mining; (c) mineral trading licence; (d) mineral processing licence. Categorisation criteria for mines are set by RMB regulations."
+    },
+    {
+      number: "8",
+      title: "Size of Licensed Mining Area",
+      summary: "Licensed area consists of one or more contiguous blocks. Maximum block sizes: exploration — 400 ha; small-scale mining — 50 ha; medium-scale mining — 100 ha; large-scale mining — 400 ha. Each block must be independently reported per the business plan."
+    },
+    {
+      number: "9",
+      title: "Mining Licence Application and Response",
+      summary: "Applicants apply to the competent organ (RMB). All applications and responses are processed through the One Stop Center. Modalities and requirements are set by RMB regulations."
+    },
+    {
+      number: "10",
+      title: "Acquiring Licence Through Open Competition",
+      summary: "RMB may call for applications via open competition for exploration or mining licences. Modalities and requirements determined by RMB regulations."
+    },
+    {
+      number: "11",
+      title: "Granting of a Mining Licence",
+      summary: "Mining licences are granted by RMB, based on the recommendation of the Licence Assessment Committee. Format and content of the licence are set by RMB regulations."
+    },
+    {
+      number: "12",
+      title: "Restrictions on Granting a Mining Licence",
+      summary: "RMB cannot grant a mining licence over an area already covered by a licence of the same type. However, RMB may — in the national interest — authorise a second person to explore for different minerals in an already-licensed area. A licence holder cannot extract a different type of mineral from the licensed area without prior RMB authorisation."
+    },
+    {
+      number: "13",
+      title: "Duration of a Mining Licence",
+      summary: "Exploration licence: initial period not exceeding 4 years. Mining licence: initial period not exceeding 15 years. Duration is determined by feasibility study and project implementation programme submitted to and approved by RMB."
+    },
+    {
+      number: "14",
+      title: "Application for Renewal of a Mining Licence",
+      summary: "Exploration licence renewal application must include: operations report and costs to date; detailed report on work done with results/data; proposed work programme for renewal period; map of area to be renewed. Exploration licence renewable ONCE for up to 4 additional years (partial relinquishment may be required). Mining licence renewal application must be submitted within 90 days before expiry and must include: proved/estimated/inferred mineral reserves (verified by independent consultant approved by RMB); capital investment plan; proposed mining activities; expected changes to extraction/processing methods; likely social and environmental impacts with mitigation/compensation measures. Mining licence renewable more than once, each renewal up to 15 years."
+    },
+    {
+      number: "15",
+      title: "Renewal Decision and Continuity",
+      summary: "Renewal decision must be notified in writing within 60 days of receiving the application. If the licence expires before a renewal decision is made, the holder may continue operations until the decision is notified. If renewal is refused, the holder is given a wind-down period determined by RMB."
+    },
+    {
+      number: "16",
+      title: "Transfer of a Mining Licence",
+      summary: "A licence holder may transfer by assigning all or part of shares, but NOT before having invested at least 30% of the committed investment amount at licence grant. Prior written authorisation from RMB required. For private companies, transfer includes: assignment/sale/disposal of licence; pledge or seizure of pledged licence; transfer of any shareholder interest. For public companies, transfer = acquiring controlling interest (>50%). Upon registration of transfer, all rights and obligations immediately pass to the transferee."
+    },
+    {
+      number: "17",
+      title: "Requirements for Transfer",
+      summary: "Documents required for transfer: written application by current licence holder; notarised shareholders meeting minutes approving the transfer; profile and mining experience of transferee; certificate of registration of transferee company; tax clearance certificate of former holder; document showing transaction value; disclosure of any other relationship between transferor and transferee; transferee's commitment to assume transferor's obligations."
+    },
+    {
+      number: "18",
+      title: "Decision on Transfer Application",
+      summary: "Decision on transfer application must be notified in writing within 60 days of receiving the application."
+    },
+    {
+      number: "19",
+      title: "Mineral Processing Licence",
+      summary: "Mineral processing requires a separate licence from RMB. Content and modalities are determined by RMB regulations."
+    },
+    {
+      number: "20",
+      title: "Mineral Trading Licence",
+      summary: "Trading in minerals requires a mineral trading licence from RMB. Content and modalities are determined by RMB regulations."
+    },
+    // CHAPTER III: RIGHTS AND OBLIGATIONS OF MINING LICENCE HOLDERS
+    {
+      number: "21",
+      title: "Rights of Exploration Licence Holder",
+      summary: "Exploration licence holder may: explore licensed minerals; drill boreholes and make necessary excavations; collect mineral samples for analysis (within RMB-prescribed quantity limits); construct temporary buildings; receive priority right to apply for a mining licence where a deposit is discovered. If wishing to proceed to mining, must apply within 90 days before exploration licence expiry. If exploration licence expires before mining licence decision, holder may continue exploration until decision is made. If mining application is refused, holder gets 90-day notice to close operations."
+    },
+    {
+      number: "22",
+      title: "Obligations of Exploration Licence Holder",
+      summary: "Holder must: commence operations within 90 days of licence issuance; submit six-monthly progress reports to RMB; recruit and manage staff per Rwanda Labour Law; immediately notify RMB of any unlicensed mineral deposit discovered; maintain records at Rwanda address (boreholes, strata, minerals discovered, geochemical/geophysical results, geological interpretation, expenditure); submit audited annual expenditure statement within 90 days of each anniversary of licence issuance; notify RMB of any amendments to exploration plan (RMB has 60 days to approve/reject); notify relevant public organ within 30 days of any historical/significant object found; remove temporary buildings within 90 days after licence expiry or termination; fill/secure boreholes and excavations; provide copies of documents on request."
+    },
+    {
+      number: "23",
+      title: "Rights of Mining Licence Holder",
+      summary: "Mining licence holder may: extract licensed minerals and transport them; install equipment, plant, machinery and buildings at the mine; sell mineral products from the licensed area. May apply within 90 days to add newly discovered mineral types to the licence. May apply to RMB to amend the mining programme."
+    },
+    {
+      number: "24",
+      title: "Obligations of Mining Licence Holder",
+      summary: "Holder must: develop and mine per approved mine development programme and environmental management plan; commence mining within 180 days of licence issuance; install boundary beacons; maintain complete technical records, geological reports and financial records at Rwanda address (with separate accounts if operating other businesses); permit authorised officers to inspect records; submit copies of books/records every six months and on demand; provide annual audited financial report within 90 days of financial year end; notify RMB one year in advance of permanent cessation, six months for temporary suspension, three months for curtailment; store and manage mine tailings per RMB regulations; compensate land and property damage; remove mineral waste per approved means; notify relevant organ within 30 days of significant/historical objects found; manage staff per Rwanda Labour Law; comply with health, safety and environmental standards including women's safety; immediately notify RMB of newly discovered different mineral types."
+    },
+    {
+      number: "25",
+      title: "Special Obligations — Radioactive Minerals",
+      summary: "All activities involving radioactive minerals (exploration, extraction, processing, possession, transport, import, export) require a special licence from RMB. Holder must submit written monthly reports on radioactive mineral operations to RMB in the first week of every month."
+    },
+    {
+      number: "26",
+      title: "Relinquishment of Mining Licence Area",
+      summary: "Holder wishing to relinquish all or part of a licensed mining area must: give at least 90 days' notice to RMB; comply with agreed licence conditions; provide a map with coordinates of area to be relinquished; submit a detailed activity report. Must also provide: tax clearance certificate; certificate of no employee liability (from district labour inspectorate); rehabilitation certificate (from environment authority). Relinquishment does not extinguish pre-existing liabilities."
+    },
+    {
+      number: "27",
+      title: "Records After Exploration Licence Cancellation or Expiry",
+      summary: "Records and reports from exploration operations belong to the exploration licence holder. If the licence is cancelled or expires and the holder does not apply for renewal or a mining licence within 2 years, all records and reports become State property."
+    },
+    // CHAPTER IV: QUARRY LICENCE
+    {
+      number: "28",
+      title: "Types of Quarry Licences",
+      summary: "Three types: (a) non-commercial small-scale quarry licence; (b) commercial small-scale quarry licence; (c) industrial quarry licence. Categorisation criteria set by RMB regulations."
+    },
+    {
+      number: "29",
+      title: "Quarry Licence Application",
+      summary: "Industrial quarry licence — apply to RMB. Commercial small-scale quarry licence — apply to Administrative Head of the District where quarry is located (copy to RMB). Non-commercial small-scale quarry licence — apply to Sector Executive Secretary (copy to District Administrative Head). Modalities and requirements set by RMB regulations."
+    },
+    {
+      number: "30",
+      title: "Duration of Quarry Licence",
+      summary: "Non-commercial small-scale quarry licence: 1 year, renewable. Commercial small-scale quarry licence: 5 years, renewable. Industrial quarry licence: up to 15 years (based on feasibility study approved by relevant public organ), renewable."
+    },
+    {
+      number: "31",
+      title: "Renewal of Quarry Licence",
+      summary: "Application for renewal submitted to the relevant official per the licence type (as per Art. 29). Modalities determined by RMB regulations."
+    },
+    {
+      number: "32",
+      title: "Transfer of Quarry Licence",
+      summary: "Only commercial small-scale and industrial quarry licences may be transferred. Upon registration of transfer, the transferee assumes all rights, duties and liabilities. Requirements and modalities set by RMB regulations."
+    },
+    {
+      number: "33",
+      title: "Rights of Quarry Licence Holder",
+      summary: "Commercial small-scale/industrial quarry licence holders may: conduct exploration, extract, transport, sell, use, process and add value to quarry products. Non-commercial small-scale licence holders may: extract, transport and use quarry products only (no trading)."
+    },
+    {
+      number: "34",
+      title: "Obligations of Quarry Licence Holder",
+      summary: "Quarry licence holder must: submit reports per RMB regulations; pay leasing fees and compensation for land/property damage; comply with health, safety and environmental standards including women's safety; pay taxes and duties per relevant laws."
+    },
+    {
+      number: "35",
+      title: "Relinquishment of Quarry Licence Area",
+      summary: "Holder relinquishing quarry area must give notice: at least 30 days for non-commercial small-scale; at least 60 days for other quarry licences. Must comply with licence terms; submit detailed activity report; provide map with coordinates. Before relinquishment must provide: tax clearance certificate; certificate of no employee liability. Relinquishment does not extinguish pre-existing liabilities."
+    },
+    {
+      number: "36",
+      title: "Coexistence of Quarry and Mining Licence",
+      summary: "A quarry licence and a mining licence may be granted for the same area, provided RMB determines the two operations will not interfere with each other."
+    },
+    {
+      number: "37",
+      title: "Measures After Suspension or Cancellation",
+      summary: "Provisional suspension: RMB notifies holder in writing of remedy period; once remedied, RMB authorises resumption in writing. Cancellation: RMB provides 90 days for the holder to complete site rehabilitation, clear liabilities, and carry out any other required activity."
+    },
+    // CHAPTER V: ENVIRONMENT, HEALTH AND SAFETY
+    {
+      number: "38",
+      title: "Environmental Compliance Before Commencing Operations",
+      summary: "Before commencing operations, holders of exploration, small/medium/large-scale mining, mineral processing, commercial small-scale quarry, and industrial quarry licences must submit an approved Environmental and Social Impact Assessment (ESIA) report to RMB. (Non-commercial small-scale quarry is not included in this requirement.)"
+    },
+    {
+      number: "39",
+      title: "Rehabilitation of Damaged Areas",
+      summary: "Licence holders are obligated to rehabilitate all areas affected by their operations: reinstate boreholes and excavations, reforest, remove buildings, and level the land — in accordance with the ESIA and environmental law. RMB regulations may impose additional rehabilitation requirements."
+    },
+    {
+      number: "40",
+      title: "Rehabilitation Plan",
+      summary: "All exploration, mining and quarry licence holders must have a rehabilitation plan with a budget. The holder remains liable for environmental protection until the environment authority issues a final rehabilitation certificate."
+    },
+    {
+      number: "41",
+      title: "Rehabilitation Guarantee",
+      summary: "All exploration, mining and quarry licence holders must provide a rehabilitation guarantee. Nature, amount and modalities of deposit are determined by RMB regulations."
+    },
+    {
+      number: "42",
+      title: "Health and Safety of Workers",
+      summary: "Licence holders must: ensure mines are commissioned, maintained and decommissioned without endangering workers or others; ensure all workers have necessary skills, competence and resources to work safely. Authorised officers may make urgent decisions (including immediate suspension of operations) if health/safety is at risk. Holder may appeal officer's decision to the head of the issuing organ."
+    },
+    {
+      number: "43",
+      title: "Use of Dynamites",
+      summary: "Import, export, manufacture, transport, trade, transfer or use of dynamites in mining/quarry operations requires prior authorisation from the Minister in charge of Internal Security, upon RMB recommendation. Use of expired dynamites is prohibited. Requirements for authorisation are set by Ministerial Order of the Minister of Internal Security."
+    },
+    // CHAPTER VI: FINANCIAL PROVISIONS
+    {
+      number: "44",
+      title: "Annual Financial Statement",
+      summary: "Licence holders must submit to RMB and the Rwanda Revenue Authority an audited annual financial statement (per IFRS) within 3 months of the end of each financial year. Exemption: non-commercial small-scale quarry licence holders are excluded from this requirement."
+    },
+    {
+      number: "45",
+      title: "Separate Books of Accounts",
+      summary: "If a licence holder carries on activities outside the licensed operations, separate books of accounts must be maintained for the licensed mining/quarry activities."
+    },
+    {
+      number: "46",
+      title: "Taxes and Royalties",
+      summary: "Holders of mining or quarry licences pay all applicable taxes and royalties in accordance with relevant legislation (see Tax on Minerals Law N° 056/2024)."
+    },
+    {
+      number: "47",
+      title: "Service Fees",
+      summary: "Service fees payable by applicants and licence holders for mining and quarry operations are set by RMB regulations."
+    },
+    {
+      number: "48",
+      title: "Government Investment",
+      summary: "The Government may acquire shares in mining or quarry operations on terms agreed with the licence holder."
+    },
+    {
+      number: "49",
+      title: "Government Free Carried Interest",
+      summary: "The grant of a mining licence may entitle the Government to free carried interest (equity without capital contribution). Number and modalities are determined by Ministerial Order of the Minister in charge of Government investment."
+    },
+    // CHAPTER VII: ADMINISTRATIVE FAULTS AND SANCTIONS
+    {
+      number: "50",
+      title: "Fault — Failure to Indicate Origin of Minerals",
+      summary: "Any person caught with minerals without proof of origin: administrative fine of 10% of the value of the minerals + confiscation of the minerals (to be auctioned by RMB)."
+    },
+    {
+      number: "51",
+      title: "Fault — Mining: Late/False Reports, Records, Suspension, Boundaries",
+      summary: "Mining licence holder who: submits a late or false report; keeps operations documents outside the operations area; suspends mining without notifying RMB; fails to install boundary beacons/signposts: administrative fine of RWF 500,000."
+    },
+    {
+      number: "52",
+      title: "Fault — Mining: Non-payment, No Worker Insurance, Refusing Access",
+      summary: "Mining licence holder who: fails to make required payments; refuses authorised officer/relevant official access to the mining area; fails to insure employees; fails to remunerate employees per law; fails to provide required protective equipment to employees: sanction of provisional suspension of the licence."
+    },
+    {
+      number: "53",
+      title: "Fault — Mining: Failure to Start, Fraud to Obtain Licence, Non-compliance with Suspension Terms, Unlawful Transfer",
+      summary: "Mining licence holder who: fails without cause to start operations within the set period; fails without cause to meet payment obligations; fails to comply with licence terms; fails to comply with provisional suspension decision terms; transfers licence without following legal requirements: sanction of permanent cancellation of the licence."
+    },
+    {
+      number: "54",
+      title: "Fault — Mining: Tampering with Boundary Demarcations",
+      summary: "Exploration/mining licence holder who destroys or removes boundary demarcations: administrative fine of RWF 5,000,000. Holder who displaces or crosses boundary demarcations: administrative fine of RWF 10,000,000."
+    },
+    {
+      number: "55",
+      title: "Fault — Mining: Failure to Rehabilitate",
+      summary: "Mining licence holder who fails to rehabilitate (fill boreholes, reforest, remove buildings, level terrain) areas affected by exploration or mining: administrative fine of RWF 5,000,000–10,000,000 + ordered to make restitution. If the failure causes damage to infrastructure or community property: holder ordered to rehabilitate or compensate the damaged property."
+    },
+    {
+      number: "56",
+      title: "Fault — Quarry: Late/False Reports, Records, Suspension, Boundaries",
+      summary: "Quarry licence holder who: submits a late or false report; keeps documents outside the operations area; suspends quarry without notifying RMB; fails to install boundary markers: administrative fine of RWF 300,000."
+    },
+    {
+      number: "57",
+      title: "Fault — Quarry: Non-payment, No Worker Insurance, Refusing Access",
+      summary: "Quarry licence holder who: fails to make required payments; refuses authorised officer/relevant official access; fails to insure employees; fails to remunerate employees per law; fails to provide required protective equipment: sanction of provisional suspension of the licence."
+    },
+    {
+      number: "58",
+      title: "Fault — Quarry: Failure to Start, Non-compliance, Unlawful Transfer",
+      summary: "Quarry licence holder who: fails without cause to start quarry operations within the set period; fails to comply with licence terms; fails to comply with provisional suspension decision terms; transfers licence without following legal requirements: sanction of permanent cancellation of the licence."
+    },
+    {
+      number: "59",
+      title: "Fault — Quarry: Tampering with Boundary Demarcations",
+      summary: "Industrial quarry licence holder who destroys/removes or displaces/crosses boundary demarcations: administrative fine of RWF 1,000,000. Commercial small-scale quarry licence holder who does the same: administrative fine of RWF 500,000."
+    },
+    {
+      number: "60",
+      title: "Fault — Quarry: Failure to Rehabilitate",
+      summary: "Quarry licence holder who fails to rehabilitate areas affected by quarry operations: administrative fine of RWF 3,000,000–5,000,000 + ordered to make restitution. If the failure causes damage to infrastructure or community property: holder ordered to rehabilitate or compensate."
+    },
+    {
+      number: "61",
+      title: "Common Fault — Unauthorised/Expired Dynamite Transfer or Use",
+      summary: "Any person (in mining or quarry context) who transfers dynamites without authorisation or uses expired dynamites: administrative fine of RWF 5,000,000–10,000,000."
+    },
+    {
+      number: "62",
+      title: "Common Fault — Non-compliance with Health, Safety and Environmental Standards",
+      summary: "Licence holder who fails to comply with health, safety and environmental protection standards: fine of RWF 1,000,000–3,000,000. If the non-compliance causes environmental destruction: fine of RWF 3,000,000–5,000,000."
+    },
+    // CHAPTER VIII: CRIMINAL OFFENCES AND PENALTIES
+    {
+      number: "63",
+      title: "Offence — Mining Without a Licence",
+      summary: "Individual: imprisonment 2–5 years + fine RWF 25,000,000–50,000,000 (or either penalty). Legal entity: fine RWF 60,000,000–80,000,000 + possible court-ordered dissolution. Court also orders: confiscation and auction of seized minerals; site rehabilitation; infrastructure and community property rehabilitation/compensation."
+    },
+    {
+      number: "64",
+      title: "Offence — Possessing Illegally Extracted Minerals",
+      summary: "Individual: imprisonment 1–3 years + fine RWF 30,000,000–60,000,000 (or either penalty). Legal entity: fine RWF 70,000,000–90,000,000 + possible dissolution. Court also orders confiscation and auction of seized minerals."
+    },
+    {
+      number: "65",
+      title: "Offence — Trading in Illegally Extracted Minerals",
+      summary: "Individual: imprisonment more than 5 years up to 10 years + fine RWF 60,000,000–120,000,000 (or either penalty). Legal entity: fine RWF 130,000,000–150,000,000 + possible dissolution. Court also orders confiscation and auction of seized minerals."
+    },
+    {
+      number: "66",
+      title: "Offence — Allowing Unlicensed Mining on Land",
+      summary: "Individual who allows an unlicensed person to mine on their land: imprisonment 1–2 years + fine RWF 25,000,000–50,000,000 (or either penalty). Legal entity: fine RWF 60,000,000–80,000,000 + possible dissolution."
+    },
+    {
+      number: "67",
+      title: "Offence — Quarry Operations Without a Licence",
+      summary: "Individual: imprisonment 2–6 months + fine RWF 1,000,000–3,000,000 (or either penalty). Legal entity: fine RWF 10,000,000–15,000,000 + possible dissolution. Court also orders: site rehabilitation; infrastructure and community property rehabilitation/compensation."
+    },
+    {
+      number: "68",
+      title: "Offence — Trading in Illegally Extracted Quarry Products",
+      summary: "Individual: imprisonment 2–5 years + fine RWF 10,000,000–20,000,000 (or either penalty). Legal entity: fine RWF 30,000,000–50,000,000 + possible dissolution."
+    },
+    {
+      number: "69",
+      title: "Offence — Allowing Unlicensed Quarry Activity on Land",
+      summary: "Individual: imprisonment 2–6 months + fine RWF 1,000,000–3,000,000 (or either penalty). Legal entity: fine RWF 4,000,000–6,000,000 + possible dissolution."
+    },
+    {
+      number: "70",
+      title: "Common Offence — Unauthorised Dynamite Activities",
+      summary: "Any person who imports, exports, manufactures, uses, transports, or trades in dynamites without a permit: imprisonment 5–7 years + fine RWF 40,000,000–75,000,000. Legal entity: fine RWF 80,000,000–100,000,000 + possible dissolution."
+    },
+    // CHAPTER IX: MISCELLANEOUS
+    {
+      number: "71",
+      title: "Provision of Private Services",
+      summary: "RMB regulations govern the modalities for private operators providing services related to mining and quarry operations."
+    },
+    {
+      number: "72",
+      title: "Local Procurement Preference",
+      summary: "Licence holders must give preference to: (a) Rwandan contractors for works and services (if competitive on price, quality and timeline); (b) materials made in Rwanda (if equivalent in quality, quantity and price). Holders must submit periodic compliance reports to RMB."
+    },
+    {
+      number: "73",
+      title: "Development Agreement with Licence Holder",
+      summary: "RMB must enter into a formal agreement with holders of industrial mining or quarry licences to specify rights and obligations. Content of the agreement is governed by RMB regulations."
+    },
+    {
+      number: "74",
+      title: "Community Development Contribution",
+      summary: "Mining or quarry licence holders must prepare a community development and social welfare plan in collaboration with the District administration where operations are located. This agreed plan must be submitted to the issuing authority."
+    },
+    // CHAPTER X: TRANSITIONAL AND FINAL PROVISIONS
+    {
+      number: "75",
+      title: "Existing Licences",
+      summary: "Licences granted under the repealed Law N° 58/2018 remain valid until their expiry date."
+    },
+    {
+      number: "76",
+      title: "Language",
+      summary: "This Law was drafted, deliberated and adopted in Kinyarwanda."
+    },
+    {
+      number: "77",
+      title: "Repealing Provision",
+      summary: "Law N° 58/2018 of 13/08/2018 on mining and quarry operations is hereby repealed."
+    },
+    {
+      number: "78",
+      title: "Entry into Force",
+      summary: "This Law comes into force on the date of its publication in the Official Gazette — 24 July 2024."
+    },
+  ],
+
+  penalties: [
+    // ADMINISTRATIVE FAULTS (Chapter VII)
+    "Art. 50 — Minerals without proof of origin: 10% of mineral value (administrative fine) + confiscation and auction of minerals",
+    "Art. 51 — Mining: late/false report, records outside area, unsanctioned suspension, failure to fix boundaries: RWF 500,000 (administrative fine)",
+    "Art. 52 — Mining: non-payment of fees, no worker insurance, denying access to inspectors, non-remuneration of workers, no protective equipment: provisional licence suspension",
+    "Art. 53 — Mining: failure to start without cause, breach of licence terms, breach of suspension decision, unlawful transfer: permanent licence cancellation",
+    "Art. 54 — Mining: destroying/removing boundary markers: RWF 5,000,000; displacing/crossing boundary markers: RWF 10,000,000",
+    "Art. 55 — Mining: failure to rehabilitate: RWF 5,000,000–10,000,000 + compulsory restitution; if infrastructure/community damage caused: rehabilitation or compensation ordered",
+    "Art. 56 — Quarry: late/false report, records outside area, unsanctioned suspension, failure to fix boundaries: RWF 300,000 (administrative fine)",
+    "Art. 57 — Quarry: non-payment of fees, no worker insurance, denying access, non-remuneration, no protective equipment: provisional licence suspension",
+    "Art. 58 — Quarry: failure to start without cause, breach of licence/suspension terms, unlawful transfer: permanent licence cancellation",
+    "Art. 59 — Industrial quarry boundary tampering: RWF 1,000,000; commercial small-scale quarry boundary tampering: RWF 500,000",
+    "Art. 60 — Quarry: failure to rehabilitate: RWF 3,000,000–5,000,000 + compulsory restitution; if infrastructure/community damage: rehabilitation or compensation ordered",
+    "Art. 61 — Unauthorised dynamite transfer or use of expired dynamites: RWF 5,000,000–10,000,000",
+    "Art. 62 — Non-compliance with health/safety/environmental standards: RWF 1,000,000–3,000,000; if environmental destruction caused: RWF 3,000,000–5,000,000",
+    // CRIMINAL OFFENCES (Chapter VIII)
+    "Art. 63 — Mining without a licence (individual): 2–5 years imprisonment + RWF 25,000,000–50,000,000 fine (or either); legal entity: RWF 60,000,000–80,000,000 + possible dissolution + confiscation/auction of minerals + site/infrastructure rehabilitation",
+    "Art. 64 — Possessing illegally extracted minerals (individual): 1–3 years + RWF 30,000,000–60,000,000 (or either); legal entity: RWF 70,000,000–90,000,000 + possible dissolution + confiscation",
+    "Art. 65 — Trading in illegally extracted minerals (individual): >5–10 years + RWF 60,000,000–120,000,000 (or either); legal entity: RWF 130,000,000–150,000,000 + possible dissolution + confiscation",
+    "Art. 66 — Allowing unlicensed mining on land (individual): 1–2 years + RWF 25,000,000–50,000,000 (or either); legal entity: RWF 60,000,000–80,000,000 + possible dissolution",
+    "Art. 67 — Quarry operations without a licence (individual): 2–6 months + RWF 1,000,000–3,000,000 (or either); legal entity: RWF 10,000,000–15,000,000 + possible dissolution + site/infrastructure rehabilitation",
+    "Art. 68 — Trading in illegally extracted quarry products (individual): 2–5 years + RWF 10,000,000–20,000,000 (or either); legal entity: RWF 30,000,000–50,000,000 + possible dissolution",
+    "Art. 69 — Allowing unlicensed quarry on land (individual): 2–6 months + RWF 1,000,000–3,000,000 (or either); legal entity: RWF 4,000,000–6,000,000 + possible dissolution",
+    "Art. 70 — Unauthorised dynamite import/export/manufacture/use/transport/trade (individual): 5–7 years + RWF 40,000,000–75,000,000; legal entity: RWF 80,000,000–100,000,000 + possible dissolution",
+  ],
+
+  regulator: "RMB — Rwanda Mines, Petroleum and Gas Board (competent organ for all mining and quarry operations). Minister of Internal Security (dynamite authorisations). Environment authority (rehabilitation certificates). RRA — Rwanda Revenue Authority (tax compliance).",
+
+  keyDeadlines: [
+    "Art. 13 — Exploration licence: initial duration max 4 years; mining licence: initial duration max 15 years",
+    "Art. 14(2) — Exploration licence renewable ONCE for up to 4 years",
+    "Art. 14(3) — Mining licence renewal application: submit within 90 days before expiry",
+    "Art. 14(4) — Mining licence renewable multiple times, each renewal up to 15 years",
+    "Art. 15(2) — Renewal decision: notified within 60 days of application receipt",
+    "Art. 16(1) — Licence transfer: minimum 30% of committed investment must be made before transfer is permitted",
+    "Art. 18 — Transfer decision: notified within 60 days of application receipt",
+    "Art. 21(2) — Exploration → mining transition: apply within 90 days before exploration licence expiry",
+    "Art. 21(4) — Refusal of mining licence: 90 days' notice to close exploration operations",
+    "Art. 22(a) — Exploration: commence operations within 90 days of licence issuance",
+    "Art. 22(b) — Exploration: submit progress reports every 6 months",
+    "Art. 22(f) — Exploration: submit annual audited expenditure within 90 days of each licence anniversary",
+    "Art. 22(g) — Exploration: RMB has 60 days to approve/reject plan amendments",
+    "Art. 22(h) — Exploration: notify relevant organ of historical objects within 30 days of discovery",
+    "Art. 22(i) — Exploration: remove temporary buildings within 90 days of licence expiry/termination",
+    "Art. 24(b) — Mining: commence operations within 180 days of licence issuance",
+    "Art. 24(g) — Mining: annual financial report within 90 days of financial year end",
+    "Art. 24(h)(i) — Mining: notify RMB 1 year in advance of permanent cessation",
+    "Art. 24(h)(ii) — Mining: notify RMB 6 months in advance of temporary suspension",
+    "Art. 24(h)(iii) — Mining: notify RMB 3 months in advance of curtailment of operations",
+    "Art. 24(l) — Mining: notify relevant organ of historical objects within 30 days of discovery",
+    "Art. 25(2) — Radioactive minerals: monthly written report to RMB (first week of each month)",
+    "Art. 26(1)(a) — Mining relinquishment: give at least 90 days' notice to RMB",
+    "Art. 27(2) — Exploration records become State property if no application for renewal/mining licence within 2 years of cancellation/expiry",
+    "Art. 30 — Quarry licences: non-commercial small-scale = 1 year renewable; commercial small-scale = 5 years renewable; industrial = up to 15 years renewable",
+    "Art. 35(1)(a) — Quarry relinquishment: at least 30 days' notice (non-commercial small-scale); at least 60 days' notice (others)",
+    "Art. 37(2) — Licence cancellation: 90 days given for site rehabilitation and liability clearance",
+    "Art. 44(1) — Annual financial statement (IFRS-compliant, audited): submit within 3 months of financial year end to RMB and RRA",
+  ],
+},
+  {
+  id: "tax-on-minerals-056-2024",
+  title: "Tax on Minerals Law",
+  citation: "Law N° 056/2024 of 26/06/2024",
+  gazetteRef: "Official Gazette N° Special of 05/07/2024",
+  repeals: "Law N° 55/2013 of 02/08/2013",
+  articles: [
+    {
+      number: "1",
+      title: "Purpose",
+      summary: "Establishes the tax on minerals in Rwanda."
+    },
+    {
+      number: "2",
+      title: "Interpretation",
+      summary: "Defines key terms: 'gross value' (value before deducting local processing costs); 'norm value' (international market value at date of sale certificate, excluding approved processing costs); 'gemstones' (precious stones used in jewellery); 'rare earth elements' (zirconium, uranium, thorium, monazite); 'energy minerals' (lithium, cobalt, manganese, graphite); 'platinum group metals' (ruthenium, rhodium, palladium, osmium, iridium, platinum); 'base metals' (copper, lead, zinc, nickel, aluminium, tin, iron, tungsten, molybdenum, tantalum, cobalt, bismuth, titanium, manganese, chromium, germanium, vanadium, gallium, hafnium, indium, niobium, thallium); 'mineral processing' (cutting, polishing, smelting, or other factory processing to create new products); 'international market value' (price set by a recognised global minerals pricing platform); 'grade' (measured mineral content by reference to payable factors in the form sold); 'tax avoidance arrangement' (arrangement whose sole/main purpose is a tax benefit, or using means not normally employed for genuine business purposes, or creating abnormal rights/obligations between non-arm's-length parties); 'competent authority' (State organ in charge of minerals, i.e. RMB); 'tax on minerals' (mining royalty tax or export tax on value of minerals produced in a Rwandan mine); 'local mineral processing facility' (RMB-licenced processing facility); 'taxpayer' (person liable to pay minerals tax under this Law)."
+    },
+    {
+      number: "3",
+      title: "Liability to Tax",
+      summary: "Any person who sells minerals is liable to pay tax on those minerals."
+    },
+    {
+      number: "4",
+      title: "Mining Royalty Tax Rates",
+      summary: "Mining royalty tax rates by mineral category: (a) Base metals: 3% of norm value; (b) Gemstones: 2% of gross value; (c) Platinum group metals: 2% of norm value; (d) Rare earth elements: 2% of norm value; (e) Energy minerals: 3% of norm value; (f) Gold: 0.5% of norm value."
+    },
+    {
+      number: "5",
+      title: "Export Tax (additional, raw minerals only)",
+      summary: "Minerals exported in raw form are subject to an additional export tax on top of the mining royalty in Article 4, at the following rates: (a) Base metals: 2% of norm value; (b) Gemstones: 3% of norm value; (c) Platinum group metals: 2% of norm value; (d) Rare earth elements: 1% of norm value; (e) Energy minerals: 2% of norm value; (f) Gold: 0.5% of norm value. Note: export tax applies only to raw (unprocessed) minerals."
+    },
+    {
+      number: "6",
+      title: "Withholding, Declaration and Payment Obligations",
+      summary: "A local mineral processing facility or exporter has the obligation to withhold mining royalty tax, declare, and remit it to the tax administration within the timeline prescribed by this Law. The withholding obligation does not apply where the miner and exporter are the same operator — in that case the operator pays both mining royalty tax and export tax directly. Tax on minerals is NOT a deductible expense and NOT an advance payment of income tax for purposes of calculating corporate income tax."
+    },
+    {
+      number: "7",
+      title: "Exemptions",
+      summary: "Two exemptions apply: (1) Mineral samples exported for assay, analysis, or examination are exempt — quantity thresholds set by RMB regulation; (2) Processed minerals and imported minerals re-exported are exempt from tax on minerals at the point of export — except gold, which is not exempt."
+    },
+    {
+      number: "8",
+      title: "Tax Due Date",
+      summary: "Tax on minerals becomes due on the date of exportation or the date a local mineral processing facility purchases the minerals. The date of customs export declaration is deemed to be the date of exportation."
+    },
+    {
+      number: "9",
+      title: "Grade, Value and Processing Charges",
+      summary: "Grade, value, and processing charges for minerals are determined by the competent authority (RMB). RMB shall issue a regulation establishing the mechanism for their determination."
+    },
+    {
+      number: "10",
+      title: "Declaration and Payment Timelines",
+      summary: "Export tax must be declared and paid BEFORE exportation of minerals. Mining royalty tax (withheld) must be declared and paid within 15 days following the end of the month in which it was withheld."
+    },
+    {
+      number: "11",
+      title: "Sales to Affiliated Companies (Transfer Pricing)",
+      summary: "A licence holder selling minerals to affiliated companies must do so at a price at least equal to what would be obtained in an arm's-length transaction with unaffiliated buyers, on comparable terms. If the licence holder sells to affiliates below international market value, both RMB and the tax administration may use the international market value to determine the taxable value."
+    },
+    {
+      number: "12",
+      title: "Anti-Tax Avoidance Rules",
+      summary: "Where a tax avoidance arrangement exists, the tax administration may make price adjustments by: (a) disregarding, combining, or re-characterising any transaction or part of the arrangement; (b) disregarding a person facilitating or involved in the arrangement; (c) treating related persons as a single person for tax purposes; or (d) reallocating gross income, capital accruals, or expenditure among the parties."
+    },
+    {
+      number: "13",
+      title: "Language",
+      summary: "Law drafted in English, considered and adopted in Kinyarwanda."
+    },
+    {
+      number: "14",
+      title: "Repealing Provision",
+      summary: "Repeals Law N° 55/2013 of 02/08/2013 on minerals tax in its entirety."
+    },
+    {
+      number: "15",
+      title: "Entry into Force",
+      summary: "Comes into force on the date of publication in the Official Gazette (05/07/2024)."
+    }
+  ],
+  penalties: "This Law contains no standalone penalties provisions. Penalties for non-declaration, late payment, and tax avoidance are governed by the Tax Procedures Law N° 020/2023 (general tax administration framework). Anti-avoidance adjustments under Article 12 allow the tax administration to re-characterise transactions and reassess tax; affiliated-party underpricing under Article 11 triggers revaluation at international market value.",
+  regulator: "Rwanda Revenue Authority (RRA) — tax administration and collection. Rwanda Mines, Petroleum and Gas Board (RMB) — competent authority for minerals: determines grade, value, and processing charges (Art. 9); issues exemption quantity regulations (Art. 7(1)); licences local processing facilities (Art. 2(o)); co-operates with RRA on affiliated-party underpricing (Art. 11(2)).",
+  keyDeadlines: [
+    "Export tax: must be declared and paid BEFORE exportation of minerals (Art. 10(1)).",
+    "Mining royalty tax (withheld): declared and paid within 15 days following the end of the month in which the tax was withheld (Art. 10(2)).",
+    "Tax due date triggers: date of customs export declaration (for exported minerals) or date of purchase by local processing facility (Art. 8)."
+  ],
+  effectiveDate: "05/07/2024"
+}
+{
+  id: "insolvency-075-2021",
+  title: "Insolvency Law",
+  citation: "Law N° 075/2021 of 06/12/2021",
+  gazetteRef: "Official Gazette N° Special of 30/12/2021",
+  repeals: "Law N° 23/2018 of 29/04/2018 relating to insolvency and bankruptcy (which had itself repealed Law N° 12/2009), and all other prior contrary legal provisions",
+  articles: [
+    {
+      number: "1",
+      title: "Purpose",
+      summary: "Establishes proceedings for settling insolvency issues of companies, partnerships, and individuals, unless otherwise provided by other laws."
+    },
+    {
+      number: "2",
+      title: "Scope",
+      summary: "Applies to: (1) voluntary mechanisms to avoid insolvency; (2) insolvency of companies, partnerships, and individuals; (3) liquidation of insolvent companies and partnerships; (4) voluntary liquidation of solvent companies and partnerships; (5) matters relating to insolvency practitioners; and (6) cross-border insolvency. Also governs insolvency-related matters not covered by other laws."
+    },
+    {
+      number: "3",
+      title: "Definitions",
+      summary: "Key terms: 'insolvency' — inability to pay debts as they fall due, OR assets less than liabilities plus stated capital (two tests, either triggers); 'debtor' — company, partnership, or individual that is insolvent; 'creditors' — present, future, and contingent; 'secured creditor' — holds security over a debt or obligation; 'insolvency practitioner' — person qualified to act as provisional administrator, administrator, provisional liquidator, liquidator, proposed supervisor, supervisor, or bankruptcy trustee; 'debt arrangement' — composition or scheme of arrangement for individuals or companies; 'essential services' — electricity, water, and telecommunications; 'administration deed' — arrangement between provisional trustee and creditors on management of affairs; 'bankruptcy order' — court order declaring bankruptcy and appointing bankruptcy trustee; 'cell' — cell created by a protected cell company; 'foreign proceeding,' 'foreign main proceeding,' 'foreign non-main proceeding,' and 'foreign representative' — for cross-border insolvency regime; 'Minister' — Minister in charge of trade; 'competent authority' — regulatory authority."
+    },
+    {
+      number: "4",
+      title: "Responsibilities of Registrar General",
+      summary: "Sets out RDB Registrar General's duties in insolvency proceedings, including provisional appointment of insolvency practitioners and oversight functions. Registrar General may not be appointed administrator by the court unless they were a party to the case in which the appointment order was made."
+    },
+    {
+      number: "5",
+      title: "Public or Individual Written Notice",
+      summary: "Notice to creditors may be given: personally; by registered mail; electronically to a known address; or by written notice published in a widely-read national or international newspaper for a period of 30 days. All four modes are valid."
+    },
+    {
+      number: "6",
+      title: "Creditors' Right to Information",
+      summary: "During insolvency proceedings, every creditor is entitled to request the insolvency practitioner to provide any information relating to the conduct of the proceedings."
+    },
+    {
+      number: "7",
+      title: "Grounds for Commencement of Insolvency Proceedings",
+      summary: "Insolvency proceedings commence when either of two tests is met: (1) cash flow test — debtor is unable to pay debts as they fall due in the normal course of business; OR (2) balance sheet test — debtor's assets are less than its liabilities plus stated capital. Either ground is sufficient."
+    },
+    {
+      number: "8",
+      title: "Application for Commencement of Insolvency Proceedings",
+      summary: "Application is filed with the competent court. Persons who may apply: creditors, the debtor, directors (or one of them), the Registrar General, shareholders or partners, or the regulatory authority. Secured creditors are summoned for hearing before the court decides. A creditor's application is admissible only if the creditor demonstrates an interest and establishes both the claim and the reason why proceedings should commence. Court will not appoint an insolvency practitioner if assets are manifestly insufficient to cover proceedings costs — in that case, court issues a declaration of insolvency and orders distribution of available assets to creditors."
+    },
+    {
+      number: "9",
+      title: "Appointment of Insolvency Practitioner",
+      summary: "The court has sole competence to appoint an insolvency practitioner. However, the Registrar General may appoint on a provisional basis in any of these circumstances: to save assets from imminent loss; where a court-appointed practitioner has not been approved by the creditors' meeting; where a practitioner has resigned; where a practitioner has failed to execute duties; or any other circumstance the Registrar General deems necessary. A provisional practitioner appointed by the Registrar General is removed only by a further Registrar General decision or court order. When the court appoints a practitioner, the provisional one ceases and submits a handover report to the successor with a copy to the Registrar General."
+    },
+    {
+      number: "10",
+      title: "Content of Insolvency Proceedings Application",
+      summary: "Without prejudice to commercial procedure laws, the application must include: a detailed list of debts and claims; relevant financial and accounting reports; and any other elements the applicant considers necessary."
+    },
+    {
+      number: "11",
+      title: "General Effects of Commencement of Insolvency Proceedings",
+      summary: "Upon commencement, the following are automatically stayed: (1) commencement or continuation of individual actions or proceedings concerning the debtor's assets, rights, obligations, or liabilities; (2) execution of judgments related to the debtor's assets; (3) any counterparty's right to terminate contracts with the debtor; (4) any right to transfer, mortgage, or otherwise dispose of the debtor's assets. These stays do not prevent actions against individuals to protect debts owed by the debtor. Court may also ease the stay measures. NOTE: secured creditor rights are not stayed by default — see Art. 12."
+    },
+    {
+      number: "12",
+      title: "Stay on Secured Claims",
+      summary: "Secured creditors' rights and rights of retention are NOT automatically stayed by the commencement of insolvency proceedings — they retain enforcement rights. EXCEPTION: where the debtor expressly states an intention to submit a reorganization plan together with the application, all claims including secured claims and rights of retention are stayed from the date of application. In that case: debtor must submit the reorganization plan to court within 3 months of filing; total stay period cannot exceed 6 months (inclusive of the 3-month plan preparation period); if the 6-month period lapses without a court decision, the secured creditor automatically becomes entitled to enforce the security under applicable laws. A secured creditor may also petition the court to lift the stay at any time on justifiable grounds. For reorganization proceedings specifically (Art. 87): the stay on secured creditor applications lasts 6 months from the date of the reorganization application, renewable by court order up to 3 times."
+    },
+    {
+      number: "13",
+      title: "Supply of Essential Services",
+      summary: "Suppliers of essential services (electricity, water, telecommunications) may not: (1) refuse to supply to the liquidator or debtor because of pre-insolvency arrears; or (2) make supply conditional on payment of pre-insolvency arrears. Post-commencement essential service charges are treated as administration expenses with priority in distribution."
+    },
+    {
+      number: "14",
+      title: "Continuity of Current Obligations",
+      summary: "Current contractual obligations continue during insolvency proceedings. The insolvency practitioner may elect to perform or disclaim contracts."
+    },
+    {
+      number: "15",
+      title: "Proposal for Debt Arrangement by Individual",
+      summary: "An individual may propose a voluntary debt arrangement with creditors to avoid insolvency, by application to court for an interim order. Application must include full particulars of the arrangement proposal and nominate a proposed supervisor."
+    },
+    {
+      number: "16",
+      title: "Contents of Proposal for Arrangement with Creditors",
+      summary: "The arrangement proposal must set out: full particulars of debts and assets; proposed terms of the arrangement; and the identity and consent of the proposed supervisor."
+    },
+    {
+      number: "17",
+      title: "Interim Order of Arrangement",
+      summary: "Court may grant an interim order of arrangement, imposing a temporary stay on creditor proceedings against the individual while the proposal is considered."
+    },
+    {
+      number: "18",
+      title: "Effects of Interim Order of Debt Arrangement",
+      summary: "During the interim order: no bankruptcy petition may be presented against the debtor; no legal proceedings may be commenced or continued against the debtor without court leave."
+    },
+    {
+      number: "19",
+      title: "Duties of a Debtor During Interim Order",
+      summary: "The debtor must cooperate fully with the supervisor, submit all required financial information, and not dispose of assets without authorisation."
+    },
+    {
+      number: "20",
+      title: "Report to Court by Supervisor",
+      summary: "The proposed supervisor reports to court on whether the arrangement proposal has a reasonable prospect of being approved and implemented. After reviewing the report, court may order the proposed supervisor to convene a creditors' meeting and may extend the interim order for that purpose."
+    },
+    {
+      number: "21",
+      title: "Creditors' Meeting to Consider Arrangement",
+      summary: "Proposed supervisor must convene a creditors' meeting to consider the arrangement within 30 working days of the interim order being made. Notice of meeting, accompanied by a copy of the proposal, must be sent to creditors at least 10 working days before the meeting."
+    },
+    {
+      number: "22",
+      title: "Resolution at Creditors' Meeting on Proposed Arrangement",
+      summary: "A proposed arrangement is approved if voted by at least 75% of the votes of all creditors having taken part in the vote. The creditors' meeting may not approve any arrangement before obtaining the consent of any affected preferential creditor if: (a) a preferential debt would be paid other than in priority over non-preferential debts; or (b) a preferential creditor would receive a smaller proportional payment on their preferential debt than another preferential creditor."
+    },
+    {
+      number: "23",
+      title: "Arrangement Order",
+      summary: "Court makes an arrangement order giving legal effect to the approved debt arrangement."
+    },
+    {
+      number: "24",
+      title: "Effects of Arrangement Order",
+      summary: "Arrangement order binds all creditors entitled to vote, whether or not they voted or were present. The debtor must comply with its terms."
+    },
+    {
+      number: "25",
+      title: "Creditors' Meeting During Arrangement",
+      summary: "Supervisor may convene creditors' meetings during implementation to consider progress or proposed variations."
+    },
+    {
+      number: "26",
+      title: "Variation of Arrangement Order",
+      summary: "Court may vary the arrangement order on application by the debtor or creditors."
+    },
+    {
+      number: "27",
+      title: "Termination of Arrangement Order",
+      summary: "Court may terminate the arrangement order on application if the debtor defaults or the arrangement is no longer feasible."
+    },
+    {
+      number: "28",
+      title: "Notice of Termination of Arrangement",
+      summary: "Supervisor must give notice of termination to all creditors and the Registrar General."
+    },
+    {
+      number: "29",
+      title: "Supervisor's Failure to Perform Duties",
+      summary: "Court may replace a supervisor or take other action if the supervisor fails to perform duties."
+    },
+    {
+      number: "30",
+      title: "Vacancy in Office of Supervisor",
+      summary: "Governs vacancy and replacement in the office of arrangement supervisor."
+    },
+    {
+      number: "31",
+      title: "Power to Propose Compromise with Creditors",
+      summary: "A company, its directors, shareholders, liquidator, or provisional administrator may propose a compromise with creditors."
+    },
+    {
+      number: "32",
+      title: "Compromise Plan",
+      summary: "Compromise plan must contain: full particulars of debts and assets; proposed terms; and the identity of the proposed supervisor."
+    },
+    {
+      number: "33",
+      title: "Notice of Proposed Compromise",
+      summary: "Notice of proposed compromise must be given to all creditors, shareholders, and the Registrar General."
+    },
+    {
+      number: "34",
+      title: "Contents of Public and Individual Notices",
+      summary: "Sets out required content of both public and individual notices for a proposed compromise."
+    },
+    {
+      number: "35",
+      title: "Approval of Compromise",
+      summary: "Compromise is approved if accepted by creditors holding a prescribed majority by value; court sanction required."
+    },
+    {
+      number: "36",
+      title: "Costs of Preparing and Circulating Compromise",
+      summary: "Costs of preparing and circulating compromise materials are borne by the proposing party."
+    },
+    {
+      number: "37",
+      title: "Powers of Court in Compromise Proceedings",
+      summary: "Court may sanction, modify, or refuse the compromise and may give directions on implementation."
+    },
+    {
+      number: "38",
+      title: "Appointment of Supervisor of Compromise",
+      summary: "Court appoints a supervisor to oversee implementation of the approved compromise."
+    },
+    {
+      number: "39",
+      title: "Effect of Compromise",
+      summary: "Once sanctioned by court, compromise binds all creditors entitled to vote, the company, and its members."
+    },
+    {
+      number: "40",
+      title: "Cancellation of Binding Force of Compromise",
+      summary: "Within 20 working days of the notice that a compromise was approved, a creditor who was entitled to vote may apply to court to be released from the compromise on the following grounds: (1) insufficient or non-compliant notice of the meeting was given; (2) there was some other material irregularity in obtaining approval; or (3) the compromise is unfairly prejudicial to that creditor or their class (applicable only to a creditor who voted against)."
+    },
+    {
+      number: "41",
+      title: "Request for Appointment of Provisional Administrator",
+      summary: "The following persons may request the Registrar General to appoint a provisional administrator: the debtor, directors, an insolvency practitioner, a creditor, shareholders or partners, or the regulatory authority."
+    },
+    {
+      number: "42",
+      title: "Modalities for Appointment of Provisional Administrator",
+      summary: "Registrar General appoints a provisional administrator within 5 working days of receipt of the application. If the Registrar General fails to appoint within that period, the applicant may file with the competent court. The appointment notice must certify that there is reason to believe the company is or will be unable to pay its debts. A provisional administrator cannot be appointed after the company has already gone into liquidation."
+    },
+    {
+      number: "43",
+      title: "Commencement of Appointment of Provisional Administrator",
+      summary: "Appointment takes effect when the Registrar General holds: (1) a copy of the appointment notice (if court-appointed); (2) a copy of the provisional administrator's consent to act in prescribed form; and (3) a document containing the consent of any secured creditor holding a charge over the whole or substantially the whole of the company's property."
+    },
+    {
+      number: "44",
+      title: "Consideration and Approval of Provisional Administrator",
+      summary: "Provisional administrator must convene a creditors' meeting to consider their appointment within 5 working days of commencement of the provisional administration. Notice — both public and individual written — must be given at least 2 working days before the meeting, containing the commencement date, the provisional administrator's full name and address. At that meeting, creditors may by resolution remove the provisional administrator and appoint another within 15 days; if no replacement is appointed within 15 days, the Registrar General appoints one."
+    },
+    {
+      number: "45",
+      title: "Notice of Provisional Administration",
+      summary: "Provisional administrator must give public and individual written notice of appointment to all known creditors and the Registrar General."
+    },
+    {
+      number: "46",
+      title: "Duties of a Provisional Administrator",
+      summary: "Provisional administrator must: take custody of debtor's assets; investigate the debtor's affairs; prepare a report on the financial position; and convene a creditors' meeting to consider a plan of administration."
+    },
+    {
+      number: "47",
+      title: "Powers of the Provisional Administrator",
+      summary: "Powers include: managing and dealing with assets; carrying on the business; entering contracts; and taking any action necessary to preserve the estate. Powers exercised to: implement an administration deed; end the provisional administration; execute a compromise; achieve a more advantageous realisation of assets than liquidation would yield; realise assets to distribute to secured or preferential creditors; or any action believed on reasonable grounds to be in the best interests of creditors."
+    },
+    {
+      number: "48",
+      title: "Obligation of Debtor to Provide Information",
+      summary: "The debtor must provide the provisional administrator with all information relating to the insolvency proceedings, whether requested by the court, the provisional administrator, or the creditors' committee. Must cooperate fully in the execution of the provisional administrator's duties."
+    },
+    {
+      number: "49",
+      title: "Establishment of Creditors' Committee",
+      summary: "Creditors' meeting may establish a committee of creditors to assist and supervise the provisional administrator."
+    },
+    {
+      number: "50",
+      title: "Duties and Rights of Creditors' Committee",
+      summary: "Creditors' committee assists and supervises the insolvency practitioner, inspects accounts, and has approval rights over major transactions."
+    },
+    {
+      number: "51",
+      title: "Grounds for Loss of Committee Membership",
+      summary: "A committee member loses membership on bankruptcy, resignation, conflict of interest, or removal by creditors."
+    },
+    {
+      number: "52",
+      title: "Replacement of Committee Member",
+      summary: "Creditors' meeting may replace a committee member who has lost membership or is unable to act."
+    },
+    {
+      number: "53",
+      title: "Effects of Provisional Administration",
+      summary: "Upon provisional administration: directors' management powers are suspended; existing contracts may be continued or disclaimed; essential services continue; secured creditors are subject to stay only if the debtor has indicated intent to submit a reorganization plan (see Art. 12)."
+    },
+    {
+      number: "54",
+      title: "Provisional Administrator's Proposals",
+      summary: "Within 20 working days of commencement of provisional administration, the provisional administrator must convene a creditors' meeting to consider proposals. Notice — public and individual written — must be given at least 5 working days before the meeting, accompanied by: a report on the company's business, property and financial circumstances; and a statement of the provisional administrator's opinion on each of the available courses of action (approval of proposals, ending of provisional administration, compromise, reorganization, or liquidation)."
+    },
+    {
+      number: "55",
+      title: "Consideration of Provisional Administrator's Proposals",
+      summary: "Creditors' meeting votes on which course of action to adopt from the provisional administrator's proposals."
+    },
+    {
+      number: "56",
+      title: "Rights of Dissenting Creditors",
+      summary: "Dissenting creditors may apply to court to challenge the resolution adopted by the creditors' meeting."
+    },
+    {
+      number: "57",
+      title: "Requirements of Administration Deed",
+      summary: "Administration deed must contain: identity of parties; description of the debtor's affairs; the agreed plan of management; and obligations of each party."
+    },
+    {
+      number: "58",
+      title: "Execution of Administration Deed",
+      summary: "Before execution of the administration deed, all parties — directors, secretary, shareholders, administrator and all creditors bound by the deed — are treated as if the deed had already been executed, for 21 days after the creditors' meeting (or such further period as the court allows on an application made within the 21-day period). The deed must be executed within this window."
+    },
+    {
+      number: "59",
+      title: "Termination of Provisional Administration",
+      summary: "Provisional administration terminates when: (1) an administration deed is approved for execution; or (2) creditors resolve that it should end. Provisional administrator must convene the termination creditors' meeting within 20 working days of commencement of provisional administration (extendable by court on application)."
+    },
+    {
+      number: "60",
+      title: "Opening of Administration",
+      summary: "Administration under an administration deed opens from the date the deed is executed."
+    },
+    {
+      number: "61",
+      title: "Effective Administration",
+      summary: "Administration deed binds the debtor and all relevant creditors from the date of execution."
+    },
+    {
+      number: "62",
+      title: "Persons Bound by Administration Deed",
+      summary: "The deed binds: the company, its officers, and all unsecured creditors."
+    },
+    {
+      number: "63",
+      title: "Notice of Administration Deed",
+      summary: "Administrator must register the deed with the Registrar General and give public notice within the prescribed period."
+    },
+    {
+      number: "64",
+      title: "Prohibitions for Persons Bound by Administration Deed",
+      summary: "Once the deed is in force: no creditor may commence or continue proceedings against the debtor without administrator's consent or court leave; no person may enforce security without consent."
+    },
+    {
+      number: "65",
+      title: "Duties of an Administrator",
+      summary: "Administrator must: faithfully implement the deed; act in the interests of all creditors; maintain accounts; report to creditors; and give notice to the Registrar General of material events."
+    },
+    {
+      number: "66",
+      title: "Powers of the Administrator",
+      summary: "Administrator has all powers necessary to implement the deed, including power to sell assets, enter contracts, and carry on business."
+    },
+    {
+      number: "67",
+      title: "Creditors' Meeting During Administration",
+      summary: "Administrator may or must convene creditors' meetings to report on progress or seek approval for major decisions."
+    },
+    {
+      number: "68",
+      title: "Variation of Administration Deed",
+      summary: "Creditors holding the required majority may vote to vary the terms of the administration deed."
+    },
+    {
+      number: "69",
+      title: "Administrator's Interaction with Court",
+      summary: "Administrator may apply to court for directions on any matter arising in the administration."
+    },
+    {
+      number: "70",
+      title: "Role of Company's Officers",
+      summary: "During administration, company officers must cooperate fully with the administrator and may not exercise management powers without the administrator's consent."
+    },
+    {
+      number: "71",
+      title: "Compliance Order During Administration",
+      summary: "Court may issue a compliance order requiring any person to comply with the administrator's lawful directions."
+    },
+    {
+      number: "72",
+      title: "Disposal of Charged Property",
+      summary: "Administrator may apply to court to dispose of property subject to a charge, provided the chargeholder is paid from proceeds in priority."
+    },
+    {
+      number: "73",
+      title: "Liabilities of a Provisional Administrator",
+      summary: "Provisional administrator is personally liable for debts incurred in the administration unless acting as agent of the company or within authority."
+    },
+    {
+      number: "74",
+      title: "Relief from Liability",
+      summary: "Court may relieve a provisional administrator or administrator from personal liability for acts done in good faith."
+    },
+    {
+      number: "75",
+      title: "Provisional Administrator's or Administrator's Report",
+      summary: "Provisional administrator and administrator must submit periodic reports to creditors and the court on the state of the administration."
+    },
+    {
+      number: "76",
+      title: "Vacancy in Office of Provisional Administrator or Administrator",
+      summary: "Governs vacancy and replacement where a provisional administrator or administrator dies, resigns, or is removed."
+    },
+    {
+      number: "77",
+      title: "Court Supervision of Administration",
+      summary: "Court retains supervisory jurisdiction over administration proceedings and may give directions at any time."
+    },
+    {
+      number: "78",
+      title: "Enforcement of Provisional Administrator's Duties",
+      summary: "Court may enforce performance of the provisional administrator's or administrator's duties on application by creditors."
+    },
+    {
+      number: "79",
+      title: "Transition to Liquidation Not Barred",
+      summary: "Administration may transition to liquidation if the administration deed fails or if the debtor cannot be rehabilitated."
+    },
+    {
+      number: "80",
+      title: "Termination of Administration Deed",
+      summary: "Administration deed terminates on: full performance; default leading to termination by court order; or other court-ordered grounds."
+    },
+    {
+      number: "81",
+      title: "Termination of Administration — Further Grounds",
+      summary: "Administration also terminates upon court order for liquidation or when reorganization proceedings commence."
+    },
+    {
+      number: "82",
+      title: "Reasons for Termination of Administration",
+      summary: "Specific grounds include: material default by debtor; impossibility of plan implementation; administration that is oppressive, unfairly prejudicial or discriminatory to creditors; revocation of the administrator's licence by their professional body; or other court-approved reason."
+    },
+    {
+      number: "83",
+      title: "Notice of Termination of Administration",
+      summary: "Upon termination of administration, administrator must within 5 working days: give public notice of the termination; and deliver written notice of termination to every known creditor of the company."
+    },
+    {
+      number: "84",
+      title: "Application for Company Reorganization",
+      summary: "Application for commencement of company reorganization may be made by: the company, its directors, creditors, shareholders, the Registrar General, or the regulatory authority. Filed with the competent court."
+    },
+    {
+      number: "85",
+      title: "Court Order Commencing Reorganization",
+      summary: "Court may issue an order commencing reorganization proceedings and appoint a reorganization administrator."
+    },
+    {
+      number: "86",
+      title: "Vacancy in Office of Reorganization Administrator",
+      summary: "Governs vacancy and replacement in the reorganization administrator's office."
+    },
+    {
+      number: "87",
+      title: "Effects of Commencement of Reorganization",
+      summary: "From commencement of reorganization, no legal proceeding (including enforcement action) against the company, or in relation to any company property, may be commenced or continued. For secured creditors specifically: the stay on their enforcement applications lasts 6 months from the date of the reorganization application, renewable by court order up to 3 times. Extension of the stay on secured claims is decided by court based on established indicators strictly evaluated against the reorganization modalities, with either: (1) written consent of the company's administrator; or (2) court leave on suitable terms."
+    },
+    {
+      number: "88",
+      title: "Application for Relief from Stay on Secured Claim",
+      summary: "A secured creditor may apply to court for relief from the stay under reorganization if: the secured asset may lose value, deteriorate, be destroyed, or is unnecessary to the business; or any other justifiable cause exists."
+    },
+    {
+      number: "89",
+      title: "Company Reorganization Plan",
+      summary: "Within 45 days of the reorganization order, the administrator must prepare a reorganization plan — after consulting with creditors and the company's directors — to be considered and approved by creditors. The plan must describe the company's current position, set out proposed restructuring measures, identify claims to be compromised, and include a feasibility analysis."
+    },
+    {
+      number: "90",
+      title: "Notice of Creditors' Meeting to Approve Reorganization Plan",
+      summary: "Within 15 working days of completing the reorganization plan, the administrator must convene a creditors' meeting to approve it. Administrator must give each known creditor both a public notice and an individual notice at least 10 working days before the meeting, indicating the intention to convene the meeting for the purpose of approving the proposed reorganization plan."
+    },
+    {
+      number: "91",
+      title: "Approval of Company Reorganization Plan",
+      summary: "A reorganization plan is approved if voted by at least 75% of the votes of creditors (or each class of creditors who may be affected) having taken part in the vote. Where the resolution is put to more than one class of creditors, approval by each class is presumed to be conditional on approval by every other class, unless the resolution expressly states otherwise. Any distinct treatment of creditors within the same class requires the consent of all other creditors in that class, and the resolution must be accompanied by each such creditor's written consent."
+    },
+    {
+      number: "92",
+      title: "Equal Treatment of Creditors in the Same Class",
+      summary: "Creditors within the same class must be offered equal treatment under the reorganization plan."
+    },
+    {
+      number: "93",
+      title: "Duties of Administrator of Company Reorganization",
+      summary: "Administrator must: take custody and control of the company's business and property; manage the business and take appropriate measures to achieve reorganization in the interests of creditors and shareholders; implement the approved plan faithfully; and report to creditors periodically."
+    },
+    {
+      number: "94",
+      title: "Powers of Reorganization Administrator",
+      summary: "Administrator has all powers necessary for reorganization, including power to sell assets, restructure liabilities, and bind the company to new arrangements."
+    },
+    {
+      number: "95",
+      title: "Court Supervision of Reorganization",
+      summary: "Court supervises reorganization and may give directions, replace the administrator, or convert proceedings to liquidation."
+    },
+    {
+      number: "96",
+      title: "Termination of Company Reorganization",
+      summary: "Company reorganization ends when: (1) the reorganization plan has been implemented; (2) creditors resolve that the reorganization should end; (3) creditors appoint a liquidator by resolution at a meeting to determine the company's future; (4) the company fails to implement the plan within the time allowed by court; or (5) the court appoints a liquidator."
+    },
+    {
+      number: "97",
+      title: "Business Rescue Finance",
+      summary: "After commencement of any of the following — debt arrangement, compromise between company and creditors, administration, or reorganization — a debtor may apply for financing from existing creditors or other persons to maintain business activities. Rescue finance is approved by simple majority of votes validly cast by creditors or each relevant class (lower threshold than the 75% required for a reorganization plan). Claims relating to rescue finance are paid in priority over other pre-insolvency unsecured debts (but not above administration costs, secured creditors, or preferential creditors). Within 20 working days of approval, any creditor entitled to vote may apply to court to cancel the rescue finance on grounds of: procedural irregularity; other material irregularity in obtaining approval; or unfair prejudice (where that creditor voted against)."
+    },
+    {
+      number: "98",
+      title: "Creditors' Meeting to Consider Business Rescue Finance",
+      summary: "The insolvency practitioner convenes a creditors' meeting to consider proposed rescue finance and gives written notice to creditors. The notice must include detailed information about the proposed financing and the date of the meeting."
+    },
+    {
+      number: "99",
+      title: "Approval of Business Rescue Finance",
+      summary: "Rescue finance is approved by simple majority of votes validly cast by creditors or the relevant class. Where put to more than one class, approval by each class is presumed conditional on all other classes approving, unless the resolution states otherwise."
+    },
+    {
+      number: "100",
+      title: "Priority in Payment of Business Rescue Finance",
+      summary: "Business rescue finance claims are paid in priority over all other pre-insolvency unsecured debts. They rank below: administration costs and expenses (priority tier 1 of Art. 212); secured creditors (tier 2); and retention creditors (tier 3). They rank above government taxes (tier 7) and ordinary unsecured creditors (tier 8)."
+    },
+    {
+      number: "101",
+      title: "Cancellation of Decision on Rescue Finance",
+      summary: "Court may cancel a rescue finance decision if obtained by fraud, material irregularity, or if it unfairly prejudices a creditor who voted against it. Application must be made within 20 working days of the approval notice."
+    },
+    {
+      number: "102",
+      title: "Commencement of Liquidation",
+      summary: "A company is put into liquidation by the appointment of a liquidator. The liquidator must be a qualified insolvency practitioner. Liquidation commences on the date of the liquidator's appointment."
+    },
+    {
+      number: "103",
+      title: "Appointment of Liquidator",
+      summary: "Court appoints a liquidator upon commencement of compulsory or voluntary liquidation. Registrar General may appoint provisionally in urgent circumstances. Creditors may apply to court to change the appointed liquidator within 15 working days of appointment, on reasonable grounds."
+    },
+    {
+      number: "104",
+      title: "Circumstances for Court-Ordered Liquidation",
+      summary: "Court orders compulsory liquidation when: the debtor meets either insolvency test (Art. 7); a creditor holds an unsatisfied judgment debt; just and equitable grounds exist; or the regulatory authority applies."
+    },
+    {
+      number: "105",
+      title: "Provisional Liquidator",
+      summary: "Court or Registrar General may appoint a provisional liquidator pending the liquidation hearing to preserve the estate."
+    },
+    {
+      number: "106",
+      title: "Notice of Liquidation",
+      summary: "Within 5 working days of commencement of liquidation duties, the liquidator must give public notice of liquidation and deliver a copy to the Registrar General. The public notice must state: the date of commencement of liquidation; the liquidator's full name; and the liquidator's full physical address. The liquidator must also ensure all invoices, orders for goods, and business letters issued by or on behalf of the company bear the words 'in liquidation' after the company name."
+    },
+    {
+      number: "107",
+      title: "Effects of Liquidation",
+      summary: "Upon commencement of liquidation: all management powers of directors cease; no creditor may commence or continue enforcement without court leave; automatic stay applies to all claims; the company may not dispose of assets; all unpaid share capital becomes immediately payable; existing contracts continue subject to the liquidator's election to disclaim."
+    },
+    {
+      number: "108",
+      title: "Special Manager of the Company",
+      summary: "Court may appoint a special manager to manage the company's business during liquidation where the liquidator requires specialist assistance."
+    },
+    {
+      number: "109",
+      title: "Completion of Liquidation",
+      summary: "Liquidation is complete when all assets are realised and distributed and the liquidator submits the final report. Liquidator applies to court for a dissolution order."
+    },
+    {
+      number: "110",
+      title: "Liquidator's Preliminary Report",
+      summary: "Within 20 working days of commencement of liquidation, the liquidator must prepare and send to every known creditor, every shareholder, and the supervisor: (1) a report on the state of the company's affairs, proposals for conducting the liquidation, and the estimated completion date; and (2) a notice stating the right of any creditor or shareholder to require the liquidator to convene a creditors' meeting."
+    },
+    {
+      number: "111",
+      title: "Liquidator's Interim Report",
+      summary: "Within 20 working days after the end of each 6-month period following commencement of liquidation, the liquidator must prepare and send to every known creditor, every shareholder, and the Registrar General: a report on the conduct of the liquidation during the preceding 6 months and the liquidator's further proposals."
+    },
+    {
+      number: "112",
+      title: "Liquidator's Final Report",
+      summary: "Final report submitted before dissolution, setting out all realisations, distributions, costs, and outcomes of investigations."
+    },
+    {
+      number: "113",
+      title: "Duties of a Liquidator",
+      summary: "Liquidator must: take custody of all assets; identify and value assets; investigate the debtor's affairs and transactions; realise assets; ascertain and verify creditor claims; distribute proceeds in the prescribed priority order (Art. 212); and report to creditors and the court."
+    },
+    {
+      number: "114",
+      title: "Liquidator's Power to Obtain Information",
+      summary: "Liquidator may require any person to produce books, records, or documents relating to the debtor's affairs. Court may enforce compliance."
+    },
+    {
+      number: "115",
+      title: "Powers of Liquidator to Deal with Assets",
+      summary: "Liquidator has power to: sell assets by public auction or private treaty; enter new contracts for realisation purposes; borrow money on security of assets; and take any steps to maximise asset realisations."
+    },
+    {
+      number: "116",
+      title: "Liquidator's Power to Disclaim",
+      summary: "Liquidator may disclaim any onerous or unprofitable contract, property, or obligation that would impose a liability on the estate."
+    },
+    {
+      number: "117",
+      title: "Duties of Directors, Secretary and Employees of Company",
+      summary: "Upon commencement of liquidation, every present or former director, company secretary, and employee must: (1) fully and truthfully disclose to the liquidator all company property and details of any disposals outside the ordinary course of business; and (2) deliver to the liquidator, in accordance with the liquidator's directions, all company property in their custody or control."
+    },
+    {
+      number: "118",
+      title: "Notice of Liquidation or Dissolution of Foreign Company",
+      summary: "Where a foreign company goes into liquidation or is dissolved at its place of incorporation, the company's authorised agent in Rwanda must notify the Registrar General upon commencement of liquidation. The liquidator of a dissolved foreign company has the powers of a liquidator in Rwanda."
+    },
+    {
+      number: "119",
+      title: "Procedure to be Applied by Liquidator",
+      summary: "Sets out procedural steps for the liquidation process including asset realisation, claims verification, and distribution."
+    },
+    {
+      number: "120",
+      title: "Application to Court for Directions",
+      summary: "Liquidator may apply to court for directions on any question arising in the liquidation."
+    },
+    {
+      number: "121",
+      title: "Compliance with Liquidator's Requirements",
+      summary: "Where a person fails to comply with the liquidator's requirements during liquidation, the court may — on the liquidator's application — order that person to comply or make any other appropriate order. This is the enforcement mechanism for the liquidator's powers to obtain information and assets."
+    },
+    {
+      number: "122",
+      title: "Examination by the Court",
+      summary: "On the liquidator's application, court may order any person with knowledge of the company's financial affairs to appear before the court and be examined on oath on any matter relating to the company. Testimony given in such an examination is not admissible as evidence in criminal proceedings against that person, except on a charge of perjury arising from the testimony itself. A person examined may apply to the court to be exculpated from allegations made against them."
+    },
+    {
+      number: "123",
+      title: "Prohibitions During Liquidation",
+      summary: "Where a company is in liquidation, or an application has been made to put it into liquidation, no person concerned is permitted to: (1) leave or attempt to leave Rwanda to avoid paying money due to the company, to avoid examination on company affairs, or to avoid compliance with a court order or other obligation under this Law; (2) conceal or remove company property with the intent of preventing or delaying the liquidator's assumption of custody or control; or (3) destroy, conceal, or remove records or other documents of the company. Conduct falling under (1) and (2) also constitutes a criminal offence under Art. 264 (imprisonment 6 months–2 years AND/OR fine FRW 500,000–2,000,000)."
+    },
+    {
+      number: "124",
+      title: "Powers of Search and Seizure During Liquidation",
+      summary: "Where there are reasonable grounds for believing a liquidation-related offence may be committed, the court may issue a search warrant — valid for one occasion within 14 days of issue — authorising the named person to search for and seize property, books, documents, or reports of the company and deliver them to the liquidator. Force may be used for entry and to break open items on the premises."
+    },
+    {
+      number: "125",
+      title: "Pooling of Assets of Related Companies",
+      summary: "On application of the liquidator, a creditor, or a shareholder, the court may order pooling of assets and liabilities of related companies for distribution purposes where their affairs are so intermingled that individual accounts cannot be separated."
+    },
+    {
+      number: "126",
+      title: "Reasons for Pooling of Assets",
+      summary: "Court orders pooling if the companies were operated as a single economic unit, if it is just and equitable to do so, or if individual creditors cannot be identified with specific companies."
+    },
+    {
+      number: "127",
+      title: "Vacancy in Office of Liquidator",
+      summary: "Governs vacancy and replacement in the office of liquidator by court order."
+    },
+    {
+      number: "167",
+      title: "Application for Bankruptcy of Individual",
+      summary: "A bankruptcy order against an individual may be applied for by: one or more creditors; the individual themselves; or the supervisor of an arrangement proposed by the individual. Application is presented to the competent court. Where made by the individual themselves, it must be accompanied by a full statement of affairs — creditors, debts, liabilities, assets, and other court-prescribed information. Application is admissible only if the individual: is ordinarily resident in Rwanda; is personally present in Rwanda on the day of application; or has carried on business (including as a partner or through an agent) in Rwanda at any time in the 3 years ending on the application date. No statutory minimum debt amount is prescribed — court has discretion to dismiss if there are grounds, including law violations."
+    },
+    {
+      number: "168",
+      title: "Interim Trustee",
+      summary: "Court — on application by creditors, the debtor, the regulatory authority, or the Registrar General — may appoint an insolvency practitioner as interim trustee pending the bankruptcy hearing to preserve the individual's estate."
+    },
+    {
+      number: "169",
+      title: "Notice of Bankruptcy",
+      summary: "Trustee must give public notice of the bankruptcy order and notify all known creditors within the prescribed period."
+    },
+    {
+      number: "170",
+      title: "Effects of Commencement of Bankruptcy",
+      summary: "Upon bankruptcy order: all of the bankrupt's assets vest in the trustee; the bankrupt loses control over assets; automatic stay applies to all creditor enforcement; and the bankrupt must cooperate fully with the trustee."
+    },
+    {
+      number: "171",
+      title: "Special Management of Bankrupt's Estate",
+      summary: "Court may appoint a special manager to manage the bankrupt's affairs during bankruptcy where the trustee requires specialist assistance."
+    },
+    {
+      number: "172",
+      title: "Termination of Bankruptcy",
+      summary: "Bankruptcy terminates upon: grant of discharge; annulment of the bankruptcy order; or other court order."
+    },
+    {
+      number: "173",
+      title: "Effects of Discharge from Bankruptcy",
+      summary: "Upon discharge: the bankrupt is released from all pre-bankruptcy debts (except prescribed exceptions). Discharge does not release guarantors or co-debtors from their own liabilities."
+    },
+    {
+      number: "174",
+      title: "Post-Discharge Restrictions",
+      summary: "Court may impose post-discharge restrictions for a prescribed period where the bankrupt's conduct warrants it (e.g. fraud, recklessness)."
+    },
+    {
+      number: "175",
+      title: "Annulment of Bankruptcy Order",
+      summary: "Court may annul a bankruptcy order where: all debts have been paid in full; or the order should not have been made."
+    },
+    {
+      number: "176",
+      title: "Effects of Annulment",
+      summary: "Upon annulment: the bankrupt is restored to their pre-bankruptcy position as regards title to property; however, acts lawfully done by the trustee prior to annulment remain valid."
+    },
+    {
+      number: "177",
+      title: "Trustee's Notice to Creditors",
+      summary: "Trustee must give notice to creditors upon appointment and at key stages of the bankruptcy administration."
+    },
+    {
+      number: "178",
+      title: "Bankrupt's Estate",
+      summary: "The bankrupt's estate comprises all property belonging to or vested in the bankrupt at the date of the bankruptcy order, and property acquired before discharge."
+    },
+    {
+      number: "179",
+      title: "Seizure of Property Acquired or Charged After Bankruptcy",
+      summary: "Trustee may seize property acquired by the bankrupt or charged to a third party after the bankruptcy order, where that property should form part of the estate."
+    },
+    {
+      number: "180",
+      title: "Notice of Acquired Property",
+      summary: "Trustee gives notice of any property acquired after the bankruptcy order that forms part of the estate."
+    },
+    {
+      number: "181",
+      title: "Duties of a Trustee",
+      summary: "Trustee must: take custody of the bankrupt's estate; investigate affairs and transactions; realise assets; verify and admit or reject creditor claims; distribute proceeds in the Art. 212 priority order; and report to creditors and the court."
+    },
+    {
+      number: "182",
+      title: "Statement of Affairs",
+      summary: "Within 20 working days of commencement of bankruptcy (or such further period as the trustee or court allows), the bankrupt must submit to the trustee a statement of affairs containing full particulars of: creditors; debts and liabilities; assets; and any other information prescribed by law."
+    },
+    {
+      number: "183",
+      title: "Powers of Trustee in Bankruptcy",
+      summary: "Trustee has all powers necessary to administer the estate, including power to: require any person with possession of books or documents relating to the estate to deliver them; sell assets; disclaim onerous contracts; and investigate transactions."
+    },
+    {
+      number: "184",
+      title: "Court's Power to Make Orders",
+      summary: "Court may make any order necessary to facilitate the administration of the bankruptcy estate."
+    },
+    {
+      number: "185",
+      title: "Public Examination of Bankrupt",
+      summary: "Court may order a public examination of the bankrupt on their conduct, dealings, and property."
+    },
+    {
+      number: "186",
+      title: "Inquiry into Bankrupt's Transactions",
+      summary: "Trustee may investigate the bankrupt's transactions and dealings prior to bankruptcy."
+    },
+    {
+      number: "187",
+      title: "Search and Seizure During Bankruptcy",
+      summary: "Court may issue a search and seizure warrant during bankruptcy proceedings on similar terms to Art. 124."
+    },
+    {
+      number: "188",
+      title: "Allowing Bankrupt to Manage Business",
+      summary: "Court may allow a bankrupt to continue managing certain business activities on application and under specified conditions."
+    },
+    {
+      number: "189",
+      title: "Disclaimer of Onerous Property",
+      summary: "Trustee may disclaim onerous property or unprofitable contracts that would impose a liability on the estate."
+    },
+    {
+      number: "190",
+      title: "Vacancy in Office of Trustee",
+      summary: "Governs vacancy and replacement in the office of bankruptcy trustee."
+    },
+    {
+      number: "191",
+      title: "Creditors' Meeting During Bankruptcy",
+      summary: "Trustee may convene creditors' meetings to report on progress and seek guidance on major decisions."
+    },
+    {
+      number: "192",
+      title: "Committee of Inspection During Bankruptcy",
+      summary: "Creditors may establish a committee of inspection to supervise the trustee during bankruptcy."
+    },
+    {
+      number: "193",
+      title: "Powers of Committee of Inspection",
+      summary: "Committee of inspection supervises the trustee, inspects accounts, and has approval rights over major transactions."
+    },
+    {
+      number: "196",
+      title: "Distribution by Dividend",
+      summary: "Trustee distributes the bankrupt's estate to creditors by way of dividend, following the Art. 212 priority order."
+    },
+    {
+      number: "199",
+      title: "Final Distribution",
+      summary: "After confirmation of the final distribution plan, the administrator remits any surplus to the debtor."
+    },
+    {
+      number: "204",
+      title: "Ascertainment of Amount of Claim",
+      summary: "Claim amount is assessed as at the date of commencement of liquidation or bankruptcy. Interest accruing after commencement is not admissible as a claim."
+    },
+    {
+      number: "205",
+      title: "Claim of Uncertain Amount",
+      summary: "Where a claim is subject to a contingency, is for damages, or is otherwise uncertain in amount, the liquidator or trustee may estimate the amount or refer the matter to court for determination. Any claimant aggrieved by the liquidator's or trustee's estimate may apply to court for a determination."
+    },
+    {
+      number: "206",
+      title: "Mutual Credit and Set-Off",
+      summary: "Where there have been mutual credits, mutual debts, or other mutual dealings between a creditor and the debtor, the amounts are set off against each other. Only the net balance may be claimed in the insolvency proceedings or is payable to the estate."
+    },
+    {
+      number: "207",
+      title: "Claims by Unsecured Creditors",
+      summary: "Unsecured creditors may make claims without formality unless the liquidator or trustee requires a formal claim verified by statutory declaration with supporting documents. Liquidator or trustee may admit or reject any claim in whole or in part, and may revoke or amend such decisions."
+    },
+    {
+      number: "208",
+      title: "Secured Claims and Right of Retention",
+      summary: "Secured creditors are entitled to separate satisfaction from secured assets or to exercise a right of retention, in accordance with applicable laws. Key rule: priority of a charge depends on its date of registration, not the date the underlying debt arose — earlier registration ranks higher. Secured creditor rights under this Article do not apply where a recovery plan has been submitted to court."
+    },
+    {
+      number: "212",
+      title: "Priority Order for Distribution",
+      summary: "Assets are distributed in the following strict order of preference — no tier may receive payment until all higher tiers are satisfied in full: (1) Costs of maintaining, conserving and selling assets; administrator's or liquidator's fees and expenses; costs of essential services post-commencement; wages of estate management staff; court costs and legal costs; (2) Secured creditors, ranked by security registration date (earlier registration ranks higher), with interest calculated in prescribed manner; (3) Creditors with right of retention in respect of improvements made to an item; (4) Funeral and testamentary expenses chargeable to a deceased debtor's estate; (5) Employees' salaries and wages for the 6 months preceding insolvency; accrued leave/holiday pay due in the year preceding insolvency; other paid leave for up to 3 months before the liquidation date; and severance pay due under law, contract, or regulations; (6) Social security contributions; (7) Government taxes; (8) Unsecured claims. Note: business rescue finance (Art. 100) ranks between tier 7 and tier 8 — above ordinary unsecured claims but below all preferential and secured tiers."
+    },
+    {
+      number: "213",
+      title: "Surplus Assets",
+      summary: "After payment of all debts in full: in bankruptcy, surplus is returned to the bankrupt; in liquidation, surplus is distributed in accordance with the company's incorporation documents, partnership agreement, and applicable laws."
+    },
+    {
+      number: "214",
+      title: "Transactions of Particular Importance",
+      summary: "Where the administrator or liquidator intends to enter transactions of particular importance in relation to the insolvency proceedings, the creditors' committee must be consulted and approve the transaction."
+    },
+    {
+      number: "215",
+      title: "Voidable Preferences",
+      summary: "A transaction involving a transfer of property by a company or individual to another person is voidable on the insolvency practitioner's application to court if: (1) the transfer was made on account of antecedent debt; (2) the debtor was unable to pay debts when the transfer was made; (3) the transfer was made within the 1 year preceding commencement of liquidation or bankruptcy; and (4) the recipient received more than they would have received in the liquidation or bankruptcy. Safe harbour: where the debt was incurred in the ordinary course of business AND the transfer was made within 45 days of the debt being incurred, the transaction is not voidable on preference grounds. Presumption: a transfer made within 6 months preceding commencement is presumed (rebuttably) to have been made while the debtor was unable to pay due debts and on account of a debt incurred outside the ordinary course of business. No time limit: transfers made where there is evidence of actual fraudulent intent by the debtor AND the counterparty knew of that intent are void at any time — the 1-year lookback does not apply."
+    },
+    {
+      number: "216",
+      title: "Transactions at Undervalue",
+      summary: "A transaction entered into by a company or individual is voidable (on the insolvency practitioner's application to court) if: (1) it was entered into within 1 year preceding commencement of insolvency proceedings; (2) the consideration received was significantly less than the consideration provided; and (3) when the transaction was entered, the debtor was unable to pay due debts, was engaged (or about to engage) in transactions for which financial resources were unreasonably small, or incurred an obligation knowing they could not perform when required."
+    },
+    {
+      number: "217",
+      title: "Voidable Charges",
+      summary: "A charge over company or individual property created in respect of a debt is voidable on the insolvency practitioner's application, unless: (1) the charge secures the actual price or value of property sold or supplied to the debtor, or other valuable consideration given by the chargeholder before execution of the security, AND the debtor was able to pay due debts immediately after giving the charge; or (2) the charge is in substitution for a charge that was given more than 1 year before commencement of liquidation or bankruptcy. Presumption: a charge given within 6 months preceding commencement is presumed (rebuttably) to have been given at a time when the debtor was unable to pay due debts."
+    },
+    {
+      number: "218",
+      title: "Procedure for Setting Aside Voidable Transactions",
+      summary: "Insolvency practitioner applies to court to set aside a voidable transaction. Court may restore parties to their original positions."
+    },
+    {
+      number: "219",
+      title: "Effects of Setting Aside Voidable Transactions",
+      summary: "Upon court order setting aside a voidable transaction: the transaction is void; assets transferred must be returned to the estate; the transferee becomes an unsecured creditor for any consideration they paid."
+    },
+    {
+      number: "220",
+      title: "Acquired Rights During Insolvency",
+      summary: "Rights acquired by third parties in good faith and for value prior to the setting-aside application are protected."
+    },
+    {
+      number: "231",
+      title: "Persons Qualified to Act as Insolvency Practitioners",
+      summary: "Only persons meeting qualifications prescribed by the Registrar General are eligible to act as insolvency practitioners."
+    },
+    {
+      number: "232",
+      title: "Persons Disqualified — General Grounds",
+      summary: "Disqualified persons include: undischarged bankrupts; persons convicted of fraud or dishonesty; persons with a conflict of interest; persons removed from practice by their professional body; and minors."
+    },
+    {
+      number: "233",
+      title: "Persons Disqualified — Additional Grounds",
+      summary: "Further disqualification grounds as prescribed by Registrar General regulation."
+    },
+    {
+      number: "234",
+      title: "Prohibition Order",
+      summary: "Court may issue a prohibition order preventing a disqualified or unsuitable person from acting as an insolvency practitioner."
+    },
+    {
+      number: "235",
+      title: "Insolvency Practitioner's Right to Remuneration",
+      summary: "Insolvency practitioner is entitled to reasonable remuneration, approved by the creditors' committee or the court, payable from the estate as a first-priority administration expense (tier 1 of Art. 212)."
+    },
+    {
+      number: "236",
+      title: "Prescription",
+      summary: "Sets out limitation periods applicable to actions and claims in insolvency proceedings."
+    },
+    {
+      number: "237",
+      title: "Application of Cross-Border Insolvency Regime",
+      summary: "Chapter XII applies when: a foreign representative brings foreign proceedings to Rwanda for recognition; or Rwandan proceedings involve a debtor with cross-border assets or interests."
+    },
+    {
+      number: "238",
+      title: "Recognition of Cross-Border Insolvency Proceedings",
+      summary: "Court may recognise a foreign insolvency proceeding on application by the foreign representative as either: a 'foreign main proceeding' (debtor's centre of main interests is in that foreign state) or a 'foreign non-main proceeding' (debtor has an establishment in that state)."
+    },
+    {
+      number: "246",
+      title: "Application for Recognition of Foreign Proceeding",
+      summary: "Foreign representative applies to court for recognition; application must be accompanied by a certified copy of the order commencing the foreign proceeding and an affidavit from the foreign representative."
+    },
+    {
+      number: "248",
+      title: "Decision to Recognise Foreign Proceeding",
+      summary: "Court recognises the foreign proceeding if satisfied of the prescribed requirements, as either a main or non-main proceeding."
+    },
+    {
+      number: "249",
+      title: "Effects of Recognition of Foreign Proceeding",
+      summary: "Recognition of a foreign main proceeding: triggers an automatic stay on creditor enforcement actions in Rwanda; the insolvency practitioner's powers apply to Rwandan assets. Recognition of a non-main proceeding does not trigger the automatic stay but the court may grant discretionary relief."
+    },
+    {
+      number: "253",
+      title: "Protection of Creditors and Interested Persons",
+      summary: "Court must ensure that recognition of a foreign proceeding and any relief granted does not prejudice the interests of Rwandan creditors."
+    },
+    {
+      number: "258",
+      title: "Commencement of Insolvency Proceedings in Coordination with Foreign Proceedings",
+      summary: "Where both Rwandan and foreign insolvency proceedings are running concurrently, they are coordinated under Art. 259–260."
+    },
+    {
+      number: "262",
+      title: "Rule of Payment in Case of Multiple Proceedings (Hotchpot Rule)",
+      summary: "Where both Rwandan and foreign proceedings are running: a creditor who has already received payment abroad may not receive further distribution from Rwandan assets until other creditors of the same rank have received a proportionally equivalent amount. This prevents creditors from 'double-dipping' across jurisdictions."
+    },
+    {
+      number: "263",
+      title: "Offence: Acting as Insolvency Practitioner Without Qualification",
+      summary: "Any person who acts as an insolvency practitioner at a time when they are not qualified to do so commits an offence. Penalty on conviction: imprisonment of not less than 6 months but not exceeding 2 years AND/OR fine of not less than FRW 500,000 but not exceeding FRW 2,000,000."
+    },
+    {
+      number: "264",
+      title: "Offence: Absconding and Appropriating Assets During Insolvency Proceedings",
+      summary: "During liquidation or bankruptcy proceedings (or when an application for such has been filed), any person who: (1) leaves or attempts to leave Rwanda to avoid obligations; (2) conceals or removes property to prevent or delay the trustee taking custody or control; or (3) destroys, conceals, or removes records with intent to defraud or conceal affairs — commits an offence. Penalty on conviction: imprisonment of not less than 6 months but not exceeding 2 years AND/OR fine of not less than FRW 500,000 but not exceeding FRW 2,000,000. NOTE: Art. 123 prohibitions during company liquidation (including concealing company assets or documents) are enforced through this provision."
+    },
+    {
+      number: "265",
+      title: "Offence: Obtaining Credit or Engaging in Business While Undischarged Bankrupt",
+      summary: "An undischarged bankrupt who: (1) obtains credit (alone or jointly) without disclosing their bankruptcy status to the lender; or (2) engages in business under a name other than that under which they were adjudged bankrupt, without disclosing their bankruptcy to all business counterparties — commits an offence. Penalty on conviction: imprisonment of not less than 6 months but not exceeding 2 years AND/OR fine of not less than FRW 500,000 but not exceeding FRW 2,000,000."
+    },
+    {
+      number: "266",
+      title: "Offence: Failure to Keep Proper Business Accounts",
+      summary: "A bankrupt who willfully engaged in business for 2 years before the bankruptcy petition and did not keep accounting records giving a true and fair view of the business's financial position and explaining its transactions commits an offence. Penalty on conviction: imprisonment of not less than 2 months but not exceeding 6 months AND/OR fine of not less than FRW 500,000 but not exceeding FRW 1,000,000."
+    },
+    {
+      number: "267",
+      title: "Offence: Failure to Submit Statement of Affairs to Trustee",
+      summary: "A bankrupt who, without reasonable excuse, fails to submit the required statement of affairs (creditors, debts, assets, and prescribed information) to the trustee commits an offence. The statement is due within 20 working days of commencement of bankruptcy (Art. 182). Penalty on conviction: imprisonment of not less than 2 months but not exceeding 6 months AND/OR fine of not less than FRW 500,000 but not exceeding FRW 1,000,000."
+    },
+    {
+      number: "268",
+      title: "Offence: Trustee's Failure to Give Notice of Trusteeship",
+      summary: "A trustee who fails to give notice of trusteeship commits an offence, unless they prove they did not know (and could not reasonably have been expected to know) of the failure, or that they took all reasonable steps to ensure compliance. Penalty on conviction: fine only, of not less than FRW 500,000 but not exceeding FRW 1,000,000 (no imprisonment)."
+    },
+    {
+      number: "269",
+      title: "Offence: Misappropriation, Concealment or Fraudulent Claim of Debtor's Property",
+      summary: "Any liquidator or person who, directly or through a third party, misappropriates, conceals, or pretends to be the owner of the bankrupt's property, or fraudulently presents themselves as a creditor, commits an offence. This is the most serious offence in this Law. Penalty on conviction: imprisonment of not less than 3 years but not more than 5 years AND fine of not less than FRW 3,000,000 but not more than FRW 5,000,000 (both penalties are mandatory — no 'or')."
+    },
+    {
+      number: "270",
+      title: "Offence: Continuation of Business or Exercise of Managerial Power After Practitioner Appointment",
+      summary: "A debtor or any person who, with full knowledge of the appointment of an insolvency practitioner, continues to conduct business or exercise managerial powers commits an offence. Penalty on conviction: imprisonment of not less than 6 months but not exceeding 1 year AND/OR fine of not less than FRW 1,000,000 but not exceeding FRW 2,000,000."
+    },
+    {
+      number: "271",
+      title: "Law Applicable to Pending Cases",
+      summary: "All cases pending before courts at the time this Law comes into force are heard in accordance with the provisions of this Law."
+    },
+    {
+      number: "272",
+      title: "Language and Adoption",
+      summary: "Law was drafted in English, considered and adopted in Kinyarwanda."
+    },
+    {
+      number: "273",
+      title: "Repealing Provision",
+      summary: "Repeals Law N° 23/2018 of 29/04/2018 relating to insolvency and bankruptcy, and all other prior legal provisions contrary to this Law (which includes Law N° 12/2009 — the original commercial recovery law — previously repealed by 23/2018)."
+    },
+    {
+      number: "274",
+      title: "Entry into Force",
+      summary: "Comes into force on the date of publication in the Official Gazette: 30/12/2021."
+    }
+  ],
+  penalties: [
+    "Art. 263 — Acting as insolvency practitioner without qualification: imprisonment 6 months–2 years AND/OR fine FRW 500,000–2,000,000.",
+    "Art. 264 — Absconding, concealing/removing assets, or destroying records during insolvency proceedings (individual or company): imprisonment 6 months–2 years AND/OR fine FRW 500,000–2,000,000. Also enforces Art. 123 prohibitions for company liquidation scenarios.",
+    "Art. 265 — Undischarged bankrupt obtaining credit or conducting business without disclosure: imprisonment 6 months–2 years AND/OR fine FRW 500,000–2,000,000.",
+    "Art. 266 — Failure to keep proper business accounts (2 years pre-bankruptcy): imprisonment 2–6 months AND/OR fine FRW 500,000–1,000,000.",
+    "Art. 267 — Failure to submit statement of affairs to trustee within 20 working days: imprisonment 2–6 months AND/OR fine FRW 500,000–1,000,000.",
+    "Art. 268 — Trustee failure to give notice of trusteeship: fine only FRW 500,000–1,000,000 (no imprisonment).",
+    "Art. 269 — Misappropriation, concealment, or fraudulent claiming of debtor's property (most serious offence — both penalties mandatory): imprisonment 3–5 years AND fine FRW 3,000,000–5,000,000.",
+    "Art. 270 — Continuing business or exercising managerial powers after insolvency practitioner appointment: imprisonment 6 months–1 year AND/OR fine FRW 1,000,000–2,000,000."
+  ],
+  regulator: "Commercial courts — sole jurisdiction over all insolvency proceedings including appointment of practitioners, sanctioning plans, issuing stays, and all insolvency orders. Rwanda Development Board / Registrar General (RDB) — appoints provisional insolvency practitioners within 5 working days of application (Art. 42); appoints provisional interim trustees in bankruptcy (Art. 168); prescribes qualifications for insolvency practitioners (Arts. 231–233); receives and holds appointment documents (Art. 43); receives notice of liquidation commencement (Art. 106); receives interim and final liquidation reports (Art. 111). Regulatory authority (sector regulator, e.g. BNR for banks, RURA for telecoms) — may apply for commencement of insolvency proceedings against regulated entities (Art. 8); receives notice of insolvency proceedings (Art. 106). Minister in charge of Trade — general framework oversight.",
+  keyDeadlines: [
+    "Art. 5 — Public newspaper notice to creditors: must run for 30 days in a widely-read national or international newspaper.",
+    "Art. 12 — Where debtor intends to submit reorganization plan with application: all claims (including secured) stayed from application date; debtor must submit plan within 3 months of filing; total stay cannot exceed 6 months (inclusive of 3-month plan period); on expiry without court decision, secured creditors automatically entitled to enforce.",
+    "Art. 15/21 — Individual debt arrangement: proposed supervisor must convene creditors' meeting within 30 working days of interim order; notice to creditors at least 10 working days before the meeting.",
+    "Art. 40 — Dissenting creditor application against compromise: within 20 working days of notice that compromise was approved.",
+    "Art. 42 — Registrar General appointment of provisional administrator: within 5 working days of receipt of application.",
+    "Art. 44 — Provisional administrator first creditors' meeting: within 5 working days of commencement; notice to creditors at least 2 working days before the meeting; creditors may replace provisional administrator within 15 days at that meeting.",
+    "Art. 54 — Provisional administrator proposals creditors' meeting: within 20 working days of commencement of provisional administration; notice to creditors at least 5 working days before the meeting.",
+    "Art. 58 — Execution of administration deed: within 21 days of the creditors' meeting (extendable by court order).",
+    "Art. 59 — Provisional administrator termination meeting: within 20 working days of commencement (extendable by court).",
+    "Art. 83 — Notice of termination of administration: within 5 working days of termination date — public notice plus individual written notice to all known creditors.",
+    "Art. 87 — Secured creditor stay under reorganization: 6 months from reorganization application, renewable up to 3 times by court order.",
+    "Art. 89 — Reorganization plan preparation: within 45 days of the reorganization order.",
+    "Art. 90 — Creditors' meeting to approve reorganization plan: within 15 working days of plan completion; at least 10 working days' notice to creditors before the meeting.",
+    "Art. 91 — Reorganization plan approval threshold: 75% of votes of creditors (or each class) participating.",
+    "Art. 99 — Business rescue finance approval threshold: simple majority of votes cast (not 75%).",
+    "Art. 101 — Creditor application to cancel rescue finance: within 20 working days of the approval notice.",
+    "Art. 103 — Creditor application to change liquidator: within 15 working days of appointment.",
+    "Art. 106 — Liquidator public notice and notice to Registrar General: within 5 working days of commencement of liquidation duties.",
+    "Art. 110 — Liquidator's preliminary report to creditors, shareholders, and supervisor: within 20 working days of commencement of liquidation.",
+    "Art. 111 — Liquidator's interim reports: within 20 working days after the end of each 6-month period from commencement.",
+    "Art. 182 — Bankrupt's statement of affairs to trustee: within 20 working days of commencement of bankruptcy (extendable by trustee or court).",
+    "Art. 204 — Claims assessed as at: date of commencement of liquidation or bankruptcy; post-commencement interest not admissible.",
+    "Art. 212 — Priority waterfall: 8-tier order strictly mandatory for all distributions.",
+    "Art. 215 — Voidable preference lookback: 1 year; 6-month rebuttable presumption of insolvency; 45-day safe harbour for ordinary course payments; fraudulent transfers void at any time.",
+    "Art. 216 — Undervalue transaction lookback: 1 year.",
+    "Art. 217 — Voidable charge lookback: 6-month rebuttable presumption; safe harbour if charge substitutes one given more than 1 year before commencement.",
+    "Art. 271/274 — Pending cases: governed by this Law from 30/12/2021."
+  ],
+  effectiveDate: "30/12/2021",
+  corporateKeyPoints: [
+    "Art. 212 priority waterfall — employees (6 months wages) rank 5th; government taxes rank 7th; unsecured creditors rank last. Banks and secured lenders rank 2nd by registration date.",
+    "Art. 208 — Security priority runs from REGISTRATION date, not debt origination date. Earlier registration = higher rank. Critical for banks and lenders.",
+    "Art. 87/12 — Automatic stay on all enforcement actions upon reorganization commencement. Secured creditors' stay: 6 months, renewable up to 3 times. If debtor invokes reorganization plan intent at application stage, ALL claims (including secured) are stayed immediately.",
+    "Art. 97/100 — Business rescue finance available after commencement of arrangement, compromise, administration, or reorganization. Approved by simple majority. Ranks above ordinary unsecured creditors.",
+    "Art. 91 — 75% threshold for reorganization plan. Multi-class: each class approval presumed conditional on all other classes approving.",
+    "Art. 125/126 — Pooling of related companies' assets. Material risk for corporate groups — court may merge estates of intermingled subsidiaries.",
+    "Arts. 215–217 — Voidable transactions: 1-year lookback for preferences and undervalue; 6-month charge presumption. All transactions and security within 1 year before insolvency should be reviewed on appointment.",
+    "Art. 262 — Hotchpot rule: creditors paid abroad cannot receive Rwandan distribution until other same-ranking creditors are paid equivalent proportions. Material for multinationals.",
+    "Art. 269 — Misappropriation by liquidator: most serious offence, both imprisonment (3–5 years) and fine (FRW 3–5M) are mandatory on conviction.",
+    "No statutory minimum debt for creditor bankruptcy application against individuals (Art. 167)."
+  ]
+}
+    {
+  id: "payment-system-061-2021",
+  title: "Payment System Law",
+  citation: "Law N° 061/2021 of 14/10/2021",
+  gazetteRef: "Official Gazette N° 41 Bis of 01/11/2021",
+  repeals:
+    "Law N° 03/2010 of 26/02/2010 on payment system as amended to date, except Article 23 thereof (establishing the National Payment System Council, preserved in force). All other prior contrary legal provisions also repealed.",
+  articles: [
+    {
+      number: "1",
+      title: "Purpose",
+      summary: "Governs the payment system in Rwanda.",
+    },
+    {
+      number: "2",
+      title: "Scope",
+      summary:
+        "Applies to the oversight, supervision, management, operation, and administration of payment systems and payment services, and their applicable regulations.",
+    },
+    {
+      number: "3",
+      title: "Definitions",
+      summary:
+        "Key terms defined: 'payment system' — set of payment instruments, rules, participants, principles and technologies used for fund transfer; 'payment services' — the eight types listed in Art. 15; 'payment service provider' — body corporate authorised by BNR to provide payment services to customers and businesses; 'payment instrument' — personalised device or set of procedures agreed between user and provider used to initiate a payment order; 'payment account' — account held in name of one or more consumers used for payment transactions; 'settlement' — act of discharging obligations by transferring funds, securities, or other financial instruments between two or more parties; 'clearing' — process of transmitting, reconciling and confirming transactions prior to settlement; 'netting' — conversion of different claims or obligations between participants into one net claim or obligation for settlement purposes; 'settlement account' — account in books of a settlement agent used for holding funds and financial instruments and settling transfer orders between payment system participants; 'settlement agent' — entity providing settlement accounts to participants and extending intraday credit for settlement purposes; 'operator' — entity in charge of operating or administering the payment system; 'participant' — entity with a role in the payment system or party to a system arrangement, including its operator; 'agent' — natural or legal person acting on behalf of a payment institution in providing payment services; 'access' — entity's entitlement or eligibility to participate in the payment system; 'access regime' — regime imposed by BNR setting terms and conditions of participation; 'rules' — document containing guidelines of the payment system, evidenced in writing; 'financial collateral' — cash, financial instruments, or precious metals; 'financial collateral arrangement' — title transfer or security financial collateral arrangement, whether or not under a master agreement; 'financial instruments' — shares, bonds, debt instruments, derivatives, and other negotiable capital market securities including collective investment scheme units and money market instruments, excluding payment instruments; 'collateral taker' — person receiving financial collateral; 'collateral provider' — person providing financial collateral; 'book entry' — transfer of securities without physical movement of paper; 'book entry collateral' — financial securities provided under a financial collateral arrangement, title evidenced by entries in a register or account; 'cash' — money credited to an account in any currency or similar repayment claims; 'enforcement event' — default or agreed event triggering collateral taker's right to realise or appropriate financial collateral, or activating close-out netting; 'safeguarding institution' — financial institution holding customer funds on behalf of a payment service provider; 'systemic risk' — risk that inability of one participant to meet obligations, or a system disruption, causes inability of other participants or financial institutions to meet their obligations as they fall due; 'insolvency proceeding' — any collective measure to wind up or reorganise a person or entity where it involves suspension or limitations on transfers or payments in Rwanda; 'certificate' — physical document evidencing ownership, indebtedness, or other outstanding obligations of the issuer; 'securities settlement system' — system enabling securities to be transferred and settled by book entry under predetermined multilateral rules.",
+    },
+    {
+      number: "4",
+      title: "BNR General Powers over Payment System",
+      summary:
+        "BNR has power to regulate, oversee, and supervise all payment systems and payment services operated in Rwanda.",
+    },
+    {
+      number: "5",
+      title: "BNR Investigative Powers",
+      summary:
+        "BNR may at any time request from payment service providers or operators any information, documents, clarifications, or proof it requires. BNR may appoint its own auditors or third parties to inspect payment systems and providers; auditors may seize or copy relevant documents. BNR may instruct external auditors to audit the payment system, operators, issuers of payment instruments, and participants. External audits are conducted on behalf of BNR but at the audited entity's expense. External auditors must cooperate with BNR and may not invoke professional secrecy against BNR.",
+    },
+    {
+      number: "6",
+      title: "BNR Responsibilities",
+      summary:
+        "BNR's responsibilities include: formulating policies for modernisation of the payment system; issuing licences to payment system operators and payment service providers; establishing general and individual standards, rules, and procedures and ensuring their application; providing a policy forum for mutual interest matters; issuing regulations, directives, and decisions governing payment system operation; collecting, compiling, and disseminating monetary and financial statistics; operating clearing and settlement systems and issuing payment instruments; and performing all other settlement obligations.",
+    },
+    {
+      number: "7",
+      title: "BNR Operational Role",
+      summary:
+        "BNR may provide settlement, clearing, and securities settlement infrastructure for the benefit of operators and participants. BNR may: establish, own, and operate settlement and securities settlement systems; open and hold cash accounts for operators and participants; hold securities on accounts for operators and participants; and extend intraday credit in cash or securities to financial institutions or entities participating in settlement, clearing, and securities settlement systems.",
+    },
+    {
+      number: "8",
+      title: "Designation of Payment Systems",
+      summary:
+        "Where BNR is of the opinion that a clearing and settlement system may pose a systemic risk and it is in the public interest, BNR may designate it by directive as a designated payment system. The designation directive specifies: the designated payment system; the documents evidencing its rules; the operator; and conditions of the designation. BNR issues general regulations governing the designation process.",
+    },
+    {
+      number: "9",
+      title: "Procedure for Designation",
+      summary:
+        "Designation may be initiated: by BNR advising the operator to apply; or voluntarily by the operator applying to BNR. BNR may issue a designation directive only if it is satisfied that deficiencies in the system's design, or disruption of its operation, would threaten the stability of or confidence in Rwanda's financial system, or have serious consequences for business or other interests in Rwanda.",
+    },
+    {
+      number: "10",
+      title: "Criteria for Designation",
+      summary:
+        "In designating a payment system, BNR considers: (1) the number and value of transactions the system presently processes or is likely to process in future; (2) the nature of the transactions processed; (3) whether those transactions could be handled by other payment systems; and (4) the relationship between the system and other systems.",
+    },
+    {
+      number: "11",
+      title: "Revocation of Designation Directive",
+      summary:
+        "A designation is effective until revoked. BNR may revoke a designation directive if the designated payment system no longer satisfies the Art. 10 criteria. BNR must consider a revocation request filed by the operator.",
+    },
+    {
+      number: "12",
+      title: "Principles, Rules and Directives of Payment System",
+      summary:
+        "BNR may by directive publish principles and codes of practice governing operators of designated payment systems. BNR requires the designated system operator to: establish rules; change rules in a specified way or to achieve a specified purpose; and notify BNR of any proposed rule change. Prior BNR approval is required before implementing any rule changes. BNR may give binding directives to the operator — requiring or prohibiting specified actions, and setting operational standards. Rules of a designated payment system are valid and binding on both the operator and all participants.",
+    },
+    {
+      number: "13",
+      title: "Forms of Payment System Rules",
+      summary:
+        "Payment system rules may be made under procedures, bylaws, written agreements, contracts, or other written documents that serve as the basis for: giving and receiving payment instructions; determining and calculating payment obligations; effecting settlements on a gross or clearing basis; and actions to be taken if a participant is or is likely to become unable to meet their obligations.",
+    },
+    {
+      number: "14",
+      title: "Access Regime",
+      summary:
+        "BNR may impose an access regime on the person who determines access to a payment system — whether a participant, operator, or settlement agent — on such terms as BNR considers appropriate. In assessing whether to impose an access regime, BNR considers: whether it is in the public interest; interests of current participants, operator, and settlement agent; interests of persons who may wish to access the system; and other relevant factors. BNR ensures any access regime imposed is fair, non-discriminatory, and proportionate. BNR may vary or revoke an access regime.",
+    },
+    {
+      number: "15",
+      title: "Types of Payment Services",
+      summary:
+        "Payment services include: (1) cash deposit and withdrawal services on a payment account, and all operations for managing a payment account; (2) execution of payment transactions including fund transfers — covering (a) direct debits including one-off direct debits, (b) payment card transactions, and (c) credit transfers including standing orders; (3) issuing of payment instruments; (4) acquiring of payment transactions — physically, online, or through a payment aggregator; (5) money remittance; (6) payment initiation services; (7) issuance and management of e-money services; and (8) other payment services as BNR may determine.",
+    },
+    {
+      number: "16",
+      title: "Categories of Payment Service Licences",
+      summary:
+        "BNR determines by regulation the categories of payment service licences and licensing requirements — these are NOT specified in this Law. Any person wishing to provide payment services must obtain the appropriate licence in writing from BNR. BNR determines the procedure and form for licence applications. NOTE FOR GC USE: Licence tiers, minimum capital requirements, and detailed licensing criteria are entirely in BNR regulations. This statute only establishes the licensing obligation and the exemptions in Art. 17.",
+    },
+    {
+      number: "17",
+      title: "Payment Service Licensing Exemptions",
+      summary:
+        "The following are exempt from the payment service licensing requirement and may provide payment services under their existing authorisation: (1) banks licensed by BNR — their banking licence covers payment services; (2) microfinance institutions authorised to provide payment services; and (3) such other persons or classes of persons as BNR may prescribe. PRACTICAL SIGNIFICANCE: A GC at a BNR-licensed bank does not need to obtain a separate payment service licence for the bank's payment activities. This is one of the most practically important articles for corporate in-house counsel.",
+    },
+    {
+      number: "18",
+      title: "Grounds for Withdrawal or Suspension of Licence",
+      summary:
+        "BNR may at any time withdraw or suspend a payment service provider's licence if: (1) the provider has not provided the services within 12 consecutive months from the licence date; (2) the provider has ceased providing services for more than 1 month; (3) the licence was obtained through forged documents or fraud; (4) applicable licensing criteria are no longer met; (5) the provision of payment services endangers the stability of Rwanda's financial system; (6) the provider enters insolvency proceedings; (7) the provider's holding company is undergoing liquidation that may adversely affect the provider; (8) BNR considers the system is no longer in public interest or no longer represents participants' interests; (9) the provider fails to comply with relevant legislation and regulations; or (10) any other ground BNR deems relevant.",
+    },
+    {
+      number: "19",
+      title: "Notice of Withdrawal, Suspension or Surrender of Licence",
+      summary:
+        "After deciding to withdraw or suspend a licence, BNR notifies the provider of its decision and publishes notice in a manner it considers appropriate. A licensed payment service provider may voluntarily surrender its licence by giving written notice in BNR-prescribed form; surrender is published by BNR.",
+    },
+    {
+      number: "20",
+      title: "Validity of Acts Performed Before Withdrawal, Suspension or Surrender",
+      summary:
+        "Withdrawal, suspension, or surrender of a licence does not affect: (1) any agreement, transaction, or arrangement relating to payment service provision entered into before the withdrawal, suspension, or surrender; or (2) any right, obligation, or liability arising under such agreement, transaction, or arrangement. Pre-existing transactions are protected — counterparties are not prejudiced by a provider's licence loss.",
+    },
+    {
+      number: "21",
+      title: "Duty of Payment Service Provider to Notify BNR of Certain Events",
+      summary:
+        "A payment service provider must notify BNR after the occurrence of any of the following: (1) any civil or criminal proceeding instituted against the provider, whether in Rwanda or abroad; (2) any event (including operational irregularity) that materially impedes or impairs the provider's operations; (3) the provider becomes or is likely to become insolvent, or unable to meet financial, statutory, contractual, or other payment service obligations; (4) disciplinary action taken by any regulatory authority other than BNR, in Rwanda or abroad; (5) significant change to regulatory requirements imposed by any authority other than BNR, in Rwanda or abroad; or (6) any other event specified by BNR by written notice. ENFORCEMENT: Failure to comply with Art. 21 notification obligations constitutes an administrative fault under Art. 49, subject to BNR administrative sanctions. It is NOT a criminal offence under Art. 50. The distinction matters: Art. 49 administrative sanctions are determined by BNR regulation (amounts not specified in this Law); Art. 50 criminal prosecution is reserved for the seven specific acts listed in that article.",
+    },
+    {
+      number: "22",
+      title: "Prohibition Against Solicitation",
+      summary:
+        "It is prohibited for any person — whether in Rwanda or abroad — to hold themselves out as a payment service provider and invite the public to use or advertise payment services without a BNR licence. Violation is a criminal offence under Art. 50(7).",
+    },
+    {
+      number: "23",
+      title: "Place of Business",
+      summary:
+        "A payment service provider must have a permanent place of business or registered office in Rwanda before starting to provide services. The provider must appoint at least one person to be present at the business address, on days and hours specified by BNR, to address queries or complaints from users or customers.",
+    },
+    {
+      number: "24",
+      title: "Fees Payable by Payment Service Provider",
+      summary:
+        "Every payment service provider pays an annual fee prescribed by BNR. BNR may prescribe different annual fees for different categories of providers depending on the type and number of licensed payment services, transaction volumes, and other relevant factors. Fee amounts are NOT specified in this Law — they are set by BNR regulation.",
+    },
+    {
+      number: "25",
+      title: "Interoperability of Payment Accounts",
+      summary:
+        "BNR establishes regulations governing procedures by which payment service providers enter into arrangements with operators to achieve interoperability of payment accounts with the payment system. In determining interoperability requirements, BNR considers: whether it is in the public interest; interests of current participants and operator; interests of persons who may be required to participate; and other relevant factors. NOTE FOR GC USE: This article is framework only. No mandatory connection obligations, technical standards, or specific interoperability timelines are in this statute. Actual interoperability requirements are in BNR regulations.",
+    },
+    {
+      number: "26",
+      title: "Exercise of Oversight Powers",
+      summary:
+        "BNR's oversight powers include: (1) gathering information from all designated payment systems and payment service providers to monitor the sector and identify emerging risks; (2) requiring systemically important payment systems to be designated; (3) setting standards and supervising designated payment systems, participants, and providers; and (4) establishing a crisis management and resolution framework for the payment system.",
+    },
+    {
+      number: "27",
+      title: "Regulatory Fees and Other Charges",
+      summary:
+        "BNR may impose regulatory fees and other charges: (1) to recover its direct and indirect costs of oversight, supervision, and regulatory services to providers, operators, and participants; and (2) for the provision of operational services and infrastructure.",
+    },
+    {
+      number: "28",
+      title: "Consumer Protection",
+      summary:
+        "Every payment service provider must protect consumers of payment services in accordance with relevant laws and regulations. NOTE FOR GC USE: This is the entire text of Art. 28 — one sentence. It contains no substantive consumer protection obligations. Rights regarding unauthorised transactions, failed payments, dispute resolution with customers, refunds, and complaint handling are NOT in this statute. They are governed by: BNR Consumer Protection Directive for payment services (BNR regulation); Competition and Consumer Protection Law N° 036/2012 (committed in Me Ngoga); and general contract law. Art. 52 dispute resolution in this Law covers only operator-to-participant disputes — NOT customer complaints.",
+    },
+    {
+      number: "29",
+      title: "Use of an Agent",
+      summary:
+        "A payment service provider wishing to use an agent to provide payment services must apply to BNR for approval before deploying the agent. BNR establishes regulations on requirements for using agents. The provider must ensure its agent informs consumers that they are acting as an agent.",
+    },
+    {
+      number: "30",
+      title: "Outsourcing of Important Operational Functions",
+      summary:
+        "A payment service provider or operator cannot outsource any operational functions without prior written BNR approval. Outsourcing must not materially impair the quality of the operator's or provider's internal controls, or BNR's ability to monitor compliance. A function is 'important' if a defect or failure in its performance would materially impair the operator's or provider's continuing compliance with licence requirements, financial performance, or soundness and continuity of services.",
+    },
+    {
+      number: "31",
+      title: "Compliance Requirements in Outsourcing",
+      summary:
+        "BNR ensures the following are not violated when outsourcing important operational functions: (1) senior management must not delegate its responsibilities to the outsourced party; (2) the relationship and obligations of the payment instrument issuer to its users must not be altered; (3) the conditions the operator or provider must meet to hold its licence must not be undermined; and (4) other conditions of the licence must not be removed or modified.",
+    },
+    {
+      number: "32",
+      title: "Liability for Outsourced Functions",
+      summary:
+        "Where a payment service provider or operator relies on third parties for important operational functions, it remains fully liable for all acts of its employees, agents, branches, or entities to which activities are outsourced. Outsourcing does not transfer legal liability.",
+    },
+    {
+      number: "33",
+      title: "Appointment of External Auditor",
+      summary:
+        "Every operator or payment service provider must designate at least one external auditor accredited by BNR. The auditor must appear on the list regularly maintained by the accounting professional regulatory body. Only a body corporate may act as external auditor.",
+    },
+    {
+      number: "34",
+      title: "Requirements for Disclosure of Information",
+      summary:
+        "BNR may disclose any information it considers necessary and in the public interest to protect the integrity, effectiveness, and security of the payment system. Confidentiality obligations do not apply to disclosures made in the performance of functions under this Law or the rules of a designated payment system, or when required by court. BNR does not publish or disclose information or data unless satisfied that adequate confidentiality protections exist.",
+    },
+    {
+      number: "35",
+      title: "Financial Collateral Arrangement",
+      summary:
+        "A financial collateral arrangement provides for: (1) the obligation to provide financial collateral; (2) additional financial collateral to reflect changes in value of the collateral and guaranteed obligations (top-up margin); and (3) the right to withdraw financial collateral through substitution or exchange. Delivery of financial collateral is valid and enforceable against third parties and any liquidator, and cannot be challenged on any ground whatsoever. A financial collateral arrangement is validly concluded once the collateral is transferred or registered on behalf of the collateral taker.",
+    },
+    {
+      number: "36",
+      title: "Evidence for Financial Collateral Arrangement",
+      summary:
+        "A financial collateral arrangement may be evidenced in writing or by any other legal means.",
+    },
+    {
+      number: "37",
+      title: "Realisation of Financial Collateral",
+      summary:
+        "On the occurrence of an enforcement event, the collateral taker immediately realises any financial collateral under the agreed terms, without any prior court notice or approval, and without any other formality required. The collateral taker's rights over the financial collateral prevail over the rights of any other creditor of the collateral provider — this is super-priority over all other creditors. INSOLVENCY INTERACTION: This provision works alongside Art. 38 to protect financial collateral from insolvency avoidance actions, and alongside Art. 40 to make close-out netting immediately enforceable against a liquidator. See insolvencyInteractionCluster below.",
+    },
+    {
+      number: "38",
+      title: "Non-Retroactive Effect on Acts Prior to Insolvency Proceedings",
+      summary:
+        "A financial collateral arrangement cannot be declared invalid or revisited because of the opening of insolvency proceedings, if the collateral was given before or on the day insolvency proceedings opened AND the collateral taker was unaware of the opening of insolvency proceedings. INSOLVENCY INTERACTION: This is a direct safe harbour overriding Insolvency Law N° 075/2021 Arts. 215–217 (voidable preferences, undervalue transactions, voidable charges) in the payment system context. Collateral given within the normal Insolvency Law lookback periods (1 year for preferences and undervalue; 6 months for charges) is protected here provided the collateral taker had no knowledge of the insolvency opening.",
+    },
+    {
+      number: "39",
+      title: "Netting Process",
+      summary:
+        "The netting process may take place on a bilateral or multilateral basis; with or without interposition of an operator, whether by novation or otherwise; regardless of whether or not the obligations constitute mutual credits, mutual debts, or other mutual dealings.",
+    },
+    {
+      number: "40",
+      title: "Validity and Enforceability of Netting and Close-Out Netting",
+      summary:
+        "Where the rules of a designated payment system provide for netting, any netting in accordance with those rules is valid and enforceable. Insolvency law provisions do NOT apply to netting effected under the rules of a designated settlement system — insolvency cannot unwind a completed netting. Exception: where the insolvent participant and another participant (both in the same designated system) also have mutual credits, debts, or dealings between them that are NOT netted under the system rules, the netted balance of those off-system dealings is subject to insolvency law. Close-out netting provisions are valid, enforceable, and binding on third parties including the liquidator, taking immediate effect without prior court application. The operator may effect netting of all obligations owed to or by a participant incurred before or on the day of a bankruptcy or winding-up order or voluntary winding-up resolution. A 'close-out netting provision' triggers on an enforcement event: (1) all obligations of both parties are accelerated and terminated, expressed as a net obligation to pay an amount representing current value; and (2) a net sum is payable by the party with the larger obligation.",
+    },
+    {
+      number: "41",
+      title: "Information Mechanisms on Insolvency of Participants",
+      summary:
+        "Where a competent authority opens insolvency proceedings against a payment system participant, it must immediately inform BNR. Where BNR itself authorises voluntary or forced liquidation of a participant, BNR must specify in its decision when the decision becomes effective. On notification from a competent authority (domestic or foreign), BNR puts in place means to implement the decision.",
+    },
+    {
+      number: "42",
+      title: "Duty to Notify Winding Up",
+      summary:
+        "No payment system participant can be wound up without prior notification to BNR. On winding up of a participant: a copy of the winding-up application AND the subsequent winding-up order (recording the exact minute, hour, and day it was made) must be lodged with BNR on the same business day and no later than the start of the next business day, and served on any settlement agent requiring notification. BNR immediately notifies all relevant domestic and foreign system operators of the winding-up proceedings. The payment system operator enforces the winding-up order upon BNR notification. Voluntary winding up: participant must notify all other participants within 24 hours of the winding-up resolution taking effect (requires prior BNR approval). BNR notifies relevant domestic and foreign operators and participants on the same business day, no later than start of next business day. ENFORCEMENT: Failure to notify BNR before winding up a participant is an administrative fault under Art. 49, also potentially a criminal offence under Art. 50(1) if the entity continued operating without compliance.",
+    },
+    {
+      number: "43",
+      title: "Definitive Character of Designated Payment Systems (Settlement Finality)",
+      summary:
+        "A settlement effected in accordance with this Law is final, irrevocable, and cannot be reversed or set aside. Insolvency proceedings opened against a participant do NOT have retroactive effect on their payment obligations if those obligations arose before the opening of insolvency proceedings. Insolvency proceedings are implemented from the time the operator is notified — NOT from the date of filing or the court order date. Payment instructions legally entered into a designated payment system before commencement of insolvency proceedings (or before netting) are valid and cannot be challenged on any ground, even if an operator is subsequently dissolved. System rules must define the time at which a payment instruction is considered entered into the system. CRITICAL GC NOTE: Whether a specific payment is protected depends on when it was 'entered' into the specific designated system used — defined by that system's rules, not this statute. The legal protection is system-specific. For RTGS, SWIFT, mobile money interswitch, and other systems, the entry time rules differ.",
+    },
+    {
+      number: "44",
+      title: "Credit or Debit of Settlement Account",
+      summary:
+        "Settlement obligations are discharged with BNR money through book entries in BNR's books. Notwithstanding insolvency proceedings against a participant, the settlement agent may — if authorised by contract — use funds or financial instruments on the participant's settlement account to settle any net debit balance after netting. During insolvency proceedings, the settlement agent may use credit lines granted to the participant or realise any collateral provided by the participant to pay obligations to other participants.",
+    },
+    {
+      number: "45",
+      title: "Prohibition of Attachment or Seizure of Settlement Accounts",
+      summary:
+        "Settlement account balances may not be subject to attachment or seizure, except by the operator or settlement agent themselves. All funds deposited in a trust or collection account: (1) are not available for payment of the payment service provider's own debts; and (2) cannot be paid or taken in execution under any court order or process. These are ring-fenced funds, fully insulated from the provider's insolvency and from court enforcement by third-party creditors.",
+    },
+    {
+      number: "46",
+      title: "Safeguarding of Funds Received from Customers",
+      summary:
+        "A payment service provider collecting customer funds must safeguard those funds in one of the following BNR-prescribed manners: (1) depositing the same amount in a trust account with a BNR-authorised safeguarding institution; (2) obtaining an undertaking from a safeguarding institution to be fully liable to the customer for the funds; (3) a guarantee from the safeguarding institution for the amount of collected funds; or (4) any other manner prescribed by BNR. The safeguarding institution and provider must maintain a separate book entry for each customer's funds. On the provider's insolvency: guarantee proceeds must be paid into a separately designated safeguarding account held by the provider, used only to hold proceeds on trust for the customers who provided the funds. PRACTICAL EFFECT: Customer funds (e.g. mobile wallet balances, prepaid card balances) are legally ring-fenced from the provider's estate on insolvency. Combined with Art. 45, this means customers are protected even if the provider fails.",
+    },
+    {
+      number: "47",
+      title: "Crisis Management Powers",
+      summary:
+        "Where BNR is of the opinion that an operator or payment service provider: (1) is or is likely to become insolvent, or unable to meet obligations, or has suspended or is about to suspend payments; (2) has contravened prescribed conditions; or (3) that action is in the public interest — BNR may: (a) require the operator or provider to immediately take any action or do or not do any specified act in relation to its business; (b) appoint one or more statutory advisers on terms BNR specifies, to advise on proper management; or (c) assume control of and manage the business of the operator or provider, or appoint one or more statutory managers to do so on specified terms. CRITICAL GAP FOR GC USE: This article contains no procedural safeguards — no prior notice requirement to the affected entity, no hearing, no judicial oversight, and no right of appeal on the face of this statute. BNR may act immediately and unilaterally. A GC at an operator subjected to a BNR intervention under Art. 47 has no statutory basis for challenge within this Law. Any challenge must proceed through general administrative law — High Court judicial review of administrative action — or through BNR's own governance framework if BNR has published an appeals procedure. This is the most consequential BNR power in this Law and it operates without statutory constraint on process.",
+    },
+    {
+      number: "48",
+      title: "Applicable Law in Case of Conflicting Laws Governing a Payment System",
+      summary:
+        "In the event of insolvency of a foreign participant in Rwanda, the following settlement-related rights and obligations are governed by Rwandan law: (1) rights and obligations arising from or connected to participation in the system; (2) requirements for perfecting a financial collateral arrangement relating to book entry securities collateral and its provision — enforceable against third parties; (3) a person's title to or interest in book entry securities collateral; and (4) steps required for realisation of book entry securities collateral. Conversely, the rights and obligations of a Rwandan participant in a foreign payment system are governed by the law of that foreign system.",
+    },
+    {
+      number: "49",
+      title: "Administrative Faults and Sanctions",
+      summary:
+        "Where BNR finds that a payment service provider, operator, a member of their board of directors, or a member of senior management violates any provision of this Law or its implementing regulations, BNR imposes administrative sanctions on them. SCOPE: Art. 49 is the enforcement mechanism for ALL compliance obligations under this Law that are not separately listed as criminal offences in Art. 50. This includes failures under: Art. 21 (duty to notify BNR of material events); Art. 23 (place of business and staffing requirements); Art. 25 (interoperability obligations); Art. 29 (agent approval requirements); Art. 30 (outsourcing prior approval); Art. 33 (external auditor appointment); Art. 34 (information disclosure obligations); Art. 46 (customer fund safeguarding); Art. 55 (AML/CFT compliance); and all BNR regulations made under this Law. CRITICAL DISTINCTION: Art. 49 administrative sanctions apply to regulatory compliance failures. Art. 50 criminal offences are a separate, exhaustive list of seven specific acts. For example, failing to notify BNR of approaching insolvency under Art. 21(3) triggers Art. 49 administrative sanctions — NOT criminal prosecution under Art. 50. AMOUNTS NOT IN THIS LAW: Specific administrative fault categories, sanction amounts, the procedure for imposing sanctions, and the appeal process are entirely delegated to BNR regulation and are NOT specified in this statute.",
+    },
+    {
+      number: "50",
+      title: "Criminal Offences in Payment System",
+      summary:
+        "The following are an exhaustive list of criminal offences under this Law — only these seven acts constitute criminal offences; all other violations are administrative faults under Art. 49: (1) operating as a payment system operator or service provider without a BNR licence; (2) failing to respond to BNR information requests, or knowingly providing false information to BNR; (3) damaging, destroying, altering, or falsifying accounts, books, or records of an operator or participant; (4) interfering in any way with BNR's audit activities or those of another competent auditor, or refusing document access; (5) falsely claiming to be a designated payment system operator without BNR designation; (6) misusing payment system information for personal or third-party advantage in violation of this Law; and (7) soliciting the public to use, or advertising, payment services without a licence. Penalties for individuals on conviction: imprisonment of 6 months to 1 year AND/OR fine of FRW 5,000,000 to FRW 10,000,000. Penalties for operators, payment service providers, companies, organisations, or legal persons on conviction: fine of 10 to 20 times the individual fine amount (FRW 50,000,000 to FRW 200,000,000) OR dissolution — this is among the highest corporate criminal exposure in Rwandan financial sector law.",
+    },
+    {
+      number: "51",
+      title: "Admissibility of Electronic and Optical Evidence",
+      summary:
+        "The enforceability and evidential value of electronic fund transfers and records are governed by relevant laws. Information stored, disseminated, or used by participants and operators is not denied legal effect solely because: (1) it is in electronic form; or (2) it is referenced in another electronic record rather than incorporated directly. Payment instruments already entered into a system, or their archives held in writing, electronic or optical form, or other durable medium ensuring traceability — including printouts — are admissible as evidence in all legal matters.",
+    },
+    {
+      number: "52",
+      title: "Dispute Settlement",
+      summary:
+        "Disputes between an operator and a participant, or between participants, arising from the operation of a payment system, are settled in accordance with BNR directives. A dissatisfied party may refer the matter to other competent organs. SCOPE LIMITATION: Art. 52 covers only industry-level disputes — operator versus participant, or participant versus participant — about payment system operation. It does NOT cover: customer complaints against payment service providers about failed transactions, unauthorised debits, delayed credits, or payment errors. Customer dispute rights are not addressed in this statute. They are governed by BNR consumer protection directives and Competition Law N° 036/2012.",
+    },
+    {
+      number: "53",
+      title: "Exchange of Information Between Regulators",
+      summary:
+        "No obligation of secrecy or restriction on disclosure of information — whether imposed by law or otherwise — prevents the exchange of information between regulators. Professional secrecy and data protection laws do not block inter-regulator information sharing in the payment system context.",
+    },
+    {
+      number: "54",
+      title: "Data Protection",
+      summary:
+        "Processing of personal data by payment systems and payment service providers is permitted where necessary to safeguard prevention, investigation, and detection of payment fraud. Processing and use of personal data must comply with relevant laws — primarily Data Protection Law N° 058/2021 (committed in Me Ngoga). Payment service providers may only access, process, and retain personal data necessary for providing their payment services, and only with the explicit consent of the payment service user.",
+    },
+    {
+      number: "55",
+      title: "AML/CFT Compliance",
+      summary:
+        "Every operator or payment service provider must: (1) comply with all obligations and requirements under Rwanda's AML/CFT and weapons proliferation financing laws and regulations; and (2) ensure that any agent or third party acting on its behalf also complies with those laws and regulations. NOTE FOR GC USE: Art. 55 is a pointer only — two paragraphs. It contains no substantive AML/CFT obligations. Specific CDD requirements, transaction monitoring thresholds, suspicious transaction reporting procedures, and record-keeping obligations for payment service providers are in AML/CFT Law N° 75/2019 (committed in Me Ngoga) and BNR's specific AML/CFT directives for payment service providers. A GC at a mobile money operator or fintech asking 'what are my specific KYC obligations for wallet customers?' will need the BNR AML/CFT directive, not this statute.",
+    },
+    {
+      number: "56",
+      title: "Retention of Records",
+      summary:
+        "BNR, participants, and payment service providers must retain all records obtained in the course of operating and administering the payment system, clearing, and settlement systems for 10 years from the date the record was obtained or produced.",
+    },
+    {
+      number: "57",
+      title: "Validity of Prior Acts",
+      summary:
+        "Acts performed under Law N° 03/2010 of 26/02/2010 on payment system as amended remain valid.",
+    },
+    {
+      number: "58",
+      title: "Existing Regulations — Transitional Period",
+      summary:
+        "BNR regulations made under Law N° 03/2010 remain in force in all provisions not inconsistent with this Law for a transitional period not exceeding 12 months from the date of publication of this Law — i.e. until 01/11/2022 at the latest. After 01/11/2022, any BNR regulation issued under the old law that is inconsistent with this Law ceased to be valid. BNR was expected to issue replacement regulations within this 12-month window.",
+    },
+    {
+      number: "59",
+      title: "Language",
+      summary: "Law drafted in English, considered and adopted in Kinyarwanda.",
+    },
+    {
+      number: "60",
+      title: "Saving and Repealing Provision",
+      summary:
+        "Repeals Law N° 03/2010 of 26/02/2010 on payment system as amended, EXCEPT Article 23 thereof, which establishes the National Payment System Council. Art. 23 of the old law is expressly preserved. All other Articles of Law N° 03/2010 and all other prior contrary legal provisions are repealed.",
+    },
+    {
+      number: "61",
+      title: "Entry into Force",
+      summary:
+        "Comes into force on the date of publication in the Official Gazette: 01/11/2021.",
+    },
+  ],
+
+  penalties: [
+    "Art. 49 — Administrative sanctions: BNR imposes administrative sanctions on payment service providers, operators, board members, or senior management who violate ANY provision of this Law or its implementing regulations. This covers ALL compliance failures not separately listed in Art. 50. Specific fault categories, sanction amounts, imposition procedure, and appeal process are set entirely by BNR regulation — not in this statute.",
+    "Art. 50 (individuals) — Seven exhaustive criminal offences (unlicensed operation; false information to BNR; falsifying records; obstructing audits; false designation claims; misusing payment information; unlicensed solicitation): imprisonment 6 months–1 year AND/OR fine FRW 5,000,000–10,000,000.",
+    "Art. 50 (legal persons) — Same seven criminal offences committed by operators, payment service providers, companies, organisations, or legal persons: fine of 10–20 times the individual fine (FRW 50,000,000–200,000,000) OR dissolution. This is among the highest corporate criminal financial exposure in Rwandan financial sector law.",
+  ],
+
+  regulator:
+    "National Bank of Rwanda (BNR) — sole regulator with comprehensive powers: licensing (Arts. 6, 16); designation of payment systems (Arts. 8–11); setting rules, standards, and directives (Arts. 12–13); access regime (Art. 14); oversight and supervision (Art. 26); investigative and audit powers (Art. 5); crisis management including assumption of control without prior notice or hearing (Art. 47); settlement finality enforcement (Art. 43); AML/CFT oversight (Art. 55); administrative sanctions for all Law violations (Art. 49). National Payment System Council — established by Art. 23 of the repealed Law N° 03/2010, expressly preserved by Art. 60 of this Law; policy and governance advisory role. Courts — criminal jurisdiction over Art. 50 offences. NOTE: No judicial oversight of BNR crisis management actions is provided for in this Law.",
+
+  keyDeadlines: [
+    "Art. 18(1) — Licence lapse trigger: provider has not provided services within 12 consecutive months from licence grant date → ground for licence withdrawal.",
+    "Art. 18(2) — Suspension trigger: provider has ceased providing services for more than 1 month → ground for withdrawal.",
+    "Art. 21 — Notification to BNR: must occur 'after' the occurrence of any listed event — no specific number of days stated in this Law. BNR regulation specifies timelines.",
+    "Art. 42 — Winding-up of participant: (a) copy of winding-up application and order (with exact minute, hour, and day) lodged with BNR on same business day, no later than start of next business day; (b) voluntary winding-up: participant must notify all other participants within 24 hours of the resolution taking effect; (c) BNR notifies relevant operators and participants on same business day, no later than start of next business day.",
+    "Art. 43 — Settlement finality cut-off: payment instructions 'entered into' the designated payment system before insolvency proceedings commence are protected. The precise entry-time is defined by each system's own rules — not this statute.",
+    "Art. 56 — Record retention: 10 years from date the record was obtained or produced.",
+    "Art. 58 — Transitional period: BNR regulations under old Law N° 03/2010 remained valid for maximum 12 months from 01/11/2021 (i.e. until 01/11/2022) for provisions not inconsistent with this Law.",
+  ],
+
+  insolvencyInteractionCluster: [
+    "Art. 35 — Financial collateral delivery is valid and enforceable against any liquidator and cannot be challenged on any ground whatsoever.",
+    "Art. 37 — Collateral taker's rights prevail over ALL other creditors of the collateral provider. Realisation on enforcement event requires no court approval.",
+    "Art. 38 — Safe harbour: financial collateral given before or on the day insolvency proceedings opened cannot be voided under insolvency law, provided the collateral taker was unaware of the opening. DIRECTLY OVERRIDES Insolvency Law N° 075/2021 Arts. 215–217 (voidable preferences, undervalue transactions, and voidable charges) in this context.",
+    "Art. 40 — Netting finality: insolvency law provisions do not apply to netting under designated payment system rules. Close-out netting is immediately enforceable against the liquidator without court application.",
+    "Art. 43 — Settlement finality: settled transactions are final and irrevocable. Insolvency proceedings have no retroactive effect on pre-insolvency payment obligations. Insolvency proceedings take effect from when the OPERATOR IS NOTIFIED — not from the filing date or court order date.",
+    "Art. 44 — Settlement agent may use participant's settlement account funds and collateral during insolvency proceedings to discharge obligations to other participants.",
+    "Art. 45 — Settlement account balances and customer trust/collection account funds are completely ring-fenced: not available to creditors, not subject to court attachment or execution.",
+    "Art. 46 — Customer funds safeguarded by trust account or guarantee are ring-fenced on provider insolvency and held on trust for customers.",
+    "CLUSTER READING: Arts. 35, 37, 38, 40, 43, 44, 45, and 46 together create a comprehensive ring-fence around designated payment system transactions and customer funds from insolvency proceedings. They override Insolvency Law N° 075/2021 Arts. 215–217 in the payment system context and displace the general insolvency priority waterfall (Art. 212 of Insolvency Law) as to settlement accounts and customer funds. Both laws must be read together when advising on payment system transactions in an insolvency context.",
+  ],
+
+  statutoryGaps: [
+    "Licence categories and capital requirements: entirely delegated to BNR regulation (Art. 16). This statute does not specify PSP licence tiers, minimum capital, or detailed licensing criteria. Source: BNR PSP Regulation.",
+    "Administrative sanction amounts and appeal procedures: entirely delegated to BNR regulation (Art. 49). Source: BNR Administrative Sanctions Directive.",
+    "Consumer complaint rights on failed or unauthorised transactions: Art. 28 is one sentence. Art. 52 covers operator-participant disputes only — NOT customer complaints. Source: BNR Consumer Protection Directive; Competition and Consumer Protection Law N° 036/2012 (committed).",
+    "AML/CFT specific obligations for payment service providers: Art. 55 is a two-paragraph pointer. CDD thresholds, monitoring obligations, and reporting requirements for PSPs are in AML/CFT Law N° 75/2019 (committed) and BNR AML/CFT Directives for PSPs.",
+    "Interoperability technical standards and mandatory connection timelines: Art. 25 is framework only. Source: BNR Interoperability Regulation.",
+    "Appeal against BNR crisis management actions (Art. 47): no statutory appeal process. General administrative law — High Court judicial review — applies.",
+    "Settlement finality entry-time determination (Art. 43): defined by each individual designated payment system's rules, not this statute. Varies by system (RTGS, mobile money interswitch, securities settlement, etc.).",
+    "Agent banking requirements: Art. 29 requires BNR approval and refers to BNR regulations. Specific agent capital, training, geographic, and conduct requirements are in BNR Agent Banking Regulations.",
+    "Annual licence fees: prescribed by BNR regulation, not in this statute (Art. 24).",
+    "Regulatory fees for oversight services: prescribed by BNR, not in this statute (Art. 27).",
+  ],
+
+  corporateKeyPoints: [
+    "Art. 17 — BNR-licensed banks and authorised MFIs are exempt from obtaining a separate payment service licence. A bank's existing BNR licence covers its payment activities. Critical for GC at any bank.",
+    "Arts. 37–38 — Financial collateral super-priority and insolvency safe harbour: collateral taker prevails over all other creditors; realisation requires no court approval; collateral given before or on insolvency opening is protected from avoidance actions. Critical for bank treasury, collateral management, and interbank lending legal teams.",
+    "Art. 40 — Close-out netting is enforceable against a liquidator immediately, without court application. Insolvency law does not apply to netting under designated system rules. Critical for capital markets and interbank transaction legal teams.",
+    "Art. 43 — Settlement finality: insolvency takes effect from operator notification, not filing date. Pre-insolvency payment obligations survive. Whether a specific payment is protected depends on each system's own entry-time rules.",
+    "Arts. 45–46 — Customer funds are ring-fenced from provider insolvency and court enforcement. Mobile wallet balances and e-money are protected. Critical for telecoms, fintechs, and banks offering mobile money.",
+    "Art. 47 — BNR can assume direct control of a payment operator or provider without prior notice, hearing, or statutory appeal right. Most consequential regulatory risk in this Law for operators and providers.",
+    "Art. 50 — Corporate criminal liability: legal persons convicted of payment system offences face fines of FRW 50M–200M OR dissolution. Senior management also personally liable under Art. 49 administrative sanctions.",
+    "Art. 30/32 — Full liability for outsourced functions remains with the provider or operator regardless of outsourcing. BNR prior written approval required for all outsourcing of important functions.",
+    "Art. 21 — Broad mandatory notification obligations to BNR including civil/criminal proceedings, material operational events, approaching insolvency, and regulatory actions by any authority worldwide. Failure = administrative sanctions under Art. 49.",
+    "Art. 48 — In Rwanda, a foreign participant's insolvency-related rights are governed by Rwandan law. A Rwandan participant in a foreign system is governed by that system's law.",
+  ],
+
+  effectiveDate: "01/11/2021",
+}
+    
     export function generateSystemPrompt(): string {
   const verified = LAWS.filter((l) => l.status === "verified");
   const training = LAWS.filter((l) => l.status === "training");
