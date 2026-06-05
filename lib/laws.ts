@@ -2355,8 +2355,797 @@ export const LAWS: Law[] = [
     "12 months — prior Law No. 62/2018 orders remain in force for consistent provisions from publication of this Law (Article 169)"
   ]
 }
-
-export function generateSystemPrompt(): string {
+{
+  id: "aml_cft_75_2019",
+  shortName: "AML/CFT Law",
+  fullName: "Law Nº 75/2019 of 29/01/2020 on Prevention and Punishment of Money Laundering, Financing of Terrorism and Financing of Proliferation of Weapons of Mass Destruction",
+  gazette: "Official Gazette Nº 7 of 24/02/2020",
+  articles: [
+    {
+      number: "1",
+      summary: "Sets the purpose of the Law: to prevent and punish money laundering, financing of terrorism, and financing of proliferation of weapons of mass destruction."
+    },
+    {
+      number: "2",
+      summary: "Scope: applies to any individual or legal person who, in the course of their profession, conducts, controls or advises on transactions involving deposits, exchanges, investments, conversions or any other movement of capital or property."
+    },
+    {
+      number: "3",
+      summary: "Definitions: defines key terms including freezing/seizure, financing of proliferation of WMDs, financing of terrorism, predicate offence, casino, financial institution (with 14 listed activities), proceeds of crime, bearer negotiable instruments, money laundering (four limbs: conversion/transfer, concealment, acquisition, and participation), Coordination Council, Minister (Finance), beneficial owner, client, politically exposed person, legal entity, property or funds, Financial Intelligence Centre (the Centre), competent authority (6 sub-types), and supervisory authority."
+    },
+    {
+      number: "4",
+      summary: "Financial intelligence: conducted by the Financial Intelligence Centre (the Centre) for purposes of preventing and countering AML/CFT/proliferation financing."
+    },
+    {
+      number: "5",
+      summary: "Provisional measures: competent authority must immediately freeze or seize property/funds when there are reasonable grounds to suspect they are proceeds of crime; lists 6 categories of freezable assets including equivalent-value substitutes; freezing/seizure may be lifted by the authority or competent court."
+    },
+    {
+      number: "6",
+      summary: "Duration of Centre's freeze/seizure: maximum 3 working days; if suspicion is founded, the Centre refers the case to the investigation authority; if not founded, the freeze is lifted and the reporting person is notified."
+    },
+    {
+      number: "7",
+      summary: "Reporting persons: lists 12 categories obligated to report, including the National Bank of Rwanda, financial institutions, telecom companies providing money transfer, private legal practitioners (in specified non-litigation activities), auditors/accountants/tax advisors, real estate agents, dealers in precious metals/stones, money distributors, casinos and national lotteries, NGOs/faith-based organisations, trust and company service providers, and others designated by Ministerial Order. Competent authority may compel documents/information from any reporting person."
+    },
+    {
+      number: "8",
+      summary: "Obligations of reporting persons: must (1) identify, assess, monitor, manage and mitigate AML/CFT/proliferation risks using a risk-based approach; (2) develop and maintain AML programmes including policies, compliance monitoring, staff training, and permanent audit; (3) assess risks from new products, new technologies and non-face-to-face clients."
+    },
+    {
+      number: "9",
+      summary: "Triggers for client identification (CDD): must verify client identity and beneficial owner in 9 specified situations including: before establishing a business relationship, on occasional transactions above the Centre's threshold, on wire transfers without originator information, on suspicion, on doubt about prior data, on precious metals cash transactions at or above threshold, on real estate transactions, when lawyers/accountants act on specified financial transactions, and when trust/company service providers act for clients. Ongoing due diligence on existing relationships is required."
+    },
+    {
+      number: "10",
+      summary: "Client identification procedure: must verify identity using official identification documents and reliable sources; persons acting on behalf of clients must present authorisation and ID; if identification requirements cannot be met, reporting person may refuse to open account or transact. The Centre determines the modalities for CDD."
+    },
+    {
+      number: "11",
+      summary: "Due diligence on occasional clients: Articles 9–10 apply when transactions equal or exceed the Centre's threshold; also applies to sub-threshold transactions that appear to be part of a linked series whose aggregate meets or exceeds the threshold."
+    },
+    {
+      number: "12",
+      summary: "Due diligence on suspected clients: when uncertain whether a client acts on their own behalf, the reporting person must seek all available information; if doubt on beneficial ownership persists after verification, a suspicious transaction report must be submitted to the Centre within 24 hours of receiving the client."
+    },
+    {
+      number: "13",
+      summary: "Enhanced due diligence for Politically Exposed Persons (PEPs): in addition to standard CDD, reporting persons must (1) have risk management systems to identify PEPs; (2) obtain senior management approval before engaging; (3) take measures to establish source of funds; (4) conduct enhanced ongoing monitoring. The Centre determines which administrative positions qualify as PEP."
+    },
+    {
+      number: "14",
+      summary: "Casino obligations: must (1) prove lawful origin of startup funds to relevant authorities; (2) confirm identification of players buying/converting chips at or above the Centre's threshold; (3) record all such transactions chronologically with player identity; (4) record all inter-casino fund transfers. Gaming chips of a branch may not be redeemed by another branch."
+    },
+    {
+      number: "15",
+      summary: "Special monitoring of certain transactions: reporting persons must pay special attention to complex, unusual or exceptionally large transactions with no apparent economic purpose and report findings to the Centre; must also monitor transactions involving persons in countries that do not apply equivalent AML/CFT standards."
+    },
+    {
+      number: "16",
+      summary: "Declaration of cash transactions: reporting persons must report to the Centre all cash transactions at or above the Centre's threshold; also sub-threshold transactions that form part of a linked series reaching the threshold."
+    },
+    {
+      number: "17",
+      summary: "Suspicious transaction reporting (STR): whenever there are reasonable grounds to suspect links to money laundering, terrorism financing or WMD proliferation financing, the reporting person must immediately report to the Centre and subsequently provide any additional confirming or disconfirming information. The Centre sets time limits and modalities."
+    },
+    {
+      number: "18",
+      summary: "Cross-border cash declaration: any person entering or leaving Rwanda with cash or bearer negotiable instruments above the Centre's threshold must declare them to the competent authority."
+    },
+    {
+      number: "19",
+      summary: "Confidentiality (tipping-off prohibition): reporting persons must not disclose to clients or third parties that a suspicious transaction report or information has been submitted to the Centre."
+    },
+    {
+      number: "20",
+      summary: "Record-keeping: all client identification data, transaction records, analysis findings, account books, and casino records must be retained for at least 10 years (from end of business relationship, completion of transaction, or last casino transaction, as applicable). Records must be produced immediately upon request by a competent authority."
+    },
+    {
+      number: "21",
+      summary: "Exchange of information: competent authorities are obligated to share AML/CFT/proliferation information both domestically and internationally, subject to confidentiality obligations on recipients."
+    },
+    {
+      number: "22",
+      summary: "Exemption from liability: no criminal, civil or professional liability for reporting persons, board members, executive officers or employees who in good faith submit information or reports as required by this Law, even if no conviction results; and no liability for material or non-material losses arising from a transaction freeze."
+    },
+    {
+      number: "23",
+      summary: "Money transfer: international transfers at or above the Centre's threshold must be made through authorised financial institutions or their agents; the originator's accurate information must accompany the transfer throughout the payment chain. The Centre determines required payer information."
+    },
+    {
+      number: "24",
+      summary: "Transparency: registration authorities must maintain adequate, accurate and timely beneficial ownership information for legal persons and legal arrangements; such information must be accessible to competent authorities and reporting persons in a timely manner."
+    },
+    {
+      number: "25",
+      summary: "Prohibition of shell banks and anonymous accounts: reporting persons must (1) be physically present in Rwanda to operate; (2) not engage with institutions registered in places without physical presence; (3) not open or maintain anonymous, digitised or fictitious-name accounts; (4) ensure correspondent institutions comply with AML/CFT measures; (5) ensure correspondent accounts are not used by shell banks."
+    },
+    {
+      number: "26",
+      summary: "Supervisory authority responsibilities: must (1) ensure reporting persons comply with this Law; (2) impose administrative sanctions for non-compliance; (3) issue AML/CFT regulations consistent with this Law and international standards; (4) compel production of records and information to monitor compliance."
+    },
+    {
+      number: "27",
+      summary: "Coordination Council: established as the national inter-agency body for coordinating AML/CFT/proliferation prevention and countering. Members, organisation and functioning determined by Presidential Order."
+    },
+    {
+      number: "28",
+      summary: "Mission of the Coordination Council: (1) devise strategies, policies and actions; (2) monitor implementation; (3) coordinate activities and exchange information between members and other institutions."
+    },
+    {
+      number: "29",
+      summary: "Money laundering offence and penalty: carrying out money laundering acts under Article 3(9) or participating in an association for that purpose is an offence. Penalty: 7–10 years imprisonment plus a fine of 3–5 times the amount laundered. Facilitating a terrorist's access to laundered funds (by concealment, transfer or any related means): 10–15 years imprisonment."
+    },
+    {
+      number: "30",
+      summary: "Terrorism financing offence and penalty: carrying out terrorism financing under Article 3(3) or participating in an association for that purpose is an offence. Penalty: 20–25 years imprisonment plus a fine of 3–5 times the amount given. Applies also to persons who knowingly contract or benefit from arrangements intended to provide funds for terrorism."
+    },
+    {
+      number: "31",
+      summary: "WMD proliferation financing offence and penalty: carrying out acts under Article 3(2) is an offence. Penalty: 15–20 years imprisonment plus a fine of 5–10 times the amount given. Applies also to persons who knowingly contract or benefit from arrangements intended to provide funds for WMD proliferation."
+    },
+    {
+      number: "32",
+      summary: "Penalties against legal entities: a legal entity committing AML/CFT/proliferation financing through its representatives or members is liable to a fine of 10–20 times the laundered/contributed amount; representatives may additionally be liable as accomplices. The conviction decision is published in media."
+    },
+    {
+      number: "33",
+      summary: "Aggravating circumstances: penalties under Articles 29–31 are doubled if (1) the predicate offence carries a higher sentence; (2) the offence is committed as an occupation; (3) it is committed within an organised criminal conspiracy; or (4) there is recidivism."
+    },
+    {
+      number: "34",
+      summary: "Mitigating circumstances: penalties under Articles 29–31 may be reduced where the offender provides information otherwise unavailable that helps prevent or limit effects of the offence, identify other offenders, find evidence, or prevent further offences."
+    },
+    {
+      number: "35",
+      summary: "Ancillary offences and penalties: a person who (1) discloses an STR to clients/third parties; (2) knowingly destroys or conceals required records; (3) performs transactions under false identification; (4) tips off intelligence subjects; (5) submits truncated or erroneous documents to authorities; (6) violates information secrecy rules; (7) fails to submit an STR when circumstances require it; (8) makes or accepts cash payments above the threshold; or (9) violates international transfer rules — commits an offence. Penalty: 3–5 years imprisonment and a fine of FRW 3,000,000–5,000,000."
+    },
+    {
+      number: "36",
+      summary: "Confiscation: upon conviction for any offence under this Law, the court orders confiscation of (1) property/funds derived from the offence including revenues and advantages, from any holder (unless beneficial owner proves good faith acquisition); and (2) assets belonging directly or indirectly to the convicted person unless licit origin and property right are established. Confiscation order identifies and locates the assets."
+    },
+    {
+      number: "37",
+      summary: "Evidence of criminal intent: knowledge, intent or purpose required for AML/CFT/proliferation offences may be inferred from objective factual circumstances."
+    },
+    {
+      number: "38",
+      summary: "No prior conviction of predicate offence required: prosecution for money laundering, terrorism financing or WMD proliferation financing does not require a prior conviction for the predicate offence."
+    },
+    {
+      number: "39",
+      summary: "Drafting language: this Law was drafted in English, considered and adopted in Ikinyarwanda."
+    },
+    {
+      number: "40",
+      summary: "Repealing provision: repeals Law Nº 69/2018 of 31/08/2018 on prevention and punishment of money laundering and terrorism financing and all prior contrary provisions."
+    },
+    {
+      number: "41",
+      summary: "Commencement: enters into force on the date of publication in the Official Gazette (24 February 2020)."
+    }
+  ],
+  penalties: [
+    "Money laundering (Art. 29): 7–10 years imprisonment + fine of 3–5× the laundered amount.",
+    "Facilitating terrorist access to laundered funds (Art. 29 para. 2): 10–15 years imprisonment.",
+    "Terrorism financing (Art. 30): 20–25 years imprisonment + fine of 3–5× the amount given.",
+    "WMD proliferation financing (Art. 31): 15–20 years imprisonment + fine of 5–10× the amount given.",
+    "Legal entity conviction (Art. 32): fine of 10–20× the laundered/contributed amount; representatives additionally liable as accomplices; conviction published in media.",
+    "Aggravating circumstances (Art. 33): all penalties under Arts. 29–31 doubled for organised crime, professional offending, recidivism, or higher-penalty predicate offences.",
+    "Ancillary offences — tipping off, record destruction, false ID, STR failure, threshold cash violations, illegal transfers (Art. 35): 3–5 years imprisonment + FRW 3,000,000–5,000,000 fine.",
+    "Confiscation (Art. 36): mandatory confiscation of all crime-derived assets and convicted person's assets of unexplained origin."
+  ],
+  regulator: "Financial Intelligence Centre (the Centre) — primary AML intelligence and STR receipt body. National Bank of Rwanda (BNR) and other sector-specific supervisory authorities — oversight of reporting persons in their respective sectors. Coordination Council — inter-agency national AML/CFT coordination body (established by Presidential Order).",
+  keyDeadlines: [
+    "STR submission (Art. 17): immediately upon reasonable grounds of suspicion arising.",
+    "Suspected client report (Art. 12): within 24 hours of receiving the client where beneficial ownership doubt persists.",
+    "Centre freeze/seizure duration (Art. 6): maximum 3 working days; referral to investigation authority if suspicion is founded.",
+    "Record retention (Art. 20): minimum 10 years from end of business relationship, completion of transaction, or last casino transfer.",
+    "Cross-border cash declaration (Art. 18): at the time of entry or exit from Rwanda when carrying amounts above the Centre's threshold."
+  ]
+}
+  {
+  id: "ict_law_24_2016",
+  shortName: "ICT Law",
+  fullName: "Law Nº 24/2016 of 18/06/2016 governing Information and Communication Technologies",
+  gazette: "Official Gazette Nº 26 of 27/06/2016",
+  articles: [
+    {
+      number: "1",
+      summary: "Purpose: establishes a framework for ICT policy and regulation, promoting national ICT objectives, a licensing and regulatory framework, institution-building, Rwanda as a global ICT hub, infrastructure access, consumer protection, and convergence of technologies."
+    },
+    {
+      number: "2",
+      summary: "Scope: applies to all persons providing or using ICT services in Rwanda, including electronic communications networks and services, information society services, broadcasting, and postal services."
+    },
+    {
+      number: "3",
+      summary: "Definitions of general terms: defines key concepts including ICT, electronic communications, information society, broadcasting, postal service, operator, licensee, service provider, subscriber, consumer, infrastructure, and dominant operator."
+    },
+    {
+      number: "4",
+      summary: "Definitions relating to electronic communication: defines terms specific to telecom including network, interconnection, radio spectrum, frequency, roaming, leased line, and electronic communications equipment."
+    },
+    {
+      number: "5",
+      summary: "Definitions relating to Electronic Information Society: defines electronic records, electronic signatures, electronic transactions, certification service provider, certification authority, domain name, and related concepts."
+    },
+    {
+      number: "6",
+      summary: "Definitions relating to broadcasting: defines broadcasting, broadcast service, frequency assignment, broadcast licensee, content provider, free-to-air, pay television, and community broadcasting."
+    },
+    {
+      number: "7",
+      summary: "Definitions relating to postal services: defines postal service, postal item, universal postal service, postal operator, franking, and related terms."
+    },
+    {
+      number: "8",
+      summary: "Organs: identifies the two principal organs — the Ministry responsible for ICT (policy-making) and the Regulatory Authority (RURA — sector regulation)."
+    },
+    {
+      number: "9",
+      summary: "ICT policy-making organ: the Ministry responsible for ICT formulates national ICT policy, submits legislation, coordinates with international bodies, and promotes ICT development."
+    },
+    {
+      number: "10",
+      summary: "Regulatory Authority (RURA): an independent body responsible for licensing, regulation, and supervision of electronic communications, information society services, broadcasting, and postal services. Issues licences, monitors compliance, settles disputes, and imposes sanctions."
+    },
+    {
+      number: "11",
+      summary: "Regular review of ICT activities: the Regulatory Authority regularly reviews regulatory frameworks to adapt to technological changes and ensure relevance of regulations."
+    },
+    {
+      number: "12",
+      summary: "Reviewing regulatory burden: the Regulatory Authority periodically assesses whether regulatory requirements impose unnecessary burdens on operators and may simplify or eliminate requirements accordingly."
+    },
+    {
+      number: "13",
+      summary: "Provision of information: operators and service providers must supply any information the Regulatory Authority requires for the exercise of its functions, within specified timeframes."
+    },
+    {
+      number: "14",
+      summary: "Advisory committee on elderly persons and persons with disabilities: the Regulatory Authority establishes an advisory committee to advise on ICT accessibility and service needs for elderly and disabled persons."
+    },
+    {
+      number: "15",
+      summary: "Monitoring powers and administrative sanctions: the Regulatory Authority has the power to monitor licensee activities and impose administrative sanctions including fines, suspension, or revocation of licences for non-compliance."
+    },
+    {
+      number: "16",
+      summary: "Special Committee for dispute settlement: the Regulatory Authority establishes a special committee to resolve disputes between operators, service providers or between operators and consumers."
+    },
+    {
+      number: "17",
+      summary: "Right to refer matters to courts: any party dissatisfied with a decision of the Regulatory Authority may appeal to the competent court."
+    },
+    {
+      number: "18",
+      summary: "Universal Access Fund: establishes a Universal Access Fund to finance extension of ICT services to underserved areas and populations; funded by contributions from licensees and other sources as determined by the Regulatory Authority."
+    },
+    {
+      number: "19",
+      summary: "Purpose of electronic communications (Chapter II): chapter objectives include promoting competitive markets, efficient use of spectrum and infrastructure, affordable access, and protection of consumer rights in electronic communications."
+    },
+    {
+      number: "20",
+      summary: "Ministerial Orders for electronic communications: the Minister issues implementing orders for matters relating to electronic communications, including technical standards, numbering plans, and quality of service requirements."
+    },
+    {
+      number: "21",
+      summary: "Requirements for orders on networks and radio spectrum: before issuing orders on network functions or radio spectrum, the Regulatory Authority must consult stakeholders, assess impact, and comply with international obligations."
+    },
+    {
+      number: "22",
+      summary: "Suspension and restriction powers: the Regulatory Authority may suspend or restrict use of networks or services where there is misuse, public safety concerns, non-compliance with licence conditions, or a threat to security."
+    },
+    {
+      number: "23",
+      summary: "Guidelines and decisions: the Regulatory Authority issues guidelines and publishes all regulatory decisions to ensure transparency and public awareness."
+    },
+    {
+      number: "24",
+      summary: "International obligations: operators and the Regulatory Authority must comply with Rwanda's international ICT obligations, including ITU regulations and regional frameworks."
+    },
+    {
+      number: "25",
+      summary: "Impact assessment: the Regulatory Authority carries out impact assessments before introducing significant regulatory changes affecting operators or consumers."
+    },
+    {
+      number: "26",
+      summary: "Publishing timeframes: the Regulatory Authority publishes maximum timeframes within which it will process licence applications and complete regulatory transactions."
+    },
+    {
+      number: "27",
+      summary: "Electronic publications literacy: the Regulatory Authority promotes public literacy in electronic communications and online services."
+    },
+    {
+      number: "28",
+      summary: "Consumer research and consultation: the Regulatory Authority conducts research on consumers' needs and holds consultations before adopting major regulatory measures affecting consumers."
+    },
+    {
+      number: "29",
+      summary: "Consumer information: the Regulatory Authority publishes information enabling consumers to compare electronic communications services, including pricing, quality of service, and terms and conditions."
+    },
+    {
+      number: "30",
+      summary: "Responsibilities of the Regulatory Authority in electronic communications: comprehensive list including licensing, spectrum management, consumer protection, interconnection, tariff regulation, dispute resolution, and ensuring compliance with national and international obligations."
+    },
+    {
+      number: "31",
+      summary: "Monitoring licensed operators: the Regulatory Authority monitors performance of all licensees and produces periodic performance reports. Licensees must cooperate fully with monitoring activities."
+    },
+    {
+      number: "32",
+      summary: "Technical inspection powers: the Regulatory Authority may inspect the technical infrastructure, systems, and equipment of any licensee to verify compliance with technical standards and licence conditions."
+    },
+    {
+      number: "33",
+      summary: "Search and seizure powers: the Regulatory Authority, with appropriate authorisation, may search premises and seize equipment, records, or documents where there is evidence of a breach of this Law."
+    },
+    {
+      number: "34",
+      summary: "Claiming seized property: a person whose property is seized may apply to the Regulatory Authority or competent court for its return, subject to any ongoing investigation."
+    },
+    {
+      number: "35",
+      summary: "Assistance organs: the Regulatory Authority may seek assistance from other government bodies (police, customs, etc.) in carrying out its regulatory functions."
+    },
+    {
+      number: "36",
+      summary: "International obligations: Rwanda participates in international ICT bodies (ITU, UPU, regional bodies) and the Regulatory Authority must implement applicable international decisions and standards."
+    },
+    {
+      number: "37",
+      summary: "Obligation to resolve disputes: the Regulatory Authority must provide a mechanism and timeframe for resolving disputes between operators and between operators and consumers."
+    },
+    {
+      number: "38",
+      summary: "Incompatibility of duties: members of the Regulatory Authority's governance bodies may not simultaneously hold executive positions in any licensed ICT operator."
+    },
+    {
+      number: "39",
+      summary: "Licence types: three types — individual licences (specific obligations, individually negotiated), standard licences (general regulations, services riding on individual licensees' networks), and general authorisations (right to operate on meeting published requirements)."
+    },
+    {
+      number: "40",
+      summary: "Categories of licensees: four categories — (1) infrastructure operators that build and manage networks; (2) service providers using others' infrastructure; (3) value-added service providers; (4) equipment installation and maintenance service providers."
+    },
+    {
+      number: "41",
+      summary: "Network interconnection: all operators with individual licences must provide interconnection to other licensed operators on reasonable, non-discriminatory terms. The Regulatory Authority sets interconnection rules and resolves interconnection disputes."
+    },
+    {
+      number: "42",
+      summary: "Licensing requirements: any person intending to build an electronic communications network or provide electronic communications services must submit a written application to the Regulatory Authority."
+    },
+    {
+      number: "43",
+      summary: "General licensing requirements: applicants must demonstrate technical capability, financial capacity, legal standing, and compliance with national ICT policy objectives. The Regulatory Authority processes applications within published timeframes."
+    },
+    {
+      number: "44",
+      summary: "Special criteria for individual licences: additional requirements apply for individual licences, including detailed network rollout plans, minimum investment thresholds, coverage obligations, and quality-of-service commitments."
+    },
+    {
+      number: "45",
+      summary: "Accuracy of information: applicants must provide accurate and complete information. Submission of false or misleading information in a licence application is an offence."
+    },
+    {
+      number: "46",
+      summary: "Announcing available licences: where a licence is to be awarded through public tender, the Regulatory Authority publishes full details of available licences, tender procedures, evaluation criteria, and applicable fees."
+    },
+    {
+      number: "47",
+      summary: "Validity of radio communication licences: radio communication licences are valid for up to five years, subject to renewal. Continued operation after expiry is an offence."
+    },
+    {
+      number: "49–50",
+      summary: "Modification and transfer of licences: licence conditions may be modified by the Regulatory Authority with notice. Licences may not be transferred without prior written authorisation from the Regulatory Authority."
+    },
+    {
+      number: "51",
+      summary: "Suspension, cancellation, and revocation: the Regulatory Authority may suspend, cancel, or revoke a licence for serious breach of licence conditions, failure to pay fees, insolvency, national security grounds, or persistent non-compliance. The licensee must be given notice and an opportunity to rectify before revocation."
+    },
+    {
+      number: "52",
+      summary: "Licence fees: all licensees pay fees as determined by the Regulatory Authority. Fee schedules are published and may include application fees, annual fees, spectrum fees, and numbering fees."
+    },
+    {
+      number: "53",
+      summary: "Grounds for refusing a licence: the Regulatory Authority may refuse an application on grounds including insufficient technical or financial capacity, national security, spectrum unavailability, market saturation, or failure to meet published criteria."
+    },
+    {
+      number: "104–106",
+      summary: "Tariff regulation: operators with significant market power are subject to tariff control schemes. Tariffs must be cost-oriented, transparent, and non-discriminatory. Dominant operators must file tariffs with the Regulatory Authority before implementation. Changes require regulatory notification and approval."
+    },
+    {
+      number: "109–112",
+      summary: "Interconnection: operators must provide interconnection and access to their networks and services on terms that are non-discriminatory, transparent, and cost-oriented. Dominant operators must publish a Reference Interconnection Offer (RIO). The Regulatory Authority resolves interconnection disputes."
+    },
+    {
+      number: "117",
+      summary: "Principles of spectrum management: radio spectrum is a public resource managed by the Regulatory Authority. Allocation and assignment follow the national frequency plan and ITU Radio Regulations."
+    },
+    {
+      number: "120",
+      summary: "Standard contracts: licensed service providers must prepare standard subscriber contracts consistent with the Regulatory Authority's general regulations and use them for all subscriber agreements."
+    },
+    {
+      number: "122",
+      summary: "Itemised billing: licensed electronic communications providers must provide itemised bills to subscribers free of charge, detailing usage, charges, and any other relevant information."
+    },
+    {
+      number: "124",
+      summary: "Privacy protection: subscriber voice and data transmitted over any electronic communications network must remain confidential and not be disclosed to unauthorised persons, subject to lawful interception obligations."
+    },
+    {
+      number: "126",
+      summary: "Minister's powers on national sovereignty: the Minister may, in compliance with national legislation and international instruments, issue directives to the Regulatory Authority relating to national security and sovereignty in electronic communications."
+    },
+    {
+      number: "128",
+      summary: "Disaster management plans: the Regulatory Authority may require licensed electronic communications operators to develop disaster management and business continuity plans to ensure network resilience during emergencies."
+    },
+    {
+      number: "129",
+      summary: "Scope of Chapter III (Information Society): this chapter applies to all electronic transactions, electronic records, electronic signatures, computer misuse and cybercrime, personal data protection, certification services, and e-government."
+    },
+    {
+      number: "132",
+      summary: "Electronic records and signatures scope: provisions on electronic records and electronic signatures apply to transactions or automated transactions carried out electronically."
+    },
+    {
+      number: "135",
+      summary: "Conditions for electronic records: where a law requires information to be in writing, that requirement is satisfied by an electronic record if its contents are accessible for future reference."
+    },
+    {
+      number: "137",
+      summary: "Retention in original form: where a law requires information to be presented or retained in original form, an electronic record satisfies this if it reliably assures the integrity of the information and remains accessible."
+    },
+    {
+      number: "139",
+      summary: "Sending electronic records: where a law requires a document to be sent, the requirement is satisfied if the electronic record is sent in a form accessible to the recipient and reliably indicates the originator."
+    },
+    {
+      number: "140",
+      summary: "Attribution of electronic records: an electronic record is attributable to a person where it was the act of that person, or of an authorised agent, or of an automated information system programmed by or on behalf of the person."
+    },
+    {
+      number: "151",
+      summary: "Conduct of signatories: a signatory must not use an electronic signature device for purposes other than those for which it was issued, must keep it secure, and must promptly notify the certification service provider of any compromise."
+    },
+    {
+      number: "152",
+      summary: "Certification service providers: the Regulatory Authority's regulations govern the conduct of certification service providers, including their obligations on certificate issuance, management, suspension, and revocation."
+    },
+    {
+      number: "153",
+      summary: "Generating key pairs: subscribers generate key pairs using systems approved by a certification service provider. The public key is included in and covered by the certificate."
+    },
+    {
+      number: "154",
+      summary: "Acceptance of certificate: a subscriber is deemed to have accepted a certificate when they publish or authorise its publication. Acceptance creates obligations to maintain accuracy of information in the certificate."
+    },
+    {
+      number: "159",
+      summary: "Automated transactions: in an automated transaction, a contract may be formed between a person and an automated information system, or between two automated systems. The legal validity of such contracts is not denied solely because no human was involved."
+    },
+    {
+      number: "162",
+      summary: "Time of dispatch of electronic message: unless otherwise agreed, an electronic message is dispatched when it enters an information system outside the originator's control."
+    },
+    {
+      number: "163",
+      summary: "Time of receipt of electronic message: an electronic message is received when it enters the addressee's designated information system, or if no system is designated, when it comes to the addressee's attention."
+    },
+    {
+      number: "165",
+      summary: "Information to be provided in electronic commerce: providers of information society services must supply clear information about their identity, registered address, regulatory details, and the key characteristics and price of services offered."
+    },
+    {
+      number: "167",
+      summary: "Termination period for online agreements: consumers must be given a reasonable period to terminate online service agreements. Termination provisions must be clearly stated in standard contracts."
+    },
+    {
+      number: "172",
+      summary: "Lodging complaints: consumers may lodge complaints with the Regulatory Authority against electronic communications or information society service providers for non-compliance with their rights under this Law."
+    },
+    {
+      number: "175",
+      summary: "Electronic certification licence: any person providing electronic certification services (digital certificates, PKI) must obtain a licence from the Regulatory Authority."
+    },
+    {
+      number: "181",
+      summary: "Disclosure obligations: certification service providers must disclose their policies, practices, and certificate revocation status. They must maintain accurate records and notify relevant parties of any material changes."
+    },
+    {
+      number: "182–185",
+      summary: "Certificate management: certification service providers issue, suspend, and revoke certificates according to their published certification practice statements. Suspension is available where the accuracy of information is in doubt; revocation is permanent and immediate where required. Revocation without consent of the subscriber may occur in specified circumstances."
+    },
+    {
+      number: "190",
+      summary: "Caching liability limits: an electronic service provider is not liable for automatic, intermediate, or temporary caching of electronic records if it does not modify content, complies with access conditions, and acts promptly on orders to remove infringing content."
+    },
+    {
+      number: "194",
+      summary: "Limits on monitoring obligations: service providers are not required to monitor electronic records processed through their systems to determine whether processing constitutes an offence, unless required by a competent authority or by contract."
+    },
+    {
+      number: "196",
+      summary: "Domain name dispute resolution: the Regulatory Authority defines a mechanism for resolving disputes over use of Rwanda (.rw) domain names."
+    },
+    {
+      number: "204",
+      summary: "Disclosure of password: any person who knowingly discloses a password or access code enabling unauthorised access to another person's system commits an offence under this Law."
+    },
+    {
+      number: "207",
+      summary: "Cybersecurity regulations: the Minister issues a Ministerial Order specifically addressing cybersecurity, supplementing the general provisions of this Law."
+    },
+    {
+      number: "208",
+      summary: "Security of public electronic communications services: licensed operators must implement and maintain appropriate technical and organisational security measures to protect the integrity and confidentiality of their networks and services."
+    },
+    {
+      number: "210",
+      summary: "Subscriber registration: every licensed electronic communications service provider must register the full personal details of all subscribers and SIM card holders using their networks or services."
+    },
+    {
+      number: "212",
+      summary: "Confidentiality of communications: no person using an electronic communications network may store or access information transmitted over another subscriber's connection without that subscriber's informed consent, except as lawfully authorised."
+    },
+    {
+      number: "214",
+      summary: "Billing: the Regulatory Authority ensures that subscribers' right to itemised billing is reconciled with their right to privacy. On request, licensed providers must supply detailed call and usage records to subscribers."
+    },
+    {
+      number: "218",
+      summary: "Cooperation on line identification: electronic communications providers must comply with reasonable requests from other public network operators relating to calling or connected line identification facilities."
+    },
+    {
+      number: "219",
+      summary: "Tracing nuisance calls: electronic communications providers must disclose the calling line and identity of the caller to a subscriber who requests tracing of malicious or nuisance calls."
+    },
+    {
+      number: "220",
+      summary: "Emergency calls: all licensed electronic communications providers must ensure access to emergency call services and provide caller location information to emergency services where technically feasible."
+    },
+    {
+      number: "226",
+      summary: "Broadcasting licence: any person providing broadcasting services must hold a broadcasting licence issued by the Regulatory Authority. Licences specify the type of broadcasting service, coverage area, and content obligations."
+    },
+    {
+      number: "228",
+      summary: "Transfer and surrender of broadcasting licences: broadcasting licences may not be transferred without prior written approval from the Regulatory Authority. A licensee may surrender a licence with notice."
+    },
+    {
+      number: "230",
+      summary: "Obligations of broadcasting licensees: include compliance with content regulations, must-carry obligations, local content requirements, public interest broadcasting, and providing emergency broadcast services as directed."
+    },
+    {
+      number: "235",
+      summary: "Postal correspondence: postal items constitute private correspondence protected by law. Postal operators may not open or disclose contents except as authorised by law or by a competent authority."
+    },
+    {
+      number: "237",
+      summary: "Public postal service: the public postal service must be available throughout Rwanda on uniform terms. The operator designated to provide universal postal services must maintain adequate infrastructure and staffing."
+    },
+    {
+      number: "239",
+      summary: "Content of universal postal service: the universal postal service includes collection, sorting, transport, and delivery of postal items within and outside Rwanda, within defined quality and delivery timeframes."
+    },
+    {
+      number: "240",
+      summary: "Postal financial services: the universal postal service operator may provide financial services including money orders and postal savings, subject to applicable financial regulations."
+    },
+    {
+      number: "244",
+      summary: "Reserved postal services: certain postal services (domestic letters below a defined weight/price threshold) are reserved to the designated universal service operator. Competing operators may not provide reserved services without authorisation."
+    },
+    {
+      number: "249",
+      summary: "Designation of universal postal service operator: a Prime Minister's Order designates the postal operator responsible for the universal postal service and determines the duration of the designation."
+    },
+    {
+      number: "252",
+      summary: "Mail ownership: the sender retains ownership of postal items until delivery to the recipient, unless otherwise provided by law."
+    },
+    {
+      number: "257",
+      summary: "Types of postal licences: postal licences are issued for specific categories of postal services. Operators must hold the appropriate licence for each service type."
+    },
+    {
+      number: "260",
+      summary: "Revocation of postal licence: the Regulatory Authority may revoke a postal licence for serious or persistent breach of licence conditions, failure to maintain service standards, or national security grounds."
+    },
+    {
+      number: "264",
+      summary: "Regulatory Authority's mission in postal sector: RURA regulates the postal sector including licensing, monitoring service quality, protecting consumers, and ensuring compliance with universal service obligations and international postal conventions."
+    },
+    {
+      number: "265",
+      summary: "Operating without electronic communications licence (penalty): any person carrying out electronic communications business without a licence is liable to an administrative fine and suspension or prohibition of operations."
+    },
+    {
+      number: "266",
+      summary: "Unauthorised licence transfer — electronic communications (penalty): transferring an electronic communications licence without authority is an administrative offence."
+    },
+    {
+      number: "267",
+      summary: "Operating with expired licence (penalty): operating without renewing a licence is liable to a daily administrative fine of FRW 200,000–3,000,000 for each day of operation with an expired licence."
+    },
+    {
+      number: "268",
+      summary: "Failure to notify change of ownership (penalty): a licensee failing to notify a change of ownership as required is liable to an administrative fine of FRW 5,000,000–50,000,000."
+    },
+    {
+      number: "269",
+      summary: "Non-compliance with enforcement notice (penalty): a licensee failing to comply with an enforcement notice or regulatory directive is liable to a fine of FRW 500,000–15,000,000 per day of non-compliance, plus possible additional licence conditions."
+    },
+    {
+      number: "270",
+      summary: "Unlawful restriction of access to service (penalty): a licensee that unlawfully restricts a person's access to service is liable to an administrative fine of FRW 2,000,000–10,000,000 per day of non-compliance with the removal order."
+    },
+    {
+      number: "271",
+      summary: "Failure to comply with tariff control scheme (penalty): a dominant operator failing to comply with a tariff control scheme is liable to an administrative fine of FRW 5,000,000–15,000,000 per day of non-compliance."
+    },
+    {
+      number: "272",
+      summary: "Installing/using equipment without licence (penalty): installing or using electronic communications equipment without a licence results in impoundment of equipment plus an administrative fine of FRW 500,000–15,000,000. If national security is threatened, equipment is confiscated."
+    },
+    {
+      number: "273",
+      summary: "Unlawful use of radio spectrum (penalty): using radio spectrum contrary to this Law triggers a prohibition notice plus a fine of FRW 500,000–5,000,000. Continued unlawful use after a prohibition notice attracts a daily fine of FRW 500,000–10,000,000 and possible technical measures rendering the network unusable."
+    },
+    {
+      number: "274",
+      summary: "Continued use after licence expiry (penalty): continuing to use a radio communications licence after expiry is liable to an administrative fine of FRW 1,000,000; continued operation after a prohibition notice attracts a daily fine of FRW 500,000–5,000,000."
+    },
+    {
+      number: "275",
+      summary: "Failure to provide information on leased lines (penalty): failure to provide required leased-line information is liable to an administrative fine of FRW 1,000,000–5,000,000."
+    },
+    {
+      number: "276",
+      summary: "Failure to provide Reference Interconnection Offer (penalty): a dominant operator failing to provide a reference interconnection offer is liable to administrative sanctions."
+    },
+    {
+      number: "278",
+      summary: "Failure to register equipment installation services (penalty): providing equipment installation and maintenance services without registration is liable to a fine of FRW 200,000–1,000,000 plus a daily fine of FRW 50,000 until registration is completed."
+    },
+    {
+      number: "279",
+      summary: "Transferring permit without authorisation (penalty): transferring a permit without authorisation is liable to an administrative fine of FRW 500,000."
+    },
+    {
+      number: "281",
+      summary: "Prohibition of operations and licence revocation: where a licensee significantly and persistently breaches this Law and does not rectify within one month of notification, the Regulatory Authority may revoke the licence or prohibit part of the licensed activities."
+    },
+    {
+      number: "282",
+      summary: "Providing information society services without licence (penalty): liable to an administrative fine of FRW 1,000,000–5,000,000 and suspension of activities."
+    },
+    {
+      number: "283",
+      summary: "Non-compliance with enforcement notice — information society (penalty): liable to a fine of FRW 1,000,000–5,000,000; continued non-compliance attracts a daily fine of FRW 500,000 from the date of the enforcement notice."
+    },
+    {
+      number: "284",
+      summary: "Unauthorised transfer of information society licence (penalty): liable to an administrative fine of FRW 1,000,000–5,000,000; licence may be suspended."
+    },
+    {
+      number: "285–288",
+      summary: "Other information society offences (penalties): refusal to provide information, hindering inspection, use of false information for licence application, and non-compliant equipment each attract administrative fines in the range of FRW 500,000–5,000,000."
+    },
+    {
+      number: "289",
+      summary: "Sending unsolicited commercial communications (spam) (penalty): sending unsolicited commercial electronic communications is an administrative offence liable to a fine."
+    },
+    {
+      number: "290",
+      summary: "Failure to provide electronic commercial information (penalty): failing to provide required electronic commercial information to consumers is an administrative offence."
+    },
+    {
+      number: "292–299",
+      summary: "Broadcasting offences and penalties: providing broadcasting services without a licence, non-compliance with enforcement notices, unauthorised licence transfer, refusal to provide information, obstructing radio spectrum communications, hindering inspection, use of false information, and contravention of licence conditions are all administrative offences attracting fines and possible licence suspension or revocation."
+    },
+    {
+      number: "300–306",
+      summary: "Postal services offences and penalties: providing postal services without a licence, non-compliance with enforcement notices, unauthorised licence transfer, refusal to provide information, hindering inspection, use of false information, and contravention of licence conditions are administrative offences attracting fines and possible sanctions."
+    },
+    {
+      number: "307",
+      summary: "Transitional provision — existing licences: licences issued under prior laws remain valid until their expiry date, after which operators must apply for licences under this Law."
+    },
+    {
+      number: "308",
+      summary: "Drafting: this Law was drafted in English, considered and adopted in Ikinyarwanda."
+    },
+    {
+      number: "309",
+      summary: "Repealing provision: repeals Law Nº 44/2001 of 30/11/2001 on telecommunications, Law Nº 18/2010 of 12/05/2010 on electronic messages, electronic signatures and electronic transactions, and all prior contrary provisions."
+    },
+    {
+      number: "310",
+      summary: "Commencement: enters into force on the date of publication in the Official Gazette (27 June 2016)."
+    }
+  ],
+  penalties: [
+    "Operating electronic communications without licence (Art. 265): administrative fine + suspension/prohibition of operations.",
+    "Operating with expired licence (Art. 267): daily fine of FRW 200,000–3,000,000 per day.",
+    "Failure to notify change of ownership (Art. 268): FRW 5,000,000–50,000,000.",
+    "Non-compliance with enforcement notice (Art. 269): FRW 500,000–15,000,000 per day.",
+    "Unlawful restriction of service access (Art. 270): FRW 2,000,000–10,000,000 per day.",
+    "Tariff control non-compliance — dominant operator (Art. 271): FRW 5,000,000–15,000,000 per day.",
+    "Equipment installed/used without licence (Art. 272): impoundment + FRW 500,000–15,000,000; confiscation if national security threat.",
+    "Unlawful radio spectrum use (Art. 273): FRW 500,000–5,000,000 initial fine; FRW 500,000–10,000,000 daily for continued unlawful use.",
+    "Continued use after radio licence expiry (Art. 274): FRW 1,000,000; daily fine of FRW 500,000–5,000,000 after prohibition notice.",
+    "Failure to provide leased line information (Art. 275): FRW 1,000,000–5,000,000.",
+    "Unregistered equipment installation services (Art. 278): FRW 200,000–1,000,000 + FRW 50,000/day until registration.",
+    "Information society services without licence (Art. 282): FRW 1,000,000–5,000,000 + suspension.",
+    "Non-compliance with enforcement notice — information society (Art. 283): FRW 1,000,000–5,000,000 + FRW 500,000/day continued.",
+    "Unauthorised licence transfer — information society (Art. 284): FRW 1,000,000–5,000,000 + possible suspension.",
+    "Licence revocation (Art. 281): available for significant persistent breach; one month to rectify before revocation.",
+    "Broadcasting and postal offences (Arts. 292–306): administrative fines, licence suspension, and revocation available across all sector offences."
+  ],
+  regulator: "Rwanda Utilities Regulatory Authority (RURA) — primary regulatory authority for all ICT sectors: electronic communications, information society services, broadcasting, and postal services. RURA licenses, monitors, enforces, resolves disputes, and manages radio spectrum. The Ministry responsible for ICT sets national ICT policy but does not regulate operators directly.",
+  keyDeadlines: [
+    "Licence renewal: must be renewed before expiry; operating post-expiry triggers daily fines from day one (Art. 267).",
+    "Licence transfer notification: prior written authorisation from RURA required before any transfer (Arts. 49–50, 284, 294, 302).",
+    "Change of ownership notification: must notify RURA promptly as required by licence conditions; failure attracts FRW 5,000,000–50,000,000 fine (Art. 268).",
+    "Rectification period after enforcement notice: licensees must rectify non-compliance within one month of notification before licence revocation is possible (Art. 281).",
+    "Mail without claimant disposal: postal items with no value are destroyed after 2 months; items of value are transferred to the universal service operator after 5 years (Art. 253).",
+    "RURA processing timeframes: published by RURA for licence applications and regulatory transactions (Art. 26)."
+  ]
+}
+{
+  id: "capital_markets_01_2011",
+  shortName: "Capital Markets Law (Parent)",
+  fullName: "Law Nº 01/2011 of 10/02/2011 regulating Capital Market in Rwanda (as modified by Law Nº 45/2018 of 13/08/2018)",
+  gazette: "Official Gazette Nº 13bis of 28/03/2011",
+  articles: [
+    {
+      number: "1",
+      summary: "Purpose: regulates the capital market in Rwanda and establishes mechanisms for controlling and supervising its activities to maintain proper standards of conduct and acceptable practices."
+    },
+    {
+      number: "2",
+      summary: "Definitions: defines agent, approved person, Authority (CMA), Clearing House, capital market agreement, Credit Rating Agency, custodian, exempted person, Independent Review Panel, licenced person, market, Minister (Finance), person, securities depository, and securities exchange."
+    },
+    {
+      number: "3",
+      summary: "Scope: regulates capital market business conducted by brokers, dealers, sponsors, investment advisers, investment banks, investment managers, custodians, securities exchanges, clearing houses, credit rating agencies, registrars, and any other persons designated by Ministerial Order. The Minister's Order may also expand the list of capital market instruments in Annex I."
+    },
+    {
+      number: "4",
+      summary: "Capital market instruments and business: instruments are those defined in Annex I (shares in public companies, debt instruments, government securities, warrants, certificates representing instruments, options, future rights, contracts for difference, long-term insurance contracts, and rights/interests in capital market instruments). Business activities are defined in Annex II."
+    },
+    {
+      number: "5",
+      summary: "Person engaged in capital market business: a person is engaged if they carry out the business on a permanent basis from an appropriate place in Rwanda, engaging in one or more Annex II activities and complying with CMA regulations."
+    },
+    {
+      number: "6",
+      summary: "Restrictions on capital market: no person may carry out or purport to carry out capital market business in Rwanda unless licensed, approved or exempted under this Law. Foreign persons may be authorised if CMA is satisfied they are regulated by an equivalent foreign agency. CMA makes regulations on conditions for foreign persons to operate."
+    },
+    {
+      number: "7",
+      summary: "Licensed and approved persons: a person holding a CMA-issued licence is a licensed person; a person approved by CMA is an approved person. Both are authorised to carry out capital market business. Applications for licences or approvals must follow CMA licensing regulations."
+    },
+    {
+      number: "8",
+      summary: "Notification of refusal, suspension and withdrawal: CMA must notify the concerned person in writing of the legal grounds for any refusal, suspension or withdrawal of a licence or approval, and must inform them of their right to appeal to the Independent Review Panel. Where no appeal is lodged, CMA may also inform the public of the decision."
+    },
+    {
+      number: "9",
+      summary: "Withdrawal and suspension of licence or approval: CMA may at any time withdraw or suspend any licence or approval if it establishes that (1) the person is not fit and proper for the capital market business they conduct or seek, or (2) the person has violated any provision of this Law or its regulations, or provided false, inaccurate or misleading information. Suspension is for a specified period and ends when the cause is remedied."
+    },
+    {
+      number: "10",
+      summary: "Withdrawal of application: an application for a licence or approval
+    export function generateSystemPrompt(): string {
   const verified = LAWS.filter((l) => l.status === "verified");
   const training = LAWS.filter((l) => l.status === "training");
 
