@@ -3101,6 +3101,7 @@ export const LAWS: Law[] = [
   ]
 }
 {
+  {
   id: "capital_markets_01_2011",
   shortName: "Capital Markets Law (Parent)",
   fullName: "Law Nº 01/2011 of 10/02/2011 regulating Capital Market in Rwanda (as modified by Law Nº 45/2018 of 13/08/2018)",
@@ -3144,7 +3145,305 @@ export const LAWS: Law[] = [
     },
     {
       number: "10",
-      summary: "Withdrawal of application: an application for a licence or approval
+      summary: "Withdrawal of application: an application for a licence or approval may be withdrawn at any time before a decision is made. CMA may refuse withdrawal if it considers a prior investigation is necessary for public interest."
+    },
+    {
+      number: "11",
+      summary: "Return of licence or suspension of approval: CMA may return a licence or suspend an approval at the request of the licensed or approved person. CMA may refuse if a prior investigation is required. CMA may give public notice of any suspension or withdrawal."
+    },
+    {
+      number: "12",
+      summary: "Exempted persons: exempted persons are approved to carry out capital market business without a licence. The National Bank of Rwanda (BNR) is explicitly exempted for all its capital market activities. CMA may recognise exemption before the person begins activities."
+    },
+    {
+      number: "13",
+      summary: "Securities exchanges and clearing houses: any company may apply to CMA for approval to operate as a securities exchange or clearing house. Once approved, it is exempted but remains subject to CMA inspection, investigation, conduct and functioning regulations (Chapters V, VI and VII). CMA must not approve unless all licensing requirements are met."
+    },
+    {
+      number: "14",
+      summary: "Foreign securities exchanges and clearing houses: a company with its head office outside Rwanda may apply to be a foreign securities exchange or clearing house. Once approved, it is exempted but subject to CMA inspection, investigation and conduct regulations."
+    },
+    {
+      number: "15",
+      summary: "Credit Rating Agencies (CRA): any company may apply for CMA approval to operate as a CRA. Once approved, it is treated as exempted with respect to its capital market activities."
+    },
+    {
+      number: "16",
+      summary: "Foreign Credit Rating Agencies: any company with its head office outside Rwanda may apply to be a foreign CRA. Once CMA-approved, it is treated as an exempted person for its capital market activities."
+    },
+    {
+      number: "17",
+      summary: "Approval and notification requirements: CMA makes regulations determining the procedure for request, refusal, suspension and withdrawal of approvals. CMA also requires approved securities exchanges, clearing houses and CRAs to specify their business nature and establish minimum membership admission standards."
+    },
+    {
+      number: "18",
+      summary: "Power to extend or restrict exempted persons list: CMA may by regulation increase the number of categories of exempted persons or remove/restrict persons from the list."
+    },
+    {
+      number: "19",
+      summary: "Statement of principles (Chapter IV — Practices and Ethics): CMA issues statements of principles on ethics and financial standing required of licensed and approved persons. Failure to comply gives rise to disciplinary actions including: written warning, fine, seeking court injunction, withdrawal/suspension/termination of licence, or disqualification from the profession. Breach of principles does not invalidate transactions already completed."
+    },
+    {
+      number: "20",
+      summary: "Modification of statement of principles: on request of any interested person, CMA may adapt principles to the specific nature of a person's business or authorise non-compliance with a principle, provided this does not adversely affect any investor."
+    },
+    {
+      number: "21",
+      summary: "Regulations governing the profession: CMA issues regulations governing conduct of capital market business through principles and regulations. A person who fails to observe any provision of such laws or regulations is considered to have violated the statement of principles."
+    },
+    {
+      number: "22",
+      summary: "Business regulations: CMA makes regulations on the conduct of capital market business by licensed and approved persons, covering: promoting integrity and fair dealing; requiring due skill, care and diligence; separating own interests from clients' interests; attending to specific client needs; disclosure of transaction interests; information to be published; investor information for informed decisions; price stabilisation decisions; protection of third-party property; investor compensation; and record keeping."
+    },
+    {
+      number: "23",
+      summary: "Modification of business regulations: CMA may on request amend regulation requirements to adapt them to the specific needs or nature of a person's business, provided amendments are consistent with CMA's statutory objectives."
+    },
+    {
+      number: "24",
+      summary: "Employment of unqualified persons (Chapter V — Disciplinary Measures): it is prohibited to employ unqualified persons in capital market business. If CMA finds a licensed or approved person employing an unqualified person, it orders their suspension."
+    },
+    {
+      number: "25",
+      summary: "Public statement of misconduct: CMA may publish a statement of misconduct where a licensed or approved person has contravened statements of principles, regulations or code of practice by employing an unqualified person."
+    },
+    {
+      number: "26",
+      summary: "Court injunction to stop violation: on CMA's request, a court must grant an injunction restraining the violation where a person is conducting capital market business without a licence or approval, or where an unqualified person is employed."
+    },
+    {
+      number: "27",
+      summary: "Court injunction to remedy violation: on CMA's request, a court may grant an injunction to remedy the violation where any concerned person has contravened regulations, an unqualified person is employed, misleading information has been provided, or a person has contravened a securities exchange or clearing house's regulations."
+    },
+    {
+      number: "28",
+      summary: "Scope of CMA's intervention powers (Chapter VI): CMA exercises intervention powers against licensed or approved persons where (1) necessary to protect investors' interests; (2) the person no longer has capacity to carry out capital market business; or (3) the person has violated this Law or its regulations, or provided false, inaccurate or misleading information."
+    },
+    {
+      number: "29",
+      summary: "Prohibited transactions: CMA may prohibit a licensed or approved person from (1) entering into selling or buying transactions other than those licensed for; (2) engaging with persons involved in unauthorised activities; or (3) carrying out any prohibited capital market business. Prohibitions apply only to transactions connected with capital market business."
+    },
+    {
+      number: "30",
+      summary: "Vesting of assets in a trustee: CMA may, when necessary, impose requirements for all assets of licensed or approved persons or assets of investors held by them to be transferred to and held by a CMA-approved trustee. This may extend to assets held outside Rwanda."
+    },
+    {
+      number: "31",
+      summary: "Restrictions on using assets: CMA may, for public interest, prohibit a licensed or approved person from disposing of or dealing with their own assets or assets they administer as trustee. May apply to persons outside Rwanda."
+    },
+    {
+      number: "32",
+      summary: "Possession of assets: CMA may require a licensed or approved person to maintain assets in Rwanda of such value as CMA determines, to ensure they can meet their capital market liabilities."
+    },
+    {
+      number: "33",
+      summary: "Review or rescission of decisions: CMA may, on its own initiative or on request of the affected person, review or rescind a prohibition or requirement if it no longer appears necessary."
+    },
+    {
+      number: "34",
+      summary: "Notices: CMA exercises its prohibition and requirement powers by written notice served on the concerned person, effective from the date specified. If CMA refuses to rescind a prohibition, it must notify the person within 30 working days. Notices must state reasons and inform the person of their 15-day right to appeal to the Independent Review Panel."
+    },
+    {
+      number: "35",
+      summary: "Winding up order: on CMA's petition, a competent court may wind up a licensed or approved person if the person is insolvent or the court considers it just and equitable to do so."
+    },
+    {
+      number: "36",
+      summary: "Power to request information (Chapter VII): CMA may by written notice require any licensed or approved person, securities exchange, clearing house, CRA, or any other licensed or approved person to provide any information it reasonably requires for its functions, within a reasonable time."
+    },
+    {
+      number: "37",
+      summary: "Inspection powers: CMA may at any time and without notice enter any premises occupied by licensed or approved persons. Modalities for conducting inspections are determined by Ministerial Order."
+    },
+    {
+      number: "38",
+      summary: "Investigation powers: CMA has the power to carry out investigations on any capital market business issues where there are justifiable reasons. Investigation powers shall not be exercised against an exempted person unless requested by that person or they have acted fraudulently and are unwilling to rectify. Modalities for investigation are set by Ministerial Order."
+    },
+    {
+      number: "39",
+      summary: "Exercise of entry powers: on CMA's request, a court may grant CMA the right to enter premises if there are reasonable grounds to believe relevant documents are on the premises, and may order seizure if the person under investigation has refused to produce them. Entry authority is valid for one month. Seized documents are kept for 3 months or until the end of any proceedings."
+    },
+    {
+      number: "40",
+      summary: "Inside information (Chapter VIII): defined as price-sensitive information relating to capital market instruments which (1) relates to instruments or their issuer; (2) is specific or authentic and has not been made public; and (3) if made public would likely affect the price of capital market instruments."
+    },
+    {
+      number: "41",
+      summary: "Insiders: a person has insider information if (1) they know well it is inside information, and (2) they know it came from an inside source. Also an insider if they obtained the information through being a board member, employee or shareholder of a capital market instrument issuer; by virtue of employment, office or profession; or directly or indirectly from any such person."
+    },
+    {
+      number: "42",
+      summary: "Insider dealing: an individual engages in insider dealing by using insider information to deal in capital market instruments that can influence prices. This includes encouraging another person to deal (whether or not that person knows the information is price-sensitive) and disclosing employment/profession-related information to another who uses it in price-sensitive dealings."
+    },
+    {
+      number: "43",
+      summary: "Defence to insider dealing: a person is not deemed to have engaged in insider dealing if they prove: (1) they did not expect the dealing to result in a profit attributable to that information; (2) they reasonably believed every person was aware of the information and no one would be prejudiced; or (3) they would have done the same thing even without the information. These defences apply to dealing, encouraging another to deal, and disclosure."
+    },
+    {
+      number: "44",
+      summary: "Information made public: information is public if it is published per capital market regulations to inform investors and their advisers; kept in a way open to the public; or readily obtainable by those likely to deal in capital market instruments. Information communicated only to those needing it for their duties, only to a section of the public, or only against payment, is still treated as public."
+    },
+    {
+      number: "45",
+      summary: "Limits on insider dealing: insider dealing rules do not apply to actions by an individual acting on behalf of a public sector body in pursuit of monetary policy, exchange rate policy, foreign exchange reserves management, or public debt management. No contract is void or unenforceable merely because it results from insider dealing."
+    },
+    {
+      number: "46",
+      summary: "Market abuse: defined as behaviour by one or more persons acting alone or in concert in relation to the capital market that any person aware of market practice would regard as a breach of market standards. Characterised by: information not generally available to market users that would be relevant to transaction terms; creating a false or misleading impression as to supply, demand or price of capital market instruments; or behaviour that distorts the market as seen by regular users. CMA must issue regulations to prevent market abuse."
+    },
+    {
+      number: "47",
+      summary: "Register of licensed or approved persons (Chapter IX): CMA must properly maintain a register of all persons licensed or approved to carry out capital market business."
+    },
+    {
+      number: "48",
+      summary: "Inspection of the register: the register is open to inspection. CMA may publish the register information in any form it deems appropriate. The register must be properly kept to allow easy inspection."
+    },
+    {
+      number: "49",
+      summary: "Restrictions on disclosure of information: restricted information relating to the business or affairs of any person shall not be disclosed without that person's consent. Persons permitted to disclose without consent: CMA, compensation scheme administrators, BNR, members of the Independent Review Panel, persons appointed to conduct investigations, and officers of any of those bodies. Information obtained by those persons in the course of their duties under this Law is restricted."
+    },
+    {
+      number: "50",
+      summary: "Exemptions to information restrictions: restrictions on disclosure do not preclude disclosure for: criminal proceedings; civil or disciplinary proceedings or Independent Review Panel proceedings; assisting CMA to exercise its powers; assisting securities exchanges, clearing houses or compensation schemes; assisting the Ombudsman, Auditor General, Attorney General, BNR, an official receiver, a court-appointed investigator or auditor, or foreign agencies with equivalent missions."
+    },
+    {
+      number: "51",
+      summary: "Assistance to foreign regulatory authorities: subject to Article 52 conditions, CMA may assist foreign regulatory authorities in connection with any legal or regulatory requirement those authorities wish to enforce, including conducting investigations or providing information and opinions."
+    },
+    {
+      number: "52",
+      summary: "Conditions prior to assisting foreign regulators: before providing assistance, CMA must consider: whether the foreign authority is legally recognised; whether the assistance will be used for its official functions; whether reciprocal assistance would be available; whether the foreign authority will contribute to investigation costs; whether assistance is relevant to its capital market functions; whether it will comply with any conditions on information transmission; whether it will keep information confidential; whether assistance would enhance Rwanda's capital market reputation; and whether proceedings have already been initiated in Rwanda on the same information."
+    },
+    {
+      number: "53",
+      summary: "Prospectus: any prospectus for capital market instruments must comply with the laws and regulations on public issuance. Before publishing, a copy must be filed with CMA for prior approval."
+    },
+    {
+      number: "54",
+      summary: "Restrictions on prospectus: no person in Rwanda may offer capital market instruments for subscription or sale to the public or a section of the public unless a duly signed prospectus has been published and a copy filed with CMA for prior approval beforehand."
+    },
+    {
+      number: "55",
+      summary: "Compensation scheme (Chapter X): CMA must by regulation establish a scheme to compensate investors who suffer bankruptcy due to acts of licensed or approved persons or their employees. (Note: Article 55 was amended by Law Nº 45/2018 to extend coverage to defalcation or fraud by licensed persons or employees of a securities exchange.)"
+    },
+    {
+      number: "56",
+      summary: "Content of compensation regulations: must include: creation of a payment fund; governance and operational provisions; contribution payment modalities; terms and conditions for paying compensation and circumstances excluding the right to compensation; and mechanisms for CMA to recover amounts paid from the party who caused the loss."
+    },
+    {
+      number: "57",
+      summary: "Relations with other regulatory bodies (Chapter XI): information and actions from other regulatory bodies are relevant where a person's principal place of business or principal business is outside Rwanda and they are regulated by a competent authority in that country. CMA may declare certain requirements are fulfilled and may enter agreements with other regulatory bodies."
+    },
+    {
+      number: "58",
+      summary: "Enforcement of foreign regulatory decisions: CMA may exercise its disciplinary or intervention powers at the request of a foreign regulatory body, including withdrawal or suspension of licences, disqualification, public statements, court injunctions, and financial penalties. CMA must consider reciprocity, seriousness, impact on persons in Rwanda, and public interest. CMA may require the foreign authority to contribute to investigation costs."
+    },
+    {
+      number: "59",
+      summary: "Auditors (Chapter XII): CMA makes regulations requiring all licensed and approved persons to appoint an auditor meeting specified conditions."
+    },
+    {
+      number: "60",
+      summary: "Power to require a second audit: if CMA has reasonable grounds, it may direct a licensed or approved person to appoint a second auditor to review the first auditor's report, at the concerned person's expense and within the timeframe specified by CMA. The second auditor has all powers available to the first."
+    },
+    {
+      number: "61",
+      summary: "Auditor's duty to communicate with CMA: auditors must provide CMA with any information or opinion on matters arising in their capacity as auditors of licensed or approved persons, including matters relating to third parties. Good faith communication to CMA on request or voluntarily does not constitute a wrongful act. Where an auditor is not governed by satisfactory professional body rules, CMA may issue its own regulations for that auditor."
+    },
+    {
+      number: "62",
+      summary: "Failure by auditor to communicate with CMA: where CMA establishes an auditor failed to comply with the communication duty, it may disqualify them from being an auditor of licensed or approved persons. Disqualification may be removed if CMA finds the auditor has corrected their behaviour. Licensed persons may not hire a disqualified auditor."
+    },
+    {
+      number: "63",
+      summary: "Independent Review Panel (Chapter XIII): a Capital Market Independent Review Panel is hereby established. Its organisation, functioning and composition are determined by Ministerial Order. It hears appeals against CMA decisions and other capital market matters."
+    },
+    {
+      number: "64",
+      summary: "Operating without licence or approval (Chapter XIV — Offences and Penalties): conducting or purporting to conduct capital market business without a licence or approval is an offence. Penalty: 6 months to 2 years imprisonment and/or FRW 15,000,000–50,000,000 fine. (Note: Law Nº 45/2018 amended and renumbered these provisions — see Art. 66 of Law Nº 45/2018 for current version with increased penalties of 1–2 years and FRW 30,000,000–50,000,000.)"
+    },
+    {
+      number: "65",
+      summary: "Employing a disqualified person: any person who employs a disqualified person is liable to a fine of FRW 5,000,000."
+    },
+    {
+      number: "66",
+      summary: "Misleading practices and statements: making false, misleading or deceptive statements, promises or forecasts inducing another to enter or refrain from an investment agreement, or creating false impressions as to capital market instrument prices, is an offence. Defence available if accused proves they reasonably believed the act would not be false or misleading. Penalty: 6 months to 2 years imprisonment and/or FRW 10,000,000–50,000,000 fine."
+    },
+    {
+      number: "67",
+      summary: "Failure to comply with investigation requirements: without reasonable excuse, failing to comply with investigators' requirements is an offence. Penalty: 6 months to 2 years imprisonment and FRW 5,000,000 fine, or one of these penalties. Convicted persons may also be ordered to pay all investigation costs."
+    },
+    {
+      number: "68",
+      summary: "Obstruction of inspection: intentionally obstructing inspection by failing to provide required documents is an offence. Penalty: 6 months to 2 years imprisonment and/or FRW 20,000,000 fine."
+    },
+    {
+      number: "69",
+      summary: "Insider dealing and market abuse: any person who has insider information and uses it to deal in capital market instruments or to commit market abuse commits an offence. Penalty: 6 months to 2 years imprisonment and/or FRW 10,000,000–100,000,000 fine."
+    },
+    {
+      number: "70",
+      summary: "Providing false or misleading information to auditors: any licensed or approved person, or officer or manager of a licensed or approved body, who knowingly or recklessly provides an auditor with false or misleading information commits an offence. Penalty: 6 months to 2 years imprisonment and/or FRW 5,000,000 fine."
+    },
+    {
+      number: "71",
+      summary: "False statements for licensing or approval: providing false or misleading information to obtain a licence or approval, purporting to be licensed when not, or falsely claiming to be an approved securities exchange, clearing house or CRA, are all offences. Penalty: 6 months to 2 years imprisonment and/or FRW 10,000,000 fine."
+    },
+    {
+      number: "72",
+      summary: "Disclosure of restricted information: disclosing restricted information contrary to this Law is an offence. Penalty: 6 months to 2 years imprisonment and/or FRW 5,000,000 fine."
+    },
+    {
+      number: "73",
+      summary: "Annexes: the Annexes (I and II) form part of this Law."
+    },
+    {
+      number: "74",
+      summary: "Power to make regulations: CMA has full power to issue all required regulations, guidelines and directives necessary for the effective functioning of the capital market in Rwanda."
+    },
+    {
+      number: "75",
+      summary: "Transitional period: any individual or legal entity dealing in capital market business before this Law's publication has one year from publication to comply with its requirements."
+    },
+    {
+      number: "76",
+      summary: "Drafting: this Law was drafted in English, considered and adopted in Kinyarwanda."
+    },
+    {
+      number: "77",
+      summary: "Repealing provision: all prior legal provisions contrary to this Law are repealed."
+    },
+    {
+      number: "78",
+      summary: "Commencement: enters into force on the date of publication in the Official Gazette (28 March 2011)."
+    }
+  ],
+  penalties: [
+    "Original Art. 64 — operating without licence/approval: 6 months–2 years imprisonment and/or FRW 15,000,000–50,000,000. [Superseded by Law 45/2018 Art. 66: 1–2 years and/or FRW 30,000,000–50,000,000].",
+    "Art. 65 — employing a disqualified person: FRW 5,000,000 fine. [Superseded by Law 45/2018 Art. 65: FRW 3,000,000–5,000,000].",
+    "Art. 66 — misleading practices and statements: 6 months–2 years imprisonment and/or FRW 10,000,000–50,000,000.",
+    "Art. 67 — non-compliance with investigation requirements: 6 months–2 years imprisonment and FRW 5,000,000 fine, or one of these; plus all investigation costs.",
+    "Art. 68 — obstruction of inspection: 6 months–2 years imprisonment and/or FRW 20,000,000 fine.",
+    "Art. 69 — insider dealing and market abuse: 6 months–2 years imprisonment and/or FRW 10,000,000–100,000,000 fine.",
+    "Art. 70 — false/misleading information to auditor: 6 months–2 years imprisonment and/or FRW 5,000,000 fine.",
+    "Art. 71 — false statements for licensing/approval or impersonation: 6 months–2 years imprisonment and/or FRW 10,000,000 fine.",
+    "Art. 72 — disclosure of restricted information: 6 months–2 years imprisonment and/or FRW 5,000,000 fine.",
+    "Disciplinary sanctions (Art. 19): written warning, fine, court injunction, withdrawal/suspension/termination of licence, or disqualification from the profession.",
+    "NOTE: Law Nº 45/2018 increased penalties for several offences and added administrative fines — both law entries should be read together."
+  ],
+  regulator: "Capital Market Authority (CMA) — the Authority established as an independent public institution responsible for licensing, approving, supervising, inspecting and investigating all capital market participants in Rwanda. CMA issues all regulations, principles and guidelines; manages the register of licensed and approved persons; enforces compliance through administrative sanctions, court injunctions and referral for criminal prosecution; and coordinates with the Independent Review Panel, BNR, foreign regulatory bodies, and other domestic regulators. The Minister of Finance issues Orders on additional business activities and on inspection and investigation modalities.",
+  keyDeadlines: [
+    "Transitional period for existing operators: 1 year from publication (i.e. by 28 March 2012) to comply with all requirements (Art. 75).",
+    "Appeal to Independent Review Panel: 15 days from receipt of a CMA notice (Art. 34).",
+    "CMA response to application for review/rescission of prohibition: within 30 working days (Art. 34).",
+    "Court entry authority: valid for 1 month from date of issue (Art. 39).",
+    "Seized document retention: 3 months, or until end of proceedings if prosecution commenced (Art. 39).",
+    "Prospectus: must be filed with CMA for prior approval before any public offer of capital market instruments (Art. 54).",
+    "Commencement: 28 March 2011 (date of Official Gazette publication)."
+  ]
+}
     export function generateSystemPrompt(): string {
   const verified = LAWS.filter((l) => l.status === "verified");
   const training = LAWS.filter((l) => l.status === "training");
