@@ -518,7 +518,8 @@ export const LAWS: Law[] = [
       },
     ],
   },
-},
+{
+  id: "insurance-law",
   id: "insurance-law",
   name: "Insurance Business Organisation Law",
   shortName: "Insurance Law",
