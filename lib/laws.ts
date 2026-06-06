@@ -162,7 +162,7 @@ export const LAWS: Law[] = [
     ],
   },
   {
-    {
+    
   id: "tax-procedures-law",
   name: "Tax Procedures Law",
   shortName: "Tax Procedures",
