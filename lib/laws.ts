@@ -5993,6 +5993,3764 @@ export const LAWS: Law[] = [
 
   effectiveDate: "01/11/2021",
 }
+    {
+  id: "arbitration_conciliation_005_2008",
+  shortName: "Arbitration and Conciliation Law",
+  fullName: "Law N° 005/2008 of 14/02/2008 on Arbitration and Conciliation in Commercial Matters",
+  practiceNote: "N° 005/2008 remains the operative arbitration law as of 2025. Rwanda's ADR Policy (September 2022) recommends replacing it with two separate acts (one for arbitration, one for mediation); a review is underway with completion expected before 2027. No replacement law has been enacted.",
+  category: "dispute_resolution",
+  articles: [
+    // CHAPTER ONE: GENERAL PROVISIONS
+    {
+      number: "1",
+      title: "Establishment",
+      summary: "Establishes the legal framework for arbitration and conciliation procedures in commercial matters."
+    },
+    {
+      number: "2",
+      title: "Scope of Application",
+      summary: "Applies to both domestic and international commercial arbitration and conciliation. Does not override other Rwandan laws that exclude certain disputes from arbitration. Conciliation applies to any basis including party agreement, statutory obligation, or court/tribunal referral. Conciliation does not apply to cases already before a judge or arbitrator in pending proceedings."
+    },
+    {
+      number: "3",
+      title: "Definitions",
+      summary: "Defines key terms: 'arbitration' (parties submit dispute to arbitrator(s) for binding resolution of legal/contractual commercial dispute); 'conciliation' (parties seek conciliator's assistance for amicable settlement, includes mediation); 'court' (competent Rwandan judicial jurisdiction); 'international' arbitration or conciliation (parties in different states including Rwanda, or place of arbitration/performance/subject-matter is outside parties' home state, or parties expressly agreed the matter concerns more than one country). For multi-establishment parties, the establishment most closely connected to the agreement governs; for parties with no establishment, habitual residence applies."
+    },
+    {
+      number: "4",
+      title: "Rules of Interpretation",
+      summary: "Except for Article 40, parties are free to determine the arbitrator(s). Where this Law refers to party agreement, that includes any arbitration rules incorporated by reference. References to 'claim' also apply to counter-claims; references to 'defence' also apply to defence to counter-claims."
+    },
+
+    // CHAPTER II: ARBITRATION — Section 1: General Provisions
+    {
+      number: "5",
+      title: "Receipt of Written Communications",
+      summary: "Written communication is received when delivered to the addressee personally, at their residence, or mailing address. If these cannot be found after reasonable inquiry, communication sent to last-known place of business, residence, or postal address by registered letter or equivalent is deemed received on the date of delivery. This article does not apply to communications exchanged during court proceedings."
+    },
+    {
+      number: "6",
+      title: "Waiver of Right to Object",
+      summary: "A party who knows of a non-compliance with a derogable provision of this Law or an arbitration agreement requirement, but continues with arbitration without promptly objecting (or within any stipulated time limit), is deemed to have waived the right to object."
+    },
+    {
+      number: "7",
+      title: "Extent of Court Intervention",
+      summary: "Courts shall not intervene in matters governed by this Law except where expressly provided by this Law. In practice, the Commercial High Court is the supervisory court for all arbitration-related judicial functions under this Law."
+    },
+    {
+      number: "8",
+      title: "Functions of Arbitration Assistance and Supervision",
+      summary: "The supervisory and assistance functions referenced in Articles 13(2)(3°), 15(3), 16(1), and 47 are performed by the court that would have had ordinary jurisdiction had arbitration not taken place — confirmed by practice as the Commercial High Court (Haute Cour de Commerce)."
+    },
+
+    // Section 2: Arbitration Agreement
+    {
+      number: "9",
+      title: "Form of Arbitration Agreement",
+      summary: "An arbitration agreement is an agreement to submit all or certain disputes (arising or future) from a defined legal relationship (contractual or not) to arbitration. It may be a clause in a contract or a separate agreement. Must be in writing — satisfied if content is recorded in any form (oral agreement recorded in conduct, writing, or otherwise). Electronic communications satisfy the writing requirement if accessible for future reference; includes EDI, email, telegram, telex, telefax. Also satisfied if one party alleges the agreement in pleadings and the other does not deny it. Reference in a contract to a document containing an arbitration clause constitutes a written arbitration agreement if the reference incorporates the clause into the contract."
+    },
+    {
+      number: "10",
+      title: "Arbitration Agreement and Substantive Claims Before Court",
+      summary: "A court seised of a matter covered by an arbitration agreement must refer it to arbitration if a party requests before submitting its first substantive pleading, unless the court finds the agreement null, void, inoperative, or incapable of performance. Arbitral proceedings may commence or continue and an award may be made while the court action is pending; once arbitration proceeds, the court action becomes null and void."
+    },
+    {
+      number: "11",
+      title: "Arbitration Agreement and Interim Measures of Court",
+      summary: "Either party may request court-ordered interim measures before or during arbitral proceedings; granting such measures is not contrary to the arbitration agreement."
+    },
+
+    // Section 3: Composition of Arbitral Tribunal
+    {
+      number: "12",
+      title: "Number of Arbitrators",
+      summary: "Parties are free to determine the number of arbitrators, which must always be an odd number. Default if no agreement: three (3). Arbitrators may be Rwandan or foreign nationals."
+    },
+    {
+      number: "13",
+      title: "Appointment of Arbitrator or Arbitral Tribunal",
+      summary: "No person may be disqualified as arbitrator solely on grounds of nationality unless parties agree otherwise. Parties are free to agree on the appointment procedure. Failing agreement: for a three-arbitrator tribunal, each party appoints one arbitrator and the two appoint the third; if a party fails to appoint within 15 days of written request, or the two arbitrators fail to agree on the third within 15 days of their appointment, the Commercial High Court makes the appointment on request. For a sole arbitrator, if parties cannot agree, the Commercial High Court appoints on request. Court appointment decisions are not subject to appeal. The court shall consider required qualifications and the need for independence and impartiality; may appoint an arbitrator of a nationality other than the parties' nationalities for a sole or third arbitrator."
+    },
+    {
+      number: "14",
+      title: "Grounds for Disqualification of Arbitrators",
+      summary: "A prospective arbitrator must disclose all circumstances likely to raise justifiable doubts as to impartiality or independence. This disclosure obligation continues throughout proceedings. An arbitrator may be challenged only if circumstances give rise to justifiable doubts as to impartiality/independence, or if the arbitrator lacks agreed qualifications. A party may only challenge an arbitrator it appointed (or participated in appointing) on grounds discovered after that appointment."
+    },
+    {
+      number: "15",
+      title: "Challenge Procedure for Disqualification of Arbitrators",
+      summary: "Parties are free to agree on a challenge procedure. Failing agreement: the challenging party must submit written reasons to the arbitral tribunal within 7 days of becoming aware of the tribunal's constitution or of the disqualifying circumstances. If the challenged arbitrator does not withdraw and the other party does not agree to the challenge, the tribunal decides. If the challenge fails under agreed procedure or this article, the challenging party may apply to the Commercial High Court within 15 days of receiving notice of rejection; that court decision is not subject to appeal."
+    },
+    {
+      number: "16",
+      title: "Absence and Incapacity of Arbitrator",
+      summary: "If an arbitrator becomes de jure or de facto unable to perform functions, or fails to act for a period of not less than 7 days and not more than 30 days, the mandate terminates on resignation or party agreement. If disputed, a party may apply to the Commercial High Court for a decision, which is not subject to appeal. Withdrawal or acceptance of termination does not imply acknowledgment of any disqualifying ground."
+    },
+    {
+      number: "17",
+      title: "Appointment of Substitute Arbitrator",
+      summary: "When an arbitrator's mandate terminates (under Art. 15 or 16, voluntary withdrawal, revocation by agreement, or any other reason), a substitute is appointed using the same rules as governed the original appointment."
+    },
+
+    // Section 4: Jurisdiction of Arbitral Tribunal
+    {
+      number: "18",
+      title: "Competence of Arbitral Tribunal to Rule on Its Own Jurisdiction",
+      summary: "The arbitral tribunal may rule on its own jurisdiction (kompetenz-kompetenz), including objections to the existence or validity of the arbitration agreement. The arbitration clause is treated as an agreement separate from the main contract; nullity of the main contract does not ipso jure invalidate the arbitration clause. Jurisdiction objections must be raised before the statement of defence; excess-of-jurisdiction objections raised as soon as the issue arises. Tribunal may admit late objections if delay is justified. Tribunal may rule on jurisdiction as a preliminary question or in the final award. If ruled as preliminary, a party may request the tribunal to decide within 30 days; that decision is not subject to appeal. Proceedings continue regardless."
+    },
+
+    // Section 5: Interim Measures and Preliminary Orders
+    {
+      number: "19",
+      title: "Competence of Arbitral Tribunal to Issue Interim Measures",
+      summary: "Unless parties agree otherwise, the tribunal may grant interim measures at a party's request. An interim measure is any temporary measure (in award form or otherwise) ordering a party, prior to final award, to: (1) maintain or restore the status quo; (2) prevent or halt action causing immediate/imminent harm or prejudice to the arbitral process; (3) preserve assets for execution of a future award; or (4) preserve relevant and material evidence."
+    },
+    {
+      number: "20",
+      title: "Conditions for Granting Interim Measures",
+      summary: "For measures under Art. 19(2)(1°–3°), the requesting party must satisfy the tribunal that: (1) irreparable harm not adequately compensable in damages would result if the measure is not granted, and that harm substantially outweighs harm to the other party if granted; and (2) there is a reasonable possibility of success on the merits (without prejudging the final outcome). For evidence preservation under Art. 19(2)(4°), conditions apply only to the extent the tribunal considers appropriate."
+    },
+    {
+      number: "21",
+      title: "Recognition and Enforcement of Interim Measures",
+      summary: "An interim measure issued by an arbitral tribunal is binding and enforceable by application to the competent court, irrespective of the country of issuance, subject to reciprocity and Article 22. The party seeking/obtaining enforcement must promptly notify the court of any termination, suspension, or modification. The court may require appropriate security if the tribunal has not already addressed this."
+    },
+    {
+      number: "22",
+      title: "Grounds for Refusing Recognition and Enforcement of Interim Measures",
+      summary: "Recognition/enforcement may be refused only if: (1) at the request of the party against whom the measure is invoked — the court is satisfied that refusal is justified on Art. 51(1)(1°)(a–d) grounds; the tribunal's security order has not been complied with; or the measure has been terminated or suspended by the tribunal or the seat court; or (2) the court finds of its own motion — the measure is outside its competence (unless reformulated without changing substance); or Art. 51(2)(i–ii) grounds apply. Any such refusal applies only to that specific enforcement application; the court does not review the measure on the merits."
+    },
+    {
+      number: "23",
+      title: "Court-Ordered Interim Measures",
+      summary: "A court issuing interim measures in support of arbitration (whether the seat is in Rwanda or abroad) exercises the same powers as in ordinary litigation, applied in accordance with its own rules and procedures adapted to the features of international arbitration."
+    },
+    {
+      number: "24",
+      title: "Applications for Preliminary Orders and Conditions for Granting",
+      summary: "Unless parties agree otherwise, a party may apply ex parte for a preliminary order directing the other party not to frustrate the purpose of a requested interim measure. The tribunal may grant a preliminary order if prior notice would risk frustrating the measure's purpose. Conditions of Art. 20 apply to preliminary orders, with harm assessed based on whether the order is granted or not."
+    },
+    {
+      number: "25",
+      title: "Specific Regime for Preliminary Orders",
+      summary: "Immediately after determining a preliminary order application, the tribunal must notify all parties of the request, the order, and all related communications (including oral). The party against whom the order is directed must be given the earliest opportunity to present its case. The tribunal must immediately decide any challenge to the preliminary order. A preliminary order expires after 15 days from issuance unless the tribunal issues a confirming or modifying interim measure (after notice and opportunity to be heard). Preliminary orders are binding on parties and enforceable by courts, but are not awards."
+    },
+    {
+      number: "26",
+      title: "Modification, Suspension, and Termination of Interim Measures or Preliminary Orders",
+      summary: "The tribunal may modify, suspend, or terminate an interim measure or preliminary order on party application or, in exceptional circumstances, on its own initiative after notifying the parties."
+    },
+    {
+      number: "27",
+      title: "Provision of Security",
+      summary: "The tribunal may require the party requesting an interim measure to provide appropriate security. The tribunal shall require security from a party requesting a preliminary order, unless it considers this inappropriate or unnecessary."
+    },
+    {
+      number: "28",
+      title: "Disclosure of Changes",
+      summary: "The party requesting an interim measure must promptly disclose any material change in circumstances on which the measure was based. The party requesting a preliminary order must disclose all circumstances relevant to the tribunal's determination and maintain this obligation until the other party has had the opportunity to present its case; thereafter the same ongoing disclosure obligation applies as for interim measures."
+    },
+    {
+      number: "29",
+      title: "Costs and Damages",
+      summary: "A party requesting an interim measure or preliminary order is liable for all costs and damages caused to any party if the tribunal later determines the measure or order should not have been granted. The tribunal may award such costs and damages at any time before conclusion of arbitration."
+    },
+
+    // Section 6: Conduct of Arbitral Proceedings
+    {
+      number: "30",
+      title: "Equal Treatment of Parties",
+      summary: "Parties shall be treated equally and each given a full opportunity to present their case."
+    },
+    {
+      number: "31",
+      title: "Determination of Rules of Procedure",
+      summary: "Subject to this Law, parties are free to agree on procedure. Failing agreement, the tribunal may conduct proceedings as it considers appropriate, including determining the admissibility, relevance, materiality, and weight of evidence."
+    },
+    {
+      number: "32",
+      title: "Place of Arbitration",
+      summary: "Parties may agree on the place of arbitration. Failing agreement, the place is Rwanda. Notwithstanding, the tribunal may meet anywhere appropriate for consultations, hearings, inspections, or evidence-taking."
+    },
+    {
+      number: "33",
+      title: "Commencement of Arbitral Proceedings",
+      summary: "Unless parties agree otherwise, proceedings commence on the date the respondent receives the request for the dispute to be referred to arbitration."
+    },
+    {
+      number: "34",
+      title: "Language",
+      summary: "Parties may agree on the language(s) of proceedings. Failing agreement, the tribunal determines the language(s). The chosen language applies to written statements, oral hearings, awards, decisions, and all tribunal communications. The tribunal may order documentary evidence to be accompanied by a translation into the agreed or determined language."
+    },
+    {
+      number: "35",
+      title: "Statements of Claim and Defence",
+      summary: "Within the agreed or tribunal-set time, the claimant states facts, points at issue, and relief sought; the respondent states its defence. Parties may submit supporting documents or reference documents to be submitted later. Either party may amend or supplement its claim or defence during proceedings unless the tribunal considers the amendment inappropriate given the delay."
+    },
+    {
+      number: "36",
+      title: "Hearings or Written Proceedings",
+      summary: "Unless parties agree otherwise, the tribunal decides whether to hold oral hearings or conduct proceedings on documents. If parties have not excluded oral hearings, the tribunal shall hold them if a party requests at an appropriate stage. Parties must receive advance notice of hearing dates and inspection meetings. All submissions, documents, and evidence provided to the tribunal by one party must be communicated to the other."
+    },
+    {
+      number: "37",
+      title: "Default of a Party",
+      summary: "Unless parties agree otherwise, if without sufficient cause: (1) the claimant fails to submit its statement of claim (Art. 35), the tribunal terminates proceedings; (2) the respondent fails to submit its defence, the tribunal continues without treating the failure as an admission; (3) either party fails to appear at a hearing or produce documentary evidence, the tribunal may continue and make an award on the evidence before it."
+    },
+    {
+      number: "38",
+      title: "Experts Appointed by Arbitral Tribunal",
+      summary: "Unless parties agree otherwise, the tribunal may appoint one or more experts to report on specific issues, and may require parties to give the expert relevant information, documents, goods, or property for inspection. If a party requests or the tribunal considers it necessary, the expert must attend a hearing after delivering the report, where parties may question the expert and call their own expert witnesses. The expert must disclose all documents and materials used in preparing the report."
+    },
+    {
+      number: "39",
+      title: "Court Assistance in Taking Evidence",
+      summary: "The tribunal, or a party with tribunal approval, may request a competent court for assistance in taking evidence. The court executes the request within its competence and according to its evidence rules."
+    },
+
+    // Section 7: Making of Award and Termination of Proceedings
+    {
+      number: "40",
+      title: "Rules Applicable to Substance of Dispute",
+      summary: "The tribunal decides according to the law chosen by the parties. A designation of a state's law is construed as referring to its substantive law, not conflict-of-laws rules, unless otherwise expressed. Failing party designation, the applicable law is Rwandan law and international conventions ratified by Rwanda. The tribunal may decide ex aequo et bono only if parties expressly authorise it. In all cases, the tribunal decides in accordance with the contract terms and takes into account applicable trade usages."
+    },
+    {
+      number: "41",
+      title: "Decision Making by Arbitral Tribunal",
+      summary: "In multi-arbitrator proceedings, decisions are made by majority unless parties agree otherwise. Procedural questions may be decided by the presiding arbitrator if authorised by the parties or all tribunal members."
+    },
+    {
+      number: "42",
+      title: "Settlement of Arbitration by Agreement of Parties",
+      summary: "If parties settle during proceedings, the tribunal terminates the proceedings. At the parties' request and if the tribunal does not object, the settlement is recorded as a consent award made in accordance with Art. 43. Such an award has the same status and effect as any other award on the merits."
+    },
+    {
+      number: "43",
+      title: "Form and Contents of Award",
+      summary: "Award must be in writing and signed by the arbitrator(s). In multi-arbitrator proceedings, majority signatures suffice with reasons for any omitted signature stated. The award must state reasons unless parties agreed otherwise or it is a consent award under Art. 42. The award must state its date and the place of arbitration (deemed made at that place). A signed copy must be delivered to each party."
+    },
+    {
+      number: "44",
+      title: "Termination of Arbitral Proceedings",
+      summary: "Proceedings terminate upon pronouncement of the final award or a termination order. The tribunal issues a termination order when: (1) the claimant withdraws its claim (unless the respondent objects and the tribunal recognises a legitimate interest in final resolution); (2) parties agree to terminate; or (3) continuation has become unnecessary or impossible. The tribunal's mandate ends with termination of proceedings, subject to Arts. 45 and 46."
+    },
+    {
+      number: "45",
+      title: "Review, Correction, Interpretation, and Additional Award",
+      summary: "Within 30 days of receiving the award, a party may request review if the award was rendered by fraud or based on false documents or testimony; tribunal must review within 15 days if justified. Within 30 days of receiving the award (unless parties agree otherwise): (1) a party may request correction of computational, clerical, typographical, or similar errors; (2) if parties agree, a party may request interpretation of a specific point or passage. If justified, the tribunal corrects or interprets within 30 days; interpretation forms part of the award. The tribunal may correct such errors on its own initiative within 30 days of the award. A party may request an additional award on claims presented but omitted from the award within 30 days; tribunal must respond within 30 days if justified. The tribunal may extend any of these time limits. Art. 43 applies to all such corrections, interpretations, reviews, and additional awards."
+    },
+
+    // Section 8: Appeal Against Award
+    {
+      number: "46",
+      title: "Appeal Procedure",
+      summary: "Any appeal against a matter not decided by international arbitration under this Law takes the form of an application for cassation (annulment) of the award. The only available recourse against an arbitral award under this Law is an annulment (setting-aside) application to the Commercial High Court."
+    },
+    {
+      number: "47",
+      title: "Grounds for Setting Aside an Award",
+      summary: "An award may be set aside by the Commercial High Court only if: (1) the applicant proves: (a) a party to the arbitration agreement lacked capacity, or the agreement is invalid under the chosen law or, failing that, Rwandan law; (b) the applicant was not given proper notice of arbitrator appointment or proceedings, or was otherwise unable to present its case; (c) the award deals with matters outside or beyond the scope of the submission (severable parts may stand); (d) the tribunal's composition or procedure was not in accordance with party agreement (unless that agreement conflicts with mandatory provisions of this Law) or, failing agreement, not in accordance with this Law; or (2) the court finds of its own motion: (a) the subject matter is not arbitrable under Rwandan law; (b) the award conflicts with Rwanda's public policy (ordre public). Rwandan courts have demonstrated a consistently pro-arbitration stance in applying these grounds."
+    },
+    {
+      number: "48",
+      title: "Time Limit for Setting Aside",
+      summary: "An application to set aside an award must be made within 30 days of the party receiving notification of the award, or, if an Art. 45 request was made, from the date the tribunal decided on that request."
+    },
+    {
+      number: "49",
+      title: "Suspension of Setting-Aside Proceedings",
+      summary: "When asked to set aside an award, the Commercial High Court may, on a party's request, suspend the setting-aside proceedings for a period it determines to give the tribunal an opportunity to resume arbitration or take other action to eliminate the grounds for setting aside."
+    },
+
+    // Section 9: Recognition and Enforcement of Awards
+    {
+      number: "50",
+      title: "Recognition and Enforcement of Awards",
+      summary: "An arbitral award, irrespective of country of origin, is binding and shall be recognised and enforced subject to this Article and Art. 51, on the basis of reciprocity. Rwanda is a signatory to the New York Convention (ratified by Presidential Order N° 60/01 of 31/12/2007), so this reciprocity condition is met for all New York Convention contracting states. The party seeking recognition or enforcement must supply: the duly authenticated original award or certified copy, and the original or certified copy of the arbitration agreement (Art. 9). If the award or agreement is not in an official Rwandan language, a certified translation must be provided."
+    },
+    {
+      number: "51",
+      title: "Grounds for Refusing Recognition or Enforcement",
+      summary: "Recognition/enforcement may be refused only: (1) at the request of the party against whom the award is invoked, if that party proves: (a) incapacity of a party or invalidity of the arbitration agreement; (b) improper notice of arbitrator appointment or proceedings, or inability to present case; (c) award outside scope of submission (severable parts may be enforced); (d) tribunal composition or procedure not in accordance with party agreement or seat law; (e) award not yet binding, or set aside or suspended by the seat court; or (2) if the court finds of its own motion: (a) subject matter not arbitrable under Rwandan law; (b) recognition/enforcement would conflict with Rwanda's public policy. If a setting-aside or suspension application is pending in the seat country, the enforcing court may adjourn and may require appropriate security."
+    },
+
+    // Section 10: Bankruptcy
+    {
+      number: "52",
+      title: "Bankruptcy",
+      summary: "Where a contract to which a bankrupt person is party contains an arbitration clause, the clause binds the trustee in bankruptcy if the trustee accepts the contract. Where a person declared bankrupt was party to an arbitration agreement before bankruptcy commenced, and the matter requires determination in connection with the bankruptcy proceedings, any party or the trustee may apply to the bankruptcy court to refer the matter to arbitration under the agreement; the court may do so if it considers arbitration appropriate in all the circumstances. Cross-reference: Insolvency Law N° 075/2021 governs the bankruptcy proceedings framework within which this article operates."
+    },
+
+    // CHAPTER III: CONCILIATION
+    {
+      number: "53",
+      title: "Commencement of Conciliation Proceedings",
+      summary: "Conciliation proceedings commence on the day the parties agree to engage in them. If an invitation to conciliate receives no acceptance within 30 days of sending (or any other specified period), the inviting party may treat this as a rejection. Conciliation also commences when a court or arbitral tribunal refers a dispute to conciliation."
+    },
+    {
+      number: "54",
+      title: "Number of Conciliators and Their Appointment",
+      summary: "There shall be one conciliator unless parties agree otherwise. Parties shall endeavour to agree on conciliators, unless a different appointment procedure is agreed. Parties may seek institutional assistance for appointment, either by recommendation or direct appointment by the institution. Institutions shall consider independence, impartiality, and where appropriate, different nationality from the parties. Prospective conciliators must disclose circumstances likely to raise justifiable doubts as to impartiality/independence; this obligation continues throughout proceedings."
+    },
+    {
+      number: "55",
+      title: "Conduct of Conciliation",
+      summary: "Parties are free to agree on the rules governing conciliation. Failing agreement, the conciliator applies Rwandan conciliation law or appropriate procedure under ratified international conventions. The conciliator must treat parties equally while taking account of the circumstances. The conciliator may make settlement proposals at any stage."
+    },
+    {
+      number: "56",
+      title: "Communication Between Conciliator and Parties",
+      summary: "The conciliator may meet or communicate with parties together or separately."
+    },
+    {
+      number: "57",
+      title: "Disclosure of Information",
+      summary: "The conciliator may share with one party information received from the other, unless the disclosing party expressly conditions the information as confidential, in which case it must not be disclosed."
+    },
+    {
+      number: "58",
+      title: "Confidentiality",
+      summary: "Unless parties agree otherwise, all information relating to the conciliation proceedings is confidential, except where disclosure is required by law or necessary for implementation or enforcement of the settlement agreement."
+    },
+    {
+      number: "59",
+      title: "Admissibility of Evidence in Other Proceedings",
+      summary: "Parties, the conciliator, and any third person involved in administration of the conciliation may not, in arbitral, judicial, or similar proceedings, rely on or introduce as evidence: (1) an invitation to conciliate or a party's willingness to participate; (2) views or suggestions by a party for possible settlement; (3) statements or admissions made during conciliation; (4) conciliator proposals; (5) a party's willingness to accept a conciliator's settlement proposal; (6) any document prepared solely for conciliation. This prohibition applies regardless of the form of information. Disclosure of such information cannot be ordered by any tribunal or court; if offered in violation, it is inadmissible. Disclosure is permitted only if required by law or for implementation/enforcement of the settlement agreement. Evidence otherwise admissible does not become inadmissible solely because it was used in conciliation."
+    },
+    {
+      number: "60",
+      title: "Termination of Conciliation Proceedings",
+      summary: "Conciliation proceedings terminate: (1) on the date the parties conclude a settlement agreement; (2) when the conciliator declares further efforts no longer justified after consulting parties; (3) when parties declare to the conciliator that proceedings are terminated; or (4) when a party declares to the other party (and conciliator if appointed) that proceedings are terminated."
+    },
+    {
+      number: "61",
+      title: "Incompatibilities",
+      summary: "Unless parties agree otherwise, a conciliator may not act as arbitrator or legal counsel in a dispute that was or is the subject of the conciliation, nor in another dispute arising from the same contract, legal relationship, or any related contract or legal relationship."
+    },
+    {
+      number: "62",
+      title: "Resort to Arbitral or Judicial Proceedings",
+      summary: "Where parties have agreed to conciliate and expressly undertaken not to initiate arbitral or judicial proceedings for a specified period or until a specified event, that undertaking is binding on the arbitral tribunal or court until fulfilled, except where a party considers it necessary to preserve its rights. Initiating such proceedings does not constitute a waiver of the conciliation agreement or a termination of conciliation proceedings."
+    },
+    {
+      number: "63",
+      title: "Forceful Enforceability of Settlement Agreement",
+      summary: "A settlement agreement concluded by the parties is binding and may be forcefully enforced. Note: the statute does not specify the procedural route for enforcement — in practice this routes through the civil execution framework (bailiff with executory formula) or, if disputed, through the Commercial High Court. Parties should reduce settlement agreements to writing with sufficient formality to support enforcement."
+    },
+
+    // CHAPTER IV: TRANSITIONAL, MISCELLANEOUS, AND FINAL PROVISIONS
+    {
+      number: "64",
+      title: "Cases Pending Before Courts Before Publication",
+      summary: "Without prejudice to other applicable laws, parties with commercial matters already pending before ordinary courts may agree to refer those cases to arbitration or conciliation."
+    },
+    {
+      number: "65",
+      title: "Costs",
+      summary: "Upon termination of proceedings, the tribunal or conciliator fixes costs and notifies parties in writing. 'Costs' means reasonable: (1) fees and expenses of arbitrators/conciliators and witnesses called with party consent; (2) expert advice requested with party consent; (3) other expenses incidental to the proceedings and the award or settlement. Costs are borne equally by parties unless the award or settlement provides otherwise. Each party bears its own other expenses."
+    },
+    {
+      number: "66",
+      title: "Advances",
+      summary: "The tribunal or conciliator may require each party to deposit equal advances toward costs (Art. 65). Supplementary deposits may be requested during proceedings. If required deposits are not paid in full by both parties within 30 days, the tribunal or conciliator may suspend proceedings or issue a written declaration of termination effective on that date. Upon termination, the tribunal or conciliator renders an accounting of deposits and returns any unexpended balance."
+    },
+    {
+      number: "67",
+      title: "Abrogating Provision",
+      summary: "All prior legal provisions contrary to this Law are repealed."
+    },
+    {
+      number: "68",
+      title: "Commencement",
+      summary: "This Law enters into force on the date of its publication in the Official Gazette of the Republic of Rwanda (published 06/03/2008)."
+    }
+  ],
+
+  penalties: [
+    {
+      provision: "Article 29",
+      description: "Party that obtained an interim measure or preliminary order that should not have been granted is liable to the other party for all costs and damages caused by the measure. The tribunal may award such costs and damages at any time before conclusion of arbitration.",
+      amount: "No fixed amount — assessed by the arbitral tribunal on the facts."
+    }
+  ],
+
+  regulator: "No dedicated administrative regulator. Supervisory court functions (arbitrator appointment disputes, challenges, removal, and annulment of awards) vest in the Commercial High Court (Haute Cour de Commerce) — confirmed by live case law: RCOM 00026/2021/HCC (15/07/2022); RCOM 00049/2021/HCC (12/04/2024). Appeals from the Commercial High Court go to the Court of Appeal, then the Supreme Court. KIAC (Kigali International Arbitration Centre, established by Law N° 51/2010 of 10/01/2010, governed by KIAC Rules under Ministerial Order N° 16/012 of 15/05/2012) is the primary institutional appointing authority and case administrator where parties agree to institutional arbitration. The Commercial High Court is the default appointing authority for ad hoc arbitration where parties cannot agree. Rwanda ratified the New York Convention by Presidential Order N° 60/01 of 31/12/2007.",
+
+  keyDeadlines: [
+    {
+      provision: "Art. 13",
+      deadline: "15 days",
+      description: "Time for a party to appoint its arbitrator after written request; also time for two appointed arbitrators to agree on the third — failing which the Commercial High Court appoints."
+    },
+    {
+      provision: "Art. 15",
+      deadline: "7 days",
+      description: "Time limit for filing written challenge to arbitrator after becoming aware of constitution of tribunal or disqualifying circumstances."
+    },
+    {
+      provision: "Art. 15",
+      deadline: "15 days",
+      description: "Time limit for applying to the Commercial High Court to decide on challenge after receiving notice of rejection by the tribunal."
+    },
+    {
+      provision: "Art. 16",
+      deadline: "7–30 days",
+      description: "Minimum 7 days and maximum 30 days of incapacity or failure to act before an arbitrator's mandate may be terminated."
+    },
+    {
+      provision: "Art. 18",
+      deadline: "30 days",
+      description: "Time for a party to request the tribunal to decide on its preliminary jurisdiction ruling after being informed of that ruling."
+    },
+    {
+      provision: "Art. 25",
+      deadline: "15 days",
+      description: "Expiry of a preliminary order from the date of issuance, unless converted into a confirming interim measure."
+    },
+    {
+      provision: "Art. 45",
+      deadline: "30 days",
+      description: "Time limit from receipt of award to request review (fraud/false evidence), correction, interpretation, or additional award."
+    },
+    {
+      provision: "Art. 45",
+      deadline: "15 days",
+      description: "Time for tribunal to complete a review of an award on fraud/false evidence grounds after receiving a justified request."
+    },
+    {
+      provision: "Art. 45",
+      deadline: "30 days",
+      description: "Time for tribunal to make correction, interpretation, or additional award after receiving a justified request."
+    },
+    {
+      provision: "Art. 48",
+      deadline: "30 days",
+      description: "Limitation period to apply to the Commercial High Court to set aside an award, from date of notification of the award (or from tribunal's decision on an Art. 45 request). This is a hard deadline — confirmed by Rwandan courts as strictly applied."
+    },
+    {
+      provision: "Art. 53",
+      deadline: "30 days",
+      description: "Period within which an invitation to conciliate must receive acceptance; silence after 30 days may be treated as rejection by the inviting party."
+    },
+    {
+      provision: "Art. 66",
+      deadline: "30 days",
+      description: "Time for parties to pay required cost advances; failure by both parties may result in suspension or written declaration of termination of proceedings."
+    }
+  ],
+
+  statutoryGaps: [
+    "No designated arbitral institution is established by this Law itself — parties must agree on an appointing authority (typically KIAC) or rely on Commercial High Court appointment under Arts. 7/8/13.",
+    "No specific time limits are set for the arbitral tribunal to render its final award — timeline is entirely dependent on party agreement or tribunal determination.",
+    "No rules govern arbitral fee scales — fees are fixed by the tribunal/conciliator at the end of proceedings (Art. 65) without a regulatory ceiling or schedule.",
+    "The 'competent court' for supervision functions (Arts. 7, 8, 47) is not identified by name in the statute — confirmed by practice as the Commercial High Court but practitioners should verify jurisdiction for any given case type.",
+    "No provision addresses registration or filing of awards with any court registry prior to enforcement.",
+    "Art. 63 (settlement agreement enforceability) does not specify the procedural route for enforcement — whether self-executing via bailiff or requiring a court order; gap exists in the text and in available secondary sources.",
+    "Arbitration proceedings are not confidential by default under this Law — confidentiality must be expressly agreed by the parties.",
+    "The Law applies identically to domestic and international arbitration without distinguishing which provisions are mandatory for domestic cases only — a known gap flagged by commentators.",
+    "Replacement legislation is under development pursuant to Rwanda's ADR Policy (September 2022); the Law is expected to be split into separate arbitration and mediation acts before 2027."
+  ],
+
+  crossReferenceClusters: [
+    {
+      cluster: "Insolvency Interface",
+      description: "Art. 52 (arbitration clause binding on trustee in bankruptcy) cross-references Insolvency Law N° 075/2021. The arbitration agreement survives insolvency if the trustee accepts the contract; the insolvency court retains authority to determine whether referral to arbitration is appropriate in all the circumstances."
+    },
+    {
+      cluster: "Electronic Transactions and Contract Formation",
+      description: "Art. 9 (form of arbitration agreement) adopts electronic communication and data message definitions aligned with ICT Law N° 24/2016 and Electronic Transactions Law N° 22/2016. An arbitration clause embedded in an electronic contract satisfies the writing requirement under all three instruments."
+    },
+    {
+      cluster: "New York Convention",
+      description: "Arts. 50 and 51 (recognition and enforcement of foreign awards) operate in tandem with the New York Convention ratified by Presidential Order N° 60/01 of 31/12/2007. Rwanda recognises and enforces awards from all New York Convention contracting states on the basis of reciprocity. The grounds for refusal in Art. 51 mirror the New York Convention Art. V grounds."
+    },
+    {
+      cluster: "Court Supervision Framework",
+      description: "Arts. 7, 8, 11, 13, 15, 16, 21, 23, 39, 47, 49, and 51 collectively define the limited but important role of the Commercial High Court in arbitration — as supervisory authority for appointment disputes, challenges, interim measures, evidence assistance, and award recognition/enforcement/annulment. Rwandan courts have consistently applied a pro-arbitration, minimal-intervention approach."
+    },
+    {
+      cluster: "Public Policy and Arbitrability",
+      description: "Arts. 47(2)(b) and 51(2)(b) both invoke Rwanda's ordre public as a ground for setting aside or refusing enforcement. This links to Competition Law N° 036/2012, Banking Law N° 044/2024, and other regulatory statutes where certain disputes may be reserved for regulatory or judicial determination and may not be arbitrable."
+    },
+    {
+      cluster: "KIAC Institutional Framework",
+      description: "This Law provides the statutory foundation; Law N° 51/2010 establishes KIAC as the institutional arbitration centre; Ministerial Order N° 16/012 of 15/05/2012 provides the KIAC Rules. Together these three instruments constitute the complete Rwandan institutional arbitration framework. Parties contracting with Rwandan public entities are advised to incorporate KIAC Rules."
+    }
+  ]
+}
+{
+  id: "penal_code_068_2018",
+  shortName: "Penal Code",
+  fullName: "Law N° 068/2018 of 30/08/2018 Determining Offences and Penalties in General",
+  practiceNote: "This is Rwanda's consolidated Penal Code. It establishes general principles of criminal law (Part One, Arts. 1–90) and specific offences with penalties (Part Two, Arts. 91–335). For corporate clients, the most critical provisions are: Art. 25 (corporate criminal liability), Arts. 83–90 (punishable persons including legal entities), Arts. 165–190 (economic crimes: theft, fraud, embezzlement, arson), Arts. 269–285 (counterfeiting, forgery, usurpation of authority), and Arts. 240–265 (obstruction of justice). The Penal Code operates alongside sector-specific criminal provisions in the AML Law, Banking Law, Tax Procedures Law, Data Protection Law, and others — those sector laws create additional offences; this Code supplies the general framework and fills gaps.",
+  category: "criminal_law",
+  articles: [
+    // PART ONE: GENERAL PROVISIONS
+    // Title I: Purpose and Definitions
+    {
+      number: "1",
+      title: "Purpose of this Law",
+      summary: "Establishes the framework determining offences and penalties in Rwanda."
+    },
+    {
+      number: "2",
+      title: "Definitions",
+      summary: "Defines key terms including: offence (felony, misdemeanour, petty offence); penalty; principal penalty; accessory penalty; public institution; private legal entity; natural person; legal personality; victim; accomplice; co-offender; recidivism; prescription; suspension of penalty."
+    },
+
+    // Title II: General Principles
+    {
+      number: "3",
+      title: "No Punishment Without Law (Nullum Crimen)",
+      summary: "No act is an offence and no person may be punished unless the act was defined as an offence and the penalty prescribed by law at the time of commission. Strict legality principle."
+    },
+    {
+      number: "4",
+      title: "Interpretation of Criminal Laws",
+      summary: "Criminal laws are interpreted strictly. No analogy may be used to extend an offence or penalty beyond its terms."
+    },
+    {
+      number: "5",
+      title: "Law Applied Where Multiple Laws Cover the Same Offence",
+      summary: "Where several laws apply to the same offence, the most favourable law to the accused applies."
+    },
+    {
+      number: "6",
+      title: "Law Applied in Case of Conflict of Criminal Laws",
+      summary: "In case of conflict between criminal laws, the law most favourable to the accused applies retroactively, unless the prior law was already executed."
+    },
+    {
+      number: "7",
+      title: "Prohibition of Double Jeopardy",
+      summary: "No person may be prosecuted or convicted twice for the same offence (ne bis in idem)."
+    },
+    {
+      number: "8",
+      title: "Cessation of Applicability of a Law",
+      summary: "When a law ceases to apply (repeal, expiry), pending prosecutions under that law may continue if the offence was committed while the law was in force."
+    },
+    {
+      number: "9",
+      title: "Offence Committed on the Territory of Rwanda",
+      summary: "Rwandan criminal law applies to any offence committed on Rwandan territory, including on Rwandan-registered vessels or aircraft in international waters/airspace. Corporate clients: all acts on Rwandan soil regardless of actor's nationality are subject to Rwandan law."
+    },
+    {
+      number: "10",
+      title: "Applicable Law for Offences on Rwandan Territory",
+      summary: "Any offence committed on Rwandan territory — by Rwandan or foreign national — is punished under Rwandan law. Exception: persons with diplomatic immunity under ratified international conventions."
+    },
+    {
+      number: "11",
+      title: "Punishment of Rwandan Citizen for Offence Abroad",
+      summary: "A Rwandan citizen who commits a felony or misdemeanour abroad may be prosecuted and punished under Rwandan law as if the offence were committed in Rwanda, provided it is also punishable under Rwandan law."
+    },
+    {
+      number: "12",
+      title: "Punishment for Offence Against Rwanda's Interests Committed Abroad",
+      summary: "Any Rwandan or foreign national who commits a felony or misdemeanour against Rwanda's interests or against a Rwandan citizen outside Rwanda may be prosecuted under Rwandan law."
+    },
+    {
+      number: "13",
+      title: "Punishment of Accomplice to Offence Committed Abroad",
+      summary: "A person in Rwanda who was an accomplice to a felony or misdemeanour committed abroad may be punished by Rwandan courts if the offence is punishable both in the country where committed and under Rwandan law."
+    },
+    {
+      number: "14",
+      title: "International Crime and Transnational Crime",
+      summary: "International crimes are: genocide, crimes against humanity, and war crimes. A transnational crime is one whose constituent elements extend across Rwanda's borders. Any person (including foreign nationals and organisations) who commits an international or transnational crime and is apprehended in Rwanda may be punished under Rwandan law."
+    },
+    {
+      number: "15",
+      title: "Assessment of Rwandan Nationality",
+      summary: "For Arts. 9, 10, 11, 12, 14, 191, and 192, Rwandan nationality is assessed at the time of commission of the offence."
+    },
+
+    // Title II: Categories of Offences
+    {
+      number: "16",
+      title: "Classification of Offences",
+      summary: "Offences are classified by gravity into three categories: (1) felony (crime); (2) misdemeanour (délit); (3) petty offence (contravention). Classification determines applicable procedure, prescription periods, and available penalties."
+    },
+    {
+      number: "17",
+      title: "Felony",
+      summary: "A felony is an offence punishable by a principal penalty of imprisonment exceeding five (5) years, or by life imprisonment. Corporate lens: felony convictions trigger the full range of corporate penalties including dissolution."
+    },
+    {
+      number: "18",
+      title: "Misdemeanour",
+      summary: "A misdemeanour is an offence punishable by imprisonment of not less than six (6) months and not more than five (5) years."
+    },
+    {
+      number: "19",
+      title: "Petty Offence",
+      summary: "A petty offence is punishable only by imprisonment of less than six (6) months, a fine, or community service."
+    },
+
+    // Conspiracy and Attempt
+    {
+      number: "20",
+      title: "Conspiracy to Commit an Offence",
+      summary: "Conspiracy is an agreement between two or more persons to engage in the commission of an offence by any one or more of them. Punishable by the same penalty as the intended offence. Exemption: a conspirator who reports the conspiracy — including the names of co-conspirators — to security, judicial, or administrative authorities before the offence is committed is exempt from the conspiracy penalty. Corporate lens: this exemption creates a strong incentive for early disclosure in internal investigations."
+    },
+    {
+      number: "21",
+      title: "Punishment of Attempt to Commit an Offence",
+      summary: "An attempt is punishable when the intention to commit an offence is demonstrated by unequivocal acts constituting the beginning of execution, suspended or failing only due to circumstances beyond the offender's control. Attempt of a felony or misdemeanour: punished at one-half (1/2) of the principal penalty; for offences carrying life imprisonment, attempt is punishable by 25 years. Attempt of a petty offence: not punishable."
+    },
+    {
+      number: "22",
+      title: "Voluntary Abandonment of Intent",
+      summary: "A person who voluntarily abandons the intent to commit an offence is not punished, unless the preparatory acts already constitute a separate offence."
+    },
+
+    // Title III: Penalties — Chapter I: Categories of Penalties
+    {
+      number: "23",
+      title: "Principal Penalties Applicable to Natural Persons",
+      summary: "Principal penalties for natural persons are: (1) imprisonment; (2) fine; (3) community service."
+    },
+    {
+      number: "24",
+      title: "Accessory Penalties Applicable to Natural Persons",
+      summary: "Accessory penalties for natural persons are: (1) special confiscation; (2) ban on residence or compulsory residence in a specific location; (3) deprivation of civic rights; (4) publication of the offence and penalty. These are imposed in addition to the principal penalty."
+    },
+    {
+      number: "25",
+      title: "Penalties Applicable to Legal Entities (Institutions, Companies, Cooperatives, NGOs)",
+      summary: "CORPORATE CRIMINAL LIABILITY. Penalties applicable to public institutions, State organisations, companies, cooperatives, and NGOs with legal personality are: (1) fine; (2) ban on conducting one or several professional/social activities for a fixed period; (3) confiscation of items used or intended for use in the offence or their proceeds; (4) publication of the penalty. Companies, cooperatives, and NGOs may additionally be subject to: (5) dissolution; (6) permanent closure of establishments where incriminated acts were committed; (7) permanent or fixed-term exclusion from public procurement; (8) ban on issuing cheques, credit cards, or negotiable instruments; (9) placement under judicial supervision. This article is the foundation for corporate criminal liability throughout the Penal Code."
+    },
+
+    // Penalty details
+    {
+      number: "26",
+      title: "Duration of Imprisonment",
+      summary: "Imprisonment may be fixed-term or life. Fixed-term imprisonment is at least one (1) day and at most twenty-five (25) years unless the law provides otherwise."
+    },
+    {
+      number: "27",
+      title: "Fixed-Term Imprisonment",
+      summary: "Fixed-term imprisonment: minimum 1 day, maximum 25 years unless otherwise provided. Calculated in days (24 hours), months (30 days), or years (12 months) of the Gregorian calendar."
+    },
+    {
+      number: "28",
+      title: "Calculation of Fixed-Term Imprisonment",
+      summary: "Term runs from the date the judgment becomes final. Pre-trial detention is deducted. Time during which a convict voluntarily avoids serving the penalty is not counted. Multiple imprisonment terms run consecutively."
+    },
+    {
+      number: "29",
+      title: "Life Imprisonment",
+      summary: "Life imprisonment means imprisonment for the remainder of the convict's natural life."
+    },
+    {
+      number: "30",
+      title: "Amount of Fine",
+      summary: "A fine is at least one (1) Rwandan franc. Specific minimums and maximums are set per offence in Part Two. Corporate lens: fines on legal entities are typically set as multiples of those applicable to natural persons."
+    },
+    {
+      number: "31",
+      title: "Imposition of a Fine",
+      summary: "Fines are imposed individually on each convict based on the gravity of the offence. The court sets a payment deadline not exceeding one (1) year from the judgment becoming final. The court may order instalment payments or commutation to community service."
+    },
+    {
+      number: "32",
+      title: "Fine Awarded Concurrently with Other Payments",
+      summary: "Where a convict's property is insufficient to cover a fine, restitutions, and damages simultaneously, priority is given to restitutions and damages."
+    },
+    {
+      number: "33",
+      title: "Joint Liability of Convicts",
+      summary: "All persons convicted of the same offence are jointly liable for restitutions, damages, and court fees. Corporate lens: this creates joint and several liability between co-offenders — critical for corporate compliance and indemnification arrangements."
+    },
+    {
+      number: "34",
+      title: "Restitution of Embezzled, Stolen, or Fraudulently Obtained Property",
+      summary: "In any criminal case where a penalty is imposed, the court must order restitution of embezzled, stolen, fraudulently obtained, or unduly given property. Mandatory — not discretionary."
+    },
+    {
+      number: "35",
+      title: "Imposition of Community Service",
+      summary: "Community service as principal penalty: not more than six (6) months. As substitute for another principal penalty: court may order half (1/2) of the term served as community service for offences carrying 6 months–5 years imprisonment; for offences carrying less than 6 months, community service up to the maximum imprisonment term. If improperly served, the remainder is served in prison."
+    },
+    {
+      number: "36",
+      title: "Community Service in Case of Non-Payment",
+      summary: "Where a court imposes a fine, other payments, restitutions, or damages and the convict cannot pay, the court sets a community service period as an alternative. Community service does not extinguish the victim's right to restitutions or damages. Payment by the convict releases them from community service."
+    },
+    {
+      number: "37",
+      title: "Special Confiscation",
+      summary: "For felonies and misdemeanours: confiscation of items forming the corpus delicti, used or intended for use in the offence, or constituting proceeds of the offence, is imposed as an accessory penalty where such items belong to the convict. Where items do not belong to the convict, or where the offence is a petty offence, confiscation is ordered only in cases specified by law."
+    },
+    {
+      number: "38",
+      title: "Prohibition of General Confiscation",
+      summary: "General confiscation of all of a convict's current and future property is prohibited."
+    },
+    {
+      number: "39",
+      title: "Administration of Confiscated Property",
+      summary: "Confiscated property is placed in the hands of the State. Modalities for administration are determined by Ministerial Order of the Minister of Justice."
+    },
+    {
+      number: "40",
+      title: "Imposition of Ban on Residence or Compulsory Residence",
+      summary: "Courts may impose a ban on residence or compulsory residence in a particular location in cases where: (1) a person is sentenced to imprisonment exceeding 5 years; or (2) a person previously sentenced to at least 6 months imprisonment is again sentenced to at least 6 months within 5 years. Maximum duration: one (1) year."
+    },
+    {
+      number: "41",
+      title: "Calculation and Execution of Residence Ban/Obligation",
+      summary: "Penalty commences on the day the convict completes imprisonment. If released on parole, commences on day of release. Period already served is deducted upon re-incarceration. Modalities set by Ministerial Order of the Minister of Justice."
+    },
+    {
+      number: "42",
+      title: "Deprivation of Civic Rights",
+      summary: "Deprivation of civic rights consists of: (1) removal or prohibition from public service; (2) deprivation of political rights; (3) prohibition to wear honours/decorations; (4) prohibition to act as expert witness or testify except to give information; (5) incapacity to serve as family council member, guardian, trustee (except for own children); (6) deprivation of right to possess arms; (7) prohibition to use negotiable instruments or credit cards; (8) debarment from public procurement; (9) deprivation of right to leave national territory; (10) deprivation of right to perform functions specified by the court. Corporate lens: items (7) and (8) are particularly material for corporate officers convicted of financial crimes."
+    },
+    {
+      number: "43",
+      title: "Imposition of Deprivation of Civic Rights",
+      summary: "No person may be deprived of all civic rights simultaneously except those sentenced to life imprisonment. For others, deprivation of civic rights cannot exceed ten (10) years. May be suspended, lifted, or reduced in the same manner as imprisonment. May be lifted if the convict performs an exceptional act of good citizenship or community development."
+    },
+    {
+      number: "44",
+      title: "Deprivation of Civic Rights for Life Imprisonment",
+      summary: "Life imprisonment automatically entails permanent deprivation of all civic rights."
+    },
+    {
+      number: "45",
+      title: "Circumstances for Imposing Deprivation of Civic Rights",
+      summary: "Deprivation of civic rights (Art. 42) may be imposed as an accessory penalty alongside a principal penalty of imprisonment of five (5) years or more."
+    },
+    {
+      number: "46",
+      title: "Mode of Publication of Penalty",
+      summary: "Courts may order publication of the penalty as an accessory to principal imprisonment of not less than five (5) years. The court determines the mode of publication."
+    },
+
+    // Chapter II: Imposition of Penalties
+    {
+      number: "47",
+      title: "Compliance with Law During Judgment",
+      summary: "Courts decide cases in accordance with the law and must state the basis of their decisions."
+    },
+    {
+      number: "48",
+      title: "Penalty Reduction",
+      summary: "No penalty may be reduced except in cases and circumstances provided by law."
+    },
+    {
+      number: "49",
+      title: "Factors Taken into Account by a Judge in Determining a Penalty",
+      summary: "A judge determines a penalty based on: gravity of the offence; its consequences; the motive; the offender's prior record and personal situation; the circumstances of commission. In case of concurrence of aggravating and mitigating circumstances, the judge considers them in order: (1) aggravating first; (2) then mitigating."
+    },
+    {
+      number: "50",
+      title: "Determination of Aggravating Circumstances",
+      summary: "Aggravating circumstances are exclusively provided for by law. A judge cannot determine aggravating circumstances on their own initiative."
+    },
+    {
+      number: "51",
+      title: "Effects of Aggravating Circumstances",
+      summary: "When aggravating circumstances exist, the penalty may be increased above the maximum provided for the offence, up to double the maximum. For life imprisonment offences, aggravating circumstances do not increase the penalty further."
+    },
+    {
+      number: "52",
+      title: "Recidivism and Its Punishment",
+      summary: "Recidivism exists when a person who has been definitively convicted of a felony or misdemeanour commits another felony or misdemeanour within five (5) years of completing or having the penalty prescribed. For recidivists: the penalty may be doubled. Corporate lens: repeated corporate violations triggering the recidivism rules can lead to doubled penalties — critical for compliance risk assessment."
+    },
+    {
+      number: "53",
+      title: "Circumstances When There Is No Recidivism",
+      summary: "No recidivism: where the first conviction was for an offence other than the subsequent offence (different nature); where the five-year period has elapsed; where the first conviction was rendered abroad and lacks local recognition."
+    },
+    {
+      number: "54",
+      title: "Punishment of a Person Aged 14–18",
+      summary: "Persons aged 14–18 at the time of the offence are subject to reduced penalties: one-half (1/2) of the applicable principal penalty. Life imprisonment is reduced to 25 years for this age group."
+    },
+    {
+      number: "55",
+      title: "Penalties in Case of Provocation",
+      summary: "Where an offence is committed in a state of provocation, the penalty may be reduced. The reduction is determined by the court based on the nature and gravity of the provocation."
+    },
+    {
+      number: "56",
+      title: "Indication of Provocation in Judgment",
+      summary: "The court must expressly mention provocation in the judgment if it is accepted as a mitigating factor."
+    },
+    {
+      number: "57",
+      title: "Reduction of Penalty in Case of Provocation",
+      summary: "For felonies committed under provocation: penalty reduced to one-half (1/2) of the prescribed penalty. Life imprisonment reduced to 25 years. For misdemeanours: penalty reduced to the minimum."
+    },
+    {
+      number: "58",
+      title: "Acceptance of Mitigating Circumstances by a Judge",
+      summary: "A judge may accept mitigating circumstances not provided by law if they are of exceptional nature and have a direct connection to the offence."
+    },
+    {
+      number: "59",
+      title: "Certain Mitigating Circumstances Decided by a Judge",
+      summary: "Mitigating circumstances a judge may consider include: age; prior good conduct; remorse; minor role in the offence; first offence; cooperation with authorities. Corporate lens: voluntary disclosure and cooperation with investigators can constitute judicially recognised mitigating circumstances."
+    },
+    {
+      number: "60",
+      title: "Reduction of Penalties in Cases of Mitigating Circumstances",
+      summary: "Where the judge accepts mitigating circumstances: for felonies, the penalty may be reduced below the minimum prescribed; for misdemeanours, the penalty may be reduced to a petty offence level; for petty offences, the penalty may be reduced to community service. The judge retains discretion."
+    },
+    {
+      number: "61",
+      title: "Definition of Concurrence of Offences",
+      summary: "Concurrence of offences occurs where the same person commits several distinct offences before any of them has been finally judged."
+    },
+    {
+      number: "62",
+      title: "Penalties in Case of Concurrence of Offences",
+      summary: "Where a person is convicted of multiple offences in the same proceedings, the most severe penalty applies. The court may add additional penalties for the other offences up to the maximum of the most severe, but total imprisonment may not exceed 25 years (except life imprisonment)."
+    },
+    {
+      number: "63",
+      title: "Hierarchy of Penalties",
+      summary: "Hierarchy for determining the most severe penalty in concurrent offences: (1) life imprisonment; (2) fixed-term imprisonment (longer term prevails); (3) community service; (4) fine. Accessory penalties may be added."
+    },
+    {
+      number: "64",
+      title: "Conditions for Application of Suspension of Penalty",
+      summary: "A court may suspend the execution of a penalty (sursis) if: (1) the penalty does not exceed two (2) years imprisonment; (2) the convict has not been sentenced to imprisonment for more than six (6) months in the five (5) years preceding the offence. Suspension applies to the principal penalty; accessory penalties still apply."
+    },
+    {
+      number: "65",
+      title: "Voidance of a Suspended Penalty",
+      summary: "Suspension is void (the sentence must be served) if the convict commits another intentional offence resulting in imprisonment within five (5) years of the suspended sentence becoming final."
+    },
+    {
+      number: "66",
+      title: "Effects of Suspension of Penalty on Other Court Decisions",
+      summary: "Suspension of the principal penalty does not affect other ancillary orders (restitutions, damages, confiscation)."
+    },
+
+    // Chapter III: Extinction of Penalties
+    {
+      number: "67",
+      title: "Causes of Extinction of Penalty",
+      summary: "Penalties are extinguished by: (1) amnesty; (2) presidential pardon; (3) prescription of the penalty; (4) death of the convict (for personal penalties only)."
+    },
+    {
+      number: "68",
+      title: "Definition of Amnesty",
+      summary: "Amnesty is a legislative act by Parliament that extinguishes criminal liability for specific offences, erasing both the offence and the penalty."
+    },
+    {
+      number: "69",
+      title: "Effects of Amnesty",
+      summary: "Amnesty erases the offence, stops pending prosecutions, extinguishes the penalty, and removes the conviction from criminal records. It does not extinguish civil liability (restitutions and damages to victims remain)."
+    },
+    {
+      number: "70",
+      title: "Presidential Pardon",
+      summary: "The President of the Republic may grant a presidential pardon, reducing, commuting, or totally extinguishing a penalty."
+    },
+    {
+      number: "71",
+      title: "Penalties for Which Presidential Pardon May Be Granted",
+      summary: "Presidential pardon applies to all types of penalties — imprisonment, fine, accessory penalties. It does not apply to civil obligations (damages to victims)."
+    },
+    {
+      number: "72",
+      title: "Effects of Presidential Pardon",
+      summary: "Presidential pardon extinguishes or reduces the penalty but does not erase the offence from criminal records and does not extinguish civil liability."
+    },
+    {
+      number: "73",
+      title: "Suspension of Penalty Execution",
+      summary: "The execution of a penalty may be suspended by competent authority in cases of serious illness or other exceptional circumstances determined by law."
+    },
+    {
+      number: "74",
+      title: "Definition of Prescription of a Penalty",
+      summary: "Prescription of a penalty extinguishes the penalty after a specified period of non-execution following the judgment becoming final."
+    },
+    {
+      number: "75",
+      title: "Prescription of Imprisonment Penalty",
+      summary: "Imprisonment prescription periods: (1) life imprisonment: 30 years; (2) imprisonment exceeding 10 years: 20 years; (3) imprisonment of 5–10 years: 10 years; (4) imprisonment under 5 years: 5 years."
+    },
+    {
+      number: "76",
+      title: "Prescription of Community Service Penalty",
+      summary: "Prescription of community service: 2 years from the date the judgment became final."
+    },
+    {
+      number: "77",
+      title: "Prescription of Fine",
+      summary: "Prescription of a fine: 5 years from the date the judgment became final."
+    },
+    {
+      number: "78",
+      title: "Prescription of Accessory Penalties",
+      summary: "Accessory penalties prescribe at the same time as the principal penalty to which they are attached."
+    },
+    {
+      number: "79",
+      title: "Calculation of Prescription Period",
+      summary: "Prescription begins from the date the judgment becomes final, or from the date the convict voluntarily stops serving the penalty."
+    },
+    {
+      number: "80",
+      title: "Interruption of Prescription Period",
+      summary: "The prescription period is interrupted by: arrest; voluntary appearance before authorities; any enforcement act. Interruption starts the prescription period running afresh."
+    },
+    {
+      number: "81",
+      title: "Suspension of Prescription Period",
+      summary: "The prescription period is suspended during: the convict's time outside Rwanda; a legal moratorium on execution; any circumstance legally preventing execution. Suspension stops the clock without restarting it."
+    },
+    {
+      number: "82",
+      title: "Prescription of Penalties for Imprescriptible Offences",
+      summary: "Penalties for genocide, crimes against humanity, and war crimes (Arts. 91–106) do not prescribe."
+    },
+
+    // Title IV: Punishable Persons
+    {
+      number: "83",
+      title: "Criminal Liability and Its Occurrence",
+      summary: "Criminal liability arises at the moment the offence is committed. It is personal — each person is liable only for their own acts. Liability requires: (1) an act (commission or omission); (2) criminal intent (dolus) or negligence where the law so provides; (3) capacity."
+    },
+    {
+      number: "84",
+      title: "Punishment of Co-Offenders and Accomplices",
+      summary: "A co-offender (co-auteur) who participates directly in the commission of an offence is punished with the same penalty as the principal offender. An accomplice (complice) who assists, facilitates, or provides means is punished with the same penalty as the principal offender, unless mitigating circumstances apply. Corporate lens: managers and directors who instruct, enable, or fail to prevent offences may be prosecuted as co-offenders or accomplices."
+    },
+    {
+      number: "85",
+      title: "Grounds for Non-Criminal Liability",
+      summary: "Criminal liability is excluded where: (1) the person is legally insane or mentally incapacitated at the time of the offence; (2) the act is committed under irresistible force majeure; (3) the act is committed in self-defence (proportionate response to unlawful attack); (4) the person is a minor under 14 years of age; (5) the act is committed in state of necessity."
+    },
+    {
+      number: "86",
+      title: "Grounds for Exemption from Criminal Liability",
+      summary: "Criminal liability is also exempted where: (1) the act is authorised by law; (2) the act is executed under a legitimate order from a competent authority; (3) the person acted in good faith under a reasonable and excusable mistake of law or fact."
+    },
+    {
+      number: "87",
+      title: "Effects of Grounds of Non-Liability and Exemption",
+      summary: "Non-liability grounds extinguish criminal prosecution entirely but do not automatically extinguish civil liability. Exemption grounds benefit only the individual who satisfies them — co-offenders and accomplices are not automatically exempt."
+    },
+    {
+      number: "88",
+      title: "Criminal Liability of Public Institutions or Organisations with Legal Personality",
+      summary: "CORPORATE CRIMINAL LIABILITY. Public institutions, companies, cooperatives, and NGOs with legal personality are criminally liable for offences committed on their behalf, in their interest, or by their organs or representatives. Criminal liability of the legal entity does not exclude the criminal liability of the natural person who committed the offence. Both the entity and the individual may be prosecuted and convicted simultaneously. Corporate lens: this is the foundational article for corporate criminal liability — management cannot use the corporate veil to shield themselves from personal prosecution."
+    },
+    {
+      number: "89",
+      title: "Imposition of Penalties on Legal Entities",
+      summary: "Penalties under Art. 25 are imposed on legal entities. The court determines which penalties apply based on the nature and gravity of the offence, the entity's prior record, and the impact on the entity's stakeholders. For compulsory dissolution, the court must find that the entity was created for the purpose of committing the offence or that the offence is of exceptional gravity."
+    },
+    {
+      number: "90",
+      title: "Imposition of Placement Under Judicial Supervision",
+      summary: "The court may place a legal entity under judicial supervision for a period it determines, during which the entity must report its activities to a court-appointed supervisor. The supervisor monitors compliance, financial operations, and management decisions. Corporate lens: judicial supervision is the most intrusive corporate penalty short of dissolution — it is particularly relevant for banks, telecoms, and regulated entities."
+    },
+
+    // PART TWO: SPECIFIC OFFENCES
+    // Title I: Offences Against Persons
+
+    {
+      number: "91",
+      title: "Definition of Genocide",
+      summary: "Genocide: acts committed with intent to destroy, in whole or in part, a national, ethnical, racial, or religious group — including killing members of the group, causing serious bodily or mental harm, inflicting conditions calculated to destroy the group, imposing measures to prevent births, or forcibly transferring children."
+    },
+    {
+      number: "92",
+      title: "Punishment of Genocide",
+      summary: "Genocide is punished by life imprisonment."
+    },
+    {
+      number: "93",
+      title: "Other Acts Punished as Genocide",
+      summary: "Also punished as genocide: direct and public incitement to commit genocide; complicity in genocide; conspiracy to commit genocide. Penalties: same as genocide (life imprisonment)."
+    },
+    {
+      number: "94",
+      title: "Definition of Crime Against Humanity",
+      summary: "Crimes against humanity: widespread or systematic attacks against a civilian population including murder, extermination, enslavement, deportation, imprisonment, torture, rape, persecution, enforced disappearance, apartheid, and other inhumane acts."
+    },
+    {
+      number: "95",
+      title: "Punishment for Crime Against Humanity",
+      summary: "Crimes against humanity are punished by life imprisonment."
+    },
+    {
+      number: "96",
+      title: "Definition of War Crime",
+      summary: "War crimes: grave breaches of the Geneva Conventions and their Additional Protocols, and other serious violations of laws and customs applicable in international and non-international armed conflict."
+    },
+    {
+      number: "97",
+      title: "Persons Protected Under the Geneva Conventions",
+      summary: "Protected persons include: wounded and sick military; prisoners of war; civilian populations; medical and religious personnel."
+    },
+    {
+      number: "98",
+      title: "Punishment for War Crimes",
+      summary: "War crimes attracting life imprisonment include: wilful killing of protected persons; torture; biological experiments; unlawful deportation; taking hostages. Other war crimes attract 10–25 years imprisonment."
+    },
+    {
+      number: "99",
+      title: "Other Acts Characterised as War Crimes",
+      summary: "Additional war crimes: attacks on civilian objects; pillage; use of prohibited weapons; recruiting child soldiers; sexual violence in armed conflict."
+    },
+    {
+      number: "100",
+      title: "Penalties for Other Acts Characterised as War Crimes",
+      summary: "Other war crimes: 10–20 years imprisonment and a fine of FRW 5,000,000–10,000,000."
+    },
+    {
+      number: "101",
+      title: "Using Prohibited Methods or Weapons Against the Enemy",
+      summary: "Use of prohibited weapons or methods of warfare against the enemy in violation of international humanitarian law constitutes a war crime."
+    },
+    {
+      number: "102",
+      title: "Punishment for Offences Against Humanitarian Organisations in Wartime",
+      summary: "Attacks against humanitarian personnel or organisations in wartime: 10–20 years imprisonment."
+    },
+    {
+      number: "103",
+      title: "Unlawful Use of Humanitarian Organisation Emblem",
+      summary: "Unlawful use of the emblem of a humanitarian organisation (Red Cross, Red Crescent, etc.): 2–5 years imprisonment and a fine."
+    },
+    {
+      number: "104",
+      title: "Genocide and Crimes Against Humanity by Private Entities",
+      summary: "Private entities with legal personality may be held criminally liable for genocide and crimes against humanity committed through their organs or representatives. Corporate penalty: dissolution is mandatory."
+    },
+    {
+      number: "105",
+      title: "Criminal Liability of Superior and Subordinate",
+      summary: "A military or civilian superior is criminally liable for genocide, crimes against humanity, or war crimes committed by subordinates if the superior knew or should have known and failed to prevent or punish. This command responsibility doctrine applies to corporate officers in civilian contexts. Corporate lens: managers who knew of ongoing criminal conduct by employees and failed to act may be prosecuted as if they committed the offence themselves."
+    },
+    {
+      number: "106",
+      title: "Imprescriptibility of Genocide, Crimes Against Humanity, and War Crimes",
+      summary: "Genocide, crimes against humanity, and war crimes do not prescribe — neither the offence nor the penalty."
+    },
+    {
+      number: "107",
+      title: "Voluntary Murder",
+      summary: "Voluntary murder: life imprisonment. Premeditated murder (murder with prior planning): life imprisonment. Murder with particularly aggravating circumstances (multiple victims, vulnerable victim, etc.): life imprisonment."
+    },
+    {
+      number: "108",
+      title: "Infanticide",
+      summary: "Killing of a newborn child by its mother: 5–10 years imprisonment."
+    },
+    {
+      number: "109",
+      title: "Euthanasia",
+      summary: "Administering a lethal substance to end a person's life, even at their request: 5–10 years imprisonment."
+    },
+    {
+      number: "110",
+      title: "Poisoning",
+      summary: "Administering a substance likely to cause death or serious harm: 10–20 years imprisonment; if death results, life imprisonment."
+    },
+    {
+      number: "111",
+      title: "Manslaughter",
+      summary: "Unintentional killing through negligence or recklessness: 2–5 years imprisonment and fine of FRW 500,000–2,000,000. If caused by dangerous driving: 5–10 years."
+    },
+    {
+      number: "112",
+      title: "Torture",
+      summary: "Torture: subjecting a person to severe physical or mental suffering. Definition and penalties at Art. 113."
+    },
+    {
+      number: "113",
+      title: "Penalties for Torture",
+      summary: "Torture: 10–15 years imprisonment and fine of FRW 2,000,000–5,000,000. If committed by a public official: 15–20 years. If resulting in disability: 20–25 years. If resulting in death: life imprisonment. Corporate lens: applies to private sector where agents of companies inflict torture on employees, detainees, or persons in their care."
+    },
+    {
+      number: "114",
+      title: "Sexual Torture",
+      summary: "Sexual torture (torture involving sexual violence): treated as torture with aggravated penalties."
+    },
+    {
+      number: "115",
+      title: "Administering a Substance That May Cause Death or Harm",
+      summary: "Administering any substance likely to cause death or seriously alter health without consent: 5–10 years imprisonment. If resulting in death: 10–20 years."
+    },
+    {
+      number: "116",
+      title: "Incitement to and Assistance with Suicide",
+      summary: "Inciting or assisting another person to commit suicide: 1–3 years imprisonment and fine. If victim is a minor: penalty doubled."
+    },
+    {
+      number: "117",
+      title: "Transmission of an Illness to Another Person",
+      summary: "Knowingly transmitting a serious illness to another: 2–5 years imprisonment. If HIV: 5–10 years."
+    },
+    {
+      number: "118",
+      title: "Unintentional Bodily Harm",
+      summary: "Causing bodily harm through negligence or recklessness (not intent): 6 months–2 years imprisonment and fine. Corporate lens: applies to workplace accidents caused by employer negligence."
+    },
+    {
+      number: "119",
+      title: "Throwing an Object at a Person",
+      summary: "Throwing any object at a person that may inconvenience or contaminate them: fine of FRW 100,000–500,000."
+    },
+    {
+      number: "120",
+      title: "Unintentional Assault or Battery",
+      summary: "Causing unintentional physical harm: 1 month–6 months imprisonment or fine. If severe injury results: 1–2 years."
+    },
+    {
+      number: "121",
+      title: "Intentional Assault or Battery",
+      summary: "Intentional assault: 6 months–2 years imprisonment and fine. If premeditated, armed, or causing permanent disability: 5–10 years. If resulting in death without intent to kill: 10–20 years. If resulting in intentional death: life imprisonment."
+    },
+    {
+      number: "122",
+      title: "Neglecting Care for a Person Entrusted into One's Care",
+      summary: "Wilfully neglecting to provide care to a person entrusted to one's care: 6 months–2 years imprisonment and fine. Corporate lens: applies to employers, care facility operators, and managers of vulnerable persons."
+    },
+    {
+      number: "123",
+      title: "Self-Induced Abortion",
+      summary: "Self-induced abortion: 3 months–1 year imprisonment or fine."
+    },
+    {
+      number: "124",
+      title: "Performing an Abortion on Another Person",
+      summary: "Performing an abortion on another person without lawful authority: 3–5 years imprisonment. If performed without consent: 5–7 years."
+    },
+    {
+      number: "125",
+      title: "Exemption from Criminal Liability for Abortion",
+      summary: "No criminal liability for abortion in cases of: rape; incest; risk to the life or health of the mother or foetus; where pregnancy resulted from defilement. Procedure for legal termination in such cases is set by law."
+    },
+    {
+      number: "126",
+      title: "Procedure for Child Abortion Application",
+      summary: "Where a child (minor) seeks to abort, a formal application procedure is required involving legal guardians and medical authorities."
+    },
+    {
+      number: "127",
+      title: "Advertising Means of Abortion",
+      summary: "Advertising, publicising, or distributing information on means of abortion: 6 months–2 years imprisonment and fine."
+    },
+    {
+      number: "128",
+      title: "Use of Threats",
+      summary: "Making threats against a person's life, body, or property to compel or prevent an act: 6 months–2 years imprisonment. If written or with deadline: 1–3 years."
+    },
+    {
+      number: "129",
+      title: "Blackmail",
+      summary: "Blackmail (using threats of disclosure of compromising information to extort money or services): 2–5 years imprisonment and fine of FRW 1,000,000–3,000,000. Corporate lens: applies to corporate extortion, information leverage, and employee blackmail scenarios."
+    },
+    {
+      number: "130",
+      title: "Hiding, Exhuming, or Mutilating a Human Corpse",
+      summary: "Hiding, exhuming, or mutilating a human corpse: 6 months–2 years imprisonment and fine."
+    },
+    {
+      number: "131",
+      title: "Cannibalism",
+      summary: "Cannibalism: 10–20 years imprisonment."
+    },
+    {
+      number: "132",
+      title: "Providing False Statements",
+      summary: "Providing false statements to authorities: 1 month–6 months imprisonment or fine. Corporate lens: false declarations to regulatory authorities (RDB, RRA, BNR, RURA) may constitute this offence in addition to sector-specific penalties."
+    },
+    {
+      number: "133",
+      title: "Child Defilement",
+      summary: "Sexual intercourse with a child under 18 years: 10–15 years imprisonment and fine. If the child is under 12: 15–20 years. If resulting in disability or incurable illness: 20–25 years. If resulting in death: life imprisonment."
+    },
+    {
+      number: "134",
+      title: "Rape",
+      summary: "Rape: any sexual penetration of another person without consent: 10–15 years imprisonment and fine of FRW 1,000,000–2,000,000. Aggravated rape (multiple perpetrators, resulting in death, committed on relative up to second degree, with intent to transmit incurable disease): life imprisonment. Corporate lens: sexual assault in the workplace triggers both criminal liability of the perpetrator and potential institutional liability under Art. 88."
+    },
+    {
+      number: "135",
+      title: "Indecent Assault",
+      summary: "Any indecent act against another person's body without consent: 1–2 years imprisonment and fine of FRW 100,000–300,000. In public: 2–3 years and FRW 500,000–1,000,000. Penalty doubled if committed by: ascendant/descendant; person with authority; teacher; civil servant/religious leader abusing position; person using force/threats."
+    },
+    {
+      number: "136",
+      title: "Adultery",
+      summary: "Adultery: 6 months–1 year imprisonment. Prosecuted only on complaint of the offended spouse; the spouse may withdraw the complaint at any stage."
+    },
+    {
+      number: "137",
+      title: "Sexual Violence Against a Spouse",
+      summary: "Physical and sexual violence against a spouse: 3–5 years imprisonment."
+    },
+    {
+      number: "138",
+      title: "Concubinage",
+      summary: "Living as husband and wife with a person other than one's spouse while married: 1–2 years imprisonment. Prosecuted only on complaint of offended spouse."
+    },
+    {
+      number: "139",
+      title: "Desertion of Marital Home",
+      summary: "Deserting the marital home for more than 2 months without serious reason: 3–6 months imprisonment. Also applies to a husband who deserts a pregnant wife for more than 1 month."
+    },
+    {
+      number: "140",
+      title: "Prosecution for Concubinage and Desertion",
+      summary: "Both concubinage and marital home desertion are prosecuted only on complaint of the offended spouse, who may withdraw the complaint at any stage."
+    },
+    {
+      number: "141",
+      title: "Bigamy",
+      summary: "Entering a new marriage while a prior one is valid; accepting marriage knowing the other party has an undissolved prior marriage; officiating at such a ceremony: 1–2 years imprisonment and fine of FRW 300,000–500,000."
+    },
+    {
+      number: "142",
+      title: "Bestiality",
+      summary: "Sexual act with an animal: 6 months–1 year imprisonment. Causing another to engage in such an act: 7–10 years imprisonment and fine of FRW 3,000,000–5,000,000."
+    },
+    {
+      number: "143",
+      title: "Public Indecency",
+      summary: "Performing an indecent act in public: 6 months–2 years imprisonment."
+    },
+    {
+      number: "144",
+      title: "Abandonment of a Dependant Unable to Protect Themselves",
+      summary: "Abandoning a dependent person incapable of self-protection: 1–2 years imprisonment and fine of FRW 100,000–200,000. If in an isolated place intending to hide them: 3–5 years. If causing serious illness or disability: 7–10 years. If causing death: life imprisonment. Corporate lens: applies to employers and care facility operators."
+    },
+    {
+      number: "145",
+      title: "Stigmatization of a Sick Person",
+      summary: "Stigmatizing a sick person without protective intent: 1 month–6 months imprisonment or fine of FRW 300,000–500,000. Corporate lens: relevant in workplace contexts where employees with illness (including HIV) are mistreated."
+    },
+    {
+      number: "146",
+      title: "Playing a Role in Forced Cohabitation",
+      summary: "Forcing a person to cohabit with another: 1–2 years imprisonment and fine of FRW 200,000–300,000."
+    },
+    {
+      number: "147",
+      title: "Harassment of a Spouse",
+      summary: "Harassing a spouse with intent to prevent them from living a peaceful life: 1–2 years imprisonment."
+    },
+    {
+      number: "148",
+      title: "Denial of Freedom to Practice Family Planning",
+      summary: "Violence or harassment against a spouse for exercising family planning decisions: 2–6 months imprisonment."
+    },
+    {
+      number: "149",
+      title: "Sexual Harassment",
+      summary: "Sexual harassment: repeated remarks or behaviour of sexual overtones that degrade or intimidate: 6 months–1 year imprisonment and fine of FRW 100,000–200,000. If by an employer using authority, threats, or instructions: 1–2 years and fine of FRW 200,000–300,000. Corporate lens: employer liability under Art. 88 applies where harassment is institutional; also cross-references Labour Law N° 66/2018 on workplace harassment."
+    },
+    {
+      number: "150",
+      title: "Fraudulent Use of Family Property",
+      summary: "Fraudulently giving, selling, mortgaging, or using a spouse's family property: 3–6 months imprisonment. Prosecution ceases if property is returned before conviction."
+    },
+    {
+      number: "151",
+      title: "Abduction and Unlawful Detention",
+      summary: "Abducting or unlawfully detaining a person by violence, deception, or threats: 5–7 years imprisonment. If victim is a child: 7–10 years."
+    },
+    {
+      number: "152",
+      title: "False Accusations",
+      summary: "Knowingly making false accusations against another before an investigator, prosecutor, or judge: 2 months–6 months imprisonment and fine of FRW 300,000–500,000. Corporate lens: malicious reports to regulatory authorities or false complaints against employees may constitute this offence."
+    },
+    {
+      number: "153",
+      title: "Obstruction of Religious Rituals",
+      summary: "Obstructing religious rituals by force, insults, or threats; causing disorder at religious gatherings: 1–2 years imprisonment or fine of FRW 1,000,000–2,000,000. If by group: 3–5 years or FRW 3,000,000–5,000,000."
+    },
+    {
+      number: "154",
+      title: "Public Defamation of Religious Rituals",
+      summary: "Publicly defaming religious rituals, symbols, or sacred objects: 15 days–3 months imprisonment or fine of FRW 100,000–200,000."
+    },
+    {
+      number: "155",
+      title: "Violation of Domicile",
+      summary: "Entering another person's home without authorisation: 2 months–6 months imprisonment and fine of FRW 500,000–1,000,000. If by threats, break-in, or false keys: 3–5 years and fine of FRW 1,000,000–2,000,000. Corporate lens: relevant to dawn raids — employees must not obstruct authorised searches, but also must not permit unauthorised entry."
+    },
+    {
+      number: "156",
+      title: "Secretly Listening to Conversations, Taking Photos, or Disclosing Them",
+      summary: "Recording, secretly listening to, or disclosing confidential statements or photos/videos without authorisation: 6 months–1 year imprisonment and fine of FRW 1,000,000–2,000,000. Also applies to distributing such material in bad faith. Consent presumed if parties were aware and did not object when they could have. Corporate lens: relevant to employee monitoring, recording of meetings, and surveillance — must be authorised. Cross-references Data Protection Law N° 058/2021."
+    },
+    {
+      number: "157",
+      title: "Publication of Edited Statements or Images",
+      summary: "Publishing edited versions of a person's statements or images without explicitly disclosing they are edited: 6 months–1 year imprisonment and fine of FRW 1,000,000–2,000,000. Corporate lens: applies to manipulated communications used in corporate disputes or HR proceedings."
+    },
+    {
+      number: "158",
+      title: "Breach of Professional Secrecy",
+      summary: "Revealing professional secrecy entrusted by virtue of function, profession, or mandate: 1–2 years imprisonment and fine of FRW 2,000,000–3,000,000. Applies during and after leaving the relevant function. Exceptions: (1) disclosure required by law; (2) disclosure to judicial authorities. Corporate lens: applies to lawyers, doctors, bankers, auditors, and any professional entrusted with confidential information — cross-references banking secrecy under Banking Law N° 044/2024 and Data Protection Law N° 058/2021."
+    },
+    {
+      number: "159",
+      title: "Offences Committed Against Correspondence in Telecommunication Channels",
+      summary: "Fraudulently opening, removing, delaying, or diverting correspondence: 1–2 years imprisonment and fine of FRW 1,000,000–3,000,000. Also applies to recording, intercepting, diverting, or disclosing telecommunications content, or installing interception devices without judicial or prosecutorial authorisation. Corporate lens: wiretapping or interception of employee communications without legal authority constitutes this offence."
+    },
+    {
+      number: "160",
+      title: "Collection of Individuals' Personal Information in Computers",
+      summary: "Recording, collecting, or using personal data in computers in bad faith in a manner likely to harm a person's honour or privacy: 6 months–1 year imprisonment and fine of FRW 1,000,000–2,000,000. Exception: acts performed in a professional or work context authorised by law are not offences. Corporate lens: cross-references Data Protection Law N° 058/2021 — unlawful personal data processing may also constitute this criminal offence."
+    },
+    {
+      number: "161",
+      title: "Public Insult",
+      summary: "Publicly insulting another person: 15 days–2 months imprisonment or fine of FRW 100,000–200,000 or community service up to 15 days."
+    },
+    {
+      number: "162",
+      title: "Prosecution for Privacy Offences",
+      summary: "Offences in Chapter VIII (Arts. 155–161) are prosecuted only at the request of the victim, their legal representative, or rightful claimant. No public prosecution without a complaint."
+    },
+    {
+      number: "163",
+      title: "Crime of Discrimination",
+      summary: "Discrimination: any act that inconveniences, divides, or denies rights to persons on grounds of race, ethnicity, origin, clan, family, colour, sex, region, nationality, religion, political ideology, economic class, culture, language, social status, physical/mental disability, or physical appearance; or inciting others to do so: 5–7 years imprisonment and fine of FRW 500,000–1,000,000. Corporate lens: discrimination in employment, service provision, or business dealings falls under this article. Cross-references Labour Law N° 66/2018."
+    },
+    {
+      number: "164",
+      title: "Crime of Instigating Divisions",
+      summary: "Instigating divisions among the population based on ethnicity, region, religion, or other grounds that may lead to civil unrest or hatred: 5–9 years imprisonment and fine. Cross-references genocide ideology provisions."
+    },
+
+    // Title II: Economic Offences and Property Crimes
+    {
+      number: "165",
+      title: "Definitions (Economic Crimes)",
+      summary: "Defines key terms for economic crimes: 'theft' (taking property belonging to another without consent); 'robbery' (theft with violence or threats); 'fraud/escroquerie' (obtaining property by deception); 'embezzlement' (misappropriating property entrusted to one's care); 'breach of trust' (using entrusted property against the owner's interest). These definitions frame Arts. 166–190."
+    },
+    {
+      number: "166",
+      title: "Penalties for Theft",
+      summary: "Simple theft: 1–3 years imprisonment and fine of FRW 100,000–300,000."
+    },
+    {
+      number: "167",
+      title: "Aggravating Circumstances of Theft",
+      summary: "Theft penalty increases in cases of: theft at night; by two or more persons; with violence or threats; by a domestic worker or employee; by a person entrusted with the property; from a vulnerable person; using a vehicle; of items necessary for survival; during natural disaster. Corporate lens: theft by employees triggers aggravated penalties — relevant to internal investigations and disciplinary procedures."
+    },
+    {
+      number: "168",
+      title: "Penalties for Theft with Violence",
+      summary: "Theft with violence (not armed): 5–10 years imprisonment and fine. If resulting in injury: 10–15 years. If resulting in disability: 15–20 years. If resulting in death: life imprisonment."
+    },
+    {
+      number: "169",
+      title: "Theft of a Motor Vehicle",
+      summary: "Theft of a motor vehicle with intent to use or sell: 3–5 years imprisonment and fine."
+    },
+    {
+      number: "170",
+      title: "Armed Robbery",
+      summary: "Robbery committed while armed: 10–15 years imprisonment and fine. If the weapon is a firearm: 15–20 years. If causing death: life imprisonment."
+    },
+    {
+      number: "171",
+      title: "Extortion",
+      summary: "Extortion (obtaining property, money, or a signature by force, threats, or abuse of authority): 5–10 years imprisonment and fine of FRW 1,000,000–3,000,000. Corporate lens: extortion by corporate officers or agents — extracting payments from counterparties through threats or leverage — constitutes this offence."
+    },
+    {
+      number: "172",
+      title: "Fraudulent Retention of Another's Property",
+      summary: "Retaining property belonging to another without authorisation or right: 1–3 years imprisonment and fine. Relevant to disputes over assets held by corporate trustees or custodians."
+    },
+    {
+      number: "173",
+      title: "Forging or Alteration of Keys",
+      summary: "Forging, altering, or unlawfully possessing keys to property belonging to another: 1–3 years imprisonment and fine."
+    },
+    {
+      number: "174",
+      title: "Fraud (Escroquerie)",
+      summary: "Fraud: obtaining property, money, documents, or a signature by deceit — false identity, false premises, misuse of authority, false documents, or other deceptive means: 3–5 years imprisonment and fine of FRW 1,000,000–3,000,000. Corporate lens: procurement fraud, investment fraud, misrepresentation in contracts, and financial statement manipulation all fall under this article. Cross-references Procurement Law N° 031/2022 and Company Law N° 019/2023."
+    },
+    {
+      number: "175",
+      title: "Non-Payment of Bills (Grivèlerie)",
+      summary: "Knowingly leaving without paying for services already consumed (restaurant, hotel, transport): fine of FRW 50,000–200,000."
+    },
+    {
+      number: "176",
+      title: "Breach of Trust (Abus de Confiance)",
+      summary: "Breach of trust: misappropriating property, money, or documents entrusted for a specific purpose: 1–5 years imprisonment and fine of FRW 500,000–2,000,000. Corporate lens: misuse of company funds, assets, or documents entrusted to employees, directors, or agents — central to internal fraud and embezzlement prosecutions."
+    },
+    {
+      number: "177",
+      title: "Selling or Pledging Property That Is Not One's Own",
+      summary: "Selling or pledging as security property that does not belong to the seller/pledgor, or that is already subject to a prior security: 1–3 years imprisonment and fine."
+    },
+    {
+      number: "178",
+      title: "Embezzlement or Damage to Entrusted Property",
+      summary: "Deliberately embezzling or damaging property entrusted by a court order or legal authority: 2–5 years imprisonment and fine. Corporate lens: applies to court-appointed administrators, liquidators, and trustees who misappropriate assets under their custody."
+    },
+    {
+      number: "179",
+      title: "Arson by the Property Owner",
+      summary: "Property owner setting fire to their own insured property to claim insurance: 3–7 years imprisonment and fine. Corporate lens: insurance fraud through deliberate destruction of insured corporate assets."
+    },
+    {
+      number: "180",
+      title: "Deliberate Arson Against Another's Property",
+      summary: "Setting fire to another's property: 10–20 years imprisonment. If causing death: life imprisonment. If committed against a building used as a dwelling or storage of people: 20–25 years."
+    },
+    {
+      number: "181",
+      title: "Setting Fire to Other Property",
+      summary: "Setting fire to movable property, fields, forests, or crops of another: 5–10 years imprisonment and fine."
+    },
+    {
+      number: "182",
+      title: "Deliberate Demolition or Destruction of Property",
+      summary: "Intentionally demolishing or destroying another's property: 2–5 years imprisonment and fine. If causing danger to persons: 5–10 years."
+    },
+    {
+      number: "183",
+      title: "Demolition of Monuments",
+      summary: "Demolishing, destroying, or damaging public monuments or objects of artistic or historical value: 1–5 years imprisonment and fine."
+    },
+    {
+      number: "184",
+      title: "Demolition of Tombs, Graveyards",
+      summary: "Demolishing or damaging tombs or graveyards: 6 months–2 years imprisonment and fine."
+    },
+    {
+      number: "185",
+      title: "Sale or Use of Fraudulently Obtained Property",
+      summary: "Selling or using property obtained by fraud or theft knowing its illegal origin: 1–3 years imprisonment and fine. Analogous to money laundering — cross-references AML Law N° 075/2019."
+    },
+    {
+      number: "186",
+      title: "Damaging or Plundering Telecommunication Infrastructure",
+      summary: "Damaging or plundering telecommunication infrastructure: 5–10 years imprisonment and fine. Corporate lens: relevant to telecommunications companies (MTN, Airtel) and infrastructure operators."
+    },
+    {
+      number: "187",
+      title: "Damaging or Plundering of Public Utilities",
+      summary: "Damaging or plundering water, electricity, gas, or other public utility infrastructure: 5–10 years imprisonment and fine."
+    },
+    {
+      number: "188",
+      title: "Removal or Displacement of Boundary Marks",
+      summary: "Removing or displacing boundary marks, surveying pegs, or property delimitation markers: 1–3 years imprisonment and fine."
+    },
+    {
+      number: "189",
+      title: "Removal, Displacement or Destruction of Traffic Signs",
+      summary: "Removing, displacing, or destroying road signs or traffic signals: 1–3 years imprisonment and fine."
+    },
+    {
+      number: "190",
+      title: "Mistreatment, Injury, or Killing of Animals",
+      summary: "Intentionally mistreating, injuring, or killing an animal: 6 months–2 years imprisonment and fine."
+    },
+
+    // Title III: Offences Against the State
+    {
+      number: "191",
+      title: "Treason",
+      summary: "Treason: Rwandan citizen collaborating with a foreign enemy or hostile power against Rwanda: 20–25 years imprisonment or life imprisonment."
+    },
+    {
+      number: "192",
+      title: "Offences Classified as Treason",
+      summary: "Offences classified as treason include: espionage; handing over state secrets; sabotage of national defence; inciting armed forces to rebellion."
+    },
+    {
+      number: "193",
+      title: "Maintaining Relations with a Hostile Foreign State",
+      summary: "Maintaining relations with a foreign state in a manner hostile to Rwanda's security: 5–15 years imprisonment."
+    },
+    {
+      number: "194",
+      title: "Spreading False Information",
+      summary: "Spreading false information likely to cause alarm, discredit the government, or disrupt public order: 3–5 years imprisonment and fine. Corporate lens: corporate communications that spread false information about the government or economy may constitute this offence."
+    },
+    {
+      number: "195",
+      title: "Handing Over Territory, Military Secrets, or Equipment to the Enemy",
+      summary: "Handing over territory, military installations, ships, aircraft, or military secrets to a foreign power: 20–25 years or life imprisonment."
+    },
+    {
+      number: "196",
+      title: "Supporting a Foreign Country at War with Rwanda",
+      summary: "Providing economic, financial, or material support to a foreign country at war or in armed conflict with Rwanda: 10–20 years imprisonment."
+    },
+    {
+      number: "197",
+      title: "Causing Rwanda to Be at War",
+      summary: "Acts causing Rwanda to enter into a war it would not otherwise face: life imprisonment."
+    },
+    {
+      number: "198",
+      title: "Offer and Acceptance of a Bribe by Foreign Agent",
+      summary: "Offering or accepting a bribe from a foreign government agent in exchange for acts prejudicial to Rwanda: 10–20 years imprisonment. Corporate lens: cross-references foreign bribery exposure — Rwandan companies dealing with foreign state contracts must be alert."
+    },
+    {
+      number: "199",
+      title: "Obstruction to the National Defence",
+      summary: "Obstructing national defence activities: 5–10 years imprisonment."
+    },
+    {
+      number: "200",
+      title: "Formation of an Irregular Military Force",
+      summary: "Forming, joining, or financing an armed group without government authority: 10–20 years imprisonment."
+    },
+    {
+      number: "201",
+      title: "Punishment of Offences Against the State",
+      summary: "Offences against the State in Arts. 191–200 may also attract: dissolution of the legal entity involved; permanent exclusion from public procurement; special confiscation of all assets used or gained."
+    },
+    {
+      number: "202",
+      title: "Offence Against the Ruling Authority",
+      summary: "Acts aimed at undermining the legitimacy of established governmental authority by unconstitutional means: 10–20 years imprisonment."
+    },
+    {
+      number: "203",
+      title: "Conspiracy Against the Government",
+      summary: "Conspiracy to commit the offence in Art. 202: same penalty as the intended offence."
+    },
+    {
+      number: "204",
+      title: "Causing Uprising or Unrest",
+      summary: "Inciting the population to armed uprising or civil unrest through propaganda, false information, or incitement: 5–10 years imprisonment."
+    },
+    {
+      number: "205",
+      title: "Attack on the Force of Law",
+      summary: "Attacking legally constituted authority by armed force: 15–25 years imprisonment."
+    },
+    {
+      number: "206",
+      title: "Devastation or Looting of the Country",
+      summary: "Organising systematic plunder or devastation of national territory: life imprisonment."
+    },
+    {
+      number: "207",
+      title: "Self-Styled Commander of a Criminal Group",
+      summary: "Claiming command or leadership of an armed criminal group: 15–20 years imprisonment."
+    },
+    {
+      number: "208",
+      title: "Penalties for Individuals Involved in Offences Against the State",
+      summary: "Individuals convicted of offences in Title III also face: mandatory deprivation of civic rights; debarment from public contracts; confiscation of proceeds."
+    },
+    {
+      number: "209",
+      title: "Membership in a Seditious Group",
+      summary: "Knowingly joining or remaining in a seditious group: 1–5 years imprisonment."
+    },
+    {
+      number: "210",
+      title: "Providing Accommodation or Support to Seditious Persons",
+      summary: "Knowingly providing shelter, food, or financial support to members of a seditious group: 2–5 years imprisonment and fine."
+    },
+    {
+      number: "211",
+      title: "Non-Punishable Sedition",
+      summary: "Sedition is not punishable if the person immediately responds to the first warning of authority and had no leadership role."
+    },
+    {
+      number: "212",
+      title: "Definitions of Insurrection",
+      summary: "Insurrection: coordinated armed resistance against legitimate authority involving organised groups."
+    },
+    {
+      number: "213",
+      title: "Obstruction to the Fight Against an Uprising",
+      summary: "Obstructing legitimate government efforts to suppress an insurrection: 10–15 years imprisonment."
+    },
+    {
+      number: "214",
+      title: "Commanders of Insurrectional Groups",
+      summary: "Commanding an insurrectional group: life imprisonment."
+    },
+    {
+      number: "215",
+      title: "Non-Disclosure of Plans of Insurrection",
+      summary: "Failing to disclose known plans of insurrection to authorities: 5–10 years imprisonment."
+    },
+    {
+      number: "216",
+      title: "Mitigating Circumstances for Insurrection Offences",
+      summary: "Mitigating circumstances apply to participants who surrender promptly, cooperate fully, and played no leadership role."
+    },
+    {
+      number: "217",
+      title: "Assaulting Foreign Heads of State or Diplomats",
+      summary: "Assaulting foreign Heads of State, Government, or diplomats on Rwandan soil: 5–15 years imprisonment."
+    },
+    {
+      number: "218",
+      title: "Humiliation or Insult Against Foreign Heads of State or Diplomats",
+      summary: "Publicly insulting or humiliating foreign Heads of State or diplomats: 2–5 years imprisonment."
+    },
+    {
+      number: "219",
+      title: "Desecration of the Flag or National Emblem",
+      summary: "Publicly desecrating the national flag or emblem: 1–3 years imprisonment."
+    },
+    {
+      number: "220",
+      title: "Prosecution of Offences Against Foreign Heads of State",
+      summary: "Offences against foreign Heads of State and diplomats (Arts. 217–219) are prosecuted only on complaint of the foreign government or at Rwanda's initiative based on international obligations."
+    },
+    {
+      number: "221",
+      title: "Discrediting the Value of the Rwandan Currency",
+      summary: "Public acts or statements designed to undermine confidence in the Rwandan franc: 1–3 years imprisonment and fine. Corporate lens: public corporate communications that undermine monetary stability could fall under this article."
+    },
+    {
+      number: "222",
+      title: "Inciting the Public to Withdraw Funds from Banks",
+      summary: "Publicly inciting bank runs or mass withdrawal of deposits with intent to destabilise the financial system: 3–5 years imprisonment and fine. Corporate lens: directly relevant to banking sector — cross-references Banking Law N° 044/2024 Art. 114 on bank-destabilising conduct."
+    },
+    {
+      number: "223",
+      title: "Illegal Operations of Currency",
+      summary: "Illegal buying, selling, or exchange of currency outside authorised channels: 2–5 years imprisonment and fine. Corporate lens: cross-references BNR foreign exchange regulations and Banking Law N° 044/2024."
+    },
+    {
+      number: "224",
+      title: "Formation of or Joining a Criminal Association",
+      summary: "Forming, leading, or joining an organised criminal association (bande organisée) for the purpose of committing offences: 5–10 years imprisonment. If the association commits offences: penalty for the offence plus additional 2–5 years. Corporate lens: organised corporate fraud rings, cartels, and criminal enterprise networks fall under this article — cross-references AML Law N° 075/2019 and Competition Law N° 036/2012."
+    },
+    {
+      number: "225",
+      title: "Illegal Demonstration or Unlawful Assembly",
+      summary: "Organising or participating in demonstrations or assemblies without authorisation: 1–3 months imprisonment or fine. Corporate lens: employees or contractors organising illegal protests may expose the organiser to criminal liability."
+    },
+
+    // Title IV: Offences Against Administration of Justice
+    {
+      number: "226",
+      title: "Definitions (Detention and Escape)",
+      summary: "Defines: 'detainee' (person held by competent organs, pre-trial or awaiting conviction); 'prisoner' (person serving a sentence); 'escape' (act of leaving a detention place by any unlawful means)."
+    },
+    {
+      number: "227",
+      title: "Penalties for Escape",
+      summary: "Escape: 3–5 years imprisonment. If by break-in, bribery, or violence: 5–7 years and fine of FRW 500,000–1,000,000. If using a firearm, explosive, or sedative: 7–10 years."
+    },
+    {
+      number: "228",
+      title: "Helping a Detainee or Prisoner to Escape",
+      summary: "A prison guard or any person who helps a detainee/prisoner escape: 5–7 years imprisonment and fine of FRW 500,000–1,000,000. Corporate lens: relevant to private security operators managing detention facilities."
+    },
+    {
+      number: "229",
+      title: "Penalty for Breach of Restriction of Movement",
+      summary: "Violating a court-imposed restriction of movement: imprisonment for at least the period remaining on the restriction order."
+    },
+    {
+      number: "230",
+      title: "Rebellion Against Authority",
+      summary: "Resisting, threatening, or assaulting public authorities, civil servants, or security agents in the execution of law: 6 months–1 year imprisonment. If armed: 2–3 years. Group without weapons: 1–2 years. Group with weapons: 3–5 years. Penalty does not apply to persons who withdraw at the first warning and had no leadership role. Corporate lens: employees or security staff who obstruct regulatory inspections or arrest may commit this offence."
+    },
+    {
+      number: "231",
+      title: "Hindering Implementation of Ordered Works",
+      summary: "Using violence to obstruct works commissioned or authorised by competent authority: 6 months–1 year and fine of FRW 1,000,000–2,000,000. Group using violence: 2–3 years."
+    },
+    {
+      number: "232",
+      title: "Disrespect of Employment Badges",
+      summary: "Despising official badges, documents, or instruments issued by public authority to indicate mandate or ensure law compliance: 1–2 years and fine of FRW 300,000–500,000."
+    },
+    {
+      number: "233",
+      title: "Humiliation of National Authorities and Public Service Personnel",
+      summary: "Verbally, through gestures, threats, writings, or images humiliating an MP in the exercise of their mandate, a Cabinet member, security officer, or public service employee: 1–2 years and fine of FRW 500,000–1,000,000. Penalty doubled if directed at Parliament session or top-ranking authority."
+    },
+    {
+      number: "234",
+      title: "Assault or Violence Against Public Authorities",
+      summary: "Assaulting an MP, Cabinet member, security officer, or other authority in the performance of duties: 3–5 years. If causing injury: 5–7 years. If premeditated or by ambush: 7–10 years. If with intent to kill: life imprisonment."
+    },
+    {
+      number: "235",
+      title: "Assault or Violence Against the President of the Republic",
+      summary: "Violence against the President: 10–15 years. If premeditated/ambush: 20–25 years. If causing death or with intent to kill: life imprisonment."
+    },
+    {
+      number: "236",
+      title: "Insults or Defamation Against the President of the Republic",
+      summary: "Insulting or defaming the President: 5–7 years imprisonment and fine of FRW 5,000,000–7,000,000."
+    },
+    {
+      number: "237",
+      title: "Interfering with the Smooth Running of Parliament Activities",
+      summary: "Provoking unrest, illegal demonstrations, or obstructing Parliament activities: 1–2 years and fine of FRW 1,000,000–2,000,000. Forcibly preventing an MP from attending Parliament: 3–5 years."
+    },
+    {
+      number: "238",
+      title: "Entry into Parliament Premises with Intent to Harm",
+      summary: "Entering Parliament premises with intent to harm or disrupt activities: 3–5 years."
+    },
+    {
+      number: "239",
+      title: "Interference with Presidency or Cabinet Activities",
+      summary: "Committing offences under Arts. 237–238 near the Office of the President or Cabinet meeting venues: maximum penalties of those articles apply. Near other State organs: 1–2 years and fine of FRW 3,000,000–5,000,000."
+    },
+    {
+      number: "240",
+      title: "Unlawful Break of Seals",
+      summary: "Intentionally and unlawfully removing official seals: 6 months–1 year and fine of FRW 1,000,000–2,000,000. If due to guard negligence: 2–6 months and fine. If the guard breaks their own seals: 1–2 years and fine. Corporate lens: removal of seals placed by regulatory authorities during inspections or seizure operations constitutes this offence."
+    },
+    {
+      number: "241",
+      title: "Breaking Seals Affixed by Judicial Organs or Bailiffs on Seized Property",
+      summary: "Breaking seals on seized or confiscated property: 6 months–1 year and fine of FRW 1,000,000–2,000,000. Corporate lens: removing seals on assets under judicial attachment exposes corporate officers to criminal liability."
+    },
+    {
+      number: "242",
+      title: "Refusal to Appear Before Investigation, Prosecution, or Other Authority",
+      summary: "Failing to appear when lawfully summoned by a prosecutor, investigator, or other authority (except force majeure): 1 month–6 months imprisonment or fine of FRW 200,000–500,000. Corporate lens: employees and officers summoned in regulatory investigations must appear or face criminal liability."
+    },
+    {
+      number: "243",
+      title: "Non-Disclosure of a Felony or Misdemeanour",
+      summary: "Knowing that a felony or misdemeanour is about to be or has been committed and failing to promptly inform security, judicial, or administrative authorities when able to do so and when disclosure could have prevented or limited the offence: 6 months–1 year and fine of FRW 100,000–300,000. If failure leads to commission: 1–2 years and fine. Penalty doubled if the offence involves a child. Corporate lens: compliance officers and managers who become aware of fraud or criminal conduct by colleagues and fail to report may themselves be criminally liable."
+    },
+    {
+      number: "244",
+      title: "Failure to Assist a Person in Danger",
+      summary: "Failing to assist or seek assistance for a person in danger when able to do so without personal risk: 1–3 years imprisonment and fine of FRW 300,000–500,000. Corporate lens: failure to provide emergency assistance in workplace accidents may constitute this offence."
+    },
+    {
+      number: "245",
+      title: "Obliteration of Evidence",
+      summary: "Intentionally altering the scene of an offence, burning, destroying, concealing, or altering evidence or any object facilitating detection of an offence, identification of witnesses, or conviction of perpetrators: 2–3 years and fine of FRW 500,000–1,000,000. If committed by a court-appointed expert or judicial staff: 3–5 years and fine of FRW 3,000,000–5,000,000. Corporate lens: destruction of documents, emails, or records during investigations — a critical internal compliance risk."
+    },
+    {
+      number: "246",
+      title: "Concealing Objects Used or Intended to be Used to Commit an Offence",
+      summary: "Knowingly concealing items forming the corpus delicti, used or intended for use in a felony or misdemeanour; stealing, concealing, falsifying, or destroying objects needed for prosecution: punished as an accomplice of the offender. The court may exempt the spouse and relatives up to the fourth degree from the normally applicable penalty."
+    },
+    {
+      number: "247",
+      title: "Concealment of Objects Obtained from an Offence (Recel)",
+      summary: "Concealing all or part of property knowing it was extorted, embezzled, or obtained through a felony or misdemeanour: 1–2 years and fine of FRW 100,000–300,000. Also applies to persons who knowingly profit from such concealed property. Corporate lens: receiving or handling proceeds of crime — cross-references AML Law N° 075/2019. Companies that unknowingly receive stolen property should conduct AML due diligence."
+    },
+    {
+      number: "248",
+      title: "Intentional Embezzlement of Seized or Confiscated Property",
+      summary: "A custodian of seized or confiscated property who intentionally embezzles, damages, or destroys it: 1–2 years and fine of FRW 1,000,000–2,000,000."
+    },
+    {
+      number: "249",
+      title: "Hiding a Corpse",
+      summary: "Hiding the corpse of a murdered person: 5–7 years imprisonment."
+    },
+    {
+      number: "250",
+      title: "Use of Threats or Intimidation to Influence a Complaint",
+      summary: "Using tricks, price, threats, or intimidation to direct a complaint, compel someone to lodge a complaint, or prevent withdrawal of a complaint: 2–3 years and fine of FRW 500,000–1,000,000. Corporate lens: threatening complainants or witnesses in regulatory or criminal proceedings constitutes this offence."
+    },
+    {
+      number: "251",
+      title: "Refusal to Testify",
+      summary: "Deliberately refusing to provide evidence of innocence of a person prosecuted or convicted of a felony or misdemeanour: 1–2 years and fine of FRW 300,000–500,000. Also applies to refusal to report evidence of commission of a felony or misdemeanour."
+    },
+    {
+      number: "252",
+      title: "Refusal to Answer Questions from Judicial Authorities",
+      summary: "Refusing to answer questions from judges, prosecutors, or investigators about a felony or misdemeanour one has knowledge of: 1–2 years and fine of FRW 500,000–1,000,000. Corporate lens: employees and officers cannot refuse to answer lawful judicial questions — this is separate from the right not to self-incriminate (Art. 254)."
+    },
+    {
+      number: "253",
+      title: "Refusal to Answer Questions of Intelligence or Security Organs",
+      summary: "Refusing to answer or deliberately providing false answers to intelligence or security organ questions in the exercise of their duties: 1 month–6 months and fine of FRW 300,000–500,000."
+    },
+    {
+      number: "254",
+      title: "Non-Punishable Refusal to Answer Questions",
+      summary: "Refusal to answer questions from judicial, intelligence, or security authorities is not punishable where the person considers that answering could lead to self-incrimination (right to silence / nemo tenetur principle). Corporate lens: witnesses and suspects in corporate crime investigations retain the right against self-incrimination."
+    },
+    {
+      number: "255",
+      title: "Giving False Testimony",
+      summary: "Deliberately giving false testimony before judicial organs: 1–3 years and fine of FRW 500,000–1,000,000. If the accused was convicted to more than 5 years based on false testimony: 3–5 years and fine of FRW 1,000,000–2,000,000."
+    },
+    {
+      number: "256",
+      title: "Misleading Witnesses or Judges",
+      summary: "Declaring opinions with intent to mislead witnesses or influence a judge's decision before the case is determined: 1–2 years and fine of FRW 1,000,000–2,000,000."
+    },
+    {
+      number: "257",
+      title: "Refusal to Take Oath Before Judicial or Intelligence Organs",
+      summary: "Refusing to take an oath when required by judicial or intelligence organs: 1–2 years and fine of FRW 300,000–500,000."
+    },
+    {
+      number: "258",
+      title: "Influencing Witnesses or Experts (Subornation)",
+      summary: "Bribing or influencing a witness, expert, or interpreter to give false testimony: 1–2 years and fine of FRW 500,000–1,000,000. Corporate lens: witness tampering in corporate investigations — critical compliance risk."
+    },
+    {
+      number: "259",
+      title: "False Declarations by an Expert Before Judicial Organs",
+      summary: "An expert, interpreter, or translator appointed by judicial organs who deliberately gives false information: 3–5 years and fine of FRW 1,000,000–2,000,000. Higher standard applies to court-appointed experts."
+    },
+    {
+      number: "260",
+      title: "Insulting or Causing Violence to Judicial Personnel",
+      summary: "Insulting or causing violence to an investigator, prosecutor, judge, advocate, state attorney, court clerk, bailiff, conciliator, or arbitrator in the performance of duties: 1–2 years and fine of FRW 1,000,000–2,000,000. During court hearing: 2–3 years."
+    },
+    {
+      number: "261",
+      title: "Threats Against Judicial Personnel",
+      summary: "Threatening investigators, prosecutors, judges, arbitrators, advocates, bailiffs, experts, interpreters, or other judicial personnel to manipulate their official acts: 3–5 years and fine of FRW 1,000,000–2,000,000."
+    },
+    {
+      number: "262",
+      title: "Discrediting a Decision of Judicial Organs",
+      summary: "Discrediting judicial acts or decisions in a manner likely to cause contempt or undermine judicial independence: 1–2 years and fine of FRW 300,000–500,000."
+    },
+    {
+      number: "263",
+      title: "Carrying Out Acts Related to Narcotic Drugs",
+      summary: "Trafficking, producing, distributing, or facilitating use of narcotic or psychotropic substances: 3–5 years and fine; for trafficking: 5–10 years. Proceeds confiscated. Corporate lens: companies operating in pharmaceutical or distribution sectors must ensure supply chains do not include controlled substances."
+    },
+    {
+      number: "264",
+      title: "Facilitating a Person to Use Narcotic Drugs",
+      summary: "Facilitating, inducing, or enabling another person to use narcotics: 3–5 years and fine."
+    },
+    {
+      number: "265",
+      title: "Confiscation of Narcotic Drugs and Equipment",
+      summary: "All narcotic drugs and equipment used for production, trafficking, or distribution are subject to mandatory confiscation regardless of ownership."
+    },
+    {
+      number: "266",
+      title: "Production, Sale, or Prescription of Narcotics Without Authorisation",
+      summary: "Producing, selling, prescribing, or administering narcotics without authorisation: 5–10 years imprisonment and fine. If by a medical professional: penalty doubled."
+    },
+    {
+      number: "267",
+      title: "Noise Nuisance",
+      summary: "Causing excessive noise nuisance disturbing public peace: fine of FRW 50,000–200,000. Petty offence."
+    },
+    {
+      number: "268",
+      title: "Public Drunkenness",
+      summary: "Public drunkenness: fine of FRW 20,000–100,000. Petty offence. If causing public disorder: additional penalty."
+    },
+
+    // Title V: Counterfeiting, Forgery, and Document Offences
+    {
+      number: "269",
+      title: "Counterfeit, Falsification, or Imitation of Currency",
+      summary: "Counterfeiting, falsifying, or imitating Rwandan or foreign currency with intent to use it as genuine: 10–20 years imprisonment and fine. Knowingly using counterfeit currency: 5–10 years. Corporate lens: cross-references BNR currency regulations."
+    },
+    {
+      number: "270",
+      title: "Damaging Monies",
+      summary: "Intentionally damaging or defacing currency coins or notes: fine and potential confiscation."
+    },
+    {
+      number: "271",
+      title: "Counterfeiting Negotiable Instruments",
+      summary: "Counterfeiting or falsifying cheques, bonds, treasury bills, shares, or other negotiable instruments: 5–10 years and fine. Knowingly using counterfeit negotiable instruments: 3–5 years. Corporate lens: closely relevant to corporate treasury operations and securities transactions."
+    },
+    {
+      number: "272",
+      title: "Confiscation of Counterfeit Money and Instruments",
+      summary: "All counterfeit currency and instruments are subject to mandatory confiscation."
+    },
+    {
+      number: "273",
+      title: "Falsification of Official Marks",
+      summary: "Counterfeiting or altering official stamps, seals, hallmarks, or other State marks: 5–10 years imprisonment. Knowingly using falsified marks: 3–7 years."
+    },
+    {
+      number: "274",
+      title: "Illegal Use of Marks",
+      summary: "Using genuine official marks on products or documents without authority: 3–5 years and fine."
+    },
+    {
+      number: "275",
+      title: "Confiscation of Falsified Marks and Products",
+      summary: "Mandatory confiscation of all falsified marks and products bearing such marks."
+    },
+    {
+      number: "276",
+      title: "Forgery, Falsification, and Use of Forged Documents",
+      summary: "DOCUMENT FRAUD. Forging or falsifying any document (public or private, including electronic) to create a false right or obligation, or to cause harm: 3–7 years imprisonment and fine of FRW 1,000,000–5,000,000. Knowingly using a forged document: same penalty as forgery. For public documents forged by a public officer: 7–10 years. Corporate lens: falsifying contracts, corporate records, financial statements, regulatory filings, or electronic documents is a serious criminal offence. This is the primary document fraud article — cross-references Company Law N° 019/2023 and Tax Procedures Law N° 020/2023."
+    },
+    {
+      number: "277",
+      title: "Fraudulent Acquisition or Alteration of Official Documents",
+      summary: "Fraudulently obtaining official documents (IDs, certificates, permits, licences) by deception or false representations: 2–5 years and fine. Corporate lens: obtaining business licences, investment certificates, or permits by false declarations — cross-references RDB Investment Law N° 006/2021."
+    },
+    {
+      number: "278",
+      title: "Issuance of a Document to a Person Not Entitled",
+      summary: "A public officer who knowingly issues an official document to a person not entitled to it: 1–3 years and fine."
+    },
+    {
+      number: "279",
+      title: "Usurpation of Titles and Functions",
+      summary: "Falsely claiming to hold a professional title, qualification, or public function one does not possess, or wearing associated insignia: 1–3 years imprisonment and fine. Corporate lens: presenting oneself as a licensed lawyer, doctor, accountant, or other regulated professional without proper qualification."
+    },
+    {
+      number: "280",
+      title: "Wearing Badges Without Authority",
+      summary: "Unlawfully wearing decorations, ribbons, or badges to which one is not entitled: fine."
+    },
+    {
+      number: "281",
+      title: "Claiming to be Attached to a Government Body",
+      summary: "Falsely claiming to represent or be attached to a government institution: 1–2 years imprisonment and fine. Corporate lens: falsely claiming to act on behalf of a government body in commercial dealings."
+    },
+    {
+      number: "282",
+      title: "Taking a Decision Which Violates Individual Rights",
+      summary: "A public official who takes a decision violating fundamental individual rights: 1–3 years and fine. Relevant to unlawful regulatory decisions affecting companies."
+    },
+    {
+      number: "283",
+      title: "Continued Use of Authority After Loss of Office",
+      summary: "Continuing to exercise official authority after loss of office, mandate, or functions: 6 months–2 years and fine."
+    },
+    {
+      number: "284",
+      title: "Commission of an Act Which Violates the Law by a Public Official",
+      summary: "A public official who commits any act in violation of constitutional or legal provisions in the exercise of their functions: 1–3 years and fine. Corporate lens: covers abuse of regulatory authority and unlawful administrative acts affecting business."
+    },
+    {
+      number: "285",
+      title: "Unlawful Detention",
+      summary: "Any person — including private individuals, security companies, or their agents — who unlawfully detains another person without legal authority: 2–5 years and fine. Aggravated if detention exceeds 30 days or is accompanied by violence: 5–10 years. Corporate lens: private security operators must ensure detention/restraint procedures are lawfully authorised."
+    },
+
+    // Military Offences
+    {
+      number: "286",
+      title: "Definitions (Military)",
+      summary: "Defines terms applicable to military offences: 'military person'; 'superior'; 'subordinate'; 'military establishment'; 'wartime'; 'peacetime'."
+    },
+    {
+      number: "287",
+      title: "Provisions for Repression of Military Offences",
+      summary: "Military offences are governed by this Law and by specific laws applicable to military personnel. Where both apply, this Law governs unless the special law provides otherwise."
+    },
+    {
+      number: "288–320",
+      title: "Military Offences",
+      summary: "Arts. 288–320 establish a comprehensive regime of military-specific offences including: desertion (Arts. 309–315); insubordination (Art. 301); revolt (Art. 302); sleeping on guard duty (Art. 297); drunkenness on duty (Art. 298); sabotage of military communication systems (Arts. 321–327); unauthorised use of weapons (Art. 318); self-mutilation in wartime (Art. 316); humiliation of superiors (Art. 304); violence against superiors (Arts. 305–307); murder of a superior (Art. 308). These articles apply only to military personnel; penalties include military demotion, dismissal, and imprisonment. Not directly relevant to corporate clients."
+    },
+
+    // Final provisions
+    {
+      number: "331",
+      title: "Legal Effect of Documents in Criminal Proceedings",
+      summary: "Documents produced in criminal proceedings have the evidentiary value determined by the court based on their source, authenticity, and relevance."
+    },
+    {
+      number: "332",
+      title: "Entry of Criminal Records",
+      summary: "Criminal convictions are entered in the national criminal record system. Convictions include the offence, penalty, and date. Criminal records inform recidivism assessments, job vetting, and civic right deprivations. Corporate lens: key for fit-and-proper assessments under Banking Law N° 044/2024 and similar regulated sector laws."
+    },
+    {
+      number: "333",
+      title: "Drafting, Consideration, and Adoption of this Law",
+      summary: "Procedural provision confirming the legislative process followed."
+    },
+    {
+      number: "334",
+      title: "Repealing Provision",
+      summary: "All prior legal provisions contrary to this Law — including Decree-Law N° 21/77 of 18/08/1977 establishing the prior Penal Code — are repealed."
+    },
+    {
+      number: "335",
+      title: "Commencement",
+      summary: "This Law enters into force on the date of its publication in the Official Gazette of the Republic of Rwanda (published 27/09/2018)."
+    }
+  ],
+
+  penalties: [
+    // Key penalty thresholds by offence category
+    {
+      provision: "Art. 17",
+      description: "Felony threshold: imprisonment exceeding 5 years or life imprisonment. Triggers full range of corporate penalties under Art. 25.",
+      amount: "Imprisonment > 5 years or life"
+    },
+    {
+      provision: "Art. 25",
+      description: "Corporate penalties: fine; ban on activities; confiscation; publication; dissolution; permanent closure; public procurement exclusion; ban on cheques/credit cards/negotiable instruments; judicial supervision.",
+      amount: "Fine (no statutory maximum stated in general provisions — set per offence in Part Two)"
+    },
+    {
+      provision: "Art. 52",
+      description: "Recidivism: penalties may be doubled for repeat offenders.",
+      amount: "Up to double the applicable penalty"
+    },
+    {
+      provision: "Art. 92",
+      description: "Genocide: life imprisonment. Imprescriptible.",
+      amount: "Life imprisonment"
+    },
+    {
+      provision: "Art. 107",
+      description: "Voluntary murder: life imprisonment.",
+      amount: "Life imprisonment"
+    },
+    {
+      provision: "Art. 113",
+      description: "Torture: 10–15 years and FRW 2,000,000–5,000,000. By public official: 15–20 years. Causing death: life.",
+      amount: "FRW 2,000,000–5,000,000 + imprisonment"
+    },
+    {
+      provision: "Art. 129",
+      description: "Blackmail: 2–5 years and FRW 1,000,000–3,000,000.",
+      amount: "FRW 1,000,000–3,000,000"
+    },
+    {
+      provision: "Art. 158",
+      description: "Breach of professional secrecy: 1–2 years and FRW 2,000,000–3,000,000.",
+      amount: "FRW 2,000,000–3,000,000"
+    },
+    {
+      provision: "Art. 163",
+      description: "Discrimination: 5–7 years and FRW 500,000–1,000,000.",
+      amount: "FRW 500,000–1,000,000"
+    },
+    {
+      provision: "Art. 171",
+      description: "Extortion: 5–10 years and FRW 1,000,000–3,000,000.",
+      amount: "FRW 1,000,000–3,000,000"
+    },
+    {
+      provision: "Art. 174",
+      description: "Fraud (escroquerie): 3–5 years and FRW 1,000,000–3,000,000.",
+      amount: "FRW 1,000,000–3,000,000"
+    },
+    {
+      provision: "Art. 176",
+      description: "Breach of trust: 1–5 years and FRW 500,000–2,000,000.",
+      amount: "FRW 500,000–2,000,000"
+    },
+    {
+      provision: "Art. 222",
+      description: "Inciting bank run: 3–5 years and fine.",
+      amount: "Fine not specified in general provision — set per offence"
+    },
+    {
+      provision: "Art. 236",
+      description: "Defaming the President: 5–7 years and FRW 5,000,000–7,000,000.",
+      amount: "FRW 5,000,000–7,000,000"
+    },
+    {
+      provision: "Art. 276",
+      description: "Forgery and use of forged documents: 3–7 years and FRW 1,000,000–5,000,000. Public official: 7–10 years.",
+      amount: "FRW 1,000,000–5,000,000"
+    }
+  ],
+
+  regulator: "No single administrative regulator. Criminal prosecution is initiated by the National Public Prosecution Authority (NPPA — Parquet Général) through the Office of the Prosecutor General and subordinate prosecution offices. Investigation is conducted by the Rwanda Investigation Bureau (RIB) and judicial police officers. Cases are tried in the Intermediate Courts (misdemeanours) and the High Court/Commercial High Court (felonies) with appeals to the Court of Appeal and Supreme Court. For economic and financial crimes involving regulated entities, sector regulators (BNR, RDB, RRA, RURA, RMB) may refer matters to the NPPA and cooperate with RIB investigations.",
+
+  keyDeadlines: [
+    {
+      provision: "Art. 75",
+      deadline: "30 years",
+      description: "Prescription period for execution of life imprisonment penalty."
+    },
+    {
+      provision: "Art. 75",
+      deadline: "20 years",
+      description: "Prescription period for execution of imprisonment exceeding 10 years."
+    },
+    {
+      provision: "Art. 75",
+      deadline: "10 years",
+      description: "Prescription period for execution of imprisonment of 5–10 years."
+    },
+    {
+      provision: "Art. 75",
+      deadline: "5 years",
+      description: "Prescription period for execution of imprisonment under 5 years."
+    },
+    {
+      provision: "Art. 76",
+      deadline: "2 years",
+      description: "Prescription period for community service penalty."
+    },
+    {
+      provision: "Art. 77",
+      deadline: "5 years",
+      description: "Prescription period for fine."
+    },
+    {
+      provision: "Art. 31",
+      deadline: "1 year",
+      description: "Maximum time limit set by court for payment of a fine from date judgment becomes final."
+    },
+    {
+      provision: "Art. 35",
+      deadline: "6 months",
+      description: "Maximum duration of community service as principal penalty."
+    },
+    {
+      provision: "Art. 64",
+      deadline: "5 years",
+      description: "Period during which commission of another intentional offence will void a suspended sentence."
+    },
+    {
+      provision: "Art. 52",
+      deadline: "5 years",
+      description: "Period within which a second conviction of imprisonment of at least 6 months triggers recidivism rules."
+    },
+    {
+      provision: "Art. 43",
+      deadline: "10 years",
+      description: "Maximum duration of deprivation of civic rights (except for life imprisonment convicts)."
+    }
+  ],
+
+  statutoryGaps: [
+    "No consolidated corporate sentencing guidelines — courts have discretion in applying Art. 25 penalties to legal entities; the Law does not establish thresholds or proportionality rules for corporate fines.",
+    "No explicit provision on deferred prosecution agreements (DPAs) or corporate leniency programmes — corporate entities cooperating with investigations cannot formally negotiate reduced liability under this Law.",
+    "The interaction between Art. 88 corporate criminal liability and sector-specific criminal provisions (AML Law, Banking Law, Data Protection Law) is not codified — prosecutors must apply both simultaneously without express reconciliation rules.",
+    "No whistleblower protection provision within the Penal Code itself — the conspiracy disclosure exemption (Art. 20) is the only express protection; a standalone whistleblower framework is absent from the Code.",
+    "The 'judicial supervision' penalty in Art. 90 lacks implementing regulations specifying the scope of the supervisor's powers, reporting obligations, and duration limits.",
+    "Command responsibility under Art. 105 is expressed for international crimes only — its application to corporate officers in domestic fraud contexts relies on judicial extension of the principle and is not explicit.",
+    "No sentencing discount provision for early guilty pleas or voluntary restitution — mitigating circumstances under Arts. 58–60 are broad but do not expressly create structured discount frameworks for corporate self-reporting."
+  ],
+
+  crossReferenceClusters: [
+    {
+      cluster: "AML/CFT Interface",
+      description: "Arts. 185, 247 (concealment and recel of proceeds of crime) operate alongside AML Law N° 075/2019 (money laundering offences). The Penal Code defines the underlying predicate offences that trigger AML liability. Art. 224 (criminal association) provides the framework for organised crime prosecutions that underpin complex AML cases."
+    },
+    {
+      cluster: "Banking and Financial Crimes",
+      description: "Arts. 269–271 (currency and negotiable instrument counterfeiting), Art. 174 (fraud), Art. 176 (breach of trust), and Art. 222 (inciting bank runs) cross-reference Banking Law N° 044/2024 criminal provisions. Both the Penal Code and the Banking Law may apply concurrently to the same conduct — the more specific Banking Law penalty applies where it is higher."
+    },
+    {
+      cluster: "Tax and Procurement Fraud",
+      description: "Art. 276 (forgery and use of forged documents) and Art. 174 (fraud) apply to falsified tax returns, forged invoices, and manipulated procurement documents — cross-references Tax Procedures Law N° 020/2023 and Public Procurement Law N° 031/2022. Both regimes may impose parallel criminal sanctions."
+    },
+    {
+      cluster: "Data Protection and Privacy Crimes",
+      description: "Arts. 156 (secret listening/surveillance), 158 (professional secrecy), 159 (interception of telecommunications), and 160 (unlawful collection of personal data) form the criminal enforcement backbone for Data Protection Law N° 058/2021. A data breach caused by intentional unlawful collection may trigger both administrative penalties under the Data Protection Law and criminal prosecution under these articles."
+    },
+    {
+      cluster: "Corporate Liability Framework",
+      description: "Arts. 25, 83, 84, 88, 89, and 90 collectively define Rwanda's corporate criminal liability regime. This cluster must be read together with Company Law N° 019/2023 (director duties), Labour Law N° 66/2018 (employment liability), and sector-specific laws creating institutional liability. The dual prosecution principle (Art. 88) means both entity and individual officers face simultaneous criminal exposure."
+    },
+    {
+      cluster: "Environmental Crimes",
+      description: "Arts. 180–182 (arson and deliberate destruction) and Art. 186–187 (infrastructure damage) cross-reference Environmental Law N° 048/2018. Environmental violations that involve deliberate destruction of property or infrastructure trigger Penal Code sanctions in addition to environmental law penalties."
+    },
+    {
+      cluster: "Labour and Workplace",
+      description: "Arts. 118 (unintentional bodily harm), 121 (assault), 149 (sexual harassment), and 163 (discrimination) apply to workplace incidents alongside Labour Law N° 66/2018. Workplace accidents, harassment, and discriminatory acts expose employers to both civil (Labour Law) and criminal (Penal Code) liability."
+    },
+    {
+      cluster: "Document Integrity",
+      description: "Art. 276 (forgery) cross-references Company Law N° 019/2023 (company records), Tax Procedures Law N° 020/2023 (tax documents), Investment Law N° 006/2021 (investment certificates), and Land Law N° 27/2021 (title deeds). Any intentional falsification of documents governed by those sector laws also constitutes a Penal Code forgery offence."
+    }
+  ]
+}
+    {
+  id: "criminal_procedure_027_2019",
+  shortName: "Criminal Procedure Code",
+  fullName: "Law N° 027/2019 of 19/09/2019 Relating to the Criminal Procedure (as amended by Law N° 058/2023 of 04/12/2023)",
+  practiceNote: "Rwanda's consolidated Code of Criminal Procedure. Governs the entire criminal process from investigation through execution of judgment. Law N° 058/2023 of 04/12/2023 amended 16 specific articles: Arts. 15, 16, 17, 24, 49, 58, 70, 72, 76, 173, 174, 199, 216, 233, 234, and inserted new Arts. 16bis, 169bis, and 264bis. All article summaries below reflect the law as amended. Corporate clients: the most critical articles are Arts. 38–41 (interception), Arts. 46, 68 (suspect rights), Arts. 55–64 (search and seizure), Arts. 66–79 (arrest, detention, provisional detention), Arts. 25–26 (fine without trial and plea bargaining), Arts. 232–237 (parole), and Arts. 240–253 (suspension of penalty, amnesty, rehabilitation).",
+  category: "criminal_procedure",
+  articles: [
+    // TITLE I: GENERAL PROVISIONS
+
+    {
+      number: "1",
+      title: "Purpose of this Law",
+      summary: "Establishes the framework for criminal procedure in Rwanda."
+    },
+    {
+      number: "2",
+      title: "Scope of Application",
+      summary: "Applies to all criminal proceedings in Rwanda."
+    },
+    {
+      number: "3",
+      title: "Definitions",
+      summary: "Defines key terms: 'criminal action' (action filed on behalf of the public before criminal courts to punish an offender); 'civil action' (action for compensation of damages caused by an offence); 'prosecution' (any act aimed at instituting legal proceedings, summoning parties, preparing hearings, litigating, using appeals); 'serious grounds for suspecting a person' (plausible investigation results leading to suspicion of commission); 'investigation' (any act detecting offences, gathering evidence, determining whether to prosecute); 'person caught red-handed' (caught during or immediately after commission); 'national security' (State strategies for protection against internal/external aggression); 'person presumed to have been caught red-handed' (public yelling, or found with weapons/instruments/documents suggesting commission soon after the offence)."
+    },
+
+    // Chapter II: Actions Arising from an Offence
+
+    {
+      number: "4",
+      title: "Competent Authority to Institute a Criminal Action",
+      summary: "Criminal action is instituted by the public prosecution (NPPA). However, a victim may institute a criminal action by way of private prosecution (citation directe) directly before a criminal court."
+    },
+    {
+      number: "5",
+      title: "Grounds for Termination of Criminal Action",
+      summary: "Criminal action terminates on: (1) death of the offender; (2) prescription of the offence; (3) amnesty; (4) repeal of the law; (5) final judgment (res judicata). Also terminates if: (1) the suspect accepts to pay a fine without trial; (2) the plaintiff withdraws the complaint as permitted by law."
+    },
+    {
+      number: "6",
+      title: "Prescription of a Criminal Action",
+      summary: "Prescription periods (except for imprescriptible offences): felonies — 10 years; misdemeanours — 3 years; petty offences — 1 year. Corporate lens: time limits for regulatory and criminal exposure for corporate conduct."
+    },
+    {
+      number: "7",
+      title: "Commencement of Prescriptive Period",
+      summary: "Prescription runs from the date the offence was committed if no investigation or prosecution was conducted. For instantaneous offences: from date of commission. For continuing offences: from cessation of the act. For multiple acts forming one criminal intent: from the last act."
+    },
+    {
+      number: "8",
+      title: "Interruption of Prescriptive Period",
+      summary: "Prescription is interrupted by any investigation or prosecution act conducted within the Art. 6 periods. After interruption, prescription starts running again from the last investigation or prosecution act. Applies equally to persons named in the complaint even if not yet subject to investigation."
+    },
+    {
+      number: "9",
+      title: "Suspension of Prescriptive Period",
+      summary: "Prescription is suspended whenever investigation or prosecution is precluded by an inevitable obstacle arising from law or force majeure. Prescription continues from the date the obstacle is removed."
+    },
+    {
+      number: "10",
+      title: "Person Empowered to Institute a Civil Action",
+      summary: "Any person aggrieved by an offence may institute a civil action — natural or legal person, public or private. Legally constituted victim-defence organisations or competent State institutions may act on behalf of the victim."
+    },
+    {
+      number: "11",
+      title: "Persons Against Whom Civil Action May Be Instituted",
+      summary: "Civil action may be directed against the principal offender, co-offender, accomplice, any person with civil liability, and the offender's heirs."
+    },
+    {
+      number: "12",
+      title: "Prescription of Civil Action",
+      summary: "Civil action arising from a criminal offence prescribes 5 years from the date of commission. If civil prescription falls before criminal prescription, civil action prescribes simultaneously with the criminal action."
+    },
+    {
+      number: "13",
+      title: "Failure to Institute a Civil Action",
+      summary: "A civil action cannot be instituted before a criminal court after expiry of the criminal prescription period. However, where a civil action was already pending in a criminal court, it may continue even if the criminal action subsequently prescribes, the offender dies, the offence is decriminalised, or amnesty is granted."
+    },
+    {
+      number: "14",
+      title: "Waiver of a Civil Action",
+      summary: "Waiver of a civil action does not discontinue criminal prosecution."
+    },
+
+    // TITLE II: INVESTIGATION — Chapter I: Investigation by RIB
+
+    {
+      number: "15",
+      title: "Functions of the Organ in Charge of Investigation",
+      summary: "AS AMENDED BY LAW N° 058/2023: (1) Investigators of Rwanda Investigation Bureau (RIB) work under leadership and supervision of RIB management. (2) Military investigators work under leadership and supervision of the Military Prosecutor General. (3) Non-career investigators are vested with investigation powers by law or Ministerial Order and work under their supervising organs; when performing investigation functions, this Law applies. (4) Investigators perform investigation functions only on offences within their subject-matter and territorial jurisdiction. Corporate lens: RIB is the primary investigative body for corporate and financial crimes."
+    },
+    {
+      number: "16",
+      title: "Responsibilities of Investigators",
+      summary: "AS AMENDED BY LAW N° 058/2023: In investigation, investigators are responsible for: (a) detecting offences; (b) receiving complaints and documents relating to offences; (c) gathering incriminating and exculpatory evidence; (d) searching for perpetrators, co-offenders, and accomplices for prosecution; (e) informing the victim and suspect of the status of the file; (f) writing a statement of arrest and detention and giving a copy to the suspect; (g) releasing the suspect or releasing subject to conditions; (h) initiating mediation between suspect and victim if it is the appropriate way of providing remedy, reversing consequences, and helping the suspect — but only for offences not punishable with imprisonment exceeding 5 years (mediation cannot be initiated for physical and sexual violence between spouses); (i) closing the file if elements of the offence are incomplete, perpetrator unknown, criminal action extinct, or other legal reason; (j) informing the plaintiff of file closure within 30 days — plaintiff may refer to prosecution if dissatisfied. Every month, closed files are notified to the public prosecution. Investigator may arrest and detain a suspect in accordance with this Law."
+    },
+    {
+      number: "16bis",
+      title: "Preliminary Investigation Acts by Rwanda National Police",
+      summary: "INSERTED BY LAW N° 058/2023: Preliminary investigative acts performed by Rwanda National Police (RNP) under the RNP law are handed over to the NPPA. Other preliminary investigation acts performed by RNP and handed to RIB carry the value of investigative acts. Corporate lens: clarifies the dual-track preliminary investigation system between RNP and RIB."
+    },
+    {
+      number: "17",
+      title: "Powers to Conduct Preliminary Investigations",
+      summary: "AS AMENDED BY LAW N° 058/2023: Preliminary investigations are conducted by investigators on own motion, on complaint, or on instruction from public prosecution. If RIB rejects a complaint or refuses to investigate without justification, the complainant may file directly with the prosecution. Prosecution may then investigate after verifying that RIB was actually seized and failed to act. Prosecution may also conduct investigations where it believes there are persons who had to be investigated but were not."
+    },
+    {
+      number: "18",
+      title: "Procedure for Filing a Complaint with the Organ in Charge of Investigation",
+      summary: "Complaints may be filed orally or in writing. If oral, the organ in charge of investigation puts it in writing; the complainant signs or affixes a fingerprint after reading or having it read to them."
+    },
+    {
+      number: "19",
+      title: "Preserving Evidence",
+      summary: "An investigator must preserve evidence likely to disappear and any material that may help ascertain the truth. No unauthorised person may alter the crime scene or remove material before investigations begin. Exception: for safety reasons or to rescue the victim, alteration or removal of evidence may be necessary."
+    },
+    {
+      number: "20",
+      title: "Summons by an Investigator",
+      summary: "A person summoned by an investigator for investigation purposes must appear. Failure to appear: the person may be compelled by a warrant to bring by force signed by the prosecutor."
+    },
+    {
+      number: "21",
+      title: "Contents of the Statement Concluding Preliminary Investigations",
+      summary: "The closing statement of preliminary investigations must contain: (1) file number; (2) legal provisions relied on; (3) investigator's name and workplace; (4) plaintiff's identity; (5) defendant's identity; (6) witnesses' identities; (7) offence charged and applicable penal provisions; (8) circumstances and constituent elements of each offence; (9) proof of commission and each suspect's role; (10) list of seized property; (11) experts consulted; (12) investigator's conclusion; (13) list of file contents; (14) investigator's sworn oath; (15) investigator's name and signature."
+    },
+    {
+      number: "22",
+      title: "Submission of Case File",
+      summary: "After completion of investigations, the organ in charge immediately submits the file to the public prosecution."
+    },
+
+    // Chapter II: Investigation by the Public Prosecution
+
+    {
+      number: "23",
+      title: "Persons Competent to Conduct Prosecution",
+      summary: "Powers to prosecute before a court belong to the public prosecution. The victim may prosecute before a court as prescribed by law (private prosecution)."
+    },
+    {
+      number: "24",
+      title: "Responsibilities of a Prosecutor Upon Receipt of the Case File",
+      summary: "AS AMENDED BY LAW N° 058/2023: A prosecutor who receives a file may: (a) immediately file with the competent court if the file is complete; (b) conduct additional investigations if evidence is insufficient; (c) initiate mediation between suspect and victim if that is the appropriate remedy and the offence is not punishable with imprisonment exceeding 5 years (mediation excluded for physical and sexual violence between spouses); (d) impose a fine without trial (if there is a victim who may claim compensation, the prosecutor summons the victim to negotiate compensation; disagreement → victim files in competent court); (e) initiate plea bargaining; (f) close the file if: elements are incomplete, perpetrator unknown, prosecution unnecessary, or other legal reason — file closure is an administrative decision that cannot prevent resumed investigation if new incriminating evidence arises and prescription has not expired; both victim and suspect must be notified within 30 days; (g) release the suspect or release subject to conditions; (h) inform victim and suspect of the status of the file."
+    },
+    {
+      number: "25",
+      title: "Fine Without Trial (Amende Transactionnelle)",
+      summary: "For any offence within the prosecutor's competence, if punishable by a fine, the prosecutor may offer the suspect the choice between court prosecution or paying a fine not exceeding the maximum fine plus any legal additions. If the suspect pays, the criminal action is extinguished. Payment is notified to the victim. Payment does not constitute admission of guilt. Corporate lens: available to corporate entities as well as individuals for qualifying offences — a key tool for early resolution of regulatory criminal exposure."
+    },
+    {
+      number: "26",
+      title: "Plea Bargaining",
+      summary: "After interrogation, the prosecutor may propose plea bargaining: the suspect assists the prosecutor with all necessary information and identifies co-offenders in exchange for concessions on charges and penalties requested. The prosecutor undertakes to make concessions on charges and penalties. A suspect who agrees to plea bargaining may be prosecuted while free during investigation. Plea bargaining does not prevent the victim from getting information on the prosecution file or contributing to explaining the offence. Corporate lens: critical tool for corporate clients seeking reduced exposure in complex fraud or corruption cases."
+    },
+    {
+      number: "27",
+      title: "Effects of Plea Bargaining",
+      summary: "In case of a plea bargaining agreement, the prosecution charges the suspect as agreed. The court may admit or reject the agreement but cannot alter it. If admitted, the court takes it into account in determining the penalty."
+    },
+    {
+      number: "28",
+      title: "Procedures for Summoning a Suspect",
+      summary: "A prosecutor in charge of a file may summon a suspect using: (1) a summons; (2) a warrant to appear; (3) a warrant to bring by force. All these are enforceable throughout Rwanda. The prosecutor may also request the Prosecutor General to issue an international arrest warrant against a suspect abroad."
+    },
+    {
+      number: "29",
+      title: "Summons",
+      summary: "A summons is a written notice requesting a person to appear before a prosecutor or investigator on a specified date and time. May be served via ICT means where proof of receipt is available."
+    },
+    {
+      number: "30",
+      title: "Warrant to Appear",
+      summary: "A warrant to appear compels a person to appear before the issuing authority on a specified date and time. Not an order of arrest or detention. Issued when the person has received a summons but failed to appear."
+    },
+    {
+      number: "31",
+      title: "Warrant to Bring by Force",
+      summary: "A warrant to bring by force is a written order to law enforcement to bring a person before the issuing authority. Valid for 3 months from the date signed; renewable by the issuing authority. Not a detention order — it is an apprehension order. If the wanted person cannot be immediately brought before the officer, provisional detention in appropriate custody for not more than 5 days is permitted."
+    },
+    {
+      number: "32",
+      title: "Summoning a Witness",
+      summary: "A prosecutor may summon any person whose testimony is considered relevant. The summoned person receives a copy of the summons. Witnesses are summoned through administrative entities using bailiffs or security organs, but may appear on their own initiative. A duly summoned person must appear."
+    },
+    {
+      number: "33",
+      title: "Warrant to Bring a Witness by Force",
+      summary: "A prosecutor may issue a warrant to bring by force against a witness who refuses to appear — on own motion or on investigator's request. A witness who fails to appear without justification faces criminal penalties. However, if the witness gives legitimate reasons, no penalty applies. If a witness cannot appear for legitimate reasons, the prosecutor may go to the witness or delegate another person."
+    },
+    {
+      number: "34",
+      title: "Remission of Penalty for a Witness Who Failed to Appear",
+      summary: "A witness previously sentenced for failure to appear who, upon a renewed summons or warrant to bring by force, provides legitimate grounds for the earlier failure may obtain remission of the previously imposed penalty."
+    },
+    {
+      number: "35",
+      title: "Provisional Arrest Warrant Issued by a Prosecutor",
+      summary: "A provisional arrest warrant is a detention order signed by a prosecutor during case file preparation after the suspect is informed of the charges. Valid for 5 days non-renewable. Corporate lens: the first formal instrument of detention — triggers the 5-day clock within which the file must be submitted to court."
+    },
+    {
+      number: "36",
+      title: "International Arrest Warrant",
+      summary: "An international arrest warrant is signed by the Prosecutor General or Military Prosecutor General to arrest a person in a foreign country suspected of a felony or misdemeanour."
+    },
+    {
+      number: "37",
+      title: "Enforcement of Warrant to Bring by Force and Arrest Warrant",
+      summary: "Warrants are enforced by any law enforcement officer and must be shown to the person against whom they are issued; the person receives a copy. The original or copy is immediately sent to the person responsible for enforcement."
+    },
+    {
+      number: "38",
+      title: "Interception of Communication in Investigations and Prosecution",
+      summary: "DAWN RAID / SURVEILLANCE CRITICAL ARTICLE. For investigations on offences against national security, corruption, and embezzlement of State property, state security organs specified by the Constitution, the Office of the Ombudsman, and RIB may — under written authorisation of the Prosecutor General — listen, understand, and audio/video record documents, internet, conversations, telegrams, postal cards, electronic mail, and any other communications at the time they are transmitted. The applicant must prove to the Prosecutor General the link between the requested interception and the offence under investigation. Corporate lens: interception of corporate communications requires Prosecutor General authorisation — key for defending against improper interception and for understanding the scope of investigations involving regulated entities."
+    },
+    {
+      number: "39",
+      title: "Order for Interception of Communication",
+      summary: "The interception order must be in writing and contain: identification elements of items to be seized or connections to be intercepted; the offence giving rise to interception. Issued within 48 hours of the Prosecutor General receiving the request. In urgency, a verbal order is permitted but written order must follow within 24 hours. Order valid for 3 months, renewable once only."
+    },
+    {
+      number: "40",
+      title: "Statement of Interception",
+      summary: "The organ conducting interception prepares a statement that includes only details relating to the offence alleged against the person whose communications were intercepted."
+    },
+    {
+      number: "41",
+      title: "Prohibitions Regarding Seizure or Interception",
+      summary: "Correspondence or messages of the Head of State cannot be seized or intercepted."
+    },
+    {
+      number: "42",
+      title: "Assistance in Investigation (Commission Rogatoire)",
+      summary: "A prosecutor in charge of a file may request another prosecutor or investigator from another jurisdiction to perform necessary acts for ascertaining the truth. Covers only acts relating to the alleged offence. International rogatory: the request goes through the Prosecutor General, then the Minister of Foreign Affairs (copy to Minister of Justice)."
+    },
+    {
+      number: "43",
+      title: "Competence of a Delegated Prosecutor or Investigator",
+      summary: "A delegated prosecutor or investigator has the same competence as the delegating prosecutor but only within the scope of the delegation."
+    },
+
+    // Chapter III: Common Provisions on Investigation
+
+    {
+      number: "44",
+      title: "Visiting the Scene of Crime",
+      summary: "An investigator may immediately visit the crime scene and note how the offence was committed. For felonies and misdemeanours, the investigator immediately informs the prosecution or supervising organ. The prosecutor may also visit the scene."
+    },
+    {
+      number: "45",
+      title: "Interrogation",
+      summary: "At first appearance, the investigator or prosecutor verifies the suspect's identity and informs them of the charges and legal characterisation — recorded in a statement. Interrogation is conducted in the language the suspect understands. The investigator may also interrogate any person presumed to have clarifications. The investigator may temporarily prevent any person from leaving a specified area until the day's interrogation is completed. At the end of interrogation, the suspect must disclose residential address and is informed of the obligation to notify address changes."
+    },
+    {
+      number: "46",
+      title: "Rights of the Suspect During Interrogation",
+      summary: "The investigator or prosecutor notifies the suspect of the right to legal counsel and to private communication with the counsel — notification recorded in a statement. If the suspect cannot find a counsel, the investigator or prosecutor informs the President of the Bar Association for assignment. A suspect who is a minor must have a legal counsel. The legal counsel may consult the case file at the prosecution."
+    },
+    {
+      number: "47",
+      title: "Witness Oath",
+      summary: "Witnesses are interrogated one by one without the suspect present, after taking oath: 'I....... swear to tell the truth. Should I fail to honour this oath, may I face the rigours of the Law.' A witness who refuses to take oath or lies after taking oath is liable to penalties under the Penal Code."
+    },
+    {
+      number: "48",
+      title: "Testimony of a Person Having Participated in the Commission of an Offence or a Victim",
+      summary: "Any person who participated in the commission of an offence or any victim may be heard as a witness."
+    },
+    {
+      number: "49",
+      title: "Minor's Testimony",
+      summary: "AS AMENDED BY LAW N° 058/2023: A minor aged at least 14 years is qualified to testify as an adult. A minor aged under 14 years gives testimony without taking an oath; a court ruling cannot solely rely on their testimony — corroborative evidence is required."
+    },
+    {
+      number: "50",
+      title: "Modalities for Writing a Statement",
+      summary: "Statements must be written with adequate spacing. Struck-out and altered words must be approved by both the investigator/prosecutor and the person interrogated — unapproved alterations are invalid. Unsigned statements are also invalid."
+    },
+    {
+      number: "51",
+      title: "Signing the Statement",
+      summary: "Each page of the statement is signed by the investigator/prosecutor and the person interrogated. The person interrogated reads and signs or affixes a fingerprint if satisfied. If unable to read, the statement is read to them. Refusal or inability to sign is recorded in the statement."
+    },
+    {
+      number: "52",
+      title: "Confrontation",
+      summary: "The investigator or prosecutor may organise confrontation between suspects, between witnesses, between suspects and witnesses, between victims and witnesses, or between offender and victim — on own initiative or at any party's request. Every confrontation is recorded in a statement."
+    },
+    {
+      number: "53",
+      title: "Urgent Interrogation or Confrontation",
+      summary: "Urgent interrogation or confrontation is permitted if there is reason to believe evidence may disappear. The urgency grounds are recorded in the statement."
+    },
+    {
+      number: "54",
+      title: "Rights of the Victim During Interrogation",
+      summary: "To protect the victim's privacy: (1) to be interrogated in the presence of a trusted person of their choice; (2) to be informed of the right to remain silent; (3) to be informed of applicable legal provisions; (4) right not to be confronted with the offender if the victim is a minor under 18 years; (5) right to protection if safety concerns are expressed or determined by relevant organs."
+    },
+    {
+      number: "55",
+      title: "Search",
+      summary: "DAWN RAID CRITICAL ARTICLE. If an investigator finds evidence consists of papers, documents, or items held by the suspect or another person, the investigator may search the location with a search warrant from public prosecution. The prosecutor may also conduct a search. Searches in dwellings: not before 6:00 a.m. or after 6:00 p.m. Exception — red-handed or presumed red-handed situations: search warrant and time restrictions may not apply. All searches are conducted in the presence of local authority representatives. Search conducted in presence of suspect or household members — their absence does not prevent the search. For a professional's office: in the presence of the professional or their duly authorised representative. If the professional is a member of a professional association: in the presence of the association's representative. Corporate lens: key protocol for responding to regulatory/criminal search operations at business premises."
+    },
+    {
+      number: "56",
+      title: "Body Search or Body Cavity Search",
+      summary: "During evidence collection, an investigator or prosecutor may conduct a body search or cavity search with assistance of a qualified person or appropriate technology. Strip-search or cavity search requires prior authorisation of the Chief Prosecutor of the relevant prosecution organ — unless the person is caught red-handed. Strip-search/cavity search conducted exclusively by a medical doctor. The person may designate a medical doctor, spouse, or other adult to accompany them."
+    },
+    {
+      number: "57",
+      title: "Seizure and Caveat of Objects",
+      summary: "ASSET FREEZE CRITICAL ARTICLE. An investigator or prosecutor may seize objects or put caveat on immovable assets wherever they are, if they may be subject to confiscation or serve as evidence. May also, for investigation purposes, freeze bank accounts, business shares, or their dividends to collect evidence on the offence. Bank account/share freeze: valid for 30 days maximum, extendable once for an additional 30 days maximum. Corporate lens: asset freeze powers are broad and fast — companies should ensure compliance procedures anticipate pre-notification asset securing."
+    },
+    {
+      number: "58",
+      title: "Management of Seized Property",
+      summary: "AS AMENDED BY LAW N° 058/2023: The investigator or prosecutor who seizes offence-related property must keep it with the greatest care in appropriate storage. Every seized object is documented in a descriptive statement and photographed. If perishable, likely to depreciate, or posing a safety risk, the investigator/prosecutor may — on own motion or at any interested party's request — immediately return to owner, place in custody, place under suretyship, or destroy; a statement is prepared and a copy given to the owner. If the decision to return is taken but the owner is unavailable or does not collect within 1 year: the property may be auctioned if perishable/depreciating; proceeds kept in State Treasury until owner appears; expenses deducted from proceeds given to the owner. Modalities set by Ministerial Order of the Minister of Justice."
+    },
+    {
+      number: "59",
+      title: "Statement of Seizure",
+      summary: "A seizure statement describes the seized property and is signed by the person who held the property and witnesses. If the holder is absent, unable, or refuses to sign: recorded in the statement and a copy is given to them. All seizure statements and attachments go into the suspect's file; copies are given to the owner."
+    },
+    {
+      number: "60",
+      title: "Authorization to Search and Visit",
+      summary: "A prosecutor or investigator conducting a search must present a valid service card and a search warrant signed by the competent authority. A copy of the search warrant is given to the suspect (if present) and the owner of the premises."
+    },
+    {
+      number: "61",
+      title: "Search Warrant",
+      summary: "A search warrant is issued by the public prosecution upon authorisation by: (1) the Prosecutor General; (2) the Military Prosecutor General (military cases); (3) a National Prosecutor; (4) a Chief Prosecutor at Intermediate level; (5) a Prosecutor at Primary level. The warrant empowers entry into specified premises to uncover evidence or items relating to the offence and suspect."
+    },
+    {
+      number: "62",
+      title: "Knowing the Contents of Documents Searched",
+      summary: "For searches involving documents, the power to review the documents' contents before seizure belongs to the prosecutor in charge of the file (or their delegate) and the investigator."
+    },
+    {
+      number: "63",
+      title: "Inventory and Marking of Seized Items",
+      summary: "All items and documents placed in the custody of the investigation or prosecution organs are immediately inventoried and marked with a seizure indicator. Only items and documents that may assist in establishing the truth are seized."
+    },
+    {
+      number: "64",
+      title: "Statement of Visit, Search, and Seizure",
+      summary: "A prosecutor or investigator who has visited premises and conducted search and seizure prepares a statement and gives a copy to the concerned persons."
+    },
+    {
+      number: "65",
+      title: "Criminal Proceedings — Red-Handed, Presumed Red-Handed, or Unequivocal Guilty Plea",
+      summary: "EXPEDITED PROCEDURE. When a person is caught red-handed or presumed so, any person may — in the absence of an investigator — immediately arrest and surrender the person to the nearest investigator. The investigator must complete the file within 72 hours and submit to the competent prosecutor who decides within 5 days (non-renewable). If the prosecutor decides to prosecute in provisional detention, the case is filed with the court which must try within 15 days of receipt and pronounce judgment within 5 days of closure of proceedings. For unequivocal guilty plea: same 72/5/15/5 day procedure applies; judge may reduce penalties in accordance with the Penal Code. If the accused later retracts the plea before the court, the 15-day time limit no longer applies. Time limits also apply in case of appeal."
+    },
+    {
+      number: "66",
+      title: "Arrest and Detention",
+      summary: "ARREST THRESHOLD CRITICAL ARTICLE. A suspect normally remains free during investigation. Provisional detention is permitted only if there are serious grounds (plausible investigation results) to believe the suspect committed an offence punishable by at least 2 years imprisonment. Even if the penalty is 6 months–2 years, the investigator/prosecutor may provisionally detain the suspect if: (1) risk of flight from justice; (2) unknown or doubtful identity; (3) detention is the only way to prevent destruction of evidence, pressure on witnesses/victims, or collusion with accomplices; (4) detention is the only way to protect the accused, ensure appearance before judicial organs, stop the offence, or prevent recurrence. The statement of arrest and detention is valid for 5 days non-renewable; a copy is given to the suspect. If no serious grounds are found during investigation, the suspect is immediately released. Corporate lens: the 5-day non-renewable detention period is a hard clock — companies should have legal counsel on standby for employee arrest situations."
+    },
+    {
+      number: "67",
+      title: "Instruction to Comply with Conditions During Investigation",
+      summary: "During investigation, even if there are serious grounds to suspect an offence, the investigator or prosecutor may release the suspect while imposing a set of conditions to comply with (bail-equivalent measures short of detention)."
+    },
+    {
+      number: "68",
+      title: "Rights of the Suspect",
+      summary: "RIGHTS ON ARREST CRITICAL ARTICLE. Any person held in custody must be: (1) notified of the charges; (2) notified of their rights including the right to inform their legal counsel or any other person of their choice; (3) notification is recorded in a statement signed by both the investigator and the suspect. The detained person has the right to a legal counsel and to private communication with the counsel. If unable to find counsel, the investigator/prosecutor informs the President of the Bar Association for assignment. An assigned counsel cannot be refused without substantial reasons. Corporate lens: corporate officers arrested during dawn raids or investigations retain full Art. 68 rights — legal counsel access must be respected from the moment of detention."
+    },
+    {
+      number: "69",
+      title: "Detention Facilities",
+      summary: "A person held in custody cannot be detained in a prison or any place other than an appropriate detention facility within the jurisdiction of the investigator or prosecutor. Detention facilities are determined by Ministerial Order of the Minister of Internal Security (civilian) or the Minister of Defence (military)."
+    },
+    {
+      number: "70",
+      title: "Electronic Surveillance",
+      summary: "AS AMENDED BY LAW N° 058/2023: A suspect or accused person may be subject to electronic surveillance (ankle tag/GPS monitoring). Modalities are determined by Ministerial Order of the Minister of Justice."
+    },
+    {
+      number: "71",
+      title: "Investigation on the Background of the Suspect",
+      summary: "The investigator or prosecutor does not consider only the offence — they may investigate the suspect's background by interrogating the suspect, parents, employers, and others who may help understand the suspect's conduct in daily life, linked to the offence. May use experts, criminal records, and other means. Findings are documented and included in the file."
+    },
+    {
+      number: "72",
+      title: "Statement",
+      summary: "AS AMENDED BY LAW N° 058/2023: When preparing a statement, the investigator or prosecutor focuses on: (a) identity of person interrogated; (b) nature of offence; (c) time of commission; (d) place of commission; (e) circumstances; (f) incriminating or exculpatory evidence; (g) statements of persons present or with clarifications. For interrogation statements: the person interrogated must verify and sign or fingerprint the statement; if unable to read, the statement is read to them; refusal or inability to sign is recorded. Errors are corrected by additional statement. Statement concluded by investigator's written oath: 'I hereby swear that this statement contains nothing but the truth' with time, place, name, and signature. The organ in charge of investigation and prosecution determine the format and content of statements and other investigation documents."
+    },
+    {
+      number: "73",
+      title: "Confidentiality During Investigation",
+      summary: "Unless otherwise provided by law, investigation and evidence collection are confidential. All persons involved in investigation are bound by professional secrecy."
+    },
+
+    // Chapter IV: Detention and Provisional Release by a Judge
+
+    {
+      number: "74",
+      title: "Prosecution's Case File on Provisional Detention",
+      summary: "If the prosecution decides to prosecute a suspect in provisional detention, it prepares and submits a case file to the competent court. The file must contain: (1) file number; (2) full particulars of the suspect; (3) alleged offence; (4) brief description of commission; (5) serious grounds for suspicion, each separately justified and linked to the applicable penal provisions. For multiple suspects: general description, each person's role, and grounds for each person's provisional detention."
+    },
+    {
+      number: "75",
+      title: "Notification of Case File to the Suspect",
+      summary: "Upon submission to court, the prosecution immediately submits the file to the suspect and counsel (if any). The suspect has 5 days from receipt to prepare and submit defence submissions to the prosecution."
+    },
+    {
+      number: "76",
+      title: "Responsibilities of a Judge During Hearing on Provisional Detention",
+      summary: "AS AMENDED BY LAW N° 058/2023: The judge hearing a provisional detention case: (a) verifies competence; (b) verifies whether detention periods and other suspect rights were respected during investigation; (c) examines whether prescription or termination of criminal action precludes provisional detention; (d) examines whether there are serious grounds for provisional detention; (e) examines whether there was a plea bargaining agreement between prosecutor and accused to take into account; (f) considers the accused's living and health conditions; (g) analyses other arguments in parties' submissions. If elements of the offence do not match the classification assigned to it, the judge reclassifies and orders detention or release. If elements do not correspond to the given classification, the suspect is immediately released."
+    },
+    {
+      number: "77",
+      title: "Time Limits for Decision on Provisional Detention",
+      summary: "The court conducts the provisional detention hearing within 2 working days. The court delivers its decision within 3 working days of the closure of the hearing. A minor aged 14–18 must necessarily be accompanied by a legal counsel."
+    },
+    {
+      number: "78",
+      title: "Contents of the Judgment on Provisional Detention",
+      summary: "The provisional detention judgment must contain: (1) judgment number; (2) court, place, and date; (3) full particulars of parties; (4) general circumstances of offence; (5) each person's role; (6) list of serious grounds and other issues for each party; (7) examination of each issue; (8) court's decision; (9) whether hearing was public or in camera; (10) place and date of pronouncement; (11) names of judge(s); (12) names of court registrar; (13) whether pronouncement was postponed and reasons."
+    },
+    {
+      number: "79",
+      title: "Duration of a Provisional Detention Order",
+      summary: "PROVISIONAL DETENTION TIME LIMITS CRITICAL ARTICLE. A provisional detention order is valid for 30 days including the day it is rendered. Renewable for additional 30-day periods — each renewal must be justified by what was done in the previous 30 days and what is planned in the additional period. Maximum limits: petty offences — not renewable after initial 30 days; misdemeanours — not renewable after 3 months total; felonies — not renewable after 6 months total. If the suspect's file is not submitted to court within the maximum period, the suspect is released. Corporate lens: hard detention caps for each offence category — critical for calculating maximum exposure period for arrested corporate officers."
+    },
+    {
+      number: "80",
+      title: "Instruction to Respect Certain Conditions (Judicial Control)",
+      summary: "The court may, as an alternative to provisional detention, instruct the suspect to comply with a set of conditions (judicial supervision measures — equivalent to court bail conditions)."
+    },
+    {
+      number: "81",
+      title: "Bail",
+      summary: "Bail (caution) is a financial guarantee deposited with the court to ensure the suspect's appearance."
+    },
+    {
+      number: "82",
+      title: "Offences Subject to Bail",
+      summary: "Bail is available for offences where provisional detention is not mandatory. The court determines whether bail is appropriate based on the gravity of the offence and the risk of flight."
+    },
+    {
+      number: "83",
+      title: "Types of Bail and Where It Is Deposited",
+      summary: "Types of bail: cash deposit; property guarantee; personal surety. Deposited at the court registrar."
+    },
+    {
+      number: "84",
+      title: "Determination of Bail",
+      summary: "The court determines the bail amount taking into account the gravity of the offence, the financial capacity of the suspect, and the risk of flight."
+    },
+    {
+      number: "85",
+      title: "Bail Refund",
+      summary: "Bail is refunded if the suspect appears as required and the proceedings conclude — whether by acquittal, conviction, or discontinuance."
+    },
+    {
+      number: "86",
+      title: "Court with Which to File an Appeal",
+      summary: "Appeals against provisional detention or release orders are filed with the court immediately above the court that issued the order."
+    },
+    {
+      number: "87",
+      title: "Procedure and Time Limits for Appealing Against Provisional Detention or Release Orders",
+      summary: "An appeal against a provisional detention or provisional release order must be filed within 5 working days from the date of the order. The appellate court must decide within 5 working days."
+    },
+    {
+      number: "88",
+      title: "Contents of the Appeal's Submission",
+      summary: "The appeal submission must contain: the appellant's identity, the contested order's date, grounds of appeal, and relief sought."
+    },
+    {
+      number: "89",
+      title: "Upholding the Status Quo of the Suspect",
+      summary: "Filing an appeal against a provisional detention or release order does not automatically change the suspect's status — the suspect remains in the position the contested order placed them until the appellate court decides."
+    },
+    {
+      number: "90",
+      title: "Prohibition of Re-Detention of Person Who Has Been Provisionally Released",
+      summary: "A person provisionally released cannot be re-detained for the same offence unless new grounds arise or the person fails to comply with conditions of release."
+    },
+    {
+      number: "91",
+      title: "Application for Release",
+      summary: "A detained suspect may at any time apply for provisional release by submitting an application to the court in charge of the provisional detention file."
+    },
+
+    // TITLE III: PROSECUTION BEFORE COURTS
+
+    {
+      number: "92",
+      title: "Seizing a Court by Public Prosecution",
+      summary: "The prosecution seizes the court by filing the indictment (acte d'accusation) with the competent court. The court is seized on the date the indictment is received."
+    },
+    {
+      number: "93",
+      title: "Indictment",
+      summary: "The indictment must contain: the charged offence and applicable penal provisions; a description of the commission of the offence; and the identity of the accused."
+    },
+    {
+      number: "94",
+      title: "Reception of Defence Submissions",
+      summary: "The accused has the right to submit defence submissions upon receiving the indictment."
+    },
+    {
+      number: "95",
+      title: "Court's Initiative to Take Up a Case",
+      summary: "A court may seize itself of a case on its own initiative in cases provided for by law."
+    },
+    {
+      number: "96",
+      title: "Status of the Accused When the Court Is Seized to Hear the Case on Its Merits",
+      summary: "When the court is seized to hear the case on its merits, the accused's provisional detention status continues pending the court's determination."
+    },
+    {
+      number: "97",
+      title: "Application for Provisional Release",
+      summary: "The accused may apply for provisional release at any time after the court is seized of the case on its merits."
+    },
+    {
+      number: "98",
+      title: "Summons to Appear Before Court",
+      summary: "Summons to appear before court are issued by the court registrar and must contain: the court's identity, the accused's identity, the charges, the hearing date and place."
+    },
+    {
+      number: "99",
+      title: "Modalities of Summons by Public Notice",
+      summary: "When a suspect's identity or address is unknown, summons may be made by public notice posted at the court and at the last known residence."
+    },
+    {
+      number: "100",
+      title: "Proof of Summons by Public Notice",
+      summary: "The court registrar certifies the public notice posting as proof of summons."
+    },
+    {
+      number: "101",
+      title: "Summons Addressed to Organisations and Legal Entities",
+      summary: "Summons addressed to organisations and legal entities are served on their legal representative or at their registered office."
+    },
+    {
+      number: "102",
+      title: "Summoning a Person with Known or Unknown Residence Abroad",
+      summary: "A person residing abroad is summoned through diplomatic channels or by international rogatory commission."
+    },
+    {
+      number: "103",
+      title: "Time Limits for Appearance of the Accused or Person Liable for Damages",
+      summary: "The accused must appear at the time and date specified in the summons. Minimum notice period: at least 5 days for persons in Rwanda; longer periods for those abroad."
+    },
+    {
+      number: "104",
+      title: "Reduction of the Period to Appear",
+      summary: "The prosecutor may, in urgent cases, reduce the period to appear — even to immediate summons."
+    },
+    {
+      number: "105",
+      title: "Time Limits for Appearance for Summons by Mail, Messenger, or Posting",
+      summary: "Where summons are served by mail, messenger, or posting, the appearance time limits are calculated from the date of service."
+    },
+    {
+      number: "106",
+      title: "Summoning Co-Offenders or Accomplices Not Yet Before the Court",
+      summary: "The court or prosecutor may summon co-offenders or accomplices not yet before the court."
+    },
+    {
+      number: "107",
+      title: "Burden of Proof",
+      summary: "The burden of proving an offence rests with the prosecution. The accused is presumed innocent until proven guilty."
+    },
+    {
+      number: "108",
+      title: "Basis for Production of Evidence",
+      summary: "Evidence may be produced by any means permitted by law. The court determines the admissibility, relevance, and weight of evidence."
+    },
+    {
+      number: "109",
+      title: "Collection of Evidence",
+      summary: "Evidence is collected by the investigation and prosecution organs. The court may order additional evidence collection."
+    },
+    {
+      number: "110",
+      title: "Receiving and Examining Evidence Produced by Parties",
+      summary: "The court receives and examines evidence produced by both parties — prosecution and defence."
+    },
+    {
+      number: "111",
+      title: "Benefit of Doubt to the Accused",
+      summary: "In case of doubt, the court applies the benefit of doubt in favour of the accused (in dubio pro reo)."
+    },
+    {
+      number: "112",
+      title: "Competent Court to Try a Civil Action",
+      summary: "A civil action arising from an offence may be tried by the same criminal court hearing the criminal case."
+    },
+    {
+      number: "113",
+      title: "Trying a Civil Action",
+      summary: "The criminal court may try the civil action concurrently with the criminal action — or the victim may pursue the civil action separately before civil courts."
+    },
+    {
+      number: "114",
+      title: "Separating a Civil Action from a Criminal Action",
+      summary: "The court may separate the civil action from the criminal action if joinder would cause undue delay to the criminal proceedings."
+    },
+    {
+      number: "115",
+      title: "Suspension of Proceedings in Civil Action",
+      summary: "If a civil action is filed separately, the civil court must suspend proceedings pending final determination of the criminal action."
+    },
+    {
+      number: "116",
+      title: "Time to File a Civil Action",
+      summary: "A civil action arising from an offence may be filed at any time up to the prescription period (5 years from commission) — even after the criminal proceedings are concluded."
+    },
+    {
+      number: "117",
+      title: "Withdrawal of a Civil Action Within Criminal Proceedings",
+      summary: "A victim who has constituted themselves a civil party (partie civile) in criminal proceedings may withdraw the civil action at any time before judgment; withdrawal does not affect the criminal action."
+    },
+    {
+      number: "118",
+      title: "Private Prosecution (Citation Directe)",
+      summary: "A victim may institute proceedings directly before the competent court without going through the prosecution (citation directe). This is available in all cases where the victim has the right to sue."
+    },
+    {
+      number: "119",
+      title: "Identification of Acts the Accused Is Alleged to Have Committed",
+      summary: "Private prosecution submissions must clearly identify the acts the accused is alleged to have committed, their legal characterisation, and the applicable penal provisions."
+    },
+    {
+      number: "120",
+      title: "Filing a Claim by Way of Private Prosecution",
+      summary: "The victim may file a private prosecution at any time within the prescription period of the criminal action."
+    },
+    {
+      number: "121",
+      title: "Discontinuance of a Claim Submitted by Way of Private Prosecution",
+      summary: "The victim may discontinue a private prosecution at any time before final judgment — discontinuance does not stop the public prosecution from continuing."
+    },
+    {
+      number: "122",
+      title: "Civil Action Arising from an Offence",
+      summary: "A civil action arising from an offence may be filed before criminal courts alongside the criminal action, or before civil courts separately."
+    },
+    {
+      number: "123",
+      title: "Appearance in Person of the Accused",
+      summary: "The accused must appear in person at the hearing. Legal representation alone is not sufficient in criminal cases."
+    },
+    {
+      number: "124",
+      title: "Appearance of Person Liable for Damages and Claimant for Damages",
+      summary: "The person civilly liable may appear personally or through a duly authorised representative. The civil claimant may also appear personally or through a representative."
+    },
+    {
+      number: "125",
+      title: "Preliminary Hearing",
+      summary: "At the preliminary hearing, the court verifies jurisdiction, the regularity of proceedings, and may resolve preliminary procedural issues before the trial on merits."
+    },
+    {
+      number: "126",
+      title: "Guiding Principles of Criminal Cases",
+      summary: "Criminal proceedings are governed by principles of: legality; presumption of innocence; right to a fair trial; equality of arms; adversarial procedure; right to legal counsel; right to interpret; and the right to remain silent."
+    },
+    {
+      number: "127",
+      title: "Procedure for Conducting the Hearing",
+      summary: "The hearing is conducted by: opening, identification of parties, reading of charges, prosecution arguments, defence arguments, rebuttal and rejoinder, closing arguments, and pronouncement of judgment."
+    },
+    {
+      number: "128",
+      title: "Trial in Absentia or in Absence of the Public Prosecution",
+      summary: "A case may be tried in absentia if the accused fails to appear after being duly summoned. If the prosecution fails to appear, the court may proceed on the basis of the indictment and case file."
+    },
+    {
+      number: "129",
+      title: "Amicus Curiae",
+      summary: "The court may accept amicus curiae submissions from persons or organisations that are not parties to the proceedings but have relevant expertise or interest in the case."
+    },
+    {
+      number: "130",
+      title: "Time and Place for the Conduct of Hearing",
+      summary: "The court determines the time and place for hearings. Hearings are normally held at the court's seat but may be held elsewhere in exceptional circumstances."
+    },
+    {
+      number: "131",
+      title: "Order to Conduct Hearing in Camera",
+      summary: "The court may order hearing in camera (huis clos) for: protection of public order; national security; protection of minors; or protection of the victim's privacy."
+    },
+    {
+      number: "132",
+      title: "Records by the Court Registrar",
+      summary: "The court registrar records all proceedings — including submissions by parties, witnesses, experts, rulings, and any other relevant information."
+    },
+    {
+      number: "133",
+      title: "Conduct Required of a Person Speaking at the Hearing",
+      summary: "All persons speaking at the hearing must stand, address the court with respect, and comply with the court's instructions. The court may sanction any person who breaches courtroom conduct."
+    },
+    {
+      number: "134",
+      title: "Dress Code",
+      summary: "All persons appearing at the hearing must wear attire that conforms to the dignity and honour of the court."
+    },
+    {
+      number: "135",
+      title: "Order During the Hearing",
+      summary: "The presiding judge is responsible for maintaining order during the hearing. The judge may have disruptive persons removed from the courtroom."
+    },
+    {
+      number: "136",
+      title: "Audio and Visual Recording in Court Hearings",
+      summary: "Audio and visual recording of court hearings requires the court's authorisation. Unauthorised recording is prohibited."
+    },
+    {
+      number: "137",
+      title: "Trial of Offences of Contempt of Court",
+      summary: "Offences committed during the hearing (contempt of court) may be tried immediately by the same court on the same day."
+    },
+    {
+      number: "138",
+      title: "Time for Pronouncement of Judgment",
+      summary: "The court pronounces judgment within a reasonable time after the closure of proceedings. For red-handed cases: within 5 days of closure of proceedings (Art. 65)."
+    },
+    {
+      number: "139",
+      title: "Contents of the Judgment",
+      summary: "The judgment must contain: court identity; hearing date; parties' identities; charges; findings of fact; applicable law; reasoning; operative part (dispositif); and signature of the presiding judge and registrar."
+    },
+    {
+      number: "140",
+      title: "Fate of Bail in Case of Acquittal or Conviction",
+      summary: "If acquitted: bail is immediately refunded. If convicted and the person is not detained: bail may be retained pending execution of the judgment. If convicted and the person is detained: bail is refunded."
+    },
+    {
+      number: "141",
+      title: "Obligation of Indicating the Competent Court",
+      summary: "If the court finds it lacks jurisdiction, it must indicate the competent court in its decision."
+    },
+    {
+      number: "142",
+      title: "Notification of a Judgment Pronounced in Absentia",
+      summary: "A judgment rendered in absentia must be notified to the convicted person by service of process. The notification triggers the time limit for opposition."
+    },
+
+    // Chapter II: Special Proceedings
+
+    {
+      number: "143",
+      title: "Unlawful Detention",
+      summary: "Any person held in detention without a legal basis, or beyond the authorised period, is unlawfully detained."
+    },
+    {
+      number: "144",
+      title: "Procedure for Instituting a Claim Against Unlawful Detention",
+      summary: "Any detained person who believes their detention is unlawful may file a claim against the unlawful detention directly with the competent court."
+    },
+    {
+      number: "145",
+      title: "Decision on Claim Against Unlawful Detention",
+      summary: "The court must decide on the unlawful detention claim urgently. If detention is found unlawful, the person must be immediately released."
+    },
+    {
+      number: "146",
+      title: "Determination of Minority of a Juvenile Offender",
+      summary: "In case of doubt about the suspect's age, the court may order a medical examination to determine age."
+    },
+    {
+      number: "147",
+      title: "Prosecuting a Juvenile Offender",
+      summary: "Juvenile offenders (under 18 years) are prosecuted before specialised chambers for minors. The prosecution procedure prioritises rehabilitation over punishment."
+    },
+    {
+      number: "148",
+      title: "Trial of a Minor and Co-Accused",
+      summary: "A minor and a co-accused may be tried jointly if the interests of the minor so allow. The court may separate the proceedings if joinder is prejudicial to the minor."
+    },
+    {
+      number: "149",
+      title: "Detention of a Minor Under Prosecution",
+      summary: "Detention of a minor under prosecution is a measure of last resort. Minors must be held separately from adult detainees."
+    },
+    {
+      number: "150",
+      title: "Decision That Can Be Taken Against a Juvenile Offender",
+      summary: "For juvenile offenders, the court may order: warning; supervision; placement in an approved institution; community service; or imprisonment as a last resort. For minors under 14: no imprisonment."
+    },
+    {
+      number: "151",
+      title: "Right to Legal Counsel",
+      summary: "Every juvenile offender has the right to legal counsel. If the minor cannot obtain one, the court assigns a legal counsel."
+    },
+    {
+      number: "152",
+      title: "Measure Taken by the Specialised Chamber for Minors",
+      summary: "The specialised chamber for minors may order protective, educative, or correctional measures as an alternative to criminal penalties."
+    },
+    {
+      number: "153",
+      title: "Civil Action Against a Minor",
+      summary: "A civil action for damages arising from an offence by a minor is brought against the minor's legal representatives or guardians."
+    },
+    {
+      number: "154",
+      title: "Prosecution of a Rwandan Who Commits an Offence Outside Rwanda",
+      summary: "A Rwandan citizen who commits a felony or misdemeanour outside Rwanda may be prosecuted in Rwanda if the offence is also punishable under Rwandan law and certain procedural conditions are met."
+    },
+    {
+      number: "155",
+      title: "Prosecution of a Felony or Misdemeanour Committed Abroad",
+      summary: "A felony or misdemeanour committed abroad by a person found in Rwanda may be prosecuted before Rwandan courts in the circumstances and under the conditions provided by the Penal Code (Art. 12, 13, 14)."
+    },
+    {
+      number: "156",
+      title: "Prosecuting an Offence Committed in No Man's Land",
+      summary: "An offence committed in a territory not subject to any State's sovereignty but on a Rwandan-registered vessel or aircraft is prosecuted under Rwandan law."
+    },
+    {
+      number: "157",
+      title: "International or Transnational Crimes",
+      summary: "International crimes (genocide, crimes against humanity, war crimes) and transnational crimes are subject to prosecution under Rwandan law where the Penal Code and international conventions so provide."
+    },
+    {
+      number: "158",
+      title: "Proceedings for International or Transnational Crimes",
+      summary: "Proceedings for international or transnational crimes follow special rules compatible with international standards and applicable conventions."
+    },
+    {
+      number: "159",
+      title: "Prosecution of an Offence Against Rwanda or a Rwandan National Outside Rwanda",
+      summary: "An offence committed against Rwanda or a Rwandan national outside Rwanda may be prosecuted in Rwanda if the Prosecutor General authorises it."
+    },
+    {
+      number: "160",
+      title: "Fugitive Suspect",
+      summary: "A suspect who flees or hides from justice is a fugitive. The prosecutor may request publication of an order against the fugitive and seize their property."
+    },
+    {
+      number: "161",
+      title: "Publication of the Order",
+      summary: "The prosecution publishes the order against a fugitive in the Official Gazette and by other appropriate means."
+    },
+    {
+      number: "162",
+      title: "Trial of a Fugitive Suspect",
+      summary: "A fugitive may be tried in absentia. The judgment is published and notification sent to the fugitive's last known address."
+    },
+    {
+      number: "163",
+      title: "Non-Representation of a Fugitive Suspect",
+      summary: "A fugitive suspect cannot be represented by counsel in their absence — no defence submissions can be filed on behalf of a fugitive."
+    },
+    {
+      number: "164",
+      title: "Confiscation or Seizure of the Property of a Convicted Fugitive",
+      summary: "Property of a convicted fugitive may be confiscated or seized by the State in accordance with the judgment."
+    },
+    {
+      number: "165",
+      title: "Publication of the Extract of the Judgment",
+      summary: "The extract of a judgment against a fugitive is published in the Official Gazette."
+    },
+    {
+      number: "166",
+      title: "Loss of Civil Rights",
+      summary: "A fugitive convicted in absentia may be deprived of civic rights as provided in the Penal Code (Art. 42)."
+    },
+    {
+      number: "167",
+      title: "Prosecution of the Co-Accused of an Accused Fugitive",
+      summary: "Co-accused who are not fugitives are prosecuted normally — the fugitive's absence does not delay their prosecution."
+    },
+    {
+      number: "168",
+      title: "Resumption of Prosecution of a Fugitive",
+      summary: "When a fugitive is found or surrenders, prosecution resumes. The in-absentia judgment is suspended."
+    },
+    {
+      number: "169",
+      title: "Retrial of a Fugitive",
+      summary: "When a fugitive is apprehended, a new trial is held before the competent court. The in-absentia judgment is annulled."
+    },
+    {
+      number: "169bis",
+      title: "Trial of an Extradited Person Sentenced by a Gacaca Court",
+      summary: "INSERTED BY LAW N° 058/2023: A person extradited to Rwanda who was sentenced in absentia by a Gacaca Court is tried by the competent ordinary court. The competent court first nullifies the Gacaca Court's decision against the extradited person before conducting the new trial."
+    },
+    {
+      number: "170",
+      title: "Persons with Privilege of Jurisdiction",
+      summary: "Certain persons enjoy privilege of jurisdiction (forum privilegii): they are tried before a higher court than the ordinary first instance. These include high-ranking public officials as specified by law."
+    },
+    {
+      number: "171",
+      title: "Grounds for Privilege of Jurisdiction and Time of Consideration",
+      summary: "The privilege of jurisdiction applies only in respect of offences committed in the exercise of official functions. It is considered at the time the prosecution is initiated."
+    },
+    {
+      number: "172",
+      title: "Procedure for Prosecuting Members of Parliament",
+      summary: "Members of Parliament enjoy parliamentary immunity for opinions and votes in Parliament. Outside Parliament, MPs are subject to ordinary criminal law. Prosecution of an MP for offences unrelated to parliamentary functions requires lifting of immunity by the Parliamentary chamber."
+    },
+
+    // Chapter III: Appeal Procedure
+
+    {
+      number: "173",
+      title: "Opposition to a Case Decided in Absentia",
+      summary: "AS AMENDED BY LAW N° 058/2023: Opposition seeks to review a case decided in absentia; it is instituted following the same procedure as filing a complaint. Opposition is instituted by the convict before the court having decided the case. For Gacaca Court judgments: opposition is filed with the court competent to hear the offences formerly within the Gacaca Court's jurisdiction in whose territory the Gacaca Court was located. The opposition submissions must state serious reasons for non-appearance at the original hearing."
+    },
+    {
+      number: "174",
+      title: "Time Limits for Filing Opposition",
+      summary: "AS AMENDED BY LAW N° 058/2023: Opposition is filed within 15 days of the day the party is informed of the judgment. If there is no evidence the person was served with the judgment, opposition may be filed at any time before prescription of the penalty or before execution of the judgment in relation to civil claims. For Gacaca Court judgments rendered while the convict was abroad and it is evident upon return that they did not evade justice: opposition must be filed within 30 days of return to Rwanda."
+    },
+    {
+      number: "175",
+      title: "Admissibility of an Opposition",
+      summary: "Opposition is admissible if filed within the time limits, if the applicant states serious reasons for the earlier failure to appear, and if the judgment has not yet been fully executed."
+    },
+    {
+      number: "176",
+      title: "Appearance of a Person Who Files an Opposition",
+      summary: "The person who filed opposition must appear at the re-hearing. Failure to appear causes the opposition to be declared inadmissible."
+    },
+    {
+      number: "177",
+      title: "Non-Appearance of a Person Who Filed an Opposition",
+      summary: "If the opposant fails to appear without justification, the court declares the opposition inadmissible and the original in-absentia judgment is reinstated."
+    },
+    {
+      number: "178",
+      title: "Interruption of Execution of a Judgment in Respect of Which Opposition Was Filed",
+      summary: "Filing a valid opposition suspends the execution of the contested judgment pending the re-hearing."
+    },
+    {
+      number: "179",
+      title: "Effects of Admissibility of Opposition Filed by an Accused Tried in Absentia",
+      summary: "When opposition is admitted, the in-absentia judgment is annulled and the case is retried as if no prior judgment had been rendered."
+    },
+    {
+      number: "180",
+      title: "Right to Appeal",
+      summary: "Any party to criminal proceedings (the prosecution, the accused, the civil party, and the person civilly liable) has the right to appeal a judgment of the first instance court."
+    },
+    {
+      number: "181",
+      title: "Time Limits for Filing an Appeal",
+      summary: "An appeal must be filed within 30 days of the notification of the judgment. Corporate lens: strict time limit — failure to file within 30 days is fatal to the appeal."
+    },
+    {
+      number: "182",
+      title: "Appeal Procedure",
+      summary: "An appeal is filed with the registry of the court that rendered the judgment or directly with the appellate court. A copy is given to all parties."
+    },
+    {
+      number: "183",
+      title: "Content of Written Submission in Support of Appeal",
+      summary: "The appeal submission must contain: identity of the appellant; judgment appealed; grounds of appeal; relief sought. Vague or unsubstantiated grounds are insufficient."
+    },
+    {
+      number: "184",
+      title: "Reaction to the Written Submission in Support of Appeal",
+      summary: "The other party has the right to respond to the appeal submissions within a period set by the appellate court."
+    },
+    {
+      number: "185",
+      title: "Release Notwithstanding Appeal",
+      summary: "Lodging an appeal does not automatically release a detained person. However, the appellate court may order provisional release pending the appeal in specified circumstances."
+    },
+    {
+      number: "186",
+      title: "Accused Tried While Free",
+      summary: "An accused who was free at the time of the first instance judgment and is convicted may be immediately taken into custody upon pronouncement of the conviction."
+    },
+    {
+      number: "187",
+      title: "Remaining in Detention Notwithstanding Appeal",
+      summary: "An accused who was detained at the time of judgment remains in detention during the appeal unless the appellate court orders provisional release."
+    },
+    {
+      number: "188",
+      title: "Effects of Appeal",
+      summary: "An appeal suspends execution of the appealed judgment (except for civil awards under certain conditions). The appellate court may affirm, modify, or annul the first instance judgment."
+    },
+    {
+      number: "189",
+      title: "Withdrawal and Writing Off an Appeal",
+      summary: "An appellant may withdraw the appeal at any time before pronouncement of the appellate judgment. Withdrawal reinstates the first instance judgment."
+    },
+    {
+      number: "190",
+      title: "Appeal Against Civil Conviction in Case of Acquittal of the Accused",
+      summary: "The civil party may appeal the civil award even if the criminal courts acquit the accused."
+    },
+    {
+      number: "191",
+      title: "Appeal of the Person Required to Pay Damages",
+      summary: "The person found civilly liable may appeal the civil award independently of the criminal appeal."
+    },
+    {
+      number: "192",
+      title: "Annulment of an Admitted Case Considered Through Procedures Contrary to Law",
+      summary: "The appellate court may annul proceedings that were admitted and considered in a manner contrary to law — and refer the case back for proper retrial."
+    },
+    {
+      number: "193",
+      title: "Ordering the Court to Try the Case It Refused to Admit",
+      summary: "If a court unlawfully refuses to admit a case, the appellate court may order it to try the case."
+    },
+    {
+      number: "194",
+      title: "Not Using Two Appeal Procedures at the Same Time",
+      summary: "A party cannot simultaneously use two different appeal procedures for the same judgment. Choice of one procedure waives the other."
+    },
+    {
+      number: "195",
+      title: "Definition of Review",
+      summary: "Review (recours en révision) is a special appeal procedure that allows retrial of a case that has been finally decided, in exceptional circumstances where new facts or evidence emerge."
+    },
+    {
+      number: "196",
+      title: "Persons Who Can Apply for Review",
+      summary: "Applications for review may be filed by: the convicted person; the Prosecutor General; the Minister of Justice. A civil party may also apply in respect of the civil award."
+    },
+    {
+      number: "197",
+      title: "Grounds for Case Review",
+      summary: "Review may be opened if: (1) new facts or evidence not available at trial emerge that establish innocence or create serious doubt; (2) a witness who gave decisive testimony was subsequently convicted of perjury in the same case; (3) the conviction was based on a forged document; (4) the same person was tried twice for the same facts; (5) such other grounds provided by law."
+    },
+    {
+      number: "198",
+      title: "Competent Court to Review the Case",
+      summary: "Applications for review are filed with the Supreme Court, which may affirm the original judgment or refer the case to a competent court for retrial."
+    },
+    {
+      number: "199",
+      title: "Filing an Application for Case Review",
+      summary: "AS AMENDED BY LAW N° 058/2023: The application for case review is filed following the same procedure as other actions. A review application of a final judgment is not admissible if it relates to a case for which review was already applied on the basis of the same evidence or same cause. In a review involving several accused, the court only hears the applicant; other accused may be summoned solely to provide clarifications, and any modification in the decision applies to them only if favourable."
+    },
+    {
+      number: "200",
+      title: "Admissibility of Case Review",
+      summary: "A review application is admissible if: filed by a qualified person; based on one of the prescribed grounds; the judgment is final; and the case has not previously been reviewed on the same grounds."
+    },
+    {
+      number: "201",
+      title: "Execution of a Judgment During Case Review",
+      summary: "The execution of the reviewed judgment is suspended pending the outcome of the review application, unless the Supreme Court decides otherwise."
+    },
+    {
+      number: "202",
+      title: "Impossibility of Appeal for a Ruling Made on Case Review",
+      summary: "A decision rendered on a case review application is not subject to further appeal."
+    },
+    {
+      number: "203",
+      title: "Time Limit for Application for Review",
+      summary: "A review application may be filed at any time — there is no time limit for review applications."
+    },
+
+    // Chapter IV: Interpreters, Translators, Experts, Medical Doctors
+
+    {
+      number: "204",
+      title: "Language of the Court",
+      summary: "Criminal proceedings are conducted in one of Rwanda's official languages. The court may also use the most commonly understood language in the region."
+    },
+    {
+      number: "205",
+      title: "Translator, Expert, Interpreter, or Medical Doctor",
+      summary: "The court appoints a translator, interpreter, expert, or medical doctor whenever required for the proper conduct of proceedings. Parties may also propose their own experts subject to court approval."
+    },
+    {
+      number: "206",
+      title: "Determination of Trial Costs",
+      summary: "Trial costs include: costs of witnesses, experts, interpreters, translators, bailiffs, and any other expenses necessary for the proceedings."
+    },
+    {
+      number: "207",
+      title: "Criteria for Determining Trial Costs",
+      summary: "Trial costs are determined on the basis of: the complexity of the case; the number of witnesses and experts; travel expenses; and any other relevant factors."
+    },
+    {
+      number: "208",
+      title: "Oath of an Expert, Interpreter, Translator, or Medical Doctor",
+      summary: "Experts, interpreters, translators, and medical doctors must take an oath before performing their functions: 'I swear to perform my mission faithfully and to speak the truth.'"
+    },
+    {
+      number: "209",
+      title: "Appointment of an Interpreter, Expert, Translator, or Medical Doctor",
+      summary: "The court or the prosecution appoints interpreters, experts, translators, and medical doctors from a list of approved practitioners or, if unavailable, any qualified person."
+    },
+    {
+      number: "210",
+      title: "Requirements for an Expert and Their Report",
+      summary: "An expert's report must: identify the expert; describe the mission assigned; state the methodology used; present findings; and provide conclusions. The expert may not exceed the scope of the assigned mission."
+    },
+    {
+      number: "211",
+      title: "Receiving Testimony from Persons Other Than Suspects",
+      summary: "The court may receive testimony from any person — including those not parties to the proceedings — if their testimony is relevant."
+    },
+    {
+      number: "212",
+      title: "Contradictory Opinions of Several Experts",
+      summary: "If experts disagree, the court may hear all experts jointly, order a new expert opinion, or resolve the dispute based on the available evidence."
+    },
+    {
+      number: "213",
+      title: "Seeking a Second Opinion from Another Expert",
+      summary: "Any party may request a second expert opinion (contre-expertise) from a different expert. The court decides whether to grant the request."
+    },
+
+    // TITLE IV: EXECUTION OF JUDGMENTS
+
+    {
+      number: "214",
+      title: "Execution of Judgments",
+      summary: "Criminal judgments that have become final (res judicata) must be executed. The prosecution is primarily responsible for ensuring execution. Execution begins once the judgment becomes final and the deadline for appeal has passed without appeal being filed, or after the appellate judgment becomes final."
+    },
+    {
+      number: "215",
+      title: "Voluntary Execution of a Judgment",
+      summary: "A convicted person who is not detained and does not appeal may voluntarily execute the judgment. Failure to voluntarily execute triggers forced execution."
+    },
+    {
+      number: "216",
+      title: "Organs and Persons Responsible for Execution of Judgments",
+      summary: "AS AMENDED BY LAW N° 058/2023: Execution is the responsibility of: (a) Rwanda Correctional Service, NPPA, RIB, Rwanda National Police, Military Prosecution, and organ in charge of military correctional facility — for imprisonment; (b) Rwanda Correctional Service, local government officers empowered by the Minister of Justice, and organ in charge of military correctional facility — for community service; (c) NPPA, RIB, Rwanda National Police, and Military Prosecution — for accessory penalties; (d) the court bailiff — for fines and damages; (e) the court registrar — for collection of fines and court fees where there is judicial attachment of a convict's property."
+    },
+    {
+      number: "217",
+      title: "Release of an Accused Person Who Is Acquitted",
+      summary: "An accused who is acquitted must be immediately released if in detention, unless they are detained for another matter."
+    },
+    {
+      number: "218",
+      title: "Provisional Execution of a Judgment",
+      summary: "The court may order provisional execution of the civil award of a judgment — pending appeal — if it believes the circumstances justify immediate enforcement."
+    },
+    {
+      number: "219",
+      title: "Foreign Criminal Judgment",
+      summary: "A foreign criminal judgment may be executed in Rwanda subject to an enforcement procedure (exequatur) and the conditions provided by bilateral or multilateral agreements."
+    },
+    {
+      number: "220",
+      title: "Decision of Dissolution of a Private Institution or Organisation with Legal Personality",
+      summary: "Where a court orders dissolution of a private institution or organisation with legal personality (Penal Code Art. 25), the dissolution is executed by the relevant registration authority in accordance with the applicable company or association law. Corporate lens: cross-references Company Law N° 019/2023 for execution of dissolution orders against companies."
+    },
+    {
+      number: "221",
+      title: "Serving Imprisonment Penalty",
+      summary: "The imprisonment penalty is served in a correctional facility designated by Rwanda Correctional Service. Pre-trial detention is deducted from the imprisonment term."
+    },
+    {
+      number: "222",
+      title: "Detention Facilities for Women and Minors",
+      summary: "Women and minors are detained in separate facilities from men and adults respectively."
+    },
+    {
+      number: "223",
+      title: "Payment of Fine and Court Fees",
+      summary: "Fines and court fees must be paid within the time limit set by the court (not exceeding 1 year from judgment becoming final). Failure to pay triggers enforcement by the court bailiff."
+    },
+    {
+      number: "224",
+      title: "Injunction to Pay Within Prescribed Time Limits",
+      summary: "If a convict fails to pay a fine or court fees within the prescribed period, the bailiff issues an injunction to pay. Continued non-payment triggers seizure of the convict's assets."
+    },
+    {
+      number: "225",
+      title: "Modalities for Execution of Community Service",
+      summary: "Community service is executed at a place designated by the court or the execution authority. Failure to properly serve community service leads to the remainder being served in prison (Penal Code Art. 35)."
+    },
+
+    // Chapter II: Grounds for Suspension of Execution and Removal of Penalty
+
+    {
+      number: "226",
+      title: "Grounds for Suspension of Execution of Penalty",
+      summary: "Execution of a penalty may be suspended due to: presidential pardon; release on parole; suspension of penalty (sursis); amnesty."
+    },
+    {
+      number: "227",
+      title: "Prerogative of Pardon of the President of the Republic",
+      summary: "The President may grant a pardon to a convicted person — reducing, commuting, or totally extinguishing the penalty (see also Penal Code Arts. 70–72)."
+    },
+    {
+      number: "228",
+      title: "Presidential Pardon on Application by a Convicted Person",
+      summary: "A convicted person may apply for presidential pardon through the Commissioner General of Rwanda Correctional Service and the Minister of Justice. The application must include: conviction details, offence, sentence served, and grounds for the pardon request."
+    },
+    {
+      number: "229",
+      title: "Collective Pardon Granted by the President",
+      summary: "The President may grant a collective pardon to a class of convicted persons based on specified criteria — published in the Official Gazette."
+    },
+    {
+      number: "230",
+      title: "Instrument Through Which Presidential Pardon Is Granted",
+      summary: "Presidential pardon is granted by Presidential Order published in the Official Gazette."
+    },
+    {
+      number: "231",
+      title: "Modalities for Implementing Presidential Pardon",
+      summary: "Pardons are executed by Rwanda Correctional Service following notification from the Minister of Justice."
+    },
+    {
+      number: "232",
+      title: "Grounds for Release on Parole",
+      summary: "Release on parole may be granted on the following grounds: (1) good behaviour in the correctional facility; (2) exceptional service to the State or community; (3) serious illness; (4) completion of the required minimum sentence (Art. 233). Release on parole does not apply to all offences — the Minister of Justice's Order specifies eligible and ineligible offences."
+    },
+    {
+      number: "233",
+      title: "Period of Imprisonment to Be Completed Before Applying for Release on Parole",
+      summary: "AS AMENDED BY LAW N° 058/2023: Release on parole may be granted based on: (a) sentence not exceeding 5 years: after serving at least one-fourth (1/4) of the penalty; (b) sentence exceeding 5 years: after serving at least one-third (1/3) of the penalty; (c) life imprisonment: after serving at least 15 years."
+    },
+    {
+      number: "234",
+      title: "Application Procedure for Release on Parole",
+      summary: "AS AMENDED BY LAW N° 058/2023: Applications for release on parole are filed with the Minister of Justice through the Commissioner General of Rwanda Correctional Service (for civilians) or through the Minister of Defence (for military). At least once a year, the Commissioner General and the Minister of Defence submit to the Minister of Justice a list of applicants. The list indicates: applicant's identity; offence; final court decision; sentence served and remaining; conduct with supporting evidence; any other relevant information. Release is approved by Ministerial Order of the Minister of Justice and specifies the conditions imposed. The decision is not subject to appeal."
+    },
+    {
+      number: "235",
+      title: "Revocation of Release on Parole",
+      summary: "Release on parole may be revoked if: the parolee commits a new offence; fails to comply with parole conditions; or there are grounds provided by law."
+    },
+    {
+      number: "236",
+      title: "Effects of Revocation of Release on Parole",
+      summary: "Upon revocation, the parolee is re-detained to serve the remainder of the original sentence. Time served on parole does not count toward the sentence."
+    },
+    {
+      number: "237",
+      title: "Full Enjoyment of Freedom",
+      summary: "When the parole period expires without revocation, the person enjoys full freedom and the sentence is fully served."
+    },
+    {
+      number: "238",
+      title: "Limitation Period for Execution of Penalties",
+      summary: "Penalties prescribe if not executed within the periods specified in the Penal Code (Arts. 75–82): life imprisonment — 30 years; imprisonment exceeding 10 years — 20 years; imprisonment of 5–10 years — 10 years; imprisonment under 5 years — 5 years; community service — 2 years; fine — 5 years."
+    },
+    {
+      number: "239",
+      title: "Suspension of Execution of Penalties (Sursis)",
+      summary: "The court may suspend execution of a penalty (sursis) in the conditions provided by the Penal Code (Art. 64): penalty not exceeding 2 years; no prior conviction to imprisonment of more than 6 months within 5 years of the offence."
+    },
+    {
+      number: "240",
+      title: "Suspended Penalty Considered Null and Void",
+      summary: "If the convict does not commit another intentional offence within the 5-year suspension period, the suspended penalty is considered null and void and is not executed (Penal Code Art. 65)."
+    },
+    {
+      number: "241",
+      title: "Effects of Suspension of Penalty",
+      summary: "Suspension does not affect other ancillary orders — restitutions, damages, confiscation, and accessory penalties remain enforceable (Penal Code Art. 66)."
+    },
+    {
+      number: "242",
+      title: "Definition of Amnesty",
+      summary: "Amnesty is a legislative act by Parliament that erases the offence, stops prosecutions, and extinguishes penalties — without extinguishing civil liability (Penal Code Art. 68)."
+    },
+    {
+      number: "243",
+      title: "Effects of Amnesty",
+      summary: "Amnesty stops pending prosecutions; extinguishes penalties being served; removes convictions from criminal records. Does not extinguish civil liability (Penal Code Art. 69)."
+    },
+    {
+      number: "244",
+      title: "Amnesty Subject to Conditions",
+      summary: "Parliament may grant amnesty subject to conditions — e.g., the convicted person must have made reparations to the victim."
+    },
+    {
+      number: "245",
+      title: "Person Who Can Be Rehabilitated",
+      summary: "Any convicted person who has fully served their sentence, paid all fines and damages, and observed a waiting period may apply for rehabilitation (réhabilitation)."
+    },
+    {
+      number: "246",
+      title: "Time Required Before Applying for Rehabilitation",
+      summary: "Waiting periods before applying for rehabilitation vary by offence: misdemeanours — 3 years after serving sentence; felonies — 5 years; life imprisonment — 10 years after release (if applicable)."
+    },
+    {
+      number: "247",
+      title: "Conditions for Rehabilitation",
+      summary: "Rehabilitation requires: full service of sentence or prescription of penalty; payment of all damages and fines; no new conviction during the waiting period; and proof of good conduct."
+    },
+    {
+      number: "248",
+      title: "Determining the Pecuniary Amount to Be Paid by the Rehabilitation Applicant",
+      summary: "If outstanding fines or damages remain unpaid, the court determines the amount payable before rehabilitation is granted."
+    },
+    {
+      number: "249",
+      title: "Disposal of Pecuniary Amount Not Received",
+      summary: "If the victim cannot be found to receive the compensation required for rehabilitation, the amount is deposited with the court registry for a specified period."
+    },
+    {
+      number: "250",
+      title: "Applying for Rehabilitation",
+      summary: "A rehabilitation application is filed with the competent court that rendered the final conviction, following the civil procedure applicable to unilateral applications."
+    },
+    {
+      number: "251",
+      title: "Decision on the Application for Rehabilitation",
+      summary: "The court examines the rehabilitation application and decides whether all conditions are met. The decision is published in the Official Gazette."
+    },
+    {
+      number: "252",
+      title: "Effects of Rehabilitation",
+      summary: "Rehabilitation erases all consequences of the conviction: the conviction is removed from the criminal record; civic rights are restored; the person may exercise any professional or public function previously precluded. Corporate lens: rehabilitation restores debarred persons to public procurement participation and removes disqualification from corporate office."
+    },
+    {
+      number: "253",
+      title: "Revocation of Rehabilitation",
+      summary: "Rehabilitation is revoked if the rehabilitated person is convicted of a new offence for which the nature or gravity of the penalty is incompatible with rehabilitated status."
+    },
+
+    // Chapter III: Court Fees
+
+    {
+      number: "254",
+      title: "Determination and Deposit of Court Fees",
+      summary: "Court fees are determined by law and must be deposited at the beginning of proceedings by the party initiating the action. The prosecuted party may be exempted from deposit in cases provided by law."
+    },
+    {
+      number: "255",
+      title: "Court Fees for a Case Tried at First Instance",
+      summary: "Court fees at first instance are set by law based on the nature of the offence and the level of the court."
+    },
+    {
+      number: "256",
+      title: "Court Fees in Case of Appeal",
+      summary: "Court fees are also payable at the appellate level. The rate may differ from first instance fees."
+    },
+    {
+      number: "257",
+      title: "Exemption from Depositing Court Fees",
+      summary: "Certain parties are exempt from depositing court fees: the prosecution; indigent persons with a legal aid certificate; and other persons specified by law."
+    },
+    {
+      number: "258",
+      title: "Calculation of Court Fees",
+      summary: "Court fees are calculated on the basis of the complexity and duration of the proceedings, the number of hearings, and any other factors specified by law."
+    },
+    {
+      number: "259",
+      title: "Court Fees Withheld",
+      summary: "Court fees already deposited are withheld by the court and not refunded if the case proceeds to trial regardless of outcome."
+    },
+    {
+      number: "260",
+      title: "Cost of Documents Served by Courts",
+      summary: "The cost of official documents served by courts (judgments, orders, summons) is determined by law and paid by the requesting party."
+    },
+
+    // TITLE V: MISCELLANEOUS AND FINAL PROVISIONS
+
+    {
+      number: "261",
+      title: "Time Limits Provided Under Laws Relating to Criminal Procedure",
+      summary: "Time limits in criminal procedure are strictly observed. Failure to observe time limits may result in procedural invalidity or loss of rights."
+    },
+    {
+      number: "262",
+      title: "Time Limits Counted in Days or Hours",
+      summary: "Time limits counted in days run from midnight of the day after the triggering event; the last day expires at midnight. Time limits counted in hours run from the triggering event."
+    },
+    {
+      number: "263",
+      title: "Counting Periods Fixed in Months",
+      summary: "Time limits in months expire on the corresponding date of the month in which the period ends. If no corresponding date, the last day of the month applies."
+    },
+    {
+      number: "264",
+      title: "Applying Civil Procedure in Criminal Cases",
+      summary: "Where this Law does not provide otherwise, civil procedure rules apply by analogy to criminal proceedings to the extent they are compatible with criminal procedure principles."
+    },
+    {
+      number: "264bis",
+      title: "Reconstitution of a Copy of Gacaca Court Judgment",
+      summary: "INSERTED BY LAW N° 058/2023: A person who needs a copy of a Gacaca Court judgment that cannot be found requests the primary-level prosecution to collect information for reconstitution. The prosecution submits the information as an application to the Primary Court for reconstitution. The reconstitution application is adjudicated by way of unilateral application; decision rendered within 30 days of adjudication. If a copy of a judgment sentencing a person to imprisonment by a Gacaca Court cannot be found and the person has not served or has partially served the sentence but evidence of conviction exists: the person may be arrested, placed in provisional detention, and brought before the court handling the reconstitution application. The court may order provisional detention not exceeding 30 days pending reconstitution."
+    },
+    {
+      number: "265",
+      title: "Drafting, Consideration, and Adoption of this Law",
+      summary: "Procedural provision confirming the legislative process followed."
+    },
+    {
+      number: "266",
+      title: "Repealing Provision",
+      summary: "All prior legal provisions contrary to this Law are repealed."
+    },
+    {
+      number: "267",
+      title: "Commencement",
+      summary: "This Law enters into force on the date of its publication in the Official Gazette of the Republic of Rwanda (published 08/11/2019). Amendment Law N° 058/2023 enters into force on the date of its publication (published 05/12/2023)."
+    }
+  ],
+
+  penalties: [
+    {
+      provision: "Art. 66",
+      description: "Provisional detention is capped at 5 days by investigator/prosecutor statement (non-renewable). Must be followed by judicial provisional detention order within that period.",
+      amount: "5 days (non-renewable at investigation stage)"
+    },
+    {
+      provision: "Art. 79",
+      description: "Judicial provisional detention: 30 days per order; renewable in 30-day increments. Hard maximums: petty offences — not renewable after initial 30 days; misdemeanours — maximum 3 months total; felonies — maximum 6 months total.",
+      amount: "30 days per order; maximum 3 months (misdemeanour) or 6 months (felony)"
+    },
+    {
+      provision: "Art. 35",
+      description: "Provisional arrest warrant by prosecutor: valid 5 days non-renewable.",
+      amount: "5 days non-renewable"
+    },
+    {
+      provision: "Art. 31",
+      description: "Warrant to bring by force: valid 3 months from date signed, renewable by issuing authority.",
+      amount: "3 months, renewable"
+    },
+    {
+      provision: "Art. 39",
+      description: "Communication interception order: valid 3 months, renewable once only.",
+      amount: "3 months + 1 renewal maximum"
+    },
+    {
+      provision: "Art. 57",
+      description: "Bank account/share freeze during investigation: maximum 30 days, extendable once for 30 additional days.",
+      amount: "Maximum 60 days total"
+    },
+    {
+      provision: "Art. 65",
+      description: "Red-handed procedure: investigator completes file within 72 hours; prosecutor decides within 5 days; court tries within 15 days and pronounces judgment within 5 days.",
+      amount: "72 hours / 5 days / 15 days / 5 days"
+    },
+    {
+      provision: "Art. 233 (as amended)",
+      description: "Parole eligibility: 1/4 of sentence served (for sentences ≤ 5 years); 1/3 of sentence served (for sentences > 5 years); 15 years served (for life imprisonment).",
+      amount: "1/4 or 1/3 of sentence, or 15 years"
+    }
+  ],
+
+  regulator: "National Public Prosecution Authority (NPPA / Parquet Général): primary institution responsible for criminal prosecution, supervision of investigations, and execution of judgments. Rwanda Investigation Bureau (RIB): primary investigative body for serious criminal offences including financial and corporate crimes. Rwanda National Police (RNP): preliminary investigation and law enforcement. Rwanda Correctional Service: execution of imprisonment and community service sentences. Court hierarchy: Primary Courts (petty offences and misdemeanours up to 3 years); Intermediate Courts (misdemeanours and felonies, first instance); High Court and Commercial High Court (complex and serious cases, appeals from Intermediate Courts); Court of Appeal (second level appeals); Supreme Court (final instance, review applications). Military justice system: Military Prosecution, Military High Court for military offences.",
+
+  keyDeadlines: [
+    {
+      provision: "Art. 6",
+      deadline: "10 years / 3 years / 1 year",
+      description: "Prescription of criminal action: felonies — 10 years; misdemeanours — 3 years; petty offences — 1 year. All from date of commission or last investigation act."
+    },
+    {
+      provision: "Art. 12",
+      deadline: "5 years",
+      description: "Prescription of civil action arising from an offence — from date of commission."
+    },
+    {
+      provision: "Art. 24(3)/24(f)",
+      deadline: "30 days",
+      description: "Notification to victim and suspect of file closure decision — from date of decision."
+    },
+    {
+      provision: "Art. 31",
+      deadline: "3 months",
+      description: "Validity of warrant to bring by force — from date signed."
+    },
+    {
+      provision: "Art. 35",
+      deadline: "5 days",
+      description: "Provisional arrest warrant by prosecutor — valid 5 days, non-renewable."
+    },
+    {
+      provision: "Art. 39",
+      deadline: "48 hours",
+      description: "Written interception order to be issued within 48 hours of Prosecutor General receiving request (24 hours if verbal order issued in urgency)."
+    },
+    {
+      provision: "Art. 39",
+      deadline: "3 months + 1 renewal",
+      description: "Interception order validity: 3 months, renewable once only."
+    },
+    {
+      provision: "Art. 57",
+      deadline: "30 days + 30 days",
+      description: "Bank account/share freeze: maximum 30 days, extendable once for 30 additional days."
+    },
+    {
+      provision: "Art. 65",
+      deadline: "72 hours / 5 days / 15 days / 5 days",
+      description: "Red-handed procedure: investigator completes file within 72 hours; prosecutor decides within 5 non-renewable days; court tries within 15 days; judgment within 5 days of closure."
+    },
+    {
+      provision: "Art. 66",
+      deadline: "5 days",
+      description: "Investigator/prosecutor detention statement: valid 5 days, non-renewable."
+    },
+    {
+      provision: "Art. 75",
+      deadline: "5 days",
+      description: "Suspect's right to prepare and submit defence submissions after receiving provisional detention file."
+    },
+    {
+      provision: "Art. 77",
+      deadline: "2 working days / 3 working days",
+      description: "Provisional detention hearing: within 2 working days; decision: within 3 working days of closure."
+    },
+    {
+      provision: "Art. 79",
+      deadline: "30 days / 3 months / 6 months",
+      description: "Judicial provisional detention order: 30-day periods; petty offences — no renewal after initial 30 days; misdemeanours — maximum 3 months total; felonies — maximum 6 months total."
+    },
+    {
+      provision: "Art. 87",
+      deadline: "5 working days",
+      description: "Appeal against provisional detention or release order: filed within 5 working days; appellate court decides within 5 working days."
+    },
+    {
+      provision: "Art. 174 (as amended)",
+      deadline: "15 days / 30 days",
+      description: "Opposition to in-absentia judgment: 15 days from notification. For Gacaca Court judgment with convict returning from abroad: 30 days from return."
+    },
+    {
+      provision: "Art. 181",
+      deadline: "30 days",
+      description: "Filing a regular appeal against a judgment: within 30 days of notification."
+    },
+    {
+      provision: "Art. 233 (as amended)",
+      deadline: "1/4 or 1/3 or 15 years",
+      description: "Parole eligibility threshold: 1/4 (sentence ≤ 5 years); 1/3 (sentence > 5 years); 15 years (life imprisonment)."
+    },
+    {
+      provision: "Art. 264bis (inserted)",
+      deadline: "30 days",
+      description: "Gacaca Court judgment reconstitution: decision within 30 days of adjudication. Maximum provisional detention pending reconstitution: 30 days."
+    }
+  ],
+
+  statutoryGaps: [
+    "No statutory definition of 'serious grounds' (indices sérieux) for arrest beyond the general formulation in Art. 3(4) — courts have discretion in applying this standard, creating uncertainty for corporate officers subject to arrest.",
+    "Plea bargaining (Art. 26) lacks implementing regulations specifying the form of the agreement, the prosecutor's concession limits, and the binding effect on co-accused — gaps confirmed by practice.",
+    "Electronic surveillance (Art. 70 as amended) defers entirely to Ministerial Order for modalities — no statutory safeguards on duration, scope, or judicial oversight of ongoing electronic monitoring.",
+    "No statutory provision for anonymous witnesses or witness protection programmes — gaps in protection for whistleblowers and informants in corporate investigations.",
+    "The interaction between Art. 57 (bank account freeze) and Banking Law N° 044/2024 (BNR-ordered account restrictions) is not codified — parallel freeze regimes can apply simultaneously without coordination rules.",
+    "No statutory fast-track procedure for judicial review of investigative acts (search warrants, interceptions, freezes) by corporate entities — the Art. 144 unlawful detention claim is the closest analogue but covers only persons, not property.",
+    "Community service execution modalities (Art. 225) defer entirely to implementing order — no statutory framework for corporate entities ordered to perform community service under Penal Code Art. 25.",
+    "Art. 219 (foreign criminal judgment execution) lacks implementing regulations specifying the exequatur procedure — practice is ad hoc."
+  ],
+
+  crossReferenceClusters: [
+    {
+      cluster: "Penal Code Interface",
+      description: "This Law governs procedure; Penal Code N° 068/2018 governs substantive offences and penalties. The two laws operate inseparably: Art. 66 CPC (arrest threshold) references Penal Code penalty levels; Art. 79 CPC (detention maximums) categorises by Penal Code offence classification; Arts. 232–237 CPC (parole) apply Penal Code penalty structures; and Art. 220 CPC (corporate dissolution execution) references Penal Code Art. 25 corporate penalties."
+    },
+    {
+      cluster: "Dawn Raid Preparedness (Search and Seizure)",
+      description: "Arts. 55–64 (search procedures), Art. 57 (seizure and asset freeze), Arts. 38–41 (communication interception), and Art. 68 (rights on arrest) collectively define the framework for regulatory and criminal search operations against corporate entities. A company's dawn raid response protocol should specifically address: the requirement for a valid service card and search warrant (Art. 60); the right to a representative of a professional association (Art. 55); the prohibition on seizure of documents covered by legal professional privilege (Art. 62 read with Penal Code Art. 158); the immediate right to legal counsel (Art. 68); and the documentation requirements that create an evidentiary record."
+    },
+    {
+      cluster: "AML/CFT Investigations",
+      description: "Arts. 38 (communication interception for State security and corruption offences), Art. 57 (asset freeze), and Art. 36 (international arrest warrant) interface directly with AML Law N° 075/2019 investigation procedures. The overlap between Prosecutor General-authorised interception under Art. 38 CPC and BNR-ordered monitoring under the AML Law must be managed carefully."
+    },
+    {
+      cluster: "Banking Law Investigation Interface",
+      description: "Art. 38 (interception limited to national security, corruption, and State property embezzlement) does not expressly cover banking offences — prosecutors investigating Banking Law N° 044/2024 violations must anchor requests within the Art. 38 categories. Art. 57 (bank account freeze) operates independently of BNR supervisory powers, but both may apply simultaneously."
+    },
+    {
+      cluster: "Tax Investigations",
+      description: "RRA has powers under Tax Procedures Law N° 020/2023 to conduct tax audits and investigations. Where tax evasion or fraud rises to the criminal threshold, RRA must refer to NPPA/RIB for criminal investigation under this Law. Arts. 22 (file submission), 24 (prosecutor options), and 25 (fine without trial) provide the procedural pathway for tax-related criminal referrals."
+    },
+    {
+      cluster: "Data Protection",
+      description: "Art. 38 (communication interception) must be read alongside Data Protection Law N° 058/2021. Investigative interception and surveillance authorised under Art. 38 creates exceptions to data protection obligations — but only within the scope authorised by the Prosecutor General order. Unauthorised interception constitutes both a Penal Code Art. 159 offence and a data protection violation."
+    },
+    {
+      cluster: "Arbitration Interface",
+      description: "Art. 9 CPC (suspension of criminal prescription on force majeure) may interact with ongoing arbitration proceedings where criminal and civil claims overlap. The principle that criminal action takes precedence over civil proceedings (Art. 115 — civil court must suspend) applies unless the criminal and civil claims are entirely separate."
+    }
+  ]
+}
     
     export function generateSystemPrompt(): string {
   const verified = LAWS.filter((l) => l.status === "verified");
