@@ -2377,6 +2377,161 @@ export const LAWS: Law[] = [
     ],
   },
 
+// ── 25. NOTARIAL PRACTICE LAW ────────────────────────────────────────────
+  {
+    id: "notary-law-13bis-2014",
+    name: "Law Governing the Office of Notary",
+    shortName: "Notarial Practice Law",
+    number: "No. 13bis/2014 of 21/05/2014",
+    year: 2014,
+    category: "Corporate & Investment",
+    regulator: "Ministry of Justice (Minister sets qualifications, fees, supervision of private notaries)",
+    status: "verified",
+    description:
+      "Determines the organisation and practice of the office of notary in Rwanda. Establishes seven categories of notaries, their competences, authentication formalities, probative value of notarized deeds, liability, sanctions, and record-keeping obligations. Mandatory for all land transfers, investment agreements, wills, and any contract the law requires to be in authentic form. Repeals the Decree of 17 November 1953.",
+    articles: [
+      {
+        number: "Art. 3",
+        summary:
+          "Seven categories of notaries: (1) Ministry notary; (2) Ambassador / First Secretary of Embassy; (3) RDB investment promotion service notary; (4) District legal affairs officer; (5) Sector complaints officer; (6) land officers — Registrar of Land Titles, Deputy Registrar, District land office head, Sector land officer; (7) private notary authorised by the Minister. Minister determines the number of notaries per office on District request.",
+      },
+      {
+        number: "Art. 4",
+        summary:
+          "Qualifications for private notary: Rwandan national; legal majority; at least a bachelor's degree in law; no definitive conviction to imprisonment ≥6 months (unless erased by amnesty/rehabilitation); not dismissed from prior employment for disciplinary reasons; at least 5 years experience in the legal profession. Qualification requirements do not apply to Ambassadors or land-related notaries.",
+      },
+      {
+        number: "Art. 5",
+        summary:
+          "Incompatibilities: a notary may not simultaneously hold the office of judge, prosecutor, court bailiff, or court registrar, nor any other public or private office unless specifically empowered by the Minister.",
+      },
+      {
+        number: "Art. 9",
+        summary:
+          "Core competences of Ministry, District, Sector, and private notaries: authentication of deeds; authentication of signatures; certification of document authenticity; certification of copy conformity to original; issuance of copies; certification of wills for movable property; certification and authentication of complex deeds involving both movable and immovable property; issuance of other notarial deeds provided by law.",
+      },
+      {
+        number: "Art. 10",
+        summary:
+          "Land-specific notarial competences (land officers): certification/authentication of wills for immovable property; certification/authentication of contracts for transfer of land and immovable property through succession, donation, sale, leasing, compensation, right-of-way, and mortgage; condominium agreements; and other land transfer deeds provided by law.",
+      },
+      {
+        number: "Art. 11",
+        summary:
+          "RDB investment service notary competences: all Art. 9 competences (except wills for movables) plus all Art. 10 land competences — BUT only where the person wishes to invest in Rwanda or export goods from Rwanda.",
+      },
+      {
+        number: "Art. 14",
+        summary:
+          "Territorial jurisdiction: Ministry notary and RDB notary — national territory; District notary — entire District; Sector notary — entire Sector; Ambassador/First Secretary — countries under their jurisdiction; land notaries — their registration area jurisdiction; private notary — entire national territory.",
+      },
+      {
+        number: "Art. 18",
+        summary:
+          "Liability: the State provides legal assistance to and assumes liability for a public notary — EXCEPT for misconduct committed deliberately, through negligence, or for criminal convictions. A private notary is PERSONALLY liable for any misconduct committed during the performance of duties.",
+      },
+      {
+        number: "Art. 23",
+        summary:
+          "Administrative sanctions for private notary (imposed by Minister, without prejudice to civil/criminal liability): (1) written warning; (2) reprimand; (3) temporary suspension from notarial duties — 1 month to 6 months; (4) definitive removal from notarial duties.",
+      },
+      {
+        number: "Art. 24",
+        summary:
+          "Grounds for removal of private notary: bribery (giving, demanding, or accepting); misappropriation of property; fraud; definitive conviction to imprisonment ≥6 months; fraudulent access to the office of notary; discrimination in the exercise of duties; professional incompetence; conviction for genocide or genocide ideology.",
+      },
+      {
+        number: "Art. 26",
+        summary:
+          "Authentication of contracts: a notary authenticates contracts that the law requires to be in authentic form at the time of signing. Parties may also request voluntary authentication of any contract even where the law does not require it.",
+      },
+      {
+        number: "Art. 27",
+        summary:
+          "Authentic deed: a deed authenticated by a notary in accordance with this Law is legally authentic. Where an authenticated deed references a prior deed, the more recent deed must contain a declaration by the parties confirming the two form a whole or that the later deed replaces the earlier one.",
+      },
+      {
+        number: "Art. 29",
+        summary:
+          "Probative value: notarized documents bear equal validity across the entire national territory unless nullified by another document or court decision. A notarized document evidencing a certain and due debt may receive an enforcement order (formule exécutoire) from the court registrar — issued only once; if lost, a replacement requires a competent court order.",
+      },
+      {
+        number: "Art. 33",
+        summary:
+          "Prohibited deeds: a notary may not receive or issue deeds for themselves, or those in which they have a direct interest, or for their spouse, parents, parents-in-law, adoptive parents, children, adopted children, or siblings sharing at least one parent. Violation of items (1)–(2): deed is annulled. Violation of item (3) (deeds contrary to law and good morals): deed is void ab initio.",
+      },
+      {
+        number: "Art. 34",
+        summary:
+          "Fees: notarial document issued only once required documents are submitted and fees paid. Government of Rwanda and certified indigent persons receive services free of charge. Fee amounts and the receiving entity are set by Presidential Order.",
+      },
+      {
+        number: "Art. 36",
+        summary:
+          "Pre-signing verification obligations: before signing an authentic deed, the notary must verify the identity of each party, verify legal capacity to act, confirm authenticity of signatures, specify the mode of identification used, attest compliance with formalities, and record the date, place, and full names of all witnesses.",
+      },
+      {
+        number: "Art. 37",
+        summary:
+          "Immovable property contracts: the notary must verify that the transferor actually owns the property. All persons registered on the land title must be present — or produce legally valid documents consenting to the transfer. CRITICAL: a notary who authenticates an immovable property transfer without verifying ownership and consent of all registered holders exposes the deed to nullification.",
+      },
+      {
+        number: "Art. 40",
+        summary:
+          "Signing formalities: at signing, the notary reads out the content of the deed and explains the meaning and consequences to the parties. All parties and witnesses sign in the notary's presence. Where a party cannot sign due to disability, another person may sign on their behalf with the reason stated. Where a party is absent for non-disability reasons, a duly authorised representative signs.",
+      },
+      {
+        number: "Art. 42",
+        summary:
+          "Refused notarization: a notary may not notarize a document incompatible with the law. Where notarization is refused and the person requests reasons in writing, the notary must provide written reasons.",
+      },
+      {
+        number: "Art. 44",
+        summary:
+          "Court challenge of notary's decision: the document owner or any interested person may file a court case against a notary's decision where: (1) the notarized deed does not conform to truth or law; (2) the refusal to notarize has no legal justification; or (3) the notary refuses to return a document. Filed with the competent court in the notary's territorial jurisdiction.",
+      },
+      {
+        number: "Art. 45",
+        summary:
+          "Record retention: authentic deeds must be kept for ONE HUNDRED (100) YEARS. The notary keeps the original of each deed with its sequential number in a register. The originating entity provides appropriate storage. A private notary's retention modalities are determined by Ministerial Order.",
+      },
+      {
+        number: "Art. 51",
+        summary:
+          "Nullification: any deed authenticated by a notary in violation of the law shall be nullified by a competent court.",
+      },
+      {
+        number: "Art. 54–55",
+        summary:
+          "Foreign notary deeds: deeds notarized by a foreign notary have the same probative value as in their country of issuance — but must be confirmed by the Rwanda Embassy in that country AND authenticated by the Ministry of Foreign Affairs. CRITICAL RESTRICTION: a foreign notary CANNOT authenticate contracts for the transfer of immovable property located in Rwanda. Only Rwandan-authorised notaries may notarize Rwanda land transfers.",
+      },
+    ],
+    penalties: [
+      "Art. 23 — Private notary: written warning; reprimand; suspension 1–6 months; definitive removal from notarial duties (by Minister)",
+      "Art. 24 — Mandatory removal grounds: bribery; misappropriation; fraud; conviction to imprisonment ≥6 months; discrimination; professional incompetence; genocide conviction",
+      "Art. 33 — Deed by notary for themselves or close family: annulment of the deed",
+      "Art. 33 — Deed contrary to law and good morals: void ab initio",
+      "Art. 51 — Deed authenticated contrary to law: nullification by competent court",
+      "Art. 18 — Private notary: personally liable for all misconduct in performance of duties (State does not cover negligence, deliberate misconduct, or criminal conduct)",
+    ],
+    keyDeadlines: [
+      "Art. 45 — Mandatory retention period for all authentic notarized deeds: 100 YEARS",
+      "Art. 57 — Transitional period for non-compliant notaries at commencement: 12 months to meet new qualification requirements (now expired)",
+      "Art. 60 — Commencement: 29 May 2014 (date of Official Gazette publication)",
+    ],
+    keyObligations: [
+      "Any contract the law requires to be in authentic form MUST be notarized — including all land transfers (Land Law Art. 23) (Art. 26)",
+      "For immovable property contracts: verify transferor ownership AND ensure all registered title holders are present or have provided written consent (Art. 37)",
+      "Verify identity, legal capacity, and signature authenticity of all parties before signing any authentic deed (Art. 36)",
+      "Read out the content of the deed and explain its meaning and consequences to parties at signing (Art. 40)",
+      "A foreign notary CANNOT notarize Rwanda land transfer contracts — only a Rwandan-authorised notary may do so (Art. 55)",
+      "Private notary: personally liable for all misconduct — State protection does not extend to deliberate misconduct, negligence, or criminal convictions (Art. 18)",
+      "Maintain authentic deeds for 100 years (Art. 45)",
+      "Maintain a register of all authentic deeds received; wills kept in a separate register (Arts. 46–47)",
+      "Refuse to notarize deeds incompatible with the law; provide written reasons for refusal if requested (Art. 42)",
+    ],
+  },
+  
   // ── 24. ELECTRONIC TRANSACTIONS LAW ──────────────────────────────────────
   {
     id: "electronic-transactions-22-2016",
