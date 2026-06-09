@@ -225,21 +225,21 @@ function Chat({ moduleTitle, initialQuery = "", systemPromptExtra = "", entityCo
   const next = [...msgs, userMsg];
   setMsgs([...next, { role: "assistant", content: "" }]);
   setLoading(true);
-  try {
-    const res = await fetch("/api/chat", {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({
-        entityContext: entityContext || "",
-        messages: next.map(m => ({ role: m.role, content: m.content })),
-      }),
-    });
-    if (!res.ok) throw new Error("API error");
-    const data = await res.json();
-    setMsgs([...next, { role: "assistant", content: data.text || "No response received." }]);
-  } catch {
-    setMsgs([...next, { role: "assistant", content: "Connection error. Please check your network and try again." }]);
-  }
+try {
+  const res = await fetch("/api/chat", {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify({
+      entityContext: entityContext || "",
+      messages: next.map(m => ({ role: m.role, content: m.content })),
+    }),
+  });
+  if (!res.ok) throw new Error("API error");
+  const data = await res.json();
+  setMsgs([...next, { role: "assistant", content: data.text || "No response received." }]);
+} catch {
+  setMsgs([...next, { role: "assistant", content: "Connection error. Please check your network and try again." }]);
+}
   setLoading(false);
 }
 
