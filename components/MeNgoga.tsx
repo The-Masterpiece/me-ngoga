@@ -235,33 +235,8 @@ function Chat({ moduleTitle, initialQuery = "", systemPromptExtra = "", entityCo
       }),
     });
     if (!res.ok) throw new Error("API error");
-    const reader = res.body!.getReader();
-    const decoder = new TextDecoder();
-    let full = "";
-    let buffer = "";
-
-    while (true) {
-      const { done, value } = await reader.read();
-      if (done) break;
-
-      buffer += decoder.decode(value, { stream: true });
-      const lines = buffer.split("\n");
-      buffer = lines.pop() || "";
-
-      for (const line of lines) {
-        const trimmed = line.trim();
-        if (!trimmed || trimmed === "data: [DONE]") continue;
-        if (trimmed.startsWith("data: ")) {
-          try {
-            const parsed = JSON.parse(trimmed.slice(6));
-            if (parsed.text) {
-              full += parsed.text;
-              setMsgs([...next, { role: "assistant", content: full }]);
-            }
-          } catch {}
-        }
-      }
-    }
+    const data = await res.json();
+    setMsgs([...next, { role: "assistant", content: data.text || "No response received." }]);
   } catch {
     setMsgs([...next, { role: "assistant", content: "Connection error. Please check your network and try again." }]);
   }
