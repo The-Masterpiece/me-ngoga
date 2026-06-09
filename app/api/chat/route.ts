@@ -1,5 +1,5 @@
 // app/api/chat/route.ts
-import Anthropic from "@anthropic-ai/sdk";
+import Anthropic from "@anthropic-ai/sdk/index";
 import { generateSystemPrompt } from "@/lib/laws";
 
 const client = new Anthropic({
