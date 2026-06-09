@@ -220,28 +220,32 @@ function Chat({ moduleTitle, initialQuery = "", systemPromptExtra = "", entityCo
   }, [msgs, loading]);
 
   async function sendMessage(text: string) {
-  if (!text.trim() || loading) return;
-  const userMsg: Msg = { role: "user", content: text };
-  const next = [...msgs, userMsg];
-  setMsgs([...next, { role: "assistant", content: "" }]);
-  setLoading(true);
-try {
-  const res = await fetch("/api/chat", {
-    method: "POST",
-    headers: { "Content-Type": "application/json" },
-    body: JSON.stringify({
-      entityContext: entityContext || "",
-      messages: next.map(m => ({ role: m.role, content: m.content })),
-    }),
-  });
-  if (!res.ok) throw new Error("API error");
-  const data = await res.json();
-  setMsgs([...next, { role: "assistant", content: data.text || "No response received." }]);
-} catch {
-  setMsgs([...next, { role: "assistant", content: "Connection error. Please check your network and try again." }]);
-}
-  setLoading(false);
-}
+    if (!text.trim() || loading) return;
+    const userMsg: Msg = { role: "user", content: text };
+    const next = [...msgs, userMsg];
+    setMsgs([...next, { role: "assistant", content: "" }]);
+    setLoading(true);
+    try {
+      const res = await fetch("/api/chat", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          entityContext: entityContext || "",
+          messages: next.map(m => ({ role: m.role, content: m.content })),
+        }),
+      });
+      if (!res.ok) throw new Error("API error");
+      const data = await res.json();
+      setMsgs([...next, { role: "assistant", content: data.text || "No response received." }]);
+    } catch {
+      setMsgs([...next, { role: "assistant", content: "Connection error. Please check your network and try again." }]);
+    }
+    setLoading(false);
+  }
+
+  function handleKey(e: any) {
+    if (e.key === "Enter" && !e.shiftKey) { e.preventDefault(); sendMessage(input); setInput(""); }
+  }
 
   return (
     <div style={{ display: "flex", flexDirection: "column", height: "100%", background: T.panel }}>
