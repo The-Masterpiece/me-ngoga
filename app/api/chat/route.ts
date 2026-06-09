@@ -1,10 +1,5 @@
 // app/api/chat/route.ts
-import Anthropic from "@anthropic-ai/sdk/index";
 import { generateSystemPrompt } from "@/lib/laws";
-
-const client = new Anthropic({
-  apiKey: process.env.ANTHROPIC_KEY,
-});
 
 const FORMAT_INSTRUCTIONS = `
 You are Me Ngoga — Rwanda's executive legal intelligence platform.
@@ -117,39 +112,76 @@ export async function POST(request: Request) {
       );
     }
 
-    // ORDER: format instructions → entity context → law library
-    // Format instructions must come first so they are never diluted
     const systemPrompt =
       FORMAT_INSTRUCTIONS +
       (entityContext ? `\n\n${entityContext}` : "") +
       "\n\n" +
       generateSystemPrompt();
 
-    const stream = await client.messages.stream({
-      model: "claude-sonnet-4-5",
-      max_tokens: 4096,
-      system: systemPrompt,
-      messages: messages.map((msg: { role: string; content: string }) => ({
-        role: msg.role as "user" | "assistant",
-        content: msg.content,
-      })),
+    const response = await fetch("https://api.anthropic.com/v1/messages", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+        "x-api-key": process.env.ANTHROPIC_KEY!,
+        "anthropic-version": "2023-06-01",
+        "anthropic-beta": "messages-2023-12-15",
+      },
+      body: JSON.stringify({
+        model: "claude-sonnet-4-5",
+        max_tokens: 4096,
+        stream: true,
+        system: systemPrompt,
+        messages: messages.map((msg: { role: string; content: string }) => ({
+          role: msg.role,
+          content: msg.content,
+        })),
+      }),
     });
+
+    if (!response.ok) {
+      const error = await response.text();
+      console.error("Anthropic API error:", error);
+      return new Response(
+        JSON.stringify({ error: "Anthropic API error" }),
+        { status: 500, headers: { "Content-Type": "application/json" } }
+      );
+    }
 
     const encoder = new TextEncoder();
 
     const readableStream = new ReadableStream({
       async start(controller) {
+        const reader = response.body!.getReader();
+        const decoder = new TextDecoder();
+        let buffer = "";
+
         try {
-          for await (const chunk of stream) {
-            if (
-              chunk.type === "content_block_delta" &&
-              chunk.delta.type === "text_delta"
-            ) {
-              controller.enqueue(
-                encoder.encode(
-                  `data: ${JSON.stringify({ text: chunk.delta.text })}\n\n`
-                )
-              );
+          while (true) {
+            const { done, value } = await reader.read();
+            if (done) break;
+
+            buffer += decoder.decode(value, { stream: true });
+            const lines = buffer.split("\n");
+            buffer = lines.pop() || "";
+
+            for (const line of lines) {
+              if (line.startsWith("data: ")) {
+                const data = line.slice(6).trim();
+                if (data === "[DONE]") continue;
+                try {
+                  const parsed = JSON.parse(data);
+                  if (
+                    parsed.type === "content_block_delta" &&
+                    parsed.delta?.type === "text_delta"
+                  ) {
+                    controller.enqueue(
+                      encoder.encode(
+                        `data: ${JSON.stringify({ text: parsed.delta.text })}\n\n`
+                      )
+                    );
+                  }
+                } catch {}
+              }
             }
           }
           controller.enqueue(encoder.encode("data: [DONE]\n\n"));
