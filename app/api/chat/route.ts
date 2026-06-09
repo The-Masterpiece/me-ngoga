@@ -102,11 +102,13 @@ ABSOLUTE RULES
 8. If outside the verified law library, say exactly:
    "This falls outside Me Ngoga's verified law library.
    Refer to qualified Rwandan counsel."
+9. ALWAYS use the active entity name in document drafts.
+   Never use generic placeholders when the entity is known.
 `;
 
 export async function POST(request: Request) {
   try {
-    const { messages } = await request.json();
+    const { messages, entityContext } = await request.json();
 
     if (!messages || !Array.isArray(messages)) {
       return new Response(
@@ -115,9 +117,13 @@ export async function POST(request: Request) {
       );
     }
 
-    // FORMAT INSTRUCTIONS first — then law library
-    // This ordering is critical: instructions before context
-    const systemPrompt = FORMAT_INSTRUCTIONS + "\n\n" + generateSystemPrompt();
+    // ORDER: format instructions → entity context → law library
+    // Format instructions must come first so they are never diluted
+    const systemPrompt =
+      FORMAT_INSTRUCTIONS +
+      (entityContext ? `\n\n${entityContext}` : "") +
+      "\n\n" +
+      generateSystemPrompt();
 
     const stream = await client.messages.stream({
       model: "claude-sonnet-4-5",
@@ -139,9 +145,10 @@ export async function POST(request: Request) {
               chunk.type === "content_block_delta" &&
               chunk.delta.type === "text_delta"
             ) {
-              const text = chunk.delta.text;
               controller.enqueue(
-                encoder.encode(`data: ${JSON.stringify({ text })}\n\n`)
+                encoder.encode(
+                  `data: ${JSON.stringify({ text: chunk.delta.text })}\n\n`
+                )
               );
             }
           }
