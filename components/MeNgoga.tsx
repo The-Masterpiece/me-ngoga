@@ -14,6 +14,139 @@ const T = {
 
 const SYSTEM_PROMPT = generateSystemPrompt();
 
+// ═══ ENTITY PROFILES ═════════════════════════════════════════════════════════
+const ENTITIES: Record<string, { name: string; sector: string; context: string }> = {
+  none: {
+    name: "No entity selected",
+    sector: "",
+    context: "",
+  },
+  mtn: {
+    name: "MTN Rwanda",
+    sector: "Telecom",
+    context: `ACTIVE CLIENT ENTITY
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Organisation:     MTN Rwanda PLC
+Sector:           Telecommunications (regulated by RURA)
+Regulator:        Rwanda Utilities Regulatory Authority (RURA)
+Applicable laws:  ICT Law No. 24/2016, Data Protection Law No. 058/2021,
+                  AML/CFT Law No. 75/2019, Labour Law No. 66/2018,
+                  Competition Law No. 36/2012, Tax Procedures Law No. 020/2023,
+                  Payment System Law No. 061/2021
+Internal policies:
+  — Notice period: 3 months for senior staff, 1 month for others
+  — Probation: 6 months standard
+  — Disciplinary: written warning → final warning → hearing → termination
+  — Data: all subscriber data stored in Rwanda per Art. 50 Data Protection Law
+  — DPO: appointed and registered with NCSA
+  — Subscriber registration: all SIM holders registered per Art. 210 ICT Law
+Signatory:        Chief Legal Officer / CEO
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+All advice, documents, and letters must be calibrated to MTN Rwanda PLC.
+Use "MTN Rwanda PLC" as the organisation name in all documents.
+Reference RURA as the primary regulator for all telecom matters.
+Reference BNR for any payment/mobile money matters (MTN MoMo is licensed by BNR).`,
+  },
+  bk: {
+    name: "Bank of Kigali",
+    sector: "Banking",
+    context: `ACTIVE CLIENT ENTITY
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Organisation:     Bank of Kigali PLC
+Sector:           Banking (regulated by BNR)
+Regulator:        National Bank of Rwanda (BNR)
+Applicable laws:  Banking Law No. 044/2024, AML/CFT Law No. 75/2019,
+                  Data Protection Law No. 058/2021, Labour Law No. 66/2018,
+                  Payment System Law No. 061/2021, Capital Markets Law No. 01/2011,
+                  Tax Procedures Law No. 020/2023
+Internal policies:
+  — Notice period: 3 months for senior staff, 1 month for others
+  — Probation: 6 months standard
+  — Disciplinary: 3-step warning process before termination
+  — BNR fit-and-proper: all senior appointments require BNR approval (Art. 42, Banking Law)
+  — AML: full CDD and enhanced due diligence for PEPs
+  — Capital adequacy: maintained per BNR regulation at all times
+  — Dividend policy: no dividends without BNR satisfaction on NPL provisions
+Signatory:        Head of Legal and Compliance / CEO
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+All advice, documents, and letters must be calibrated to Bank of Kigali PLC.
+Use "Bank of Kigali PLC" as the organisation name in all documents.
+Reference BNR as the primary regulator for all banking and payment matters.`,
+  },
+  sonarwa: {
+    name: "Sonarwa Insurance",
+    sector: "Insurance",
+    context: `ACTIVE CLIENT ENTITY
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Organisation:     Sonarwa Life Assurance Company Limited
+Sector:           Insurance (regulated by BNR)
+Regulator:        National Bank of Rwanda (BNR)
+Applicable laws:  Insurance Law No. 030/2021, AML/CFT Law No. 75/2019,
+                  Data Protection Law No. 058/2021, Labour Law No. 66/2018,
+                  Tax Procedures Law No. 020/2023, Company Law No. 019/2023
+Internal policies:
+  — Notice period: 2 months for senior staff, 1 month for others
+  — Probation: 6 months standard
+  — Disciplinary: written warning → final written warning → hearing → termination
+  — Solvency: minimum solvency margin maintained per BNR regulation at all times
+  — Auditor: BNR-accredited external auditor appointed annually
+  — AML: CDD conducted on all policyholders; enhanced due diligence for PEPs
+  — Financial statements: submitted to BNR within 3 months of financial year end
+Signatory:        Head of Legal / Managing Director
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+All advice, documents, and letters must be calibrated to Sonarwa Life Assurance Company Limited.
+Use "Sonarwa Life Assurance Company Limited" as the organisation name in all documents.
+Reference BNR as the primary regulator for all insurance and financial matters.`,
+  },
+  airtel: {
+    name: "Airtel Rwanda",
+    sector: "Telecom",
+    context: `ACTIVE CLIENT ENTITY
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Organisation:     Airtel Rwanda Limited
+Sector:           Telecommunications (regulated by RURA)
+Regulator:        Rwanda Utilities Regulatory Authority (RURA)
+Applicable laws:  ICT Law No. 24/2016, Data Protection Law No. 058/2021,
+                  AML/CFT Law No. 75/2019, Labour Law No. 66/2018,
+                  Competition Law No. 36/2012, Tax Procedures Law No. 020/2023,
+                  Payment System Law No. 061/2021
+Internal policies:
+  — Notice period: 3 months for senior staff, 1 month for others
+  — Probation: 6 months standard
+  — Disciplinary: written warning → final warning → hearing → termination
+  — Data: all subscriber data stored in Rwanda per Art. 50 Data Protection Law
+  — DPO: appointed and registered with NCSA
+  — Subscriber registration: all SIM holders registered per Art. 210 ICT Law
+Signatory:        Legal Director / Managing Director
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+All advice, documents, and letters must be calibrated to Airtel Rwanda Limited.
+Use "Airtel Rwanda Limited" as the organisation name in all documents.
+Reference RURA as the primary regulator for all telecom matters.
+Reference BNR for any payment/mobile money matters (Airtel Money is licensed by BNR).`,
+  },
+  bnr: {
+    name: "National Bank of Rwanda",
+    sector: "Regulator",
+    context: `ACTIVE CLIENT ENTITY
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Organisation:     National Bank of Rwanda (BNR)
+Sector:           Central Bank / Financial Regulator
+Applicable laws:  Banking Law No. 044/2024, Insurance Law No. 030/2021,
+                  Payment System Law No. 061/2021, Capital Markets Law No. 01/2011,
+                  AML/CFT Law No. 75/2019, Labour Law No. 66/2018
+Internal policies:
+  — Notice period: as per public service statutes
+  — Regulatory authority: BNR is both a regulated entity (employer) and regulator
+  — Confidentiality: professional secrecy obligations apply to all BNR staff
+  — Supervisory role: BNR supervises all banks, insurers, and payment service providers
+Signatory:        Governor / Deputy Governor / General Counsel
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+All advice, documents, and letters must be calibrated to the National Bank of Rwanda.
+Use "National Bank of Rwanda" as the organisation name in all documents.
+Note: BNR is both an employer subject to labour law and a regulator — both dimensions apply.`,
+  },
+};
+
 // ═══ ICONS ════════════════════════════════════════════════════════════════════
 function Icon({ id, size = 20, color = T.tp, sw = 1.8 }: any) {
   const p: any = { width: size, height: size, viewBox: "0 0 24 24", fill: "none", stroke: color, strokeWidth: sw, strokeLinecap: "round", strokeLinejoin: "round", flexShrink: 0 };
@@ -45,6 +178,7 @@ function Icon({ id, size = 20, color = T.tp, sw = 1.8 }: any) {
     databreach: <svg {...p}><rect x="3" y="11" width="18" height="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>,
     contract: <svg {...p}><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/></svg>,
     check: <svg {...p}><polyline points="20 6 9 17 4 12"/></svg>,
+    building: <svg {...p}><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>,
   };
   return icons[id] || <svg {...p}><circle cx="12" cy="12" r="10"/></svg>;
 }
@@ -71,7 +205,7 @@ function Donut() {
 // ═══ CHAT COMPONENT ═══════════════════════════════════════════════════════════
 type Msg = { role: "user" | "assistant"; content: string };
 
-function Chat({ moduleTitle, initialQuery = "", systemPromptExtra = "" }: any) {
+function Chat({ moduleTitle, initialQuery = "", systemPromptExtra = "", entityContext = "" }: any) {
   const [msgs, setMsgs] = useState<Msg[]>([]);
   const [input, setInput] = useState(initialQuery);
   const [loading, setLoading] = useState(false);
@@ -96,7 +230,7 @@ function Chat({ moduleTitle, initialQuery = "", systemPromptExtra = "" }: any) {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
-          system: SYSTEM_PROMPT + (systemPromptExtra ? "\n\n" + systemPromptExtra : ""),
+          entityContext: entityContext || "",
           messages: next.map(m => ({ role: m.role, content: m.content })),
         }),
       });
@@ -107,9 +241,18 @@ function Chat({ moduleTitle, initialQuery = "", systemPromptExtra = "" }: any) {
       while (true) {
         const { done, value } = await reader.read();
         if (done) break;
-        const chunk = decoder.decode(value, { stream: true });
-        full += chunk;
-        setMsgs([...next, { role: "assistant", content: full }]);
+        const lines = decoder.decode(value, { stream: true }).split("\n");
+        for (const line of lines) {
+          if (line.startsWith("data: ") && line !== "data: [DONE]") {
+            try {
+              const parsed = JSON.parse(line.slice(6));
+              if (parsed.text) {
+                full += parsed.text;
+                setMsgs([...next, { role: "assistant", content: full }]);
+              }
+            } catch {}
+          }
+        }
       }
     } catch {
       setMsgs([...next, { role: "assistant", content: "Connection error. Please check your network and try again." }]);
@@ -127,13 +270,25 @@ function Chat({ moduleTitle, initialQuery = "", systemPromptExtra = "" }: any) {
       <div style={{ padding: "18px 24px", borderBottom: `0.5px solid ${T.border}`, display: "flex", alignItems: "center", gap: 10 }}>
         <Icon id="shield" size={15} color={T.gold} />
         <span style={{ fontSize: 13, fontWeight: 500, color: T.ts }}>{moduleTitle}</span>
+        {entityContext && (
+          <div style={{ marginLeft: "auto", display: "flex", alignItems: "center", gap: 6, padding: "3px 10px", background: "rgba(201,168,76,0.08)", border: `0.5px solid ${T.border}`, borderRadius: 5 }}>
+            <div style={{ width: 5, height: 5, borderRadius: "50%", background: T.gold }} />
+            <span style={{ fontSize: 10.5, color: T.gold }}>
+              {Object.values(ENTITIES).find(e => e.context === entityContext)?.name || "Entity active"}
+            </span>
+          </div>
+        )}
       </div>
       {/* Messages */}
       <div style={{ flex: 1, overflowY: "auto", padding: "20px 24px", display: "flex", flexDirection: "column", gap: 16 }}>
         {msgs.length === 0 && (
           <div style={{ margin: "auto", textAlign: "center" }}>
             <Icon id="counsel" size={28} color={T.goldDim} />
-            <p style={{ fontSize: 13, color: T.td, marginTop: 12 }}>Ask a legal question to begin.</p>
+            <p style={{ fontSize: 13, color: T.td, marginTop: 12 }}>
+              {entityContext
+                ? `Advising ${Object.values(ENTITIES).find(e => e.context === entityContext)?.name || "entity"}. Ask a legal question.`
+                : "Ask a legal question to begin."}
+            </p>
           </div>
         )}
         {msgs.map((m, i) => (
@@ -202,11 +357,11 @@ const HOME_DEADLINES = [
 ];
 
 const SCENARIOS = [
-  { label: "Board dispute", sub: "Governance", icon: "board", q: "We have a board dispute. Advise." },
-  { label: "Employee dismissal", sub: "Labour Law", icon: "dismiss", q: "Legal process for employee dismissal?" },
-  { label: "Regulator inquiry", sub: "Compliance", icon: "regulator", q: "We received a regulatory inquiry. What are our obligations?" },
-  { label: "Data breach", sub: "Data Protection", icon: "databreach", q: "We have a data breach — obligations under Rwandan law?" },
-  { label: "Contract review", sub: "Commercial", icon: "contract", q: "Commercial contract review under Rwandan law." },
+  { label: "Board dispute", sub: "Governance", icon: "board", q: "We have a board dispute. Advise on our obligations and options under Rwandan law." },
+  { label: "Employee dismissal", sub: "Labour Law", icon: "dismiss", q: "What is the legal process for employee dismissal under Rwandan law?" },
+  { label: "Regulator inquiry", sub: "Compliance", icon: "regulator", q: "We received a regulatory inquiry. What are our obligations and response timeline?" },
+  { label: "Data breach", sub: "Data Protection", icon: "databreach", q: "We have a data breach — what are our obligations under Rwandan law?" },
+  { label: "Contract review", sub: "Commercial", icon: "contract", q: "What are the key legal requirements for commercial contracts under Rwandan law?" },
 ];
 
 function RailCard({ children, style = {} }: any) {
@@ -217,10 +372,11 @@ function RailCard({ children, style = {} }: any) {
   );
 }
 
-function Home({ onNavigate }: any) {
+function Home({ onNavigate, entityContext }: any) {
   const [query, setQuery] = useState("");
   const h = new Date().getHours();
   const greeting = h < 12 ? "Good morning" : h < 17 ? "Good afternoon" : "Good evening";
+  const activeEntityName = Object.values(ENTITIES).find(e => e.context === entityContext)?.name;
 
   return (
     <div style={{ display: "flex", height: "100%", overflow: "hidden" }}>
@@ -233,9 +389,15 @@ function Home({ onNavigate }: any) {
             <h1 style={{ fontFamily: "'Playfair Display', serif", fontSize: 32, fontWeight: 700, color: T.tp, marginBottom: 6 }}>
               {greeting}, Counsel.
             </h1>
-            <h2 style={{ fontFamily: "'Playfair Display', serif", fontSize: 18, fontWeight: 400, color: T.ts, marginBottom: 20 }}>
+            <h2 style={{ fontFamily: "'Playfair Display', serif", fontSize: 18, fontWeight: 400, color: T.ts, marginBottom: activeEntityName ? 10 : 20 }}>
               How can I help you today?
             </h2>
+            {activeEntityName && (
+              <div style={{ display: "flex", alignItems: "center", gap: 7, marginBottom: 16 }}>
+                <div style={{ width: 5, height: 5, borderRadius: "50%", background: T.gold }} />
+                <span style={{ fontSize: 12, color: T.gold }}>Advising: {activeEntityName}</span>
+              </div>
+            )}
             <div style={{ display: "flex", gap: 8, maxWidth: 560, background: "rgba(20,20,20,0.95)", border: `0.5px solid ${T.border}`, borderRadius: 10, padding: "10px 14px" }}>
               <input
                 value={query}
@@ -339,7 +501,7 @@ function Home({ onNavigate }: any) {
                 </button>
               ))}
             </div>
-            <button onClick={() => onNavigate("counsel", "Data breach — advise on crisis response obligations")}
+            <button onClick={() => onNavigate("counsel", "Data breach — advise on crisis response obligations under Rwandan law")}
               style={{ width: "100%", display: "flex", alignItems: "center", justifyContent: "center", gap: 8, padding: "11px", background: "rgba(212,67,58,0.08)", border: `0.5px solid rgba(212,67,58,0.3)`, borderRadius: 8, cursor: "pointer" }}>
               <Icon id="alert" size={14} color={T.high} />
               <span style={{ fontSize: 12, color: T.high, fontWeight: 500 }}>Crisis Response Center</span>
@@ -373,7 +535,6 @@ function LawLibrary() {
           <h2 style={{ fontSize: 16, fontWeight: 600, color: T.tp, fontFamily: "'Playfair Display', serif", marginBottom: 4 }}>Law Library</h2>
           <p style={{ fontSize: 11, color: T.td }}>{LAWS.length} laws · {LAWS.filter(l => l.status === "verified").length} gazette-verified</p>
         </div>
-        {/* Category filter */}
         <div style={{ padding: "12px 14px", borderBottom: `0.5px solid ${T.borderSub}`, display: "flex", flexWrap: "wrap", gap: 6 }}>
           {["All", ...LAW_CATEGORIES].map(c => (
             <button key={c} onClick={() => setCategory(c)}
@@ -382,7 +543,6 @@ function LawLibrary() {
             </button>
           ))}
         </div>
-        {/* Law list */}
         <div style={{ flex: 1, overflowY: "auto" }}>
           {filtered.map(law => (
             <div key={law.id} onClick={() => setSelected(law.id)}
@@ -409,7 +569,7 @@ function LawLibrary() {
         <div style={{ flex: 1, overflowY: "auto", padding: "24px 28px" }}>
           <div style={{ display: "flex", justifyContent: "space-between", alignItems: "flex-start", marginBottom: 6, flexWrap: "wrap", gap: 12 }}>
             <div>
-              <h3 style={{ fontSize: 20, color: T.tp, fontFamily: "'Playfair Display', serif", marginBottom: 4 }}>{law.name}</h3>
+              <h3 style={{ fontSize: 20, color: T.tp, fontFamily: "'Playfair Display', serif", marginBottom: 4 }}>{active.name}</h3>
               <p style={{ fontSize: 12, color: T.td, marginBottom: 4 }}>{active.number} · {active.year}</p>
               <p style={{ fontSize: 12, color: T.ts, marginBottom: 16 }}>{active.description}</p>
             </div>
@@ -423,7 +583,6 @@ function LawLibrary() {
             <span style={{ fontSize: 11, padding: "3px 10px", borderRadius: 4, background: T.card, border: `0.5px solid ${T.borderSub}`, color: T.ts }}>{active.regulator}</span>
           </div>
 
-          {/* Articles */}
           <p style={{ fontSize: 11, color: T.ts, textTransform: "uppercase", letterSpacing: "0.07em", marginBottom: 10 }}>Articles</p>
           <div style={{ display: "flex", flexDirection: "column", gap: 6, marginBottom: 24 }}>
             {active.articles.map((a, i) => (
@@ -434,7 +593,6 @@ function LawLibrary() {
             ))}
           </div>
 
-          {/* Key Obligations */}
           <p style={{ fontSize: 11, color: T.ts, textTransform: "uppercase", letterSpacing: "0.07em", marginBottom: 10 }}>Key Obligations</p>
           <div style={{ display: "flex", flexDirection: "column", gap: 6, marginBottom: 24 }}>
             {active.keyObligations.map((o, i) => (
@@ -445,7 +603,6 @@ function LawLibrary() {
             ))}
           </div>
 
-          {/* Penalties */}
           <p style={{ fontSize: 11, color: T.ts, textTransform: "uppercase", letterSpacing: "0.07em", marginBottom: 10 }}>Penalties</p>
           <div style={{ display: "flex", flexDirection: "column", gap: 6, marginBottom: 24 }}>
             {active.penalties.map((p, i) => (
@@ -456,7 +613,6 @@ function LawLibrary() {
             ))}
           </div>
 
-          {/* Deadlines */}
           {active.keyDeadlines.length > 0 && (
             <>
               <p style={{ fontSize: 11, color: T.ts, textTransform: "uppercase", letterSpacing: "0.07em", marginBottom: 10 }}>Key Deadlines</p>
@@ -748,6 +904,8 @@ export default function MeNgoga() {
   const [chatQuery, setChatQuery] = useState("");
   const [chatKey, setChatKey] = useState(0);
   const [mobileNav, setMobileNav] = useState(false);
+  const [entityId, setEntityId] = useState("none");
+  const activeEntity = ENTITIES[entityId];
 
   function onNavigate(sec: string, query = "") {
     setSection(sec);
@@ -756,17 +914,18 @@ export default function MeNgoga() {
   }
 
   function renderSection() {
+    const ec = activeEntity.context;
     switch (section) {
-      case "home": return <Home onNavigate={onNavigate} />;
-      case "counsel": return <Chat key={`counsel-${chatKey}`} moduleTitle="Legal Counsel" initialQuery={chatQuery} />;
-      case "workforce": return <Chat key={`workforce-${chatKey}`} moduleTitle="Workforce & HR" initialQuery={chatQuery} systemPromptExtra="Focus on Rwandan Labour Law No. 66/2018 and Amendment No. 027/2023." />;
-      case "governance": return <Chat key={`governance-${chatKey}`} moduleTitle="Corporate Governance" initialQuery={chatQuery} systemPromptExtra="Focus on Company Law No. 019/2023 and corporate governance obligations." />;
-      case "dataprotection": return <Chat key={`dataprotection-${chatKey}`} moduleTitle="Data Protection" initialQuery={chatQuery} systemPromptExtra="Focus on Data Protection Law No. 058/2021 and NCSA obligations." />;
+      case "home": return <Home onNavigate={onNavigate} entityContext={ec} />;
+      case "counsel": return <Chat key={`counsel-${chatKey}`} moduleTitle="Legal Counsel" initialQuery={chatQuery} entityContext={ec} />;
+      case "workforce": return <Chat key={`workforce-${chatKey}`} moduleTitle="Workforce & HR" initialQuery={chatQuery} entityContext={ec} systemPromptExtra="Focus on Rwandan Labour Law No. 66/2018 and Amendment No. 027/2023." />;
+      case "governance": return <Chat key={`governance-${chatKey}`} moduleTitle="Corporate Governance" initialQuery={chatQuery} entityContext={ec} systemPromptExtra="Focus on Company Law No. 019/2023 and corporate governance obligations." />;
+      case "dataprotection": return <Chat key={`dataprotection-${chatKey}`} moduleTitle="Data Protection" initialQuery={chatQuery} entityContext={ec} systemPromptExtra="Focus on Data Protection Law No. 058/2021 and NCSA obligations." />;
       case "compliance": return <ComplianceTracker onNavigate={onNavigate} />;
       case "matters": return <Matters onNavigate={onNavigate} />;
       case "documents": return <Documents onNavigate={onNavigate} />;
       case "library": return <LawLibrary />;
-      case "boardroom": return <Chat key={`boardroom-${chatKey}`} moduleTitle="Boardroom Intelligence" initialQuery={chatQuery} systemPromptExtra={`You are the General Counsel, Corporate Secretary, Board Governance Adviser, and lead Corporate Transactions Lawyer of a multinational company operating in Rwanda.
+      case "boardroom": return <Chat key={`boardroom-${chatKey}`} moduleTitle="Boardroom Intelligence" initialQuery={chatQuery} entityContext={ec} systemPromptExtra={`You are the General Counsel, Corporate Secretary, Board Governance Adviser, and lead Corporate Transactions Lawyer of a multinational company operating in Rwanda.
 
 Your task is to prepare board documents that are immediately suitable for review by Board Chairs, CEOs, Investors, Auditors, Regulators, Banks, Due diligence teams, and External counsel.
 
@@ -787,7 +946,7 @@ WRITING STANDARD: Write like a General Counsel of a Fortune 500 company. Use con
 OUTPUT STANDARD: The final document package should look as if prepared by McKinsey + Freshfields + Linklaters + Corporate Secretary Office + General Counsel. The result must be board-ready, regulator-ready, investor-ready, and audit-ready.
 
 Where information is missing: insert professional placeholders, explain why the information is required, and continue preparing the complete document package. Always produce a complete board package.`} />;
-      default: return <Home onNavigate={onNavigate} />;
+      default: return <Home onNavigate={onNavigate} entityContext={ec} />;
     }
   }
 
@@ -805,6 +964,7 @@ Where information is missing: insert professional placeholders, explain why the 
         textarea, input { font-family: 'Manrope', sans-serif; }
         input::placeholder, textarea::placeholder { color: ${T.td}; }
         button { font-family: 'Manrope', sans-serif; }
+        select option { background: #1a1a1a; color: #F0EBE0; }
         @media (max-width: 768px) {
           .sidebar { transform: translateX(-100%); position: fixed !important; z-index: 100; transition: transform 0.25s ease; }
           .sidebar.open { transform: translateX(0); }
@@ -827,6 +987,7 @@ Where information is missing: insert professional placeholders, explain why the 
               </div>
             </div>
           </div>
+
           <nav style={{ flex: 1, overflowY: "auto", padding: "10px 0" }}>
             {NAV.map(item => {
               const active = section === item.id;
@@ -841,7 +1002,56 @@ Where information is missing: insert professional placeholders, explain why the 
               );
             })}
           </nav>
+
+          {/* Entity selector footer */}
           <div style={{ padding: "14px 20px", borderTop: `0.5px solid ${T.border}` }}>
+            <p style={{ fontSize: 9.5, color: T.td, textTransform: "uppercase", letterSpacing: "0.07em", marginBottom: 6 }}>
+              Advising
+            </p>
+            <select
+              value={entityId}
+              onChange={e => setEntityId(e.target.value)}
+              style={{
+                width: "100%",
+                background: T.card,
+                border: `0.5px solid ${T.border}`,
+                borderRadius: 6,
+                padding: "6px 10px",
+                fontSize: 11.5,
+                color: T.tp,
+                cursor: "pointer",
+                outline: "none",
+                fontFamily: "Manrope, sans-serif",
+                marginBottom: entityId !== "none" ? 8 : 10,
+                appearance: "none",
+              }}>
+              <option value="none">No entity selected</option>
+              <option value="mtn">MTN Rwanda</option>
+              <option value="bk">Bank of Kigali</option>
+              <option value="sonarwa">Sonarwa Insurance</option>
+              <option value="airtel">Airtel Rwanda</option>
+              <option value="bnr">National Bank of Rwanda</option>
+            </select>
+
+            {entityId !== "none" && (
+              <div style={{
+                display: "flex", alignItems: "center", gap: 6,
+                padding: "4px 8px",
+                background: "rgba(201,168,76,0.08)",
+                border: `0.5px solid ${T.border}`,
+                borderRadius: 5,
+                marginBottom: 10,
+              }}>
+                <div style={{ width: 5, height: 5, borderRadius: "50%", background: T.gold, flexShrink: 0 }} />
+                <span style={{ fontSize: 10.5, color: T.gold, overflow: "hidden", textOverflow: "ellipsis", whiteSpace: "nowrap" }}>
+                  {activeEntity.name}
+                </span>
+                {activeEntity.sector && (
+                  <span style={{ fontSize: 9.5, color: T.td, flexShrink: 0 }}>· {activeEntity.sector}</span>
+                )}
+              </div>
+            )}
+
             <p style={{ fontSize: 10, color: T.td, lineHeight: 1.5 }}>Rwanda · Kigali</p>
             <p style={{ fontSize: 10, color: T.td }}>© 2025 Me Ngoga</p>
           </div>
@@ -860,6 +1070,12 @@ Where information is missing: insert professional placeholders, explain why the 
             <div style={{ padding: "16px 24px", borderBottom: `0.5px solid ${T.border}`, display: "flex", alignItems: "center", gap: 10, background: T.panel }}>
               <Icon id={activeNav.icon} size={16} color={T.gold} />
               <span style={{ fontSize: 14, fontWeight: 500, color: T.tp }}>{activeNav.label}</span>
+              {entityId !== "none" && (
+                <div style={{ marginLeft: "auto", display: "flex", alignItems: "center", gap: 6, padding: "3px 10px", background: "rgba(201,168,76,0.08)", border: `0.5px solid ${T.border}`, borderRadius: 5 }}>
+                  <div style={{ width: 5, height: 5, borderRadius: "50%", background: T.gold }} />
+                  <span style={{ fontSize: 10.5, color: T.gold }}>{activeEntity.name}</span>
+                </div>
+              )}
             </div>
           )}
           <div style={{ flex: 1, overflow: "hidden" }}>
