@@ -179,6 +179,7 @@ function Icon({ id, size = 20, color = T.tp, sw = 1.8 }: any) {
     contract: <svg {...p}><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/></svg>,
     check: <svg {...p}><polyline points="20 6 9 17 4 12"/></svg>,
     building: <svg {...p}><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>,
+    assembly: <svg {...p}><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/></svg>,
   };
   return icons[id] || <svg {...p}><circle cx="12" cy="12" r="10"/></svg>;
 }
@@ -249,7 +250,6 @@ function Chat({ moduleTitle, initialQuery = "", systemPromptExtra = "", entityCo
 
   return (
     <div style={{ display: "flex", flexDirection: "column", height: "100%", background: T.panel }}>
-      {/* Header */}
       <div style={{ padding: "18px 24px", borderBottom: `0.5px solid ${T.border}`, display: "flex", alignItems: "center", gap: 10 }}>
         <Icon id="shield" size={15} color={T.gold} />
         <span style={{ fontSize: 13, fontWeight: 500, color: T.ts }}>{moduleTitle}</span>
@@ -262,7 +262,6 @@ function Chat({ moduleTitle, initialQuery = "", systemPromptExtra = "", entityCo
           </div>
         )}
       </div>
-      {/* Messages */}
       <div style={{ flex: 1, overflowY: "auto", padding: "20px 24px", display: "flex", flexDirection: "column", gap: 16 }}>
         {msgs.length === 0 && (
           <div style={{ margin: "auto", textAlign: "center" }}>
@@ -294,7 +293,6 @@ function Chat({ moduleTitle, initialQuery = "", systemPromptExtra = "", entityCo
         ))}
         <div ref={bottomRef} />
       </div>
-      {/* Input */}
       <div style={{ padding: "14px 20px", borderTop: `0.5px solid ${T.border}` }}>
         <div style={{ display: "flex", gap: 10, alignItems: "flex-end", background: T.card, border: `0.5px solid ${T.border}`, borderRadius: 10, padding: "10px 14px" }}>
           <textarea
@@ -364,7 +362,6 @@ function Home({ onNavigate, entityContext }: any) {
   return (
     <div style={{ display: "flex", height: "100%", overflow: "hidden" }}>
       <div style={{ flex: 1, overflowY: "auto", padding: "0 0 40px" }}>
-        {/* Hero */}
         <div style={{ position: "relative", height: 300, overflow: "hidden", background: "#0a0a0a" }}>
           <div style={{ position: "absolute", inset: 0, background: "linear-gradient(135deg, #0a0a0a 0%, #111108 50%, #0a0a0a 100%)" }} />
           <div style={{ position: "absolute", inset: 0, background: "linear-gradient(to bottom, rgba(12,12,12,0.2) 0%, rgba(12,12,12,0.9) 100%)" }} />
@@ -398,7 +395,6 @@ function Home({ onNavigate, entityContext }: any) {
           </div>
         </div>
 
-        {/* Scenarios */}
         <div style={{ padding: "24px 32px 0" }}>
           <p style={{ fontSize: 12, color: T.td, marginBottom: 14, textTransform: "uppercase", letterSpacing: "0.08em" }}>Start with a scenario</p>
           <div style={{ display: "flex", gap: 10, flexWrap: "wrap" }}>
@@ -417,7 +413,6 @@ function Home({ onNavigate, entityContext }: any) {
           </div>
         </div>
 
-        {/* Rail cards */}
         <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(280px, 1fr))", gap: 12, padding: "24px 32px 0" }}>
           <RailCard>
             <div style={{ display: "flex", justifyContent: "space-between", marginBottom: 14 }}>
@@ -512,7 +507,6 @@ function LawLibrary() {
 
   return (
     <div style={{ display: "flex", height: "100%" }}>
-      {/* Left panel */}
       <div style={{ width: 300, borderRight: `0.5px solid ${T.border}`, display: "flex", flexDirection: "column", flexShrink: 0 }}>
         <div style={{ padding: "18px 18px 14px", borderBottom: `0.5px solid ${T.borderSub}` }}>
           <h2 style={{ fontSize: 16, fontWeight: 600, color: T.tp, fontFamily: "'Playfair Display', serif", marginBottom: 4 }}>Law Library</h2>
@@ -547,7 +541,6 @@ function LawLibrary() {
         </div>
       </div>
 
-      {/* Right panel */}
       {active ? (
         <div style={{ flex: 1, overflowY: "auto", padding: "24px 28px" }}>
           <div style={{ display: "flex", justifyContent: "space-between", alignItems: "flex-start", marginBottom: 6, flexWrap: "wrap", gap: 12 }}>
@@ -560,12 +553,10 @@ function LawLibrary() {
               {active.status === "verified" ? "✓ GAZETTE VERIFIED" : "⚠ TRAINING KNOWLEDGE"}
             </span>
           </div>
-
           <div style={{ display: "flex", gap: 10, marginBottom: 20, flexWrap: "wrap" }}>
             <span style={{ fontSize: 11, padding: "3px 10px", borderRadius: 4, background: "rgba(201,168,76,0.08)", border: `0.5px solid ${T.border}`, color: T.gold }}>{active.category}</span>
             <span style={{ fontSize: 11, padding: "3px 10px", borderRadius: 4, background: T.card, border: `0.5px solid ${T.borderSub}`, color: T.ts }}>{active.regulator}</span>
           </div>
-
           <p style={{ fontSize: 11, color: T.ts, textTransform: "uppercase", letterSpacing: "0.07em", marginBottom: 10 }}>Articles</p>
           <div style={{ display: "flex", flexDirection: "column", gap: 6, marginBottom: 24 }}>
             {active.articles.map((a, i) => (
@@ -575,7 +566,6 @@ function LawLibrary() {
               </div>
             ))}
           </div>
-
           <p style={{ fontSize: 11, color: T.ts, textTransform: "uppercase", letterSpacing: "0.07em", marginBottom: 10 }}>Key Obligations</p>
           <div style={{ display: "flex", flexDirection: "column", gap: 6, marginBottom: 24 }}>
             {active.keyObligations.map((o, i) => (
@@ -585,7 +575,6 @@ function LawLibrary() {
               </div>
             ))}
           </div>
-
           <p style={{ fontSize: 11, color: T.ts, textTransform: "uppercase", letterSpacing: "0.07em", marginBottom: 10 }}>Penalties</p>
           <div style={{ display: "flex", flexDirection: "column", gap: 6, marginBottom: 24 }}>
             {active.penalties.map((p, i) => (
@@ -595,7 +584,6 @@ function LawLibrary() {
               </div>
             ))}
           </div>
-
           {active.keyDeadlines.length > 0 && (
             <>
               <p style={{ fontSize: 11, color: T.ts, textTransform: "uppercase", letterSpacing: "0.07em", marginBottom: 10 }}>Key Deadlines</p>
@@ -867,6 +855,17 @@ function Documents({ onNavigate }: any) {
   );
 }
 
+// ═══ DOCUMENT ASSEMBLY ════════════════════════════════════════════════════════
+function DocumentAssembly() {
+  return (
+    <iframe
+      src="/documents"
+      style={{ width: "100%", height: "100%", border: "none" }}
+      title="Document Assembly"
+    />
+  );
+}
+
 // ═══ SIDEBAR NAV ══════════════════════════════════════════════════════════════
 const NAV = [
   { id: "home", label: "Home", icon: "home" },
@@ -879,6 +878,7 @@ const NAV = [
   { id: "documents", label: "Documents", icon: "documents" },
   { id: "library", label: "Law Library", icon: "library" },
   { id: "boardroom", label: "Boardroom", icon: "boardroom" },
+  { id: "assembly", label: "Doc Assembly", icon: "assembly" },
 ];
 
 // ═══ ROOT APP ═════════════════════════════════════════════════════════════════
@@ -908,6 +908,7 @@ export default function MeNgoga() {
       case "matters": return <Matters onNavigate={onNavigate} />;
       case "documents": return <Documents onNavigate={onNavigate} />;
       case "library": return <LawLibrary />;
+      case "assembly": return <DocumentAssembly />;
       case "boardroom": return <Chat key={`boardroom-${chatKey}`} moduleTitle="Boardroom Intelligence" initialQuery={chatQuery} entityContext={ec} systemPromptExtra={`You are the General Counsel, Corporate Secretary, Board Governance Adviser, and lead Corporate Transactions Lawyer of a multinational company operating in Rwanda.
 
 Your task is to prepare board documents that are immediately suitable for review by Board Chairs, CEOs, Investors, Auditors, Regulators, Banks, Due diligence teams, and External counsel.
